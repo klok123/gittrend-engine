@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:15:54.066Z",
+  "updatedAt": "2026-09-18T19:19:41.467Z",
   "dataSource": "LIVE_GITHUB_INGESTION",
   "isBaselineSeed": false,
   "totalRepos": 550,
@@ -14,7 +14,7 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": [],
-      "totalStars": 5094,
+      "totalStars": 5099,
       "forksCount": 316,
       "openIssuesCount": 9,
       "starsGainedToday": 0,
@@ -28,7 +28,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        5094
+        5099
       ],
       "createdAt": "2026-09-16T21:30:12Z",
       "pushedAt": "2026-09-18T16:28:35Z"
@@ -43,8 +43,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 2923,
-      "forksCount": 147,
+      "totalStars": 2924,
+      "forksCount": 148,
       "openIssuesCount": 17,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -57,7 +57,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        2923
+        2924
       ],
       "createdAt": "2026-09-17T05:57:20Z",
       "pushedAt": "2026-09-18T04:45:31Z"
@@ -315,7 +315,7 @@
         "llm-learning",
         "llm-tutorial"
       ],
-      "totalStars": 762,
+      "totalStars": 763,
       "forksCount": 79,
       "openIssuesCount": 2,
       "starsGainedToday": 0,
@@ -329,7 +329,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        762
+        763
       ],
       "createdAt": "2026-09-12T07:33:31Z",
       "pushedAt": "2026-09-13T08:32:08Z"
@@ -344,7 +344,7 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 735,
+      "totalStars": 736,
       "forksCount": 66,
       "openIssuesCount": 3,
       "starsGainedToday": 0,
@@ -358,7 +358,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        735
+        736
       ],
       "createdAt": "2026-09-13T20:39:43Z",
       "pushedAt": "2026-09-16T10:32:18Z"
@@ -676,7 +676,7 @@
         "computational-neuroscience",
         "connectome"
       ],
-      "totalStars": 499,
+      "totalStars": 500,
       "forksCount": 38,
       "openIssuesCount": 1,
       "starsGainedToday": 0,
@@ -690,7 +690,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        499
+        500
       ],
       "createdAt": "2026-09-12T08:08:00Z",
       "pushedAt": "2026-09-14T10:50:03Z"
@@ -743,7 +743,7 @@
         "llm",
         "llm-agent"
       ],
-      "totalStars": 490,
+      "totalStars": 491,
       "forksCount": 24,
       "openIssuesCount": 2,
       "starsGainedToday": 0,
@@ -757,7 +757,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        490
+        491
       ],
       "createdAt": "2026-09-12T10:32:29Z",
       "pushedAt": "2026-09-18T03:18:18Z"
@@ -1033,7 +1033,36 @@
         317
       ],
       "createdAt": "2026-09-14T03:42:52Z",
-      "pushedAt": "2026-09-18T18:02:32Z"
+      "pushedAt": "2026-09-18T19:15:59Z"
+    },
+    {
+      "id": 1373614120,
+      "owner": "robbietilton",
+      "name": "Compositor",
+      "fullName": "robbietilton/Compositor",
+      "description": "The Photoshop alternative for Mac",
+      "url": "https://github.com/robbietilton/Compositor",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "topics": [],
+      "totalStars": 310,
+      "forksCount": 23,
+      "openIssuesCount": 3,
+      "starsGainedToday": 0,
+      "starsGainedWeek": 0,
+      "starsGainedMonth": 0,
+      "velocityScore": 0,
+      "breakoutScore": 0,
+      "isRising": false,
+      "isHiddenGem": false,
+      "anomalyScore": 0,
+      "anomalyStatus": "NORMAL",
+      "anomalyFlags": [],
+      "sparkline": [
+        310
+      ],
+      "createdAt": "2026-09-16T20:35:54Z",
+      "pushedAt": "2026-09-18T13:45:46Z"
     },
     {
       "id": 1375487141,
@@ -1045,7 +1074,7 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": [],
-      "totalStars": 306,
+      "totalStars": 308,
       "forksCount": 29,
       "openIssuesCount": 0,
       "starsGainedToday": 0,
@@ -1059,39 +1088,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        306
+        308
       ],
       "createdAt": "2026-09-18T06:45:54Z",
       "pushedAt": "2026-09-18T12:58:46Z"
-    },
-    {
-      "id": 1373614120,
-      "owner": "robbietilton",
-      "name": "Compositor",
-      "fullName": "robbietilton/Compositor",
-      "description": "The Photoshop alternative for Mac",
-      "url": "https://github.com/robbietilton/Compositor",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "topics": [],
-      "totalStars": 304,
-      "forksCount": 22,
-      "openIssuesCount": 3,
-      "starsGainedToday": 0,
-      "starsGainedWeek": 0,
-      "starsGainedMonth": 0,
-      "velocityScore": 0,
-      "breakoutScore": 0,
-      "isRising": false,
-      "isHiddenGem": false,
-      "anomalyScore": 0,
-      "anomalyStatus": "NORMAL",
-      "anomalyFlags": [],
-      "sparkline": [
-        304
-      ],
-      "createdAt": "2026-09-16T20:35:54Z",
-      "pushedAt": "2026-09-18T13:45:46Z"
     },
     {
       "id": 1366915122,
@@ -1452,6 +1452,41 @@
       "pushedAt": "2026-09-13T00:07:48Z"
     },
     {
+      "id": 1374058281,
+      "owner": "AbdelStark",
+      "name": "awesome-typesafe",
+      "fullName": "AbdelStark/awesome-typesafe",
+      "description": "A curated list of official resources and community projects for TypeSafe, System One models, and Jev.",
+      "url": "https://github.com/AbdelStark/awesome-typesafe",
+      "language": "CSS",
+      "languageColor": "#663399",
+      "topics": [
+        "ai-agents",
+        "awesome-list",
+        "jev",
+        "llm",
+        "machine-learning"
+      ],
+      "totalStars": 220,
+      "forksCount": 31,
+      "openIssuesCount": 0,
+      "starsGainedToday": 0,
+      "starsGainedWeek": 0,
+      "starsGainedMonth": 0,
+      "velocityScore": 0,
+      "breakoutScore": 0,
+      "isRising": false,
+      "isHiddenGem": false,
+      "anomalyScore": 0,
+      "anomalyStatus": "NORMAL",
+      "anomalyFlags": [],
+      "sparkline": [
+        220
+      ],
+      "createdAt": "2026-09-17T06:56:37Z",
+      "pushedAt": "2026-09-18T18:08:09Z"
+    },
+    {
       "id": 1367089920,
       "owner": "MaxGramser",
       "name": "homeassistant_espscreen",
@@ -1479,41 +1514,6 @@
       ],
       "createdAt": "2026-09-12T08:05:49Z",
       "pushedAt": "2026-09-18T19:05:30Z"
-    },
-    {
-      "id": 1374058281,
-      "owner": "AbdelStark",
-      "name": "awesome-typesafe",
-      "fullName": "AbdelStark/awesome-typesafe",
-      "description": "A curated list of official resources and community projects for TypeSafe, System One models, and Jev.",
-      "url": "https://github.com/AbdelStark/awesome-typesafe",
-      "language": "CSS",
-      "languageColor": "#663399",
-      "topics": [
-        "ai-agents",
-        "awesome-list",
-        "jev",
-        "llm",
-        "machine-learning"
-      ],
-      "totalStars": 219,
-      "forksCount": 31,
-      "openIssuesCount": 0,
-      "starsGainedToday": 0,
-      "starsGainedWeek": 0,
-      "starsGainedMonth": 0,
-      "velocityScore": 0,
-      "breakoutScore": 0,
-      "isRising": false,
-      "isHiddenGem": false,
-      "anomalyScore": 0,
-      "anomalyStatus": "NORMAL",
-      "anomalyFlags": [],
-      "sparkline": [
-        219
-      ],
-      "createdAt": "2026-09-17T06:56:37Z",
-      "pushedAt": "2026-09-18T18:08:09Z"
     },
     {
       "id": 1368225432,
@@ -1647,7 +1647,7 @@
         390046
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "pushedAt": "2026-09-18T19:14:36Z"
+      "pushedAt": "2026-09-18T19:17:11Z"
     },
     {
       "id": 85077558,
@@ -1815,7 +1815,7 @@
         192652
       ],
       "createdAt": "2015-09-03T20:23:38Z",
-      "pushedAt": "2026-09-18T19:13:13Z"
+      "pushedAt": "2026-09-18T19:15:04Z"
     },
     {
       "id": 787076358,
@@ -1833,7 +1833,7 @@
         "scraper",
         "html-to-markdown"
       ],
-      "totalStars": 181959,
+      "totalStars": 181961,
       "forksCount": 9842,
       "openIssuesCount": 84,
       "starsGainedToday": 0,
@@ -1847,7 +1847,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        181959
+        181961
       ],
       "createdAt": "2024-04-15T21:02:29Z",
       "pushedAt": "2026-09-18T17:24:12Z"
@@ -1897,9 +1897,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 146201,
-      "forksCount": 23742,
-      "openIssuesCount": 11795,
+      "totalStars": 146205,
+      "forksCount": 23743,
+      "openIssuesCount": 11796,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -1911,7 +1911,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        146201
+        146205
       ],
       "createdAt": "2025-02-22T17:41:21Z",
       "pushedAt": "2026-09-18T18:40:35Z"
@@ -1934,7 +1934,7 @@
       ],
       "totalStars": 138958,
       "forksCount": 8091,
-      "openIssuesCount": 34,
+      "openIssuesCount": 33,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -1961,7 +1961,7 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 133569,
+      "totalStars": 133572,
       "forksCount": 19899,
       "openIssuesCount": 349,
       "starsGainedToday": 0,
@@ -1975,7 +1975,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        133569
+        133572
       ],
       "createdAt": "2026-03-11T21:22:45Z",
       "pushedAt": "2026-09-18T00:38:18Z"
@@ -2032,7 +2032,7 @@
         "tailwindcss"
       ],
       "totalStars": 124133,
-      "forksCount": 10653,
+      "forksCount": 10654,
       "openIssuesCount": 835,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -2067,7 +2067,7 @@
         "self-hosted"
       ],
       "totalStars": 114538,
-      "forksCount": 6986,
+      "forksCount": 6987,
       "openIssuesCount": 503,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -2101,8 +2101,8 @@
         "postgrest",
         "postgres"
       ],
-      "totalStars": 110077,
-      "forksCount": 14253,
+      "totalStars": 110078,
+      "forksCount": 14254,
       "openIssuesCount": 293,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -2115,7 +2115,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        110077
+        110078
       ],
       "createdAt": "2019-10-12T05:56:49Z",
       "pushedAt": "2026-09-18T18:54:34Z"
@@ -2165,7 +2165,7 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 106989,
+      "totalStars": 106990,
       "forksCount": 13499,
       "openIssuesCount": 152,
       "starsGainedToday": 0,
@@ -2179,7 +2179,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        106989
+        106990
       ],
       "createdAt": "2025-08-09T14:03:50Z",
       "pushedAt": "2026-09-18T14:06:31Z"
@@ -2201,7 +2201,7 @@
         "pwa"
       ],
       "totalStars": 101010,
-      "forksCount": 27921,
+      "forksCount": 27922,
       "openIssuesCount": 984,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -2480,8 +2480,8 @@
         "chatgpt",
         "claude-ai"
       ],
-      "totalStars": 88432,
-      "forksCount": 11615,
+      "totalStars": 88433,
+      "forksCount": 11616,
       "openIssuesCount": 429,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -2494,7 +2494,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        88432
+        88433
       ],
       "createdAt": "2024-03-13T03:33:31Z",
       "pushedAt": "2026-09-18T19:09:36Z"
@@ -2517,7 +2517,7 @@
       ],
       "totalStars": 86923,
       "forksCount": 13184,
-      "openIssuesCount": 227,
+      "openIssuesCount": 228,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -2859,7 +2859,7 @@
         "agentic-framework",
         "agentic-workflow"
       ],
-      "totalStars": 72788,
+      "totalStars": 72789,
       "forksCount": 8626,
       "openIssuesCount": 667,
       "starsGainedToday": 0,
@@ -2873,7 +2873,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        72788
+        72789
       ],
       "createdAt": "2025-06-02T21:24:20Z",
       "pushedAt": "2026-09-18T07:11:49Z"
@@ -2929,7 +2929,7 @@
         "terminal",
         "cli"
       ],
-      "totalStars": 71800,
+      "totalStars": 71802,
       "forksCount": 4695,
       "openIssuesCount": 3036,
       "starsGainedToday": 0,
@@ -2943,10 +2943,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        71800
+        71802
       ],
       "createdAt": "2026-03-17T03:28:57Z",
-      "pushedAt": "2026-09-18T19:00:42Z"
+      "pushedAt": "2026-09-18T19:16:35Z"
     },
     {
       "id": 1032459340,
@@ -2964,7 +2964,7 @@
         "engineering",
         "planning"
       ],
-      "totalStars": 69243,
+      "totalStars": 69245,
       "forksCount": 4746,
       "openIssuesCount": 121,
       "starsGainedToday": 0,
@@ -2978,7 +2978,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        69243
+        69245
       ],
       "createdAt": "2025-08-05T10:37:45Z",
       "pushedAt": "2026-09-17T16:05:08Z"
@@ -3028,7 +3028,7 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [],
-      "totalStars": 68684,
+      "totalStars": 68685,
       "forksCount": 7424,
       "openIssuesCount": 785,
       "starsGainedToday": 0,
@@ -3042,7 +3042,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        68684
+        68685
       ],
       "createdAt": "2024-07-06T07:28:10Z",
       "pushedAt": "2026-09-18T18:59:21Z"
@@ -3063,7 +3063,7 @@
         "anthropic",
         "claude"
       ],
-      "totalStars": 67792,
+      "totalStars": 67795,
       "forksCount": 9554,
       "openIssuesCount": 229,
       "starsGainedToday": 0,
@@ -3077,7 +3077,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        67792
+        67795
       ],
       "createdAt": "2026-02-13T12:38:31Z",
       "pushedAt": "2026-09-18T18:27:21Z"
@@ -3168,7 +3168,7 @@
         "no-code-database",
         "postgresql"
       ],
-      "totalStars": 65003,
+      "totalStars": 65002,
       "forksCount": 5056,
       "openIssuesCount": 396,
       "starsGainedToday": 0,
@@ -3182,7 +3182,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        65003
+        65002
       ],
       "createdAt": "2017-10-29T18:51:48Z",
       "pushedAt": "2026-09-18T18:11:17Z"
@@ -3272,7 +3272,7 @@
         "vibe-coding"
       ],
       "totalStars": 62169,
-      "forksCount": 3010,
+      "forksCount": 3011,
       "openIssuesCount": 20,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -3306,8 +3306,8 @@
         "apis",
         "list"
       ],
-      "totalStars": 481406,
-      "forksCount": 53153,
+      "totalStars": 481407,
+      "forksCount": 53154,
       "openIssuesCount": 37,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -3320,10 +3320,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        481406
+        481407
       ],
       "createdAt": "2016-03-20T23:49:42Z",
-      "pushedAt": "2026-09-18T19:13:29Z"
+      "pushedAt": "2026-09-18T19:17:30Z"
     },
     {
       "id": 1024554267,
@@ -3342,7 +3342,7 @@
         "anthropic"
       ],
       "totalStars": 246847,
-      "forksCount": 51764,
+      "forksCount": 51765,
       "openIssuesCount": 14147,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -3358,7 +3358,7 @@
         246847
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "pushedAt": "2026-09-18T19:14:28Z"
+      "pushedAt": "2026-09-18T19:18:02Z"
     },
     {
       "id": 63476337,
@@ -3481,7 +3481,7 @@
         "autogen",
         "markdown"
       ],
-      "totalStars": 185390,
+      "totalStars": 185392,
       "forksCount": 13645,
       "openIssuesCount": 328,
       "starsGainedToday": 0,
@@ -3495,7 +3495,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        185390
+        185392
       ],
       "createdAt": "2024-11-13T19:56:40Z",
       "pushedAt": "2026-09-16T17:23:11Z"
@@ -3621,9 +3621,9 @@
         "langchain",
         "llm"
       ],
-      "totalStars": 146603,
+      "totalStars": 146604,
       "forksCount": 24518,
-      "openIssuesCount": 430,
+      "openIssuesCount": 431,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -3635,7 +3635,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        146603
+        146604
       ],
       "createdAt": "2022-10-17T02:58:36Z",
       "pushedAt": "2026-09-18T19:10:39Z"
@@ -3655,8 +3655,8 @@
         "python",
         "agents"
       ],
-      "totalStars": 138823,
-      "forksCount": 20422,
+      "totalStars": 138824,
+      "forksCount": 20421,
       "openIssuesCount": 6,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -3669,7 +3669,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        138823
+        138824
       ],
       "createdAt": "2024-04-29T05:30:25Z",
       "pushedAt": "2026-09-16T04:08:39Z"
@@ -3690,7 +3690,7 @@
         "engineering",
         "prd"
       ],
-      "totalStars": 137787,
+      "totalStars": 137789,
       "forksCount": 12344,
       "openIssuesCount": 135,
       "starsGainedToday": 0,
@@ -3704,7 +3704,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        137787
+        137789
       ],
       "createdAt": "2025-08-21T22:54:31Z",
       "pushedAt": "2026-09-18T18:35:49Z"
@@ -3725,8 +3725,8 @@
         "python",
         "comfy"
       ],
-      "totalStars": 133788,
-      "forksCount": 15836,
+      "totalStars": 133789,
+      "forksCount": 15837,
       "openIssuesCount": 4235,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -3739,7 +3739,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        133788
+        133789
       ],
       "createdAt": "2023-01-17T03:15:56Z",
       "pushedAt": "2026-09-18T18:35:40Z"
@@ -3866,8 +3866,8 @@
         "deep-learning"
       ],
       "totalStars": 103084,
-      "forksCount": 29730,
-      "openIssuesCount": 14014,
+      "forksCount": 29731,
+      "openIssuesCount": 14015,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -3882,7 +3882,7 @@
         103084
       ],
       "createdAt": "2016-08-13T05:26:41Z",
-      "pushedAt": "2026-09-18T19:12:09Z"
+      "pushedAt": "2026-09-18T19:15:52Z"
     },
     {
       "id": 599547518,
@@ -3971,7 +3971,7 @@
         "orm"
       ],
       "totalStars": 91138,
-      "forksCount": 34738,
+      "forksCount": 34739,
       "openIssuesCount": 0,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -4007,7 +4007,7 @@
       ],
       "totalStars": 90720,
       "forksCount": 38698,
-      "openIssuesCount": 2635,
+      "openIssuesCount": 2636,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -4022,7 +4022,7 @@
         90720
       ],
       "createdAt": "2013-09-17T07:29:48Z",
-      "pushedAt": "2026-09-18T19:12:44Z"
+      "pushedAt": "2026-09-18T19:15:06Z"
     },
     {
       "id": 262296122,
@@ -4168,7 +4168,7 @@
         "playwright",
         "python"
       ],
-      "totalStars": 82118,
+      "totalStars": 82119,
       "forksCount": 8358,
       "openIssuesCount": 2,
       "starsGainedToday": 0,
@@ -4182,7 +4182,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        82118
+        82119
       ],
       "createdAt": "2024-10-13T20:29:53Z",
       "pushedAt": "2026-09-18T09:35:23Z"
@@ -4296,7 +4296,7 @@
       "languageColor": "#3572A5",
       "topics": [],
       "totalStars": 77209,
-      "forksCount": 35816,
+      "forksCount": 35818,
       "openIssuesCount": 7019,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -4499,7 +4499,7 @@
         "stocks",
         "quantitative-finance"
       ],
-      "totalStars": 73200,
+      "totalStars": 73201,
       "forksCount": 7573,
       "openIssuesCount": 53,
       "starsGainedToday": 0,
@@ -4513,7 +4513,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        73200
+        73201
       ],
       "createdAt": "2020-12-20T10:46:38Z",
       "pushedAt": "2026-09-18T16:34:48Z"
@@ -4671,7 +4671,7 @@
         "pdf",
         "tables"
       ],
-      "totalStars": 66666,
+      "totalStars": 66667,
       "forksCount": 4809,
       "openIssuesCount": 806,
       "starsGainedToday": 0,
@@ -4685,7 +4685,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        66666
+        66667
       ],
       "createdAt": "2024-07-09T07:50:26Z",
       "pushedAt": "2026-09-18T13:47:32Z"
@@ -4902,7 +4902,7 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": [],
-      "totalStars": 63478,
+      "totalStars": 63479,
       "forksCount": 11134,
       "openIssuesCount": 53,
       "starsGainedToday": 0,
@@ -4916,7 +4916,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        63478
+        63479
       ],
       "createdAt": "2024-11-29T16:30:01Z",
       "pushedAt": "2026-09-18T14:54:26Z"
@@ -5260,7 +5260,7 @@
         95982
       ],
       "createdAt": "2021-04-14T00:48:17Z",
-      "pushedAt": "2026-09-18T19:14:39Z"
+      "pushedAt": "2026-09-18T19:18:57Z"
     },
     {
       "id": 997737944,
@@ -5346,7 +5346,7 @@
         "resolver",
         "uv"
       ],
-      "totalStars": 89953,
+      "totalStars": 89954,
       "forksCount": 3590,
       "openIssuesCount": 2363,
       "starsGainedToday": 0,
@@ -5360,10 +5360,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        89953
+        89954
       ],
       "createdAt": "2023-10-02T20:24:11Z",
-      "pushedAt": "2026-09-18T19:12:03Z"
+      "pushedAt": "2026-09-18T19:14:50Z"
     },
     {
       "id": 1139971460,
@@ -5381,7 +5381,7 @@
         "claude-code",
         "cli"
       ],
-      "totalStars": 80920,
+      "totalStars": 80923,
       "forksCount": 5134,
       "openIssuesCount": 850,
       "starsGainedToday": 0,
@@ -5395,7 +5395,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        80920
+        80923
       ],
       "createdAt": "2026-01-22T16:54:16Z",
       "pushedAt": "2026-09-18T00:31:31Z"
@@ -5416,7 +5416,7 @@
         "docker",
         "rocket"
       ],
-      "totalStars": 67825,
+      "totalStars": 67826,
       "forksCount": 3227,
       "openIssuesCount": 12,
       "starsGainedToday": 0,
@@ -5430,7 +5430,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        67825
+        67826
       ],
       "createdAt": "2018-02-17T22:40:20Z",
       "pushedAt": "2026-09-18T18:35:12Z"
@@ -5687,7 +5687,7 @@
         "ai",
         "ai-agents"
       ],
-      "totalStars": 54442,
+      "totalStars": 54443,
       "forksCount": 6269,
       "openIssuesCount": 256,
       "starsGainedToday": 0,
@@ -5701,7 +5701,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        54442
+        54443
       ],
       "createdAt": "2024-08-23T19:03:36Z",
       "pushedAt": "2026-09-18T18:33:12Z"
@@ -5739,7 +5739,7 @@
         49684
       ],
       "createdAt": "2022-08-09T17:17:44Z",
-      "pushedAt": "2026-09-18T19:13:38Z"
+      "pushedAt": "2026-09-18T19:15:03Z"
     },
     {
       "id": 234798675,
@@ -6064,7 +6064,7 @@
         "rust",
         "agent-orchestration"
       ],
-      "totalStars": 39872,
+      "totalStars": 39873,
       "forksCount": 3934,
       "openIssuesCount": 193,
       "starsGainedToday": 0,
@@ -6078,7 +6078,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        39872
+        39873
       ],
       "createdAt": "2026-02-18T20:01:27Z",
       "pushedAt": "2026-09-18T16:16:56Z"
@@ -6099,7 +6099,7 @@
         "rust",
         "arrow"
       ],
-      "totalStars": 39778,
+      "totalStars": 39779,
       "forksCount": 3113,
       "openIssuesCount": 2538,
       "starsGainedToday": 0,
@@ -6113,10 +6113,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        39778
+        39779
       ],
       "createdAt": "2020-05-13T19:45:33Z",
-      "pushedAt": "2026-09-18T18:43:46Z"
+      "pushedAt": "2026-09-18T19:15:43Z"
     },
     {
       "id": 1193909050,
@@ -6134,7 +6134,7 @@
         "ai-agents",
         "claude-code"
       ],
-      "totalStars": 39434,
+      "totalStars": 39435,
       "forksCount": 2972,
       "openIssuesCount": 309,
       "starsGainedToday": 0,
@@ -6148,7 +6148,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        39434
+        39435
       ],
       "createdAt": "2026-03-27T17:54:33Z",
       "pushedAt": "2026-09-18T18:56:25Z"
@@ -6493,7 +6493,7 @@
         34078
       ],
       "createdAt": "2023-01-09T14:44:21Z",
-      "pushedAt": "2026-09-18T19:10:36Z"
+      "pushedAt": "2026-09-18T19:18:34Z"
     },
     {
       "id": 1174789082,
@@ -6522,7 +6522,7 @@
         33606
       ],
       "createdAt": "2026-03-06T21:00:56Z",
-      "pushedAt": "2026-09-18T19:10:28Z"
+      "pushedAt": "2026-09-18T19:17:11Z"
     },
     {
       "id": 580836813,
@@ -6603,7 +6603,7 @@
         "networking"
       ],
       "totalStars": 33173,
-      "forksCount": 3464,
+      "forksCount": 3465,
       "openIssuesCount": 321,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -6654,7 +6654,7 @@
         33087
       ],
       "createdAt": "2023-11-23T13:45:10Z",
-      "pushedAt": "2026-09-18T14:10:08Z"
+      "pushedAt": "2026-09-18T19:16:24Z"
     },
     {
       "id": 1156956890,
@@ -6811,7 +6811,7 @@
         "containers"
       ],
       "totalStars": 127812,
-      "forksCount": 44544,
+      "forksCount": 44545,
       "openIssuesCount": 1876,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -7365,9 +7365,9 @@
         "openai",
         "codex"
       ],
-      "totalStars": 52421,
+      "totalStars": 52420,
       "forksCount": 7913,
-      "openIssuesCount": 77,
+      "openIssuesCount": 76,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -7379,7 +7379,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        52421
+        52420
       ],
       "createdAt": "2025-07-01T19:43:27Z",
       "pushedAt": "2026-09-18T19:07:41Z"
@@ -8192,7 +8192,7 @@
         "harness",
         "repository-level-context"
       ],
-      "totalStars": 36492,
+      "totalStars": 36493,
       "forksCount": 2605,
       "openIssuesCount": 102,
       "starsGainedToday": 0,
@@ -8206,7 +8206,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        36492
+        36493
       ],
       "createdAt": "2026-05-18T02:16:36Z",
       "pushedAt": "2026-09-18T14:24:55Z"
@@ -8295,7 +8295,7 @@
         "ink",
         "llm"
       ],
-      "totalStars": 35605,
+      "totalStars": 35606,
       "forksCount": 2402,
       "openIssuesCount": 1459,
       "starsGainedToday": 0,
@@ -8309,7 +8309,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        35605
+        35606
       ],
       "createdAt": "2026-04-21T08:27:02Z",
       "pushedAt": "2026-09-18T18:36:08Z"
@@ -8399,7 +8399,7 @@
       ],
       "totalStars": 33990,
       "forksCount": 2725,
-      "openIssuesCount": 102,
+      "openIssuesCount": 105,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -8432,7 +8432,7 @@
         "claude-code",
         "developer-tools"
       ],
-      "totalStars": 261844,
+      "totalStars": 261850,
       "forksCount": 39178,
       "openIssuesCount": 73,
       "starsGainedToday": 0,
@@ -8446,7 +8446,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        261844
+        261850
       ],
       "createdAt": "2026-01-18T00:51:51Z",
       "pushedAt": "2026-09-17T18:04:07Z"
@@ -8538,7 +8538,7 @@
         "runtime"
       ],
       "totalStars": 121992,
-      "forksCount": 37220,
+      "forksCount": 37221,
       "openIssuesCount": 630,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -8677,7 +8677,7 @@
         "cursor",
         "skills"
       ],
-      "totalStars": 96289,
+      "totalStars": 96292,
       "forksCount": 10181,
       "openIssuesCount": 53,
       "starsGainedToday": 0,
@@ -8691,7 +8691,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        96289
+        96292
       ],
       "createdAt": "2026-02-15T20:20:26Z",
       "pushedAt": "2026-09-18T03:32:22Z"
@@ -8781,7 +8781,7 @@
         "compiler"
       ],
       "totalStars": 88133,
-      "forksCount": 5680,
+      "forksCount": 5681,
       "openIssuesCount": 936,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -8848,9 +8848,9 @@
         "cli",
         "interview-prep"
       ],
-      "totalStars": 72054,
+      "totalStars": 72055,
       "forksCount": 13574,
-      "openIssuesCount": 284,
+      "openIssuesCount": 283,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -8862,10 +8862,10 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        72054
+        72055
       ],
       "createdAt": "2026-04-04T18:21:18Z",
-      "pushedAt": "2026-09-18T18:31:42Z"
+      "pushedAt": "2026-09-18T19:16:35Z"
     },
     {
       "id": 1097346685,
@@ -8982,8 +8982,8 @@
         "diagram-as-code",
         "mermaid-alternative"
       ],
-      "totalStars": 66697,
-      "forksCount": 4449,
+      "totalStars": 66699,
+      "forksCount": 4450,
       "openIssuesCount": 82,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -8996,7 +8996,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        66697
+        66699
       ],
       "createdAt": "2026-04-15T05:27:37Z",
       "pushedAt": "2026-09-18T18:20:43Z"
@@ -9069,7 +9069,7 @@
         65944
       ],
       "createdAt": "2012-03-10T10:08:14Z",
-      "pushedAt": "2026-09-18T18:56:14Z"
+      "pushedAt": "2026-09-18T19:18:33Z"
     },
     {
       "id": 92443980,
@@ -9605,7 +9605,7 @@
         "hacktoberfest",
         "agent-skills"
       ],
-      "totalStars": 39139,
+      "totalStars": 39140,
       "forksCount": 4972,
       "openIssuesCount": 34,
       "starsGainedToday": 0,
@@ -9619,7 +9619,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        39139
+        39140
       ],
       "createdAt": "2025-06-11T16:57:39Z",
       "pushedAt": "2026-09-18T02:58:32Z"
@@ -9641,7 +9641,7 @@
         "geospatial-intelligence"
       ],
       "totalStars": 37668,
-      "forksCount": 7584,
+      "forksCount": 7585,
       "openIssuesCount": 76,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -10159,7 +10159,7 @@
         "deep-neural-networks"
       ],
       "totalStars": 200169,
-      "forksCount": 76776,
+      "forksCount": 76777,
       "openIssuesCount": 682,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
@@ -10189,7 +10189,7 @@
       "topics": [
         "ggml"
       ],
-      "totalStars": 128711,
+      "totalStars": 128712,
       "forksCount": 23397,
       "openIssuesCount": 897,
       "starsGainedToday": 0,
@@ -10203,7 +10203,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        128711
+        128712
       ],
       "createdAt": "2023-03-10T18:58:00Z",
       "pushedAt": "2026-09-18T18:42:23Z"
@@ -10518,7 +10518,7 @@
         66248
       ],
       "createdAt": "2024-05-30T09:18:10Z",
-      "pushedAt": "2026-09-18T19:07:57Z"
+      "pushedAt": "2026-09-18T19:16:30Z"
     },
     {
       "id": 311683390,
@@ -10643,7 +10643,7 @@
       ],
       "totalStars": 49959,
       "forksCount": 8971,
-      "openIssuesCount": 5347,
+      "openIssuesCount": 5353,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -10658,7 +10658,7 @@
         49959
       ],
       "createdAt": "2016-06-02T08:28:18Z",
-      "pushedAt": "2026-09-18T19:10:55Z"
+      "pushedAt": "2026-09-18T19:15:41Z"
     },
     {
       "id": 27729880,
@@ -11577,7 +11577,7 @@
       ],
       "totalStars": 28945,
       "forksCount": 4879,
-      "openIssuesCount": 162,
+      "openIssuesCount": 160,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -11592,7 +11592,7 @@
         28945
       ],
       "createdAt": "2014-10-12T23:18:57Z",
-      "pushedAt": "2026-09-18T19:01:01Z"
+      "pushedAt": "2026-09-18T19:15:17Z"
     },
     {
       "id": 52729242,
@@ -11949,8 +11949,8 @@
         "search-engine"
       ],
       "totalStars": 77931,
-      "forksCount": 26071,
-      "openIssuesCount": 4757,
+      "forksCount": 26072,
+      "openIssuesCount": 4761,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -11965,7 +11965,7 @@
         77931
       ],
       "createdAt": "2010-02-08T13:20:56Z",
-      "pushedAt": "2026-09-18T19:12:39Z"
+      "pushedAt": "2026-09-18T19:19:13Z"
     },
     {
       "id": 63477660,
@@ -12354,7 +12354,7 @@
         "oidc",
         "saml"
       ],
-      "totalStars": 36854,
+      "totalStars": 36855,
       "forksCount": 8942,
       "openIssuesCount": 2749,
       "starsGainedToday": 0,
@@ -12368,7 +12368,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        36854
+        36855
       ],
       "createdAt": "2013-07-02T13:38:51Z",
       "pushedAt": "2026-09-18T18:51:01Z"
@@ -13072,7 +13072,7 @@
         "devops",
         "docker"
       ],
-      "totalStars": 24674,
+      "totalStars": 24675,
       "forksCount": 2670,
       "openIssuesCount": 46,
       "starsGainedToday": 0,
@@ -13086,7 +13086,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        24674
+        24675
       ],
       "createdAt": "2026-02-18T02:28:29Z",
       "pushedAt": "2026-09-18T18:38:39Z"
@@ -14241,7 +14241,7 @@
         "menubar-app",
         "swift"
       ],
-      "totalStars": 11239,
+      "totalStars": 11240,
       "forksCount": 265,
       "openIssuesCount": 60,
       "starsGainedToday": 0,
@@ -14255,7 +14255,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        11239
+        11240
       ],
       "createdAt": "2026-01-29T18:26:51Z",
       "pushedAt": "2026-09-18T01:10:58Z"
@@ -15070,7 +15070,7 @@
       "topics": [],
       "totalStars": 6414,
       "forksCount": 296,
-      "openIssuesCount": 52,
+      "openIssuesCount": 51,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -15085,7 +15085,7 @@
         6414
       ],
       "createdAt": "2026-06-29T15:18:26Z",
-      "pushedAt": "2026-09-18T19:03:33Z"
+      "pushedAt": "2026-09-18T19:15:26Z"
     },
     {
       "id": 1190938188,
@@ -15704,7 +15704,7 @@
         "material-you",
         "exif"
       ],
-      "totalStars": 14665,
+      "totalStars": 14666,
       "forksCount": 631,
       "openIssuesCount": 0,
       "starsGainedToday": 0,
@@ -15718,7 +15718,7 @@
       "anomalyStatus": "NORMAL",
       "anomalyFlags": [],
       "sparkline": [
-        14665
+        14666
       ],
       "createdAt": "2022-04-06T20:06:28Z",
       "pushedAt": "2026-09-18T17:10:52Z"
@@ -16459,7 +16459,7 @@
       ],
       "totalStars": 8936,
       "forksCount": 736,
-      "openIssuesCount": 599,
+      "openIssuesCount": 598,
       "starsGainedToday": 0,
       "starsGainedWeek": 0,
       "starsGainedMonth": 0,
@@ -16579,7 +16579,7 @@
         7951
       ],
       "createdAt": "2023-08-21T14:20:01Z",
-      "pushedAt": "2026-09-17T19:18:57Z"
+      "pushedAt": "2026-09-18T19:18:47Z"
     },
     {
       "id": 948839453,
