@@ -1,0 +1,653 @@
+import fs from 'fs';
+import path from 'path';
+import { GitHubGraphQLClient, RawRepoNode } from '../src/engine/graphql-client';
+import { VelocityLogStrategy, GravityDecayStrategy, BreakoutStrategy, isHiddenGem, isVerifiedHiddenGem, isVerifiedRising } from '../src/engine/ranking';
+import { AnomalyDetector } from '../src/engine/anomaly';
+import { getDbPool, isDatabaseConfigured } from '../src/lib/db';
+
+export interface NormalizedTrendingRepo {
+  id: number;
+  owner: string;
+  name: string;
+  fullName: string;
+  description: string;
+  url: string;
+  language: string;
+  languageColor: string;
+  topics: string[];
+  totalStars: number;
+  forksCount: number;
+  openIssuesCount: number;
+  starsGainedToday: number;
+  starsGainedWeek: number;
+  starsGainedMonth: number;
+  velocityScore: number;
+  breakoutScore: number;
+  isRising: boolean;
+  isHiddenGem: boolean;
+  anomalyScore: number;
+  anomalyStatus: 'NORMAL' | 'REVIEW' | 'ANOMALOUS SIGNAL';
+  anomalyFlags: string[];
+  sparkline: number[]; // 7 data points representing weekly momentum curve
+  createdAt: string;
+  pushedAt: string;
+}
+
+export interface TrendingDataset {
+  updatedAt: string;
+  dataSource?: 'LIVE_GITHUB_INGESTION' | 'DETERMINISTIC_DEVELOPMENT_BASELINE';
+  isBaselineSeed?: boolean;
+  totalRepos: number;
+  repositories: NormalizedTrendingRepo[];
+  languages: string[];
+  risingCount: number;
+  hiddenGemsCount: number;
+  anomalousCount: number;
+}
+
+const LANGUAGES_TO_TRACK = [
+  'TypeScript',
+  'Python',
+  'Rust',
+  'Go',
+  'JavaScript',
+  'C++',
+  'Java',
+  'Swift',
+  'Kotlin',
+  'C#',
+];
+
+async function runEtl() {
+  const startTime = Date.now();
+  console.log('====================================================');
+  console.log('🚀 GitHub Trend Engine ETL Pipeline Started');
+  console.log('====================================================');
+
+  const client = new GitHubGraphQLClient();
+  const rawCandidateMap = new Map<number, RawRepoNode>();
+  let pointsSpent = 0;
+  let remainingPoints = 5000;
+
+  let isBaselineSeed = false;
+  let dataSource: 'LIVE_GITHUB_INGESTION' | 'DETERMINISTIC_DEVELOPMENT_BASELINE' = 'LIVE_GITHUB_INGESTION';
+
+  if (client.hasToken()) {
+    console.log('🔑 Authenticated with GitHub Token. Fetching active candidates via GraphQL...');
+
+    // 1. Overall breakout candidates (created or updated recently with high velocity)
+    try {
+      const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+      const res = await client.fetchBatch(`created:>${sevenDaysAgo} stars:>30 sort:stars-desc`, null, 50);
+      if (res.rateLimit) {
+        pointsSpent += res.rateLimit.cost;
+        remainingPoints = res.rateLimit.remaining;
+      }
+      res.data.search.nodes.forEach((node) => rawCandidateMap.set(node.databaseId, node));
+      console.log(`[INGEST] Overall top breakouts: ${res.data.search.nodes.length} repos`);
+    } catch (e: any) {
+      console.warn(`[INGEST_WARNING] Overall query skipped:`, e.message);
+    }
+
+    // 2. Language-specific candidates across 10 major languages
+    for (const lang of LANGUAGES_TO_TRACK) {
+      try {
+        const threeDaysAgo = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+        const res = await client.fetchBatch(`pushed:>${threeDaysAgo} language:${lang} stars:>20 sort:stars-desc`, null, 50);
+        if (res.rateLimit) {
+          pointsSpent += res.rateLimit.cost;
+          remainingPoints = res.rateLimit.remaining;
+        }
+        res.data.search.nodes.forEach((node) => rawCandidateMap.set(node.databaseId, node));
+        console.log(`[INGEST] Language ${lang}: +${res.data.search.nodes.length} repos (Pool total: ${rawCandidateMap.size})`);
+      } catch (e: any) {
+        console.warn(`[INGEST_WARNING] Language ${lang} query skipped:`, e.message);
+      }
+    }
+  } else {
+    console.warn('⚠️ GITHUB_TOKEN not detected in environment.');
+    console.warn('Loading deterministic development baseline dataset (DEVELOPMENT/STAGING MODE)...');
+    isBaselineSeed = true;
+    dataSource = 'DETERMINISTIC_DEVELOPMENT_BASELINE';
+  }
+
+  // If no candidates were fetched (e.g. running offline or no token), initialize high-quality real seeds
+  let rawCandidates = Array.from(rawCandidateMap.values());
+  if (rawCandidates.length === 0) {
+    rawCandidates = generateBaselineSeedData();
+    isBaselineSeed = true;
+    dataSource = 'DETERMINISTIC_DEVELOPMENT_BASELINE';
+    console.log(`[BASELINE_SEED] Initialized ${rawCandidates.length} high-fidelity baseline repositories.`);
+  }
+
+  console.log(`\n📊 Total unique repositories to score & rank: ${rawCandidates.length}`);
+
+  // Ranking & Anomaly Scoring
+  const velocityLogStrategy = new VelocityLogStrategy();
+  const breakoutStrategy = new BreakoutStrategy();
+
+  // If database is configured, load previous snapshot metrics for true differentials
+  const historicalMetricsMap = new Map<number, {
+    starsGainedToday: number;
+    starsGainedWeek: number;
+    starsGainedMonth: number;
+    sparkline: number[];
+  }>();
+
+  const pool = isDatabaseConfigured() ? getDbPool() : null;
+
+  if (pool) {
+    let dbClient: any = null;
+    try {
+      dbClient = await pool.connect();
+      console.log('💾 Connected to PostgreSQL. Computing true deltas from snapshot history...');
+      for (const node of rawCandidates) {
+        const prevSnap = await dbClient.query(
+          `SELECT stars_count FROM repository_snapshots 
+           WHERE repository_id = $1 AND snapshot_date < CURRENT_DATE 
+           ORDER BY snapshot_date DESC LIMIT 1`,
+          [node.databaseId]
+        );
+        const weekSnap = await dbClient.query(
+          `SELECT stars_count FROM repository_snapshots 
+           WHERE repository_id = $1 AND snapshot_date <= CURRENT_DATE - INTERVAL '7 days' 
+           ORDER BY snapshot_date DESC LIMIT 1`,
+          [node.databaseId]
+        );
+        const monthSnap = await dbClient.query(
+          `SELECT stars_count FROM repository_snapshots 
+           WHERE repository_id = $1 AND snapshot_date <= CURRENT_DATE - INTERVAL '30 days' 
+           ORDER BY snapshot_date DESC LIMIT 1`,
+          [node.databaseId]
+        );
+        const sparkSnaps = await dbClient.query(
+          `SELECT stars_count FROM repository_snapshots 
+           WHERE repository_id = $1 
+           ORDER BY snapshot_date DESC LIMIT 7`,
+          [node.databaseId]
+        );
+
+        let starsGainedToday = 0;
+        let starsGainedWeek = 0;
+        let starsGainedMonth = 0;
+        let sparkline: number[] = [];
+
+        if (prevSnap.rows.length > 0) {
+          starsGainedToday = Math.max(0, node.stargazerCount - Number(prevSnap.rows[0].stars_count));
+        } else if (node.baselineMetrics) {
+          starsGainedToday = node.baselineMetrics.starsGainedToday;
+        }
+
+        if (weekSnap.rows.length > 0) {
+          starsGainedWeek = Math.max(0, node.stargazerCount - Number(weekSnap.rows[0].stars_count));
+        } else if (node.baselineMetrics) {
+          starsGainedWeek = node.baselineMetrics.starsGainedWeek;
+        } else {
+          starsGainedWeek = starsGainedToday;
+        }
+
+        if (monthSnap.rows.length > 0) {
+          starsGainedMonth = Math.max(0, node.stargazerCount - Number(monthSnap.rows[0].stars_count));
+        } else if (node.baselineMetrics) {
+          starsGainedMonth = node.baselineMetrics.starsGainedMonth;
+        } else {
+          starsGainedMonth = starsGainedWeek;
+        }
+
+        if (sparkSnaps.rows.length >= 2) {
+          sparkline = sparkSnaps.rows.map((r: any) => Number(r.stars_count)).reverse();
+        } else if (node.baselineMetrics) {
+          sparkline = node.baselineMetrics.sparkline;
+        } else {
+          sparkline = [node.stargazerCount];
+        }
+
+        historicalMetricsMap.set(node.databaseId, {
+          starsGainedToday,
+          starsGainedWeek,
+          starsGainedMonth,
+          sparkline,
+        });
+      }
+    } catch (dbErr: any) {
+      console.error('❌ Failed to fetch snapshot differentials from DB:', dbErr.message);
+      console.warn('⚠️ Falling back to deterministic baseline metrics...');
+    } finally {
+      if (dbClient) dbClient.release();
+    }
+  }
+
+  const normalizedRepos: NormalizedTrendingRepo[] = rawCandidates.map((node) => {
+    const historical = historicalMetricsMap.get(node.databaseId);
+    const starsGainedToday = historical?.starsGainedToday ?? node.baselineMetrics?.starsGainedToday ?? 0;
+    const starsGainedWeek = historical?.starsGainedWeek ?? node.baselineMetrics?.starsGainedWeek ?? starsGainedToday;
+    const starsGainedMonth = historical?.starsGainedMonth ?? node.baselineMetrics?.starsGainedMonth ?? starsGainedWeek;
+    const sparkline = historical?.sparkline ?? node.baselineMetrics?.sparkline ?? [node.stargazerCount];
+
+    const velocityScore = velocityLogStrategy.calculate({
+      repositoryId: node.databaseId,
+      totalStars: node.stargazerCount,
+      deltaStars: starsGainedToday,
+      forksCount: node.forkCount,
+      hoursElapsed: 24,
+    }).score;
+
+    const breakoutScore = breakoutStrategy.calculate({
+      repositoryId: node.databaseId,
+      totalStars: node.stargazerCount,
+      deltaStars: starsGainedToday,
+      forksCount: node.forkCount,
+      hoursElapsed: 24,
+    }).score;
+
+    const isRising = breakoutScore > 15 && node.stargazerCount < 10000;
+    const isGem = isHiddenGem({
+      totalStars: node.stargazerCount,
+      deltaStars: starsGainedToday,
+      forksCount: node.forkCount,
+      description: node.description || undefined,
+    });
+
+    const anomalyEval = AnomalyDetector.evaluate({
+      starsGained24h: starsGainedToday,
+      totalStars: node.stargazerCount,
+      forksCount: node.forkCount,
+      issuesCount: node.openIssues?.totalCount || 0,
+      ownerCreatedAt: node.owner.createdAt,
+      lastPushedAt: node.pushedAt,
+    });
+
+    const topics = node.repositoryTopics?.nodes?.map((n) => n.topic.name) || [];
+
+    return {
+      id: node.databaseId,
+      owner: node.owner.login,
+      name: node.name,
+      fullName: node.nameWithOwner,
+      description: node.description || 'Open-source software repository with active community momentum.',
+      url: node.url,
+      language: node.primaryLanguage?.name || 'TypeScript',
+      languageColor: node.primaryLanguage?.color || '#3178c6',
+      topics: topics.slice(0, 5),
+      totalStars: node.stargazerCount,
+      forksCount: node.forkCount,
+      openIssuesCount: node.openIssues?.totalCount || 0,
+      starsGainedToday,
+      starsGainedWeek,
+      starsGainedMonth,
+      velocityScore,
+      breakoutScore,
+      isRising,
+      isHiddenGem: isGem,
+      anomalyScore: anomalyEval.score,
+      anomalyStatus: anomalyEval.status,
+      anomalyFlags: anomalyEval.flags,
+      sparkline,
+      createdAt: node.createdAt,
+      pushedAt: node.pushedAt,
+    };
+  });
+
+  // Sort by velocity score descending
+  normalizedRepos.sort((a, b) => b.velocityScore - a.velocityScore);
+
+  // Database persistence (if DATABASE_URL is configured)
+  if (pool) {
+    let client: any = null;
+    try {
+      client = await pool.connect();
+      await client.query('BEGIN');
+
+      for (const repo of normalizedRepos.slice(0, 500)) {
+        // Upsert master repository record
+        await client.query(
+          `INSERT INTO repositories (
+              id, owner, name, full_name, description, primary_language,
+              topics, total_stars, forks_count, open_issues_count,
+              created_at, pushed_at, last_updated
+           ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW())
+           ON CONFLICT (id) DO UPDATE SET
+              description = EXCLUDED.description,
+              primary_language = EXCLUDED.primary_language,
+              topics = EXCLUDED.topics,
+              total_stars = EXCLUDED.total_stars,
+              forks_count = EXCLUDED.forks_count,
+              open_issues_count = EXCLUDED.open_issues_count,
+              pushed_at = EXCLUDED.pushed_at,
+              last_updated = NOW()`,
+          [
+            repo.id,
+            repo.owner,
+            repo.name,
+            repo.fullName,
+            repo.description,
+            repo.language,
+            repo.topics,
+            repo.totalStars,
+            repo.forksCount,
+            repo.openIssuesCount,
+            repo.createdAt,
+            repo.pushedAt,
+          ]
+        );
+
+        // Insert daily snapshot
+        await client.query(
+          `INSERT INTO repository_snapshots (
+              repository_id, stars_count, forks_count, snapshot_date, recorded_at
+           ) VALUES ($1, $2, $3, CURRENT_DATE, NOW())
+           ON CONFLICT (repository_id, snapshot_date) DO UPDATE SET
+              stars_count = EXCLUDED.stars_count,
+              forks_count = EXCLUDED.forks_count,
+              recorded_at = NOW()`,
+          [repo.id, repo.totalStars, repo.forksCount]
+        );
+
+        // Upsert trending leaderboard
+        await client.query(
+          `INSERT INTO trending_leaderboard (
+              repository_id, time_window, stars_gained, rank_score,
+              breakout_score, anomaly_score, anomaly_status, calculated_at
+           ) VALUES ($1, 'daily', $2, $3, $4, $5, $6, NOW())
+           ON CONFLICT (repository_id, time_window) DO UPDATE SET
+              stars_gained = EXCLUDED.stars_gained,
+              rank_score = EXCLUDED.rank_score,
+              breakout_score = EXCLUDED.breakout_score,
+              anomaly_score = EXCLUDED.anomaly_score,
+              anomaly_status = EXCLUDED.anomaly_status,
+              calculated_at = NOW()`,
+          [
+            repo.id,
+            repo.starsGainedToday,
+            repo.velocityScore,
+            repo.breakoutScore,
+            repo.anomalyScore,
+            repo.anomalyStatus,
+          ]
+        );
+      }
+
+      await client.query('COMMIT');
+      console.log('✅ PostgreSQL database sync complete!');
+    } catch (dbErr: any) {
+      if (client) {
+        try { await client.query('ROLLBACK'); } catch {}
+      }
+      console.error('❌ Database sync failed, transaction rolled back:', dbErr.message);
+      console.warn('⚠️ Continuing with static dataset compilation...');
+    } finally {
+      if (client) client.release();
+    }
+  }
+
+  // Static JSON precomputation (BestOfJS pattern for $0 edge delivery)
+  const outputDataset: TrendingDataset = {
+    updatedAt: new Date().toISOString(),
+    dataSource,
+    isBaselineSeed,
+    totalRepos: normalizedRepos.length,
+    repositories: normalizedRepos.slice(0, 500),
+    languages: Array.from(new Set(normalizedRepos.map((r) => r.language))).sort(),
+    risingCount: normalizedRepos.filter(isVerifiedRising).length,
+    hiddenGemsCount: normalizedRepos.filter(isVerifiedHiddenGem).length,
+    anomalousCount: normalizedRepos.filter((r) => r.anomalyStatus === 'ANOMALOUS SIGNAL').length,
+  };
+
+  const outputPath = path.join(process.cwd(), 'public', 'data', 'trending-summary.json');
+  fs.writeFileSync(outputPath, JSON.stringify(outputDataset, null, 2), 'utf8');
+  console.log(`📦 Compiled static dataset to: ${outputPath}`);
+
+  if (pool) {
+    try {
+      await pool.end();
+    } catch {}
+  }
+
+  const durationSec = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log('\n====================================================');
+  console.log('✨ ETL Pipeline Completed Successfully');
+  console.log(`⏱️ Duration: ${durationSec}s`);
+  console.log(`🎯 Top ${Math.min(normalizedRepos.length, 500)} Repositories Ranked & Saved`);
+  console.log(`📊 GraphQL Points Spent: ${pointsSpent} | Remaining: ${remainingPoints}`);
+  console.log('====================================================\n');
+}
+
+function generateBaselineSeedData(): RawRepoNode[] {
+  return [
+    {
+      databaseId: 101,
+      nameWithOwner: 'Anil-matcha/awesome-generative-ai-apps',
+      name: 'awesome-generative-ai-apps',
+      owner: { login: 'Anil-matcha', avatarUrl: 'https://github.com/Anil-matcha.png', createdAt: '2020-03-15T00:00:00Z' },
+      description: '50+ open-source generative AI apps you can clone, deploy, and monetize — image generators, video tools, virtual try-ons, and AI SaaS templates.',
+      url: 'https://github.com/Anil-matcha/awesome-generative-ai-apps',
+      stargazerCount: 3320,
+      forkCount: 471,
+      openIssues: { totalCount: 12 },
+      primaryLanguage: { name: 'JavaScript', color: '#f1e05a' },
+      repositoryTopics: { nodes: [{ topic: { name: 'generative-ai' } }, { topic: { name: 'ai-agents' } }, { topic: { name: 'nextjs' } }] },
+      createdAt: '2024-02-10T00:00:00Z',
+      pushedAt: '2026-09-18T10:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 95,
+        starsGainedWeek: 480,
+        starsGainedMonth: 1350,
+        sparkline: [40, 55, 65, 75, 80, 88, 95],
+      },
+    },
+    {
+      databaseId: 102,
+      nameWithOwner: 'cloudflare/security-audit-skill',
+      name: 'security-audit-skill',
+      owner: { login: 'cloudflare', avatarUrl: 'https://github.com/cloudflare.png', createdAt: '2011-01-01T00:00:00Z' },
+      description: 'A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings.',
+      url: 'https://github.com/cloudflare/security-audit-skill',
+      stargazerCount: 10840,
+      forkCount: 573,
+      openIssues: { totalCount: 9 },
+      primaryLanguage: { name: 'TypeScript', color: '#3178c6' },
+      repositoryTopics: { nodes: [{ topic: { name: 'security' } }, { topic: { name: 'audit' } }, { topic: { name: 'agents' } }] },
+      createdAt: '2026-01-20T00:00:00Z',
+      pushedAt: '2026-09-18T12:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 280,
+        starsGainedWeek: 1450,
+        starsGainedMonth: 4100,
+        sparkline: [120, 150, 180, 220, 240, 260, 280],
+      },
+    },
+    {
+      databaseId: 103,
+      nameWithOwner: 'alibaba/open-code-review',
+      name: 'open-code-review',
+      owner: { login: 'alibaba', avatarUrl: 'https://github.com/alibaba.png', createdAt: '2012-05-15T00:00:00Z' },
+      description: 'Hybrid architecture code review tool: deterministic pipelines + LLM Agent, line-level comments, built-in multi-language ruleset.',
+      url: 'https://github.com/alibaba/open-code-review',
+      stargazerCount: 36320,
+      forkCount: 2610,
+      openIssues: { totalCount: 45 },
+      primaryLanguage: { name: 'Go', color: '#00ADD8' },
+      repositoryTopics: { nodes: [{ topic: { name: 'code-review' } }, { topic: { name: 'llm' } }, { topic: { name: 'golang' } }] },
+      createdAt: '2024-05-01T00:00:00Z',
+      pushedAt: '2026-09-18T14:30:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 450,
+        starsGainedWeek: 2100,
+        starsGainedMonth: 6200,
+        sparkline: [210, 260, 310, 380, 410, 430, 450],
+      },
+    },
+    {
+      databaseId: 104,
+      nameWithOwner: 'hypit-ai/hypit',
+      name: 'hypit',
+      owner: { login: 'hypit-ai', avatarUrl: 'https://github.com/hypit-ai.png', createdAt: '2025-06-10T00:00:00Z' },
+      description: 'Clone viral video formats with AI agents. Swap face, voice, b-roll, generate 100 variants in one command with ffmpeg automation.',
+      url: 'https://github.com/hypit-ai/hypit',
+      stargazerCount: 9810,
+      forkCount: 1205,
+      openIssues: { totalCount: 18 },
+      primaryLanguage: { name: 'TypeScript', color: '#3178c6' },
+      repositoryTopics: { nodes: [{ topic: { name: 'video' } }, { topic: { name: 'ai' } }, { topic: { name: 'ffmpeg' } }] },
+      createdAt: '2026-02-14T00:00:00Z',
+      pushedAt: '2026-09-18T16:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 210,
+        starsGainedWeek: 980,
+        starsGainedMonth: 2800,
+        sparkline: [80, 110, 140, 160, 180, 195, 210],
+      },
+    },
+    {
+      databaseId: 105,
+      nameWithOwner: 'deepseek-ai/deepseek-harness',
+      name: 'deepseek-harness',
+      owner: { login: 'deepseek-ai', avatarUrl: 'https://github.com/deepseek-ai.png', createdAt: '2023-11-01T00:00:00Z' },
+      description: 'High-throughput reasoning evaluation harness and inference pipeline optimizations for deep reasoning models.',
+      url: 'https://github.com/deepseek-ai/deepseek-harness',
+      stargazerCount: 14200,
+      forkCount: 1890,
+      openIssues: { totalCount: 22 },
+      primaryLanguage: { name: 'Python', color: '#3572A5' },
+      repositoryTopics: { nodes: [{ topic: { name: 'llm' } }, { topic: { name: 'reasoning' } }, { topic: { name: 'evaluation' } }] },
+      createdAt: '2025-08-12T00:00:00Z',
+      pushedAt: '2026-09-18T18:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 340,
+        starsGainedWeek: 1800,
+        starsGainedMonth: 5200,
+        sparkline: [180, 210, 250, 280, 300, 320, 340],
+      },
+    },
+    {
+      databaseId: 106,
+      nameWithOwner: 'astral-sh/uv',
+      name: 'uv',
+      owner: { login: 'astral-sh', avatarUrl: 'https://github.com/astral-sh.png', createdAt: '2023-01-10T00:00:00Z' },
+      description: 'An extremely fast Python package and project manager, written in Rust.',
+      url: 'https://github.com/astral-sh/uv',
+      stargazerCount: 42100,
+      forkCount: 1450,
+      openIssues: { totalCount: 130 },
+      primaryLanguage: { name: 'Rust', color: '#dea584' },
+      repositoryTopics: { nodes: [{ topic: { name: 'python' } }, { topic: { name: 'package-manager' } }, { topic: { name: 'rust' } }] },
+      createdAt: '2024-02-01T00:00:00Z',
+      pushedAt: '2026-09-18T19:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 520,
+        starsGainedWeek: 2800,
+        starsGainedMonth: 8400,
+        sparkline: [310, 350, 390, 440, 470, 500, 520],
+      },
+    },
+    {
+      databaseId: 107,
+      nameWithOwner: 'shadcn/ui',
+      name: 'ui',
+      owner: { login: 'shadcn', avatarUrl: 'https://github.com/shadcn.png', createdAt: '2015-08-20T00:00:00Z' },
+      description: 'A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks.',
+      url: 'https://github.com/shadcn/ui',
+      stargazerCount: 89400,
+      forkCount: 7890,
+      openIssues: { totalCount: 110 },
+      primaryLanguage: { name: 'TypeScript', color: '#3178c6' },
+      repositoryTopics: { nodes: [{ topic: { name: 'react' } }, { topic: { name: 'tailwind' } }, { topic: { name: 'components' } }] },
+      createdAt: '2023-01-15T00:00:00Z',
+      pushedAt: '2026-09-18T20:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 410,
+        starsGainedWeek: 2300,
+        starsGainedMonth: 7100,
+        sparkline: [260, 290, 320, 350, 370, 390, 410],
+      },
+    },
+    {
+      databaseId: 108,
+      nameWithOwner: 'ollama/ollama',
+      name: 'ollama',
+      owner: { login: 'ollama', avatarUrl: 'https://github.com/ollama.png', createdAt: '2023-06-01T00:00:00Z' },
+      description: 'Get up and running with Llama 3.3, Mistral, Gemma 2, and other large language models locally.',
+      url: 'https://github.com/ollama/ollama',
+      stargazerCount: 112000,
+      forkCount: 9400,
+      openIssues: { totalCount: 350 },
+      primaryLanguage: { name: 'Go', color: '#00ADD8' },
+      repositoryTopics: { nodes: [{ topic: { name: 'ai' } }, { topic: { name: 'llm' } }, { topic: { name: 'local-ai' } }] },
+      createdAt: '2023-06-15T00:00:00Z',
+      pushedAt: '2026-09-18T21:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 680,
+        starsGainedWeek: 3900,
+        starsGainedMonth: 11500,
+        sparkline: [450, 490, 530, 580, 610, 640, 680],
+      },
+    },
+    {
+      databaseId: 109,
+      nameWithOwner: 'vllm-project/vllm',
+      name: 'vllm',
+      owner: { login: 'vllm-project', avatarUrl: 'https://github.com/vllm-project.png', createdAt: '2023-04-01T00:00:00Z' },
+      description: 'A high-throughput and memory-efficient inference and serving engine for LLMs with PagedAttention.',
+      url: 'https://github.com/vllm-project/vllm',
+      stargazerCount: 39500,
+      forkCount: 5200,
+      openIssues: { totalCount: 280 },
+      primaryLanguage: { name: 'Python', color: '#3572A5' },
+      repositoryTopics: { nodes: [{ topic: { name: 'inference' } }, { topic: { name: 'cuda' } }, { topic: { name: 'pagedattention' } }] },
+      createdAt: '2023-04-10T00:00:00Z',
+      pushedAt: '2026-09-18T22:00:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 290,
+        starsGainedWeek: 1600,
+        starsGainedMonth: 4800,
+        sparkline: [170, 200, 220, 250, 270, 280, 290],
+      },
+    },
+    {
+      databaseId: 110,
+      nameWithOwner: 'gemini-cli/gemini-kit',
+      name: 'gemini-kit',
+      owner: { login: 'gemini-cli', avatarUrl: 'https://github.com/google.png', createdAt: '2024-01-01T00:00:00Z' },
+      description: 'Lightweight command-line toolkit for multi-modal agent workflows and automated local development.',
+      url: 'https://github.com/gemini-cli/gemini-kit',
+      stargazerCount: 840,
+      forkCount: 42,
+      openIssues: { totalCount: 3 },
+      primaryLanguage: { name: 'Rust', color: '#dea584' },
+      repositoryTopics: { nodes: [{ topic: { name: 'cli' } }, { topic: { name: 'agent' } }, { topic: { name: 'gemini' } }] },
+      createdAt: '2026-04-01T00:00:00Z',
+      pushedAt: '2026-09-18T22:30:00Z',
+      isArchived: false,
+      isFork: false,
+      baselineMetrics: {
+        starsGainedToday: 48,
+        starsGainedWeek: 260,
+        starsGainedMonth: 720,
+        sparkline: [20, 25, 30, 38, 42, 45, 48],
+      },
+    },
+  ];
+}
+
+runEtl().catch((err) => {
+  console.error('[ETL_FATAL_ERROR]', err);
+  process.exit(1);
+});
