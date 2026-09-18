@@ -141,61 +141,69 @@ async function runEtl() {
     try {
       dbClient = await pool.connect();
       console.log('💾 Connected to PostgreSQL. Computing true deltas from snapshot history...');
+      const candidateIds = rawCandidates.map((n) => n.databaseId);
+      const allSnapsRes = await dbClient.query(
+        `SELECT repository_id, stars_count, snapshot_date::text as snapshot_date 
+         FROM repository_snapshots 
+         WHERE repository_id = ANY($1) 
+         ORDER BY snapshot_date DESC`,
+        [candidateIds]
+      );
+
+      const snapsByRepo = new Map<number, { stars_count: number; snapshot_date: string }[]>();
+      for (const row of allSnapsRes.rows) {
+        const repoId = Number(row.repository_id);
+        let list = snapsByRepo.get(repoId);
+        if (!list) {
+          list = [];
+          snapsByRepo.set(repoId, list);
+        }
+        list.push({
+          stars_count: Number(row.stars_count),
+          snapshot_date: String(row.snapshot_date).split('T')[0],
+        });
+      }
+
+      const todayStr = new Date().toISOString().split('T')[0];
+      const sevenDaysAgoDate = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+      const thirtyDaysAgoDate = new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0];
+
       for (const node of rawCandidates) {
-        const prevSnap = await dbClient.query(
-          `SELECT stars_count FROM repository_snapshots 
-           WHERE repository_id = $1 AND snapshot_date < CURRENT_DATE 
-           ORDER BY snapshot_date DESC LIMIT 1`,
-          [node.databaseId]
-        );
-        const weekSnap = await dbClient.query(
-          `SELECT stars_count FROM repository_snapshots 
-           WHERE repository_id = $1 AND snapshot_date <= CURRENT_DATE - INTERVAL '7 days' 
-           ORDER BY snapshot_date DESC LIMIT 1`,
-          [node.databaseId]
-        );
-        const monthSnap = await dbClient.query(
-          `SELECT stars_count FROM repository_snapshots 
-           WHERE repository_id = $1 AND snapshot_date <= CURRENT_DATE - INTERVAL '30 days' 
-           ORDER BY snapshot_date DESC LIMIT 1`,
-          [node.databaseId]
-        );
-        const sparkSnaps = await dbClient.query(
-          `SELECT stars_count FROM repository_snapshots 
-           WHERE repository_id = $1 
-           ORDER BY snapshot_date DESC LIMIT 7`,
-          [node.databaseId]
-        );
+        const repoSnaps = snapsByRepo.get(node.databaseId) || [];
+        const prevSnap = repoSnaps.find((s) => s.snapshot_date < todayStr);
+        const weekSnap = repoSnaps.find((s) => s.snapshot_date <= sevenDaysAgoDate);
+        const monthSnap = repoSnaps.find((s) => s.snapshot_date <= thirtyDaysAgoDate);
+        const sparkSnaps = repoSnaps.slice(0, 7);
 
         let starsGainedToday = 0;
         let starsGainedWeek = 0;
         let starsGainedMonth = 0;
         let sparkline: number[] = [];
 
-        if (prevSnap.rows.length > 0) {
-          starsGainedToday = Math.max(0, node.stargazerCount - Number(prevSnap.rows[0].stars_count));
+        if (prevSnap) {
+          starsGainedToday = Math.max(0, node.stargazerCount - prevSnap.stars_count);
         } else if (node.baselineMetrics) {
           starsGainedToday = node.baselineMetrics.starsGainedToday;
         }
 
-        if (weekSnap.rows.length > 0) {
-          starsGainedWeek = Math.max(0, node.stargazerCount - Number(weekSnap.rows[0].stars_count));
+        if (weekSnap) {
+          starsGainedWeek = Math.max(0, node.stargazerCount - weekSnap.stars_count);
         } else if (node.baselineMetrics) {
           starsGainedWeek = node.baselineMetrics.starsGainedWeek;
         } else {
           starsGainedWeek = starsGainedToday;
         }
 
-        if (monthSnap.rows.length > 0) {
-          starsGainedMonth = Math.max(0, node.stargazerCount - Number(monthSnap.rows[0].stars_count));
+        if (monthSnap) {
+          starsGainedMonth = Math.max(0, node.stargazerCount - monthSnap.stars_count);
         } else if (node.baselineMetrics) {
           starsGainedMonth = node.baselineMetrics.starsGainedMonth;
         } else {
           starsGainedMonth = starsGainedWeek;
         }
 
-        if (sparkSnaps.rows.length >= 2) {
-          sparkline = sparkSnaps.rows.map((r: any) => Number(r.stars_count)).reverse();
+        if (sparkSnaps.length >= 2) {
+          sparkline = sparkSnaps.map((r) => r.stars_count).reverse();
         } else if (node.baselineMetrics) {
           sparkline = node.baselineMetrics.sparkline;
         } else {
@@ -298,14 +306,40 @@ async function runEtl() {
       client = await pool.connect();
       await client.query('BEGIN');
 
-      for (const repo of normalizedRepos.slice(0, 500)) {
-        // Upsert master repository record
+      const reposToSave = normalizedRepos.slice(0, 500);
+      console.log(`💾 Syncing ${reposToSave.length} repositories to PostgreSQL in optimized batches...`);
+      const chunkSize = 25;
+
+      for (let i = 0; i < reposToSave.length; i += chunkSize) {
+        const chunk = reposToSave.slice(i, i + chunkSize);
+
+        // 1. Bulk upsert master repository records
+        const repoValues: any[] = [];
+        const repoPlaceholders = chunk.map((r, idx) => {
+          const offset = idx * 12;
+          repoValues.push(
+            r.id,
+            r.owner,
+            r.name,
+            r.fullName,
+            r.description,
+            r.language,
+            r.topics,
+            r.totalStars,
+            r.forksCount,
+            r.openIssuesCount,
+            r.createdAt,
+            r.pushedAt
+          );
+          return `($${offset + 1}, $${offset + 2}, $${offset + 3}, $${offset + 4}, $${offset + 5}, $${offset + 6}, $${offset + 7}, $${offset + 8}, $${offset + 9}, $${offset + 10}, $${offset + 11}, $${offset + 12}, NOW())`;
+        });
+
         await client.query(
           `INSERT INTO repositories (
               id, owner, name, full_name, description, primary_language,
               topics, total_stars, forks_count, open_issues_count,
               created_at, pushed_at, last_updated
-           ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW())
+           ) VALUES ${repoPlaceholders.join(', ')}
            ON CONFLICT (id) DO UPDATE SET
               description = EXCLUDED.description,
               primary_language = EXCLUDED.primary_language,
@@ -315,40 +349,41 @@ async function runEtl() {
               open_issues_count = EXCLUDED.open_issues_count,
               pushed_at = EXCLUDED.pushed_at,
               last_updated = NOW()`,
-          [
-            repo.id,
-            repo.owner,
-            repo.name,
-            repo.fullName,
-            repo.description,
-            repo.language,
-            repo.topics,
-            repo.totalStars,
-            repo.forksCount,
-            repo.openIssuesCount,
-            repo.createdAt,
-            repo.pushedAt,
-          ]
+          repoValues
         );
 
-        // Insert daily snapshot
+        // 2. Bulk upsert daily snapshots
+        const snapValues: any[] = [];
+        const snapPlaceholders = chunk.map((r, idx) => {
+          const offset = idx * 3;
+          snapValues.push(r.id, r.totalStars, r.forksCount);
+          return `($${offset + 1}, $${offset + 2}, $${offset + 3}, CURRENT_DATE, NOW())`;
+        });
+
         await client.query(
           `INSERT INTO repository_snapshots (
               repository_id, stars_count, forks_count, snapshot_date, recorded_at
-           ) VALUES ($1, $2, $3, CURRENT_DATE, NOW())
+           ) VALUES ${snapPlaceholders.join(', ')}
            ON CONFLICT (repository_id, snapshot_date) DO UPDATE SET
               stars_count = EXCLUDED.stars_count,
               forks_count = EXCLUDED.forks_count,
               recorded_at = NOW()`,
-          [repo.id, repo.totalStars, repo.forksCount]
+          snapValues
         );
 
-        // Upsert trending leaderboard
+        // 3. Bulk upsert trending leaderboard
+        const leaderValues: any[] = [];
+        const leaderPlaceholders = chunk.map((r, idx) => {
+          const offset = idx * 6;
+          leaderValues.push(r.id, r.starsGainedToday, r.velocityScore, r.breakoutScore, r.anomalyScore, r.anomalyStatus);
+          return `($${offset + 1}, 'daily', $${offset + 2}, $${offset + 3}, $${offset + 4}, $${offset + 5}, $${offset + 6}, NOW())`;
+        });
+
         await client.query(
           `INSERT INTO trending_leaderboard (
               repository_id, time_window, stars_gained, rank_score,
               breakout_score, anomaly_score, anomaly_status, calculated_at
-           ) VALUES ($1, 'daily', $2, $3, $4, $5, $6, NOW())
+           ) VALUES ${leaderPlaceholders.join(', ')}
            ON CONFLICT (repository_id, time_window) DO UPDATE SET
               stars_gained = EXCLUDED.stars_gained,
               rank_score = EXCLUDED.rank_score,
@@ -356,14 +391,7 @@ async function runEtl() {
               anomaly_score = EXCLUDED.anomaly_score,
               anomaly_status = EXCLUDED.anomaly_status,
               calculated_at = NOW()`,
-          [
-            repo.id,
-            repo.starsGainedToday,
-            repo.velocityScore,
-            repo.breakoutScore,
-            repo.anomalyScore,
-            repo.anomalyStatus,
-          ]
+          leaderValues
         );
       }
 
