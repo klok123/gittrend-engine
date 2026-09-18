@@ -1,4 +1,4 @@
-﻿-- ==========================================================
+-- ==========================================================
 -- 001_init_schema.sql
 -- Production DDL for GitHub Trend Engine
 -- Compatible with Neon Serverless Postgres, Supabase, & Local Postgres
