@@ -1,5 +1,6 @@
 import React from 'react';
-import { Star, GitFork, ArrowUp, AlertCircle } from 'lucide-react';
+import Link from 'next/link';
+import { Star, GitFork, ArrowUp, AlertCircle, ExternalLink, ChevronRight } from 'lucide-react';
 import { Sparkline } from './Sparkline';
 import { NormalizedTrendingRepo } from '../../scripts/run-trend-etl';
 
@@ -67,15 +68,23 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
               #{rank} {isNumberOne ? 'TRENDING' : ''}
             </span>
 
-            <a
-              href={repo.url}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={`/repo/${repo.owner}/${repo.name}`}
               className="font-bold text-slate-900 group-hover:text-[#FF7905] transition-colors break-words text-base sm:text-lg font-mono"
             >
               {repo.owner}
               <span className="text-slate-400 font-normal">/</span>
               <span className="font-extrabold text-black">{repo.name}</span>
+            </Link>
+
+            <a
+              href={repo.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Open directly on GitHub"
+              className="text-slate-400 hover:text-black transition-colors p-1 rounded hover:bg-slate-100"
+            >
+              <ExternalLink className="h-3.5 w-3.5" />
             </a>
 
             {/* Language indicator */}
@@ -159,10 +168,20 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
             </span>
           </div>
 
-          {/* Sparkline */}
-          <div className="hidden sm:flex items-center gap-2">
-            <span className="text-[10px] uppercase font-mono text-slate-400 tracking-wider">7D Trend</span>
-            <Sparkline data={repo.sparkline} color={isNumberOne ? '#FF7905' : '#10b981'} width={80} height={24} />
+          {/* Sparkline & Dossier Link */}
+          <div className="flex items-center gap-3">
+            <div className="hidden sm:flex items-center gap-2">
+              <span className="text-[10px] uppercase font-mono text-slate-400 tracking-wider">7D Trend</span>
+              <Sparkline data={repo.sparkline} color={isNumberOne ? '#FF7905' : '#10b981'} width={80} height={24} />
+            </div>
+
+            <Link
+              href={`/repo/${repo.owner}/${repo.name}`}
+              className="inline-flex items-center gap-0.5 text-xs font-mono font-bold text-slate-700 hover:text-[#FF7905] bg-slate-100 hover:bg-slate-200 px-2 py-1 rounded border border-slate-300 transition-colors"
+            >
+              <span>Dossier</span>
+              <ChevronRight className="h-3.5 w-3.5" />
+            </Link>
           </div>
         </div>
       </div>

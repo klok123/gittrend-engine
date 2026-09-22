@@ -1,10 +1,13 @@
 import { MetadataRoute } from 'next';
+import fs from 'fs';
+import path from 'path';
+import { TrendingDataset } from '../../scripts/run-trend-etl';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gittrend-engine.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://clever-volta-lac.vercel.app';
   const now = new Date();
 
-  return [
+  const coreRoutes: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}`,
       lastModified: now,
@@ -30,4 +33,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
   ];
+
+  try {
+    const dataPath = path.join(process.cwd(), 'public', 'data', 'trending-summary.json');
+    if (fs.existsSync(dataPath)) {
+      const content = fs.readFileSync(dataPath, 'utf8');
+      const dataset: TrendingDataset = JSON.parse(content);
+      const repoRoutes: MetadataRoute.Sitemap = dataset.repositories.slice(0, 100).map((r) => ({
+        url: `${baseUrl}/repo/${r.owner}/${r.name}`,
+        lastModified: now,
+        changeFrequency: 'daily',
+        priority: 0.7,
+      }));
+      return [...coreRoutes, ...repoRoutes];
+    }
+  } catch (err) {
+    console.error('[SITEMAP_ERROR] Failed to append repository routes:', err);
+  }
+
+  return coreRoutes;
 }
+
