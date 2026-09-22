@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React from 'react';
 
@@ -8,27 +8,30 @@ interface TimeFilterProps {
 }
 
 export function TimeFilter({ selected, onChange }: TimeFilterProps) {
-  const options: Array<{ id: 'today' | 'week' | 'month'; label: string }> = [
-    { id: 'today', label: 'Today' },
-    { id: 'week', label: 'This Week' },
-    { id: 'month', label: 'This Month' },
+  const options: Array<{ id: 'today' | 'week' | 'month'; label: string; sub: string }> = [
+    { id: 'today', label: 'Today', sub: '+24h' },
+    { id: 'week', label: 'This Week', sub: '+7d' },
+    { id: 'month', label: 'This Month', sub: '+30d' },
   ];
 
   return (
-    <div className="inline-flex items-center gap-1.5 p-1 bg-slate-100 border border-black/10 rounded-md">
+    <div className="inline-flex items-center gap-1 p-1 bg-[#11131F] border border-white/10 rounded-xl">
       {options.map((opt) => {
         const isActive = selected === opt.id;
         return (
           <button
             key={opt.id}
             onClick={() => onChange(opt.id)}
-            className={`px-3 py-1 text-xs sm:text-sm font-semibold rounded-md transition-all duration-150 cursor-pointer ${
+            className={`flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono rounded-lg transition-all duration-150 cursor-pointer ${
               isActive
-                ? 'bg-[#FF7905] text-black border-[1.5px] border-black shadow-[1.5px_1.5px_0_0_#000] font-bold'
-                : 'bg-transparent text-slate-600 hover:text-black hover:bg-white/60'
+                ? 'bg-[#FF7905] text-black font-extrabold shadow-[0_0_12px_rgba(255,121,5,0.3)]'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
             }`}
           >
-            {opt.label}
+            <span>{opt.label}</span>
+            <span className={`text-[10px] ${isActive ? 'text-black/70' : 'text-slate-500'}`}>
+              {opt.sub}
+            </span>
           </button>
         );
       })}

@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React from 'react';
 
@@ -18,15 +18,15 @@ export function LanguageFilter({
   return (
     <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
       {allOptions.map((lang) => {
-        const isSelected = selectedLanguage === lang;
+        const isSelected = selectedLanguage.toLowerCase() === lang.toLowerCase();
         return (
           <button
             key={lang}
             onClick={() => onSelect(lang)}
-            className={`px-3 py-1 text-xs font-semibold rounded-md whitespace-nowrap transition-all duration-150 cursor-pointer ${
+            className={`px-3 py-1.5 text-xs font-mono rounded-lg whitespace-nowrap transition-all duration-150 cursor-pointer ${
               isSelected
-                ? 'bg-black text-white border border-black shadow-[1px_1px_0_0_#FF7905]'
-                : 'bg-white text-slate-700 border border-slate-300 hover:border-black hover:bg-orange-50'
+                ? 'bg-white text-black font-extrabold shadow-[0_0_15px_rgba(255,255,255,0.2)]'
+                : 'bg-[#11131F] text-slate-400 hover:text-white border border-white/10 hover:border-white/20'
             }`}
           >
             {lang}

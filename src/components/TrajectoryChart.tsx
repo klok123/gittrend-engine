@@ -44,18 +44,18 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
   const dayLabels = ['7d ago', '6d ago', '5d ago', '4d ago', '3d ago', 'Yesterday', 'Today'];
 
   return (
-    <div className="bg-white border-2 border-black rounded-lg p-5 shadow-[3px_3px_0_0_#000]">
-      <div className="flex items-center justify-between mb-3">
+    <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 sm:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)]">
+      <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="font-mono font-bold text-base text-black flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 bg-[#FF7905] rounded-full" />
+          <h3 className="font-mono font-bold text-base text-white flex items-center gap-2">
+            <span className="inline-block w-2 h-2 bg-[#FF7905] rounded-full" />
             7-Day Star Velocity Trajectory
           </h3>
-          <p className="text-xs text-slate-500 font-sans mt-0.5">
+          <p className="text-xs text-slate-400 font-sans mt-0.5">
             Daily momentum distribution across trailing observation windows
           </p>
         </div>
-        <div className="font-mono text-xs bg-slate-100 border border-slate-300 px-2.5 py-1 rounded font-semibold text-slate-800">
+        <div className="font-mono text-xs bg-white/5 border border-white/10 px-2.5 py-1 rounded-md font-semibold text-slate-300">
           Max: <span className="text-[#FF7905]">+{maxVal}</span> / day
         </div>
       </div>
@@ -80,7 +80,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
             y1={paddingY}
             x2={width - paddingX}
             y2={paddingY}
-            stroke="#f1f5f9"
+            stroke="#1E2238"
             strokeDasharray="4 4"
           />
           <line
@@ -88,7 +88,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
             y1={paddingY + chartH / 2}
             x2={width - paddingX}
             y2={paddingY + chartH / 2}
-            stroke="#f1f5f9"
+            stroke="#1E2238"
             strokeDasharray="4 4"
           />
           <line
@@ -96,7 +96,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
             y1={height - paddingY}
             x2={width - paddingX}
             y2={height - paddingY}
-            stroke="#e2e8f0"
+            stroke="#262B46"
             strokeWidth="1.5"
           />
 
@@ -146,8 +146,8 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
                   cx={pt.x}
                   cy={pt.y}
                   r={isHovered ? 4.5 : 3}
-                  fill={isHovered ? '#FF7905' : '#000000'}
-                  stroke="#ffffff"
+                  fill={isHovered ? '#FF7905' : '#090A0F'}
+                  stroke="#FF7905"
                   strokeWidth="1.5"
                   className="transition-all duration-150 pointer-events-none"
                 />
@@ -159,7 +159,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
         {/* Hover Tooltip Overlay */}
         {hoverIndex !== null && (
           <div
-            className="absolute z-10 pointer-events-none bg-black text-white font-mono text-xs px-2.5 py-1.5 rounded shadow-lg -translate-x-1/2 -translate-y-full mb-2"
+            className="absolute z-10 pointer-events-none bg-[#181A2B] text-white font-mono text-xs px-2.5 py-1.5 rounded-lg border border-white/15 shadow-xl -translate-x-1/2 -translate-y-full mb-2"
             style={{
               left: `${(coords[hoverIndex].x / width) * 100}%`,
               top: `${(coords[hoverIndex].y / height) * 100}%`,
@@ -172,7 +172,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
       </div>
 
       {/* X-Axis Labels */}
-      <div className="flex justify-between items-center text-[10px] font-mono text-slate-500 mt-2 px-1 border-t border-slate-100 pt-2">
+      <div className="flex justify-between items-center text-[10px] font-mono text-slate-500 mt-3 px-1 border-t border-white/5 pt-2.5">
         {dayLabels.map((lbl, idx) => (
           <span
             key={idx}

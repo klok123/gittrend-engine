@@ -1,8 +1,11 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
-import { Star, GitFork, ArrowUp, AlertCircle, ExternalLink, ChevronRight } from 'lucide-react';
+import { Star, GitFork, ArrowUp, AlertCircle, ExternalLink, ChevronRight, ShieldCheck } from 'lucide-react';
 import { Sparkline } from './Sparkline';
 import { NormalizedTrendingRepo } from '../../scripts/run-trend-etl';
+import { calculateOrganicTrustScore } from '../engine/repo-intelligence';
 
 interface RepoCardProps {
   repo: NormalizedTrendingRepo;
@@ -26,27 +29,40 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
     ? `${(repo.forksCount / 1000).toFixed(1)}k`
     : repo.forksCount.toString();
 
+  // Compute organic trust grade
+  const trust = calculateOrganicTrustScore(repo);
+
+  const gradeBadgeStyles = {
+    'A+': 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
+    'A': 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
+    'B': 'bg-blue-500/10 text-blue-400 border-blue-500/30',
+    'C': 'bg-amber-500/10 text-amber-400 border-amber-500/30',
+    'F': 'bg-rose-500/10 text-rose-400 border-rose-500/30',
+  }[trust.grade];
+
   return (
     <div
-      className={`group relative flex flex-col sm:flex-row bg-white border-2 border-black rounded-md overflow-hidden transition-all duration-150 ${
+      className={`group relative flex flex-col sm:flex-row bg-[#11131F] border rounded-xl overflow-hidden transition-all duration-150 ${
         isNumberOne
-          ? 'shadow-[3px_3px_0_0_#FF7905] hover:shadow-[5px_5px_0_0_#FF7905] hover:-translate-y-0.5'
-          : 'shadow-[2px_2px_0_0_#000] hover:shadow-[4px_4px_0_0_#000] hover:-translate-y-0.5'
+          ? 'border-[#FF7905]/50 shadow-[0_4px_24px_rgba(255,121,5,0.12)] hover:border-[#FF7905] hover:shadow-[0_8px_32px_rgba(255,121,5,0.22)] hover:-translate-y-0.5'
+          : isTopThree
+          ? 'border-amber-400/30 hover:border-amber-400/60 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+          : 'border-white/10 hover:border-white/20 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
       }`}
     >
       {/* Left / Avatar Section */}
-      <div className="flex sm:flex-col items-center justify-center p-4 sm:pl-5 sm:pr-3 shrink-0 bg-slate-50/50 sm:bg-transparent border-b sm:border-b-0 sm:border-r border-slate-100">
+      <div className="flex sm:flex-col items-center justify-center p-4 sm:pl-5 sm:pr-3 shrink-0 bg-white/[0.02] sm:bg-transparent border-b sm:border-b-0 sm:border-r border-white/5">
         <img
           src={`https://github.com/${repo.owner}.png?size=112`}
           alt={`${repo.owner} avatar`}
-          width={52}
-          height={52}
+          width={50}
+          height={50}
           loading="lazy"
           decoding="async"
           referrerPolicy="no-referrer"
-          className="rounded-full bg-slate-100 border border-slate-300 h-12 w-12 object-cover"
+          className="rounded-full bg-slate-900 border border-white/10 h-12 w-12 object-cover"
         />
-        <span className="sm:hidden ml-3 font-mono font-bold text-xs bg-slate-200 px-2 py-0.5 rounded border border-slate-300">
+        <span className="sm:hidden ml-3 font-mono font-bold text-xs bg-white/10 text-white px-2 py-0.5 rounded border border-white/10">
           #{rank}
         </span>
       </div>
@@ -57,12 +73,12 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
           {/* Header Row */}
           <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
             <span
-              className={`hidden sm:inline-block text-[10px] font-extrabold uppercase px-2 py-0.5 rounded border border-black ${
+              className={`hidden sm:inline-block text-[10px] font-extrabold uppercase px-2 py-0.5 rounded border font-mono ${
                 isNumberOne
-                  ? 'bg-[#FF7905] text-black font-mono'
+                  ? 'bg-[#FF7905] text-black border-[#FF7905]'
                   : isTopThree
-                  ? 'bg-amber-300 text-black font-mono'
-                  : 'bg-slate-100 text-slate-700 font-mono'
+                  ? 'bg-amber-400/20 text-amber-300 border-amber-400/40'
+                  : 'bg-white/5 text-slate-300 border-white/10'
               }`}
             >
               #{rank} {isNumberOne ? 'TRENDING' : ''}
@@ -70,11 +86,11 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
 
             <Link
               href={`/repo/${repo.owner}/${repo.name}`}
-              className="font-bold text-slate-900 group-hover:text-[#FF7905] transition-colors break-words text-base sm:text-lg font-mono"
+              className="font-bold text-white group-hover:text-[#FF7905] transition-colors break-words text-base sm:text-lg font-mono tracking-tight"
             >
               {repo.owner}
-              <span className="text-slate-400 font-normal">/</span>
-              <span className="font-extrabold text-black">{repo.name}</span>
+              <span className="text-slate-500 font-normal"> / </span>
+              <span className="font-extrabold text-white">{repo.name}</span>
             </Link>
 
             <a
@@ -82,42 +98,51 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               title="Open directly on GitHub"
-              className="text-slate-400 hover:text-black transition-colors p-1 rounded hover:bg-slate-100"
+              className="text-slate-500 hover:text-white transition-colors p-1 rounded hover:bg-white/5"
             >
               <ExternalLink className="h-3.5 w-3.5" />
             </a>
 
             {/* Language indicator */}
-            <span className="text-xs text-slate-600 flex items-center gap-1.5 font-medium ml-auto sm:ml-0">
+            <span className="text-xs text-slate-400 flex items-center gap-1.5 font-medium ml-auto sm:ml-0 font-mono">
               <span
-                className="h-2.5 w-2.5 rounded-full border border-black/20"
+                className="h-2 w-2 rounded-full border border-black/40"
                 style={{ backgroundColor: repo.languageColor || '#888' }}
               />
               {repo.language}
             </span>
 
+            {/* Trust Grade Badge */}
+            <span
+              className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded border flex items-center gap-1 ${gradeBadgeStyles}`}
+              title={`Organic Trust Score: ${trust.score}/100. ${trust.summary}`}
+            >
+              <ShieldCheck className="h-3 w-3" />
+              <span>GRADE {trust.grade}</span>
+            </span>
+
             {/* Badges: Rising or Gem */}
             {repo.isRising && (
-              <span className="text-[10px] font-bold bg-amber-100 text-amber-900 border border-black px-1.5 py-0.5 rounded">
+              <span className="text-[10px] font-mono font-bold bg-amber-500/10 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded">
                 ⚡ RISING
               </span>
             )}
             {repo.isHiddenGem && (
-              <span className="text-[10px] font-bold bg-purple-100 text-purple-900 border border-black px-1.5 py-0.5 rounded">
+              <span className="text-[10px] font-mono font-bold bg-purple-500/10 text-purple-300 border border-purple-500/30 px-1.5 py-0.5 rounded">
                 💎 GEM
               </span>
             )}
             {repo.anomalyStatus === 'ANOMALOUS SIGNAL' && (
               <span
-                className="text-[10px] font-bold bg-rose-100 text-rose-800 border border-rose-400 px-1.5 py-0.5 rounded flex items-center gap-1"
+                className="text-[10px] font-mono font-bold bg-rose-500/10 text-rose-300 border border-rose-500/30 px-1.5 py-0.5 rounded flex items-center gap-1"
                 title={`Flagged as anomalous: ${repo.anomalyFlags.join(', ')}`}
               >
-                <AlertCircle className="h-3 w-3 text-rose-600" /> Anomalous Surge
+                <AlertCircle className="h-3 w-3 text-rose-400" /> Anomalous Surge
               </span>
             )}
             {repo.anomalyStatus === 'REVIEW' && (
               <span
-                className="text-[10px] font-semibold bg-amber-50 text-amber-800 border border-amber-300 px-1.5 py-0.5 rounded flex items-center gap-1"
+                className="text-[10px] font-mono font-semibold bg-amber-500/10 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded flex items-center gap-1"
                 title="Recent star surge is currently under verification"
               >
                 <AlertCircle className="h-3 w-3" /> Under Review
@@ -126,7 +151,7 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
           </div>
 
           {/* Description */}
-          <p className="text-slate-600 mt-2 text-sm leading-relaxed line-clamp-2">
+          <p className="text-slate-300 mt-2 text-sm leading-relaxed line-clamp-2 font-sans">
             {repo.description}
           </p>
 
@@ -136,9 +161,9 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
               {repo.topics.slice(0, 5).map((topic) => (
                 <span
                   key={topic}
-                  className="inline-flex items-center gap-1 text-[11px] text-slate-500 font-mono bg-slate-50 border border-slate-200 px-1.5 py-0.5 rounded"
+                  className="inline-flex items-center gap-1 text-[11px] text-slate-400 font-mono bg-[#181A2B] border border-white/5 px-2 py-0.5 rounded"
                 >
-                  <span className="text-slate-400">◇</span>
+                  <span className="text-slate-500">#</span>
                   {topic}
                 </span>
               ))}
@@ -147,22 +172,22 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
         </div>
 
         {/* Bottom Metrics Bar */}
-        <div className="flex items-center justify-between gap-4 mt-4 pt-3 border-t border-slate-100 flex-wrap">
-          <div className="flex items-center gap-4 text-xs font-semibold text-slate-600 flex-wrap">
+        <div className="flex items-center justify-between gap-4 mt-4 pt-3 border-t border-white/5 flex-wrap">
+          <div className="flex items-center gap-4 text-xs font-semibold text-slate-400 flex-wrap font-mono">
             {/* Stars */}
-            <span className="flex items-center gap-1 font-bold text-slate-900 font-mono">
-              <Star className="h-4 w-4 text-amber-500 fill-amber-400" />
+            <span className="flex items-center gap-1 font-bold text-white tabular-nums">
+              <Star className="h-4 w-4 text-[#FF7905] fill-[#FF7905]" />
               {formattedStars}
             </span>
 
             {/* Forks */}
-            <span className="flex items-center gap-1 text-slate-500 font-mono">
-              <GitFork className="h-3.5 w-3.5 text-slate-400" />
+            <span className="flex items-center gap-1 text-slate-400 tabular-nums">
+              <GitFork className="h-3.5 w-3.5 text-slate-500" />
               {formattedForks}
             </span>
 
             {/* Velocity Delta */}
-            <span className="flex items-center gap-1 text-emerald-700 font-bold bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded text-xs font-mono">
+            <span className="flex items-center gap-1 text-emerald-400 font-bold bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded text-xs tabular-nums">
               <ArrowUp className="h-3.5 w-3.5" />
               {deltaDisplay}
             </span>
@@ -171,13 +196,13 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
           {/* Sparkline & Dossier Link */}
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex items-center gap-2">
-              <span className="text-[10px] uppercase font-mono text-slate-400 tracking-wider">7D Trend</span>
+              <span className="text-[10px] uppercase font-mono text-slate-500 tracking-wider">7D Trend</span>
               <Sparkline data={repo.sparkline} color={isNumberOne ? '#FF7905' : '#10b981'} width={80} height={24} />
             </div>
 
             <Link
               href={`/repo/${repo.owner}/${repo.name}`}
-              className="inline-flex items-center gap-0.5 text-xs font-mono font-bold text-slate-700 hover:text-[#FF7905] bg-slate-100 hover:bg-slate-200 px-2 py-1 rounded border border-slate-300 transition-colors"
+              className="inline-flex items-center gap-1 text-xs font-mono font-bold text-white hover:text-black bg-[#181A2B] hover:bg-[#FF7905] px-2.5 py-1 rounded-md border border-white/10 hover:border-[#FF7905] transition-all cursor-pointer"
             >
               <span>Dossier</span>
               <ChevronRight className="h-3.5 w-3.5" />
