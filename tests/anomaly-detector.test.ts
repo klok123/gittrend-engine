@@ -57,4 +57,41 @@ describe('Anomaly & Suspicious Growth Scoring', () => {
     assert.ok(res.score >= 0.65, 'Bot surge with 2 forks must exceed 0.65');
     assert.ok(res.flags.includes('MASSIVE_UNVERIFIED_STAR_SURGE'));
   });
+
+  it('does NOT nuke a legit viral launch as ANOMALOUS SIGNAL', () => {
+    // The #7 false-positive: 700 stars/24h, 2 forks, brand-new owner —
+    // but a real human-written description + curated topics. Previously
+    // scored 0.80 (V1+V2 double-counted the same fork-star signal) and was
+    // excluded site-wide. Now the fork-star vectors dedupe and legitimacy
+    // signals discount it to REVIEW.
+    const res = AnomalyDetector.evaluate({
+      starsGained24h: 700,
+      totalStars: 1200,
+      forksCount: 2,
+      issuesCount: 6,
+      ownerCreatedAt: new Date(Date.now() - 1000 * 60 * 60 * 24), // 24h old
+      lastPushedAt: new Date(Date.now() - 1000 * 60 * 60 * 5), // 5h ago
+      hasRealDescription: true,
+      topicCount: 3,
+    });
+    assert.notStrictEqual(res.status, 'ANOMALOUS SIGNAL');
+    assert.ok(res.score < 0.65, `Score must stay under 0.65, got ${res.score}`);
+    assert.strictEqual(res.status, 'REVIEW');
+  });
+
+  it('keeps a suspicious-but-unproven surge at REVIEW without legitimacy signals', () => {
+    const res = AnomalyDetector.evaluate({
+      starsGained24h: 700,
+      totalStars: 1200,
+      forksCount: 2,
+      issuesCount: 0,
+      ownerCreatedAt: new Date(Date.now() - 1000 * 60 * 60 * 24),
+      lastPushedAt: new Date(Date.now() - 1000 * 60 * 60 * 5),
+      hasRealDescription: false,
+      topicCount: 0,
+    });
+    // 0.35 (fork-star, deduped) + 0.20 (new owner) = 0.55 -> REVIEW:
+    // suspicious, but without the massive-surge vector it stays reviewable.
+    assert.strictEqual(res.status, 'REVIEW');
+  });
 });

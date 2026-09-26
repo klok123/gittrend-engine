@@ -35,6 +35,10 @@ export interface SimilarRepo {
   sharedTopics: string[];
 }
 
+function isKnownLanguage(lang: string | undefined | null): boolean {
+  return !!lang && lang.toLowerCase() !== 'unknown';
+}
+
 function sharedTopics(a: NormalizedTrendingRepo, b: NormalizedTrendingRepo): string[] {
   const aTopics = new Set((a.topics || []).map((t) => t.toLowerCase()));
   return (b.topics || []).filter((t) => aTopics.has(t.toLowerCase()));
@@ -52,10 +56,12 @@ export function similarityScore(
 ): { score: number; sharedTopics: string[] } {
   const shared = sharedTopics(target, candidate);
   const topicPoints = 4 * Math.min(shared.length, 5);
+  // No bonus for sharing 'Unknown' — two repos with undetected languages
+  // have nothing meaningful in common.
   const languageBonus =
-    target.language &&
-    candidate.language &&
-    target.language.toLowerCase() === candidate.language.toLowerCase()
+    isKnownLanguage(target.language) &&
+    isKnownLanguage(candidate.language) &&
+    target.language!.toLowerCase() === candidate.language!.toLowerCase()
       ? 3
       : 0;
   const magnitudePenalty = 2 * starMagnitudeDistance(target.totalStars, candidate.totalStars);
@@ -90,9 +96,9 @@ export function findSimilarRepos(
     all,
     (t, c, shared) =>
       shared.length >= 1 &&
-      !!t.language &&
-      !!c.language &&
-      t.language.toLowerCase() === c.language.toLowerCase(),
+      isKnownLanguage(t.language) &&
+      isKnownLanguage(c.language) &&
+      t.language!.toLowerCase() === c.language!.toLowerCase(),
     limit
   );
 }
@@ -116,12 +122,13 @@ export function findLanguagePeers(
   all: NormalizedTrendingRepo[],
   limit = 6
 ): SimilarRepo[] {
-  if (!target.language) return [];
+  // 'Unknown' is not a language — "More in Unknown" would be nonsense.
+  if (!isKnownLanguage(target.language)) return [];
   return rankCandidates(
     target,
     all,
     (t, c) =>
-      !!c.language && t.language.toLowerCase() === c.language.toLowerCase(),
+      isKnownLanguage(c.language) && t.language!.toLowerCase() === c.language!.toLowerCase(),
     limit
   );
 }
