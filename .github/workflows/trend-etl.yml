@@ -46,10 +46,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/trending-summary.json
+          git add public/data/trending-summary.json public/data/archive/
           BRANCH_NAME="${GITHUB_REF_NAME:-main}"
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore(data): auto-update trending-summary.json [skip ci]"
+            git commit -m "chore(data): auto-update trending dataset + archive snapshot [skip ci]"
             git pull --rebase origin "$BRANCH_NAME" || true
             git push origin HEAD:"$BRANCH_NAME" || echo "Push skipped or branch protected"
           fi
