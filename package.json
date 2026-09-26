@@ -9,7 +9,7 @@
     "lint": "eslint",
     "etl": "tsx scripts/run-trend-etl.ts",
     "migrate": "tsx scripts/migrate.ts",
-    "test": "tsx --test tests/ranking-invariants.test.ts tests/rate-governor.test.ts tests/anomaly-detector.test.ts tests/hidden-gems-regression.test.ts tests/repo-intelligence.test.ts tests/ai-filter.test.ts"
+    "test": "tsx --test tests/ranking-invariants.test.ts tests/rate-governor.test.ts tests/anomaly-detector.test.ts tests/hidden-gems-regression.test.ts tests/repo-intelligence.test.ts tests/ai-filter.test.ts tests/compare.test.ts"
   },
   "dependencies": {
     "lucide-react": "^1.47.0",
