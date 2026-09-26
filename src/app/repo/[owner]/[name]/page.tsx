@@ -78,13 +78,13 @@ export async function generateMetadata({ params }: RepoPageProps): Promise<Metad
   const match = findRepo(owner, name);
   if (!match) {
     return {
-      title: `${owner}/${name} | GitTrend Dossier`,
+      title: `${owner}/${name} | RepoPicks Dossier`,
       description: `Intelligence dossier and star momentum analysis for ${owner}/${name}.`,
     };
   }
 
   const { repo, rank } = match;
-  const title = `${repo.fullName} (#${rank}) - Star Velocity & Growth Dossier | GitTrend`;
+  const title = `${repo.fullName} (#${rank}) - Star Velocity & Growth Dossier | RepoPicks`;
   const description = `${repo.fullName} intelligence report: ${repo.totalStars.toLocaleString()} stars (+${repo.starsGainedToday} today), Organic Trust Score, momentum trajectory, and open-source maintenance audit.`;
 
   return {
