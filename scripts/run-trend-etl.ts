@@ -4,6 +4,7 @@ import { GitHubGraphQLClient, RawRepoNode } from '../src/engine/graphql-client';
 import { VelocityLogStrategy, GravityDecayStrategy, BreakoutStrategy, isHiddenGem, isVerifiedHiddenGem, isVerifiedRising } from '../src/engine/ranking';
 import { AnomalyDetector } from '../src/engine/anomaly';
 import { getDbPool, isDatabaseConfigured } from '../src/lib/db';
+import { LANGUAGES_TO_TRACK } from '../src/lib/languages';
 
 export interface NormalizedTrendingRepo {
   id: number;
@@ -46,18 +47,153 @@ export interface TrendingDataset {
   anomalousCount: number;
 }
 
-const LANGUAGES_TO_TRACK = [
-  'TypeScript',
-  'Python',
-  'Rust',
-  'Go',
-  'JavaScript',
-  'C++',
-  'Java',
-  'Swift',
-  'Kotlin',
-  'C#',
-];
+export interface ArchiveDayFile {
+  date: string; // YYYY-MM-DD (UTC)
+  updatedAt: string;
+  dataSource: 'LIVE_GITHUB_INGESTION' | 'DB_BACKFILL' | 'DETERMINISTIC_DEVELOPMENT_BASELINE';
+  totalRepos: number;
+  repositories: NormalizedTrendingRepo[];
+}
+
+export function archivePathForDate(dateStr: string): string {
+  const [y, m, d] = dateStr.split('-');
+  return path.join(process.cwd(), 'public', 'data', 'archive', y, m, `${d}.json`);
+}
+
+export function utcDateString(d: Date = new Date()): string {
+  return d.toISOString().slice(0, 10);
+}
+
+/**
+ * Writes (idempotently) today's archive snapshot:
+ * public/data/archive/YYYY/MM/DD.json — top 100 repos by velocity.
+ * Same-day ETL runs overwrite the file. Zero manual input.
+ */
+export function writeDailyArchiveSnapshot(
+  normalizedRepos: NormalizedTrendingRepo[],
+  liveDataSource: ArchiveDayFile['dataSource'] = 'LIVE_GITHUB_INGESTION'
+): void {
+  const dateStr = utcDateString();
+  const ranked = [...normalizedRepos]
+    .filter((r) => r.anomalyStatus !== 'ANOMALOUS SIGNAL')
+    .sort((a, b) => b.velocityScore - a.velocityScore)
+    .slice(0, 100);
+
+  const file: ArchiveDayFile = {
+    date: dateStr,
+    updatedAt: new Date().toISOString(),
+    dataSource: liveDataSource,
+    totalRepos: ranked.length,
+    repositories: ranked,
+  };
+
+  const outPath = archivePathForDate(dateStr);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, JSON.stringify(file), 'utf8');
+  console.log(`🗄️  Archive snapshot written: public/data/archive/${dateStr.replace(/-/g, '/')}.json (${ranked.length} repos)`);
+}
+
+/**
+ * Backfills archive files for past days from the Postgres velocity history
+ * (repository_snapshots joined with repositories). Only writes dates that do
+ * not already have an archive file. Runs inside the ETL where DATABASE_URL
+ * is configured; guarded and non-fatal so it never breaks the 6h pipeline.
+ */
+export async function backfillArchiveFromDb(): Promise<void> {
+  const pool = getDbPool();
+  if (!pool) {
+    console.log('🗄️  Archive backfill skipped: DATABASE_URL not configured.');
+    return;
+  }
+
+  const client = await pool.connect();
+  try {
+    const { rows: dateRows } = await client.query(
+      `SELECT DISTINCT snapshot_date FROM repository_snapshots
+       WHERE snapshot_date >= CURRENT_DATE - INTERVAL '90 days'
+       ORDER BY snapshot_date DESC`
+    );
+
+    let backfilled = 0;
+    for (const { snapshot_date } of dateRows) {
+      const dateStr =
+        snapshot_date instanceof Date
+          ? snapshot_date.toISOString().slice(0, 10)
+          : String(snapshot_date).slice(0, 10);
+      const outPath = archivePathForDate(dateStr);
+      if (fs.existsSync(outPath)) continue; // idempotent — never overwrite
+
+      const { rows } = await client.query(
+        `SELECT r.id, r.owner, r.name, r.full_name, r.description,
+                r.primary_language, r.topics, r.open_issues_count,
+                r.created_at, r.pushed_at,
+                s.stars_count, s.forks_count,
+                COALESCE(s.stars_count - prev.stars_count, 0) AS stars_gained
+         FROM repository_snapshots s
+         JOIN repositories r ON r.id = s.repository_id
+         LEFT JOIN repository_snapshots prev
+           ON prev.repository_id = s.repository_id
+          AND prev.snapshot_date = s.snapshot_date - INTERVAL '1 day'
+         WHERE s.snapshot_date = $1
+         ORDER BY s.stars_count DESC
+         LIMIT 100`,
+        [dateStr]
+      );
+
+      if (rows.length === 0) continue;
+
+      const repositories: NormalizedTrendingRepo[] = rows.map((row: any) => ({
+        id: Number(row.id),
+        owner: row.owner,
+        name: row.name,
+        fullName: row.full_name,
+        description: row.description || '',
+        url: `https://github.com/${row.full_name}`,
+        language: row.primary_language || 'Unknown',
+        languageColor: '',
+        topics: Array.isArray(row.topics) ? row.topics : [],
+        totalStars: Number(row.stars_count),
+        forksCount: Number(row.forks_count),
+        openIssuesCount: Number(row.open_issues_count || 0),
+        starsGainedToday: Math.max(0, Number(row.stars_gained || 0)),
+        starsGainedWeek: 0,
+        starsGainedMonth: 0,
+        velocityScore: Math.max(0, Number(row.stars_gained || 0)),
+        breakoutScore: 0,
+        isRising: false,
+        isHiddenGem: false,
+        anomalyScore: 0,
+        anomalyStatus: 'NORMAL' as const,
+        anomalyFlags: [],
+        isFork: false,
+        sparkline: [],
+        createdAt: row.created_at ? new Date(row.created_at).toISOString() : '',
+        pushedAt: row.pushed_at ? new Date(row.pushed_at).toISOString() : '',
+      }));
+
+      const file: ArchiveDayFile = {
+        date: dateStr,
+        updatedAt: new Date().toISOString(),
+        dataSource: 'DB_BACKFILL',
+        totalRepos: repositories.length,
+        repositories,
+      };
+
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, JSON.stringify(file), 'utf8');
+      backfilled++;
+      console.log(`🗄️  Backfilled archive for ${dateStr} (${repositories.length} repos)`);
+    }
+
+    console.log(
+      backfilled === 0
+        ? '🗄️  Archive backfill: nothing to do (all recent dates already archived).'
+        : `🗄️  Archive backfill complete: ${backfilled} day(s) backfilled.`
+    );
+  } finally {
+    client.release();
+  }
+}
 
 async function runEtl() {
   const startTime = Date.now();
@@ -427,6 +563,26 @@ async function runEtl() {
   fs.writeFileSync(outputPath, JSON.stringify(outputDataset, null, 2), 'utf8');
   console.log(`📦 Compiled static dataset to: ${outputPath}`);
 
+  // Daily archive snapshot (Gap #3): idempotent per-day file at
+  // public/data/archive/YYYY/MM/DD.json. Same-day ETL runs overwrite it.
+  // Fully automatic — no manual input. Powers /archive pages.
+  try {
+    writeDailyArchiveSnapshot(normalizedRepos, dataSource);
+  } catch (archiveErr: any) {
+    console.error('❌ Archive snapshot failed (non-fatal):', archiveErr?.message || archiveErr);
+  }
+
+  // Backfill archive files for past days from Postgres velocity history
+  // (repository_snapshots). Runs only when DATABASE_URL is configured
+  // (i.e. inside the GitHub Actions ETL, not local builds). Non-fatal.
+  if (isDatabaseConfigured()) {
+    try {
+      await backfillArchiveFromDb();
+    } catch (backfillErr: any) {
+      console.error('❌ Archive backfill failed (non-fatal):', backfillErr?.message || backfillErr);
+    }
+  }
+
   // Automated "Picks of the Day" + RSS feed (zero manual input)
   try {
     const { generateDailyPicks } = await import('./generate-picks');
@@ -443,7 +599,7 @@ async function runEtl() {
       const { execSync } = await import('child_process');
       const git = (args: string) =>
         execSync(`git ${args}`, { cwd: process.cwd(), stdio: 'pipe' }).toString().trim();
-      git('add public/data/picks.json public/picks.xml');
+      git('add public/data/picks.json public/picks.xml public/data/archive');
       let staged = false;
       try {
         git('diff --staged --quiet');
@@ -453,10 +609,10 @@ async function runEtl() {
       if (staged) {
         git(
           '-c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" ' +
-            'commit -m "chore(data): auto-update picks + RSS [skip ci]"'
+            'commit -m "chore(data): auto-update picks + RSS + archive [skip ci]"'
         );
         git('push');
-        console.log('📌 Committed + pushed auto picks and RSS feed');
+        console.log('📌 Committed + pushed auto picks, RSS feed and archive snapshots');
       } else {
         console.log('📌 Picks unchanged — nothing to commit');
       }
