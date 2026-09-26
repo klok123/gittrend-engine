@@ -5,6 +5,27 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { TrendingUp, Compass, Sparkles, Gem, BookOpen, Search, Menu, X } from 'lucide-react';
 
+function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="16"
+      height="16"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+}
+
 function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
@@ -54,10 +75,10 @@ export function Header({ onOpenSearch }: HeaderProps) {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg text-white tracking-tight font-mono leading-none">
-                GitTrend
+                RepoPicks
               </span>
               <span className="text-[10px] font-mono text-slate-400 leading-none mt-1">
-                Radar v2.0
+                Handpicked daily
               </span>
             </div>
           </Link>
@@ -98,6 +119,16 @@ export function Header({ onOpenSearch }: HeaderProps) {
                 </kbd>
               </button>
             )}
+
+            <a
+              href="https://www.instagram.com/repopicks"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#FF7905]/10 hover:bg-[#FF7905]/20 text-orange-200 hover:text-white border border-[#FF7905]/30 rounded-lg text-xs font-mono transition-colors"
+            >
+              <InstagramIcon className="h-4 w-4" />
+              <span className="hidden sm:inline">Follow @repopicks</span>
+            </a>
 
             <a
               href="https://github.com/klok123/gittrend-engine"
