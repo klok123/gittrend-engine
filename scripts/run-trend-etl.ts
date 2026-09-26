@@ -393,6 +393,9 @@ async function runEtl() {
       description: node.description || undefined,
     });
 
+    const topics = node.repositoryTopics?.nodes?.map((n) => n.topic.name) || [];
+    const hasRealDescription = !!node.description?.trim();
+
     const anomalyEval = AnomalyDetector.evaluate({
       starsGained24h: starsGainedToday,
       totalStars: node.stargazerCount,
@@ -400,9 +403,9 @@ async function runEtl() {
       issuesCount: node.openIssues?.totalCount || 0,
       ownerCreatedAt: node.owner.createdAt,
       lastPushedAt: node.pushedAt,
+      hasRealDescription,
+      topicCount: topics.length,
     });
-
-    const topics = node.repositoryTopics?.nodes?.map((n) => n.topic.name) || [];
 
     return {
       id: node.databaseId,
@@ -411,8 +414,8 @@ async function runEtl() {
       fullName: node.nameWithOwner,
       description: node.description || 'Open-source software repository with active community momentum.',
       url: node.url,
-      language: node.primaryLanguage?.name || 'TypeScript',
-      languageColor: node.primaryLanguage?.color || '#3178c6',
+      language: node.primaryLanguage?.name || 'Unknown',
+      languageColor: node.primaryLanguage?.color || '#9CA3AF',
       topics: topics.slice(0, 5),
       totalStars: node.stargazerCount,
       forksCount: node.forkCount,
