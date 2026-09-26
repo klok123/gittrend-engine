@@ -32,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${baseUrl}/submit`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
   ];
 
   try {

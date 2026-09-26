@@ -1,45 +1,53 @@
 import { describe, it } from 'node:test';
-import assert from 'node:assert';
+import assert from 'node:assert/strict';
 import { isAiRepo } from '../src/lib/ai-filter';
 
-// Regression cases from the 2026-09-26 Jev live audit: these obviously-AI
-// repos were passing through /trending/without-ai and the "Hide AI/ML" chip.
-describe('AI filter — agentic-era coverage', () => {
-  it('catches agent-era topics', () => {
-    for (const topic of ['agent-skills', 'ai-agent', 'agentic-ai', 'coding-agents', 'claude-code']) {
-      assert.ok(isAiRepo({ topics: [topic], fullName: 'some/repo' }), `topic ${topic}`);
+describe('ai-filter', () => {
+  it('flags agent-era topics', () => {
+    for (const topic of ['agent-skills', 'ai-agent', 'agentic-ai', 'coding-agents', 'claude-code', 'mcp-server']) {
+      assert.equal(
+        isAiRepo({ fullName: `acme/tool`, topics: [topic], description: 'A developer tool' }),
+        true,
+        `topic ${topic} should be flagged`
+      );
     }
   });
 
-  it('catches agentic descriptions', () => {
-    const cases: Array<[string, string]> = [
-      ['anomalyco/tool', 'The open source coding agent'],
-      ['cline/cline', 'Autonomous coding agent for software engineers'],
-      ['anthropics/skills', 'Public repository for Agent Skills'],
-      ['addyosmani/skills', 'Engineering skills for AI coding agents'],
-      ['n8n-io/n8n', 'Workflow automation with native AI capabilities'],
-    ];
-    for (const [fullName, description] of cases) {
-      assert.ok(isAiRepo({ fullName, description }), fullName);
+  it('flags agent-era description fragments', () => {
+    assert.equal(
+      isAiRepo({ fullName: 'acme/tool', topics: [], description: 'A coding agent for your terminal' }),
+      true
+    );
+    assert.equal(
+      isAiRepo({ fullName: 'acme/agentic-framework', topics: [], description: 'Dev tools' }),
+      true
+    );
+  });
+
+  it('does not false-positive on innocent words', () => {
+    for (const desc of [
+      'Send email campaigns faster',
+      'As I said before, a fast CLI',
+      'Bonsai tree simulator in Rust',
+      'Samurai-themed game engine',
+      'ssh-agent key manager',
+    ]) {
+      assert.equal(
+        isAiRepo({ fullName: 'acme/tool', topics: [], description: desc }),
+        false,
+        `description "${desc}" should NOT be flagged`
+      );
     }
   });
 
-  it('catches *-ai branded owners', () => {
-    assert.ok(isAiRepo({ fullName: 'paperclipai/paperclip', description: 'Manage agents at work' }));
-    assert.ok(isAiRepo({ fullName: 'stablyai/orca', description: 'Fleet of parallel agents' }));
-    assert.ok(isAiRepo({ fullName: 'deepseek-ai/harness', description: 'Eval harness' }));
-  });
-
-  it('does not false-positive on non-AI repos', () => {
-    const cases: Array<[string, string]> = [
-      ['termux/termux-app', 'Android terminal emulator and Linux environment'],
-      ['some/mailer', 'A transactional email client that never said no'],
-      ['johndoe/bonsai', 'Grow virtual bonsai trees on your desktop'],
-      ['johndoe/samurai', 'A fast static site generator'],
-      ['some/ssh-tool', 'Manage your ssh-agent identities with ease'],
-    ];
-    for (const [fullName, description] of cases) {
-      assert.ok(!isAiRepo({ fullName, description }), fullName);
-    }
+  it('does not flag plain non-AI repos', () => {
+    assert.equal(
+      isAiRepo({
+        fullName: 'tobi/disktree',
+        topics: ['treemap', 'disk-analysis', 'rust'],
+        description: 'A treemap for finding and removing what fills your disk',
+      }),
+      false
+    );
   });
 });

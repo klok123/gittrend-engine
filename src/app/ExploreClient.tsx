@@ -12,6 +12,7 @@ import { SearchModal } from '../components/SearchModal';
 import { PlatformTelemetry } from '../components/PlatformTelemetry';
 import { BentoBreakouts } from '../components/BentoBreakouts';
 import { PicksOfTheDay, DailyPick } from '../components/PicksOfTheDay';
+import { CommunityPicks } from '../components/CommunityPicks';
 import { NewsletterSignup } from '../components/NewsletterSignup';
 import { TrendingDataset } from '../../scripts/run-trend-etl';
 import { isAiRepo } from '../lib/ai-filter';
@@ -105,6 +106,14 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
 
         {/* Curated Picks of the Day (handpicked by @repopicks) */}
         <PicksOfTheDay picks={picks} updated={picksUpdated} />
+
+        {/* Community Picks (maintainer submissions via /submit, anomaly-cleared) */}
+        <CommunityPicks
+          picks={initialData.repositories
+            .filter((r) => r.isCommunitySubmission && r.anomalyStatus !== 'ANOMALOUS SIGNAL')
+            .sort((a, b) => b.totalStars - a.totalStars)
+            .slice(0, 5)}
+        />
 
         {/* Newsletter Signup */}
         <NewsletterSignup />

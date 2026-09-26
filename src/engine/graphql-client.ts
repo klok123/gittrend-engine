@@ -51,22 +51,7 @@ export interface GraphQLBatchResponse {
   };
 }
 
-const GQL_QUERY = `
-query IngestTrendingBatch($searchQuery: String!, $cursor: String, $batchSize: Int!) {
-  rateLimit {
-    limit
-    cost
-    remaining
-    resetAt
-  }
-  search(query: $searchQuery, type: REPOSITORY, first: $batchSize, after: $cursor) {
-    repositoryCount
-    pageInfo {
-      hasNextPage
-      endCursor
-    }
-    nodes {
-      ... on Repository {
+const REPO_FIELDS = `
         databaseId
         nameWithOwner
         name
@@ -102,8 +87,39 @@ query IngestTrendingBatch($searchQuery: String!, $cursor: String, $batchSize: In
         pushedAt
         isArchived
         isFork
+`;
+
+const GQL_QUERY = `
+query IngestTrendingBatch($searchQuery: String!, $cursor: String, $batchSize: Int!) {
+  rateLimit {
+    limit
+    cost
+    remaining
+    resetAt
+  }
+  search(query: $searchQuery, type: REPOSITORY, first: $batchSize, after: $cursor) {
+    repositoryCount
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+    nodes {
+      ... on Repository {${REPO_FIELDS}
       }
     }
+  }
+}
+`;
+
+const GQL_SINGLE_REPO_QUERY = `
+query FetchSingleRepo($owner: String!, $name: String!) {
+  rateLimit {
+    limit
+    cost
+    remaining
+    resetAt
+  }
+  repository(owner: $owner, name: $name) {${REPO_FIELDS}
   }
 }
 `;
@@ -166,6 +182,52 @@ export class GitHubGraphQLClient {
         headers: res.headers,
       };
     });
+  }
+
+  /**
+   * Fetch a single repository by owner/name (used for community submissions).
+   * Returns null when the repository does not exist or is not visible.
+   */
+  public async fetchSingleRepo(
+    owner: string,
+    name: string
+  ): Promise<{ repo: RawRepoNode | null; rateLimit?: RateLimitState }> {
+    if (!this.hasToken()) {
+      throw new Error('[GITHUB_CLIENT] GITHUB_TOKEN is required to execute GraphQL queries.');
+    }
+
+    // Single-repo lookups are rare (one per submission issue), so they bypass
+    // the batch rate-limit governor and use a direct fetch instead.
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${this.token}`,
+        'Content-Type': 'application/json',
+        'User-Agent': 'GitHubTrendEngine/1.0',
+      },
+      body: JSON.stringify({
+        query: GQL_SINGLE_REPO_QUERY,
+        variables: { owner, name },
+      }),
+    });
+
+    if (!res.ok) {
+      const errorText = await res.text();
+      const err: any = new Error(`GitHub API HTTP ${res.status}: ${errorText}`);
+      err.status = res.status;
+      err.response = res;
+      throw err;
+    }
+
+    const json = await res.json();
+    if (json.errors && json.errors.length > 0) {
+      // NOT_FOUND for a deleted/renamed repo is not fatal — treat as missing
+      const notFound = json.errors.some((e: any) => e.type === 'NOT_FOUND');
+      if (notFound) return { repo: null, rateLimit: json.data?.rateLimit };
+      throw new Error(`[GRAPHQL_ERROR] ${json.errors.map((e: any) => e.message).join(', ')}`);
+    }
+
+    return { repo: (json.data?.repository as RawRepoNode) || null, rateLimit: json.data?.rateLimit };
   }
 
   /**
