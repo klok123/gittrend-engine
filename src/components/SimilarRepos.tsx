@@ -9,39 +9,64 @@ interface SimilarReposProps {
   all: NormalizedTrendingRepo[];
 }
 
-function MiniRow({ item, rank }: { item: SimilarRepo; rank: number }) {
+function MiniRow({
+  item,
+  rank,
+  compareWith,
+}: {
+  item: SimilarRepo;
+  rank: number;
+  /** When set, shows a head-to-head compare shortcut against this repo. */
+  compareWith?: NormalizedTrendingRepo;
+}) {
   const { repo, sharedTopics } = item;
+  const compareHref =
+    compareWith && compareWith.fullName.toLowerCase() !== repo.fullName.toLowerCase()
+      ? `/compare/${compareWith.owner}/${compareWith.name}/vs/${repo.owner}/${repo.name}`
+      : null;
   return (
-    <Link
-      href={`/repo/${repo.owner}/${repo.name}`}
-      className="flex items-start gap-3 p-3 rounded-lg bg-[#181A2B] border border-white/5 hover:border-[#FF7905]/40 hover:bg-[#1d2033] transition-all group"
-    >
-      <span className="font-mono text-[10px] font-bold text-slate-500 mt-0.5 w-5 shrink-0">
-        {rank}
-      </span>
-      <div className="min-w-0 flex-1">
-        <div className="font-mono text-sm font-bold text-white group-hover:text-[#FF7905] transition-colors truncate">
-          {repo.owner}
-          <span className="text-slate-500 font-normal"> / </span>
-          {repo.name}
+    <div className="relative">
+      <Link
+        href={`/repo/${repo.owner}/${repo.name}`}
+        className={`flex items-start gap-3 p-3 rounded-lg bg-[#181A2B] border border-white/5 hover:border-[#FF7905]/40 hover:bg-[#1d2033] transition-all group ${compareHref ? 'pr-10' : ''}`}
+      >
+        <span className="font-mono text-[10px] font-bold text-slate-500 mt-0.5 w-5 shrink-0">
+          {rank}
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="font-mono text-sm font-bold text-white group-hover:text-[#FF7905] transition-colors truncate">
+            {repo.owner}
+            <span className="text-slate-500 font-normal"> / </span>
+            {repo.name}
+          </div>
+          <p className="text-xs text-slate-400 truncate mt-0.5 font-sans">
+            {repo.description || 'No description provided.'}
+          </p>
+          <div className="flex items-center gap-3 mt-1.5 text-[11px] font-mono text-slate-500">
+            <span className="inline-flex items-center gap-1 text-slate-300">
+              <Star className="h-3 w-3 text-[#FF7905]" />
+              {repo.totalStars.toLocaleString()}
+            </span>
+            <span className="inline-flex items-center gap-1 text-emerald-400">
+              <ArrowUp className="h-3 w-3" />+{repo.starsGainedToday}
+            </span>
+            {sharedTopics.length > 0 && (
+              <span className="truncate text-slate-500">#{sharedTopics.slice(0, 3).join(' #')}</span>
+            )}
+          </div>
         </div>
-        <p className="text-xs text-slate-400 truncate mt-0.5 font-sans">
-          {repo.description || 'No description provided.'}
-        </p>
-        <div className="flex items-center gap-3 mt-1.5 text-[11px] font-mono text-slate-500">
-          <span className="inline-flex items-center gap-1 text-slate-300">
-            <Star className="h-3 w-3 text-[#FF7905]" />
-            {repo.totalStars.toLocaleString()}
-          </span>
-          <span className="inline-flex items-center gap-1 text-emerald-400">
-            <ArrowUp className="h-3 w-3" />+{repo.starsGainedToday}
-          </span>
-          {sharedTopics.length > 0 && (
-            <span className="truncate text-slate-500">#{sharedTopics.slice(0, 3).join(' #')}</span>
-          )}
-        </div>
-      </div>
-    </Link>
+      </Link>
+      {compareHref && (
+        <Link
+          href={compareHref}
+          title="Compare head-to-head"
+          aria-label={`Compare ${compareWith!.fullName} vs ${repo.fullName}`}
+          className="absolute right-2 top-1/2 -translate-y-1/2 p-1.5 rounded-md text-slate-500 hover:text-[#FF7905] hover:bg-white/5 transition-colors"
+        >
+          <GitCompareArrows className="h-4 w-4" />
+        </Link>
+      )}
+    </div>
   );
 }
 
@@ -76,7 +101,7 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
             </p>
             <div className="space-y-2">
               {similar.map((item, i) => (
-                <MiniRow key={item.repo.id} item={item} rank={i + 1} />
+                <MiniRow key={item.repo.id} item={item} rank={i + 1} compareWith={current} />
               ))}
             </div>
           </div>
@@ -96,7 +121,7 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
             </p>
             <div className="space-y-2">
               {peers.map((item, i) => (
-                <MiniRow key={item.repo.id} item={item} rank={i + 1} />
+                <MiniRow key={item.repo.id} item={item} rank={i + 1} compareWith={current} />
               ))}
             </div>
           </div>
@@ -113,7 +138,7 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
             </p>
             <div className="space-y-2">
               {alternatives.map((item, i) => (
-                <MiniRow key={item.repo.id} item={item} rank={i + 1} />
+                <MiniRow key={item.repo.id} item={item} rank={i + 1} compareWith={current} />
               ))}
             </div>
           </div>
