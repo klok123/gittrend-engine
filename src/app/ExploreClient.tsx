@@ -14,6 +14,7 @@ import { BentoBreakouts } from '../components/BentoBreakouts';
 import { PicksOfTheDay, DailyPick } from '../components/PicksOfTheDay';
 import { NewsletterSignup } from '../components/NewsletterSignup';
 import { TrendingDataset } from '../../scripts/run-trend-etl';
+import { isAiRepo } from '../lib/ai-filter';
 
 interface ExploreClientProps {
   initialData: TrendingDataset;
@@ -25,11 +26,16 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
   const [timeWindow, setTimeWindow] = useState<'today' | 'week' | 'month'>('today');
   const [selectedLanguage, setSelectedLanguage] = useState('All');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [hideAi, setHideAi] = useState(false);
 
-  // Filter and sort repositories based on language, anomaly status, and timeWindow
+  // Filter and sort repositories based on language, AI exclusion, anomaly status, and timeWindow
   const filteredRepos = useMemo(() => {
     // Exclude anomalous signals from default trending feed per methodology
     let list = initialData.repositories.filter((r) => r.anomalyStatus !== 'ANOMALOUS SIGNAL');
+
+    if (hideAi) {
+      list = list.filter((r) => !isAiRepo(r));
+    }
 
     if (selectedLanguage !== 'All') {
       list = list.filter((r) => r.language.toLowerCase() === selectedLanguage.toLowerCase());
@@ -46,7 +52,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
     }
 
     return sorted;
-  }, [initialData.repositories, selectedLanguage, timeWindow]);
+  }, [initialData.repositories, selectedLanguage, timeWindow, hideAi]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
@@ -102,7 +108,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
               </span>
             </div>
             <p className="text-xs text-slate-500 mt-1 font-mono">
-              {timeWindow === 'today' && 'Ranked by Momentum-Log: (stars gained)² ÷ ln(total stars + 10)'}
+              {timeWindow === 'today' && 'Ranked by star momentum — what is rising right now, not all-time fame'}
               {timeWindow === 'week' && 'Ranked by 7-day cumulative star velocity'}
               {timeWindow === 'month' && 'Ranked by 30-day cumulative star velocity'}
               {' · '}
@@ -114,6 +120,27 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
 
           <div className="flex items-center gap-3 flex-wrap">
             <TimeFilter selected={timeWindow} onChange={setTimeWindow} />
+
+            {/* AI/ML exclusion chip — client-side heuristic filter */}
+            <button
+              onClick={() => setHideAi((v) => !v)}
+              title="Hide AI/ML repositories from the feed"
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
+                hideAi
+                  ? 'bg-sky-400/15 text-sky-300 border-sky-400/40 font-bold'
+                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${hideAi ? 'bg-sky-400' : 'bg-slate-500'}`}></span>
+              Hide AI/ML
+            </button>
+
+            <Link
+              href="/trending/without-ai"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono text-slate-400 hover:text-sky-300 transition-colors"
+            >
+              <span className="underline underline-offset-2">AI-free feed →</span>
+            </Link>
 
             <div className="hidden sm:flex items-center gap-2">
               <Link
