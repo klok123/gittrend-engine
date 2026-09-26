@@ -10,7 +10,7 @@ import { RepoCard } from '../../components/RepoCard';
 import { Sparkles, ArrowUpRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Rising GitHub Repositories | GitTrend',
+  title: 'Rising GitHub Repositories | RepoPicks',
   description: 'Fastest-accelerating GitHub repositories by proportional growth and velocity momentum.',
 };
 
