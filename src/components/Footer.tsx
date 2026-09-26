@@ -66,6 +66,13 @@ export function Footer() {
               <span>Contact</span>
             </a>
             <Link
+              href="/newsletter"
+              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+            >
+              <Mail className="h-3.5 w-3.5 text-[#FF7905]" />
+              <span>Newsletter</span>
+            </Link>
+            <Link
               href="/methodology"
               className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
             >
