@@ -435,6 +435,36 @@ async function runEtl() {
     console.error('❌ Picks generation failed (non-fatal):', pickErr?.message || pickErr);
   }
 
+  // Self-commit the generated picks + RSS so they reach the repo.
+  // (The workflow's commit step only stages trending-summary.json, and the
+  // workflow file itself is intentionally left untouched.)
+  if (process.env.GITHUB_ACTIONS === 'true') {
+    try {
+      const { execSync } = await import('child_process');
+      const git = (args: string) =>
+        execSync(`git ${args}`, { cwd: process.cwd(), stdio: 'pipe' }).toString().trim();
+      git('add public/data/picks.json public/picks.xml');
+      let staged = false;
+      try {
+        git('diff --staged --quiet');
+      } catch {
+        staged = true; // non-zero exit = there are staged changes
+      }
+      if (staged) {
+        git(
+          '-c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" ' +
+            'commit -m "chore(data): auto-update picks + RSS [skip ci]"'
+        );
+        git('push');
+        console.log('📌 Committed + pushed auto picks and RSS feed');
+      } else {
+        console.log('📌 Picks unchanged — nothing to commit');
+      }
+    } catch (gitErr: any) {
+      console.error('❌ Picks self-commit failed (non-fatal):', gitErr?.message || gitErr);
+    }
+  }
+
   if (pool) {
     try {
       await pool.end();
