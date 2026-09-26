@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck, Mail, Megaphone } from 'lucide-react';
+import { LANGUAGES_TO_TRACK, languageSlug } from '../lib/languages';
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -96,6 +97,25 @@ export function Footer() {
 
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-xs font-mono text-slate-500">
           Ranked purely by verified star velocity. 0 sponsored biases. Unaffiliated with GitHub Inc.
+        </div>
+
+        {/* Per-language RSS feeds */}
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] font-mono text-slate-600">
+          <span className="inline-flex items-center gap-1.5 text-slate-500">
+            <Rss className="h-3 w-3 text-amber-400" />
+            RSS by language:
+          </span>
+          {LANGUAGES_TO_TRACK.map((lang) => (
+            <a
+              key={lang}
+              href={`/rss/${languageSlug(lang)}.xml`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#FF7905] transition-colors"
+            >
+              {lang}
+            </a>
+          ))}
         </div>
       </div>
     </footer>

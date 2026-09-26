@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { TrendingUp, Compass, Sparkles, Gem, BookOpen, Search, Menu, X } from 'lucide-react';
+import { TrendingUp, Compass, Sparkles, Gem, BookOpen, Search, Menu, X, Zap, Archive } from 'lucide-react';
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -57,6 +57,8 @@ export function Header({ onOpenSearch }: HeaderProps) {
   const navItems = [
     { href: '/', label: 'Explore', icon: Compass },
     { href: '/rising', label: 'Rising Stars', icon: Sparkles },
+    { href: '/breakouts', label: 'Breakouts', icon: Zap },
+    { href: '/archive', label: 'Archive', icon: Archive },
     { href: '/hidden-gems', label: 'Hidden Gems', icon: Gem },
     { href: '/methodology', label: 'Methodology', icon: BookOpen },
   ];

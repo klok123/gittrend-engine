@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { LANGUAGES_TO_TRACK, languageSlug } from "../lib/languages";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +22,17 @@ export const metadata: Metadata = {
   description: 'RepoPicks — trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
   keywords: ['github trending', 'trending repositories', 'open source', 'star velocity', 'developer tools', 'repopicks'],
   authors: [{ name: 'RepoPicks' }],
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        { url: '/feed.xml', title: 'RepoPicks — Daily Trending' },
+        ...LANGUAGES_TO_TRACK.map((lang) => ({
+          url: `/rss/${languageSlug(lang)}.xml`,
+          title: `RepoPicks — Trending ${lang}`,
+        })),
+      ],
+    },
+  },
   openGraph: {
     title: 'RepoPicks | Trending open-source, handpicked daily',
     description: 'Trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
