@@ -15,6 +15,7 @@ import { PicksOfTheDay, DailyPick } from '../components/PicksOfTheDay';
 import { NewsletterSignup } from '../components/NewsletterSignup';
 import { TrendingDataset } from '../../scripts/run-trend-etl';
 import { isAiRepo } from '../lib/ai-filter';
+import { isActivelyMaintained } from '../lib/health';
 
 interface ExploreClientProps {
   initialData: TrendingDataset;
@@ -27,14 +28,27 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
   const [selectedLanguage, setSelectedLanguage] = useState('All');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [hideAi, setHideAi] = useState(false);
+  const [maintainedOnly, setMaintainedOnly] = useState(false);
+  const [hideSuspicious, setHideSuspicious] = useState(false);
 
-  // Filter and sort repositories based on language, AI exclusion, anomaly status, and timeWindow
+  // Filter and sort repositories based on language, AI exclusion, maintenance
+  // health, anomaly status, and timeWindow
   const filteredRepos = useMemo(() => {
     // Exclude anomalous signals from default trending feed per methodology
     let list = initialData.repositories.filter((r) => r.anomalyStatus !== 'ANOMALOUS SIGNAL');
 
     if (hideAi) {
       list = list.filter((r) => !isAiRepo(r));
+    }
+
+    if (maintainedOnly) {
+      list = list.filter(isActivelyMaintained);
+    }
+
+    if (hideSuspicious) {
+      // "Hide suspicious": also drop anything under verification — show only
+      // repos with a clean NORMAL anomaly status.
+      list = list.filter((r) => r.anomalyStatus === 'NORMAL');
     }
 
     if (selectedLanguage !== 'All') {
@@ -52,7 +66,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
     }
 
     return sorted;
-  }, [initialData.repositories, selectedLanguage, timeWindow, hideAi]);
+  }, [initialData.repositories, selectedLanguage, timeWindow, hideAi, maintainedOnly, hideSuspicious]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
@@ -133,6 +147,34 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
             >
               <span className={`w-2 h-2 rounded-full ${hideAi ? 'bg-sky-400' : 'bg-slate-500'}`}></span>
               Hide AI/ML
+            </button>
+
+            {/* Actively maintained chip — pushed within last 30 days */}
+            <button
+              onClick={() => setMaintainedOnly((v) => !v)}
+              title="Show only repositories pushed in the last 30 days"
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
+                maintainedOnly
+                  ? 'bg-emerald-400/15 text-emerald-300 border-emerald-400/40 font-bold'
+                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${maintainedOnly ? 'bg-emerald-400' : 'bg-slate-500'}`}></span>
+              Actively maintained
+            </button>
+
+            {/* Hide suspicious toggle — drops anything under anomaly verification */}
+            <button
+              onClick={() => setHideSuspicious((v) => !v)}
+              title="Hide repositories with unusual star activity under verification. Flags are automated statistical signals, not accusations."
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
+                hideSuspicious
+                  ? 'bg-rose-400/15 text-rose-300 border-rose-400/40 font-bold'
+                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${hideSuspicious ? 'bg-rose-400' : 'bg-slate-500'}`}></span>
+              Hide suspicious
             </button>
 
             <Link

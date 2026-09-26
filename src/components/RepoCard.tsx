@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Star, GitFork, ArrowUp, AlertCircle, ExternalLink, ChevronRight, ShieldCheck } from 'lucide-react';
 import { Sparkline } from './Sparkline';
+import { HealthDot } from './HealthDot';
 import { NormalizedTrendingRepo } from '../../scripts/run-trend-etl';
 import { calculateOrganicTrustScore } from '../engine/repo-intelligence';
 
@@ -112,14 +113,17 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
               {repo.language}
             </span>
 
-            {/* Trust Grade Badge */}
+            {/* Trust Grade Badge (the "Legit score" — automated organic-growth estimate) */}
             <span
               className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded border flex items-center gap-1 ${gradeBadgeStyles}`}
-              title={`Organic Trust Score: ${trust.score}/100. ${trust.summary}`}
+              title={`Legit score: ${trust.score}/100 — automated estimate of organic star growth. Unusual patterns are flagged for review, never treated as proof of wrongdoing. ${trust.summary}`}
             >
               <ShieldCheck className="h-3 w-3" />
               <span>GRADE {trust.grade}</span>
             </span>
+
+            {/* Maintenance health dot */}
+            <HealthDot repo={repo} />
 
             {/* Badges: Rising or Gem */}
             {repo.isRising && (
@@ -135,15 +139,15 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
             {repo.anomalyStatus === 'ANOMALOUS SIGNAL' && (
               <span
                 className="text-[10px] font-mono font-bold bg-rose-500/10 text-rose-300 border border-rose-500/30 px-1.5 py-0.5 rounded flex items-center gap-1"
-                title={`Flagged as anomalous: ${repo.anomalyFlags.join(', ')}`}
+                title={`Unusual star activity detected (${repo.anomalyFlags.join(', ')}). This is an automated statistical signal under review — not an accusation of wrongdoing.`}
               >
-                <AlertCircle className="h-3 w-3 text-rose-400" /> Anomalous Surge
+                <AlertCircle className="h-3 w-3 text-rose-400" /> Unusual activity
               </span>
             )}
             {repo.anomalyStatus === 'REVIEW' && (
               <span
                 className="text-[10px] font-mono font-semibold bg-amber-500/10 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded flex items-center gap-1"
-                title="Recent star surge is currently under verification"
+                title="Recent star surge is under verification. Automated signal — not an accusation."
               >
                 <AlertCircle className="h-3 w-3" /> Under Review
               </span>

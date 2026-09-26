@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Mail, ArrowUpRight } from 'lucide-react';
 import { NEWSLETTER_URL, INSTAGRAM_URL } from '../siteConfig';
 
@@ -55,6 +56,11 @@ export function NewsletterSignup() {
               meanwhile.
             </p>
           )}
+          <p className="mt-3 text-[11px] font-mono text-slate-500">
+            <Link href="/newsletter" className="text-[#FF7905] hover:underline">
+              What&apos;s inside each email →
+            </Link>
+          </p>
         </div>
       </div>
     </section>
