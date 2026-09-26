@@ -23,6 +23,7 @@ import { Footer } from '../../../../components/Footer';
 import { TrajectoryChart } from '../../../../components/TrajectoryChart';
 import { TrustScoreGauge } from '../../../../components/TrustScoreGauge';
 import { BadgeModal } from '../../../../components/BadgeModal';
+import { SimilarRepos } from '../../../../components/SimilarRepos';
 import {
   calculateOrganicTrustScore,
   calculateGrowthAcceleration,
@@ -56,8 +57,11 @@ function getDataset(): TrendingDataset {
   };
 }
 
-function findRepo(owner: string, name: string): { repo: NormalizedTrendingRepo; rank: number } | null {
-  const dataset = getDataset();
+function findRepo(
+  dataset: TrendingDataset,
+  owner: string,
+  name: string
+): { repo: NormalizedTrendingRepo; rank: number } | null {
   const target = `${owner}/${name}`.toLowerCase();
   const idx = dataset.repositories.findIndex((r) => r.fullName.toLowerCase() === target);
   if (idx === -1) return null;
@@ -75,7 +79,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: RepoPageProps): Promise<Metadata> {
   const { owner, name } = await params;
-  const match = findRepo(owner, name);
+  const match = findRepo(getDataset(), owner, name);
   if (!match) {
     return {
       title: `${owner}/${name} | RepoPicks Dossier`,
@@ -111,7 +115,8 @@ export async function generateMetadata({ params }: RepoPageProps): Promise<Metad
 
 export default async function RepoDossierPage({ params }: RepoPageProps) {
   const { owner, name } = await params;
-  const match = findRepo(owner, name);
+  const dataset = getDataset();
+  const match = findRepo(dataset, owner, name);
 
   if (!match) {
     notFound();
@@ -397,6 +402,8 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
             </div>
           </div>
         </div>
+        {/* Similar repos & open-source alternatives (algorithmic, topic-based) */}
+        <SimilarRepos current={repo} all={dataset.repositories} />
       </main>
 
       <Footer />
