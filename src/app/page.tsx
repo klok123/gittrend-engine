@@ -4,14 +4,15 @@ import path from 'path';
 import { Metadata } from 'next';
 import { TrendingDataset } from '../../scripts/run-trend-etl';
 import { ExploreClient } from './ExploreClient';
+import { DailyPick } from '../components/PicksOfTheDay';
 
 export const metadata: Metadata = {
-  title: 'Trending GitHub Repositories Today | GitTrend',
-  description: 'Discover trending GitHub repositories, track rising open source projects, and explore developer tools ranked by true star velocity — updated daily.',
+  title: 'Trending GitHub Repositories Today | RepoPicks',
+  description: 'RepoPicks — trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
   keywords: ['github trending', 'trending repositories', 'open source', 'star velocity', 'developer tools'],
   openGraph: {
-    title: 'Trending GitHub Repositories Today | GitTrend',
-    description: 'Discover trending GitHub repositories, track rising open source projects, and explore developer tools ranked by true star velocity — updated daily.',
+    title: 'Trending GitHub Repositories Today | RepoPicks',
+    description: 'RepoPicks — trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
     type: 'website',
   },
 };
@@ -43,6 +44,7 @@ function getTrendingData(): TrendingDataset {
 
 export default function HomePage() {
   const initialData = getTrendingData();
+  const { picks, picksUpdated } = getDailyPicks();
 
   // JSON-LD ItemList Schema for SEO
   const jsonLd = {
@@ -63,7 +65,22 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <ExploreClient initialData={initialData} />
+      <ExploreClient initialData={initialData} picks={picks} picksUpdated={picksUpdated} />
     </>
   );
+}
+
+/** Curated picks live in public/data/picks.json — editable without touching code. */
+function getDailyPicks(): { picks: DailyPick[]; picksUpdated?: string } {
+  try {
+    const picksPath = path.join(process.cwd(), 'public', 'data', 'picks.json');
+    if (fs.existsSync(picksPath)) {
+      const parsed = JSON.parse(fs.readFileSync(picksPath, 'utf8'));
+      const picks = Array.isArray(parsed.picks) ? parsed.picks : [];
+      return { picks, picksUpdated: parsed.generatedAt };
+    }
+  } catch (err) {
+    console.error('[PAGE_LOAD_ERROR] Failed to read picks.json:', err);
+  }
+  return { picks: [] };
 }
