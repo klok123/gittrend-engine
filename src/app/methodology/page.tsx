@@ -5,7 +5,7 @@ import { Footer } from '../../components/Footer';
 import { BookOpen, ShieldCheck, Cpu, Code2, Award, Activity } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Ranking Methodology & Mathematical Models | GitTrend',
+  title: 'Ranking Methodology & Mathematical Models | RepoPicks',
   description: 'Complete transparent documentation of star velocity scoring, candidate models, and anomaly heuristics.',
 };
 
