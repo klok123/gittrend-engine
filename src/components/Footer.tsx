@@ -1,6 +1,27 @@
 import React from 'react';
 import Link from 'next/link';
-import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck } from 'lucide-react';
+import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck, Mail, Megaphone } from 'lucide-react';
+
+function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="14"
+      height="14"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+}
 
 export function Footer() {
   return (
@@ -12,14 +33,37 @@ export function Footer() {
               <TrendingUp className="h-5 w-5 stroke-[2.5]" />
             </div>
             <div>
-              <span className="font-extrabold text-base text-white font-mono">GitTrend Radar</span>
+              <span className="font-extrabold text-base text-white font-mono">RepoPicks</span>
               <p className="text-xs text-slate-400 mt-0.5 max-w-md leading-relaxed">
-                Algorithmic GitHub trend discovery, star-velocity vectors, and organic trust auditing. Built on $0 creator budget.
+                Trending open-source, handpicked daily. Star-velocity radar plus human curation by @repopicks.
               </p>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center gap-5 text-xs font-mono text-slate-400">
+            <a
+              href="https://www.instagram.com/repopicks"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+            >
+              <InstagramIcon className="h-3.5 w-3.5 text-[#FF7905]" />
+              <span>@repopicks</span>
+            </a>
+            <a
+              href="mailto:hello@repopicks.dev?subject=Advertising%20on%20RepoPicks"
+              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+            >
+              <Megaphone className="h-3.5 w-3.5 text-[#FF7905]" />
+              <span>Advertise with us</span>
+            </a>
+            <a
+              href="mailto:hello@repopicks.dev"
+              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+            >
+              <Mail className="h-3.5 w-3.5 text-slate-400" />
+              <span>Contact</span>
+            </a>
             <Link
               href="/methodology"
               className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
