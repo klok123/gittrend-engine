@@ -9,7 +9,7 @@ interface TimeFilterProps {
 
 export function TimeFilter({ selected, onChange }: TimeFilterProps) {
   const options: Array<{ id: 'today' | 'week' | 'month'; label: string; sub: string }> = [
-    { id: 'today', label: 'Today', sub: '+24h' },
+    { id: 'today', label: 'Rising now', sub: '+24h' },
     { id: 'week', label: 'This Week', sub: '+7d' },
     { id: 'month', label: 'This Month', sub: '+30d' },
   ];
