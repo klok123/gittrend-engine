@@ -11,13 +11,17 @@ import { LanguageFilter } from '../components/LanguageFilter';
 import { SearchModal } from '../components/SearchModal';
 import { PlatformTelemetry } from '../components/PlatformTelemetry';
 import { BentoBreakouts } from '../components/BentoBreakouts';
+import { PicksOfTheDay, DailyPick } from '../components/PicksOfTheDay';
+import { NewsletterSignup } from '../components/NewsletterSignup';
 import { TrendingDataset } from '../../scripts/run-trend-etl';
 
 interface ExploreClientProps {
   initialData: TrendingDataset;
+  picks?: DailyPick[];
+  picksUpdated?: string;
 }
 
-export function ExploreClient({ initialData }: ExploreClientProps) {
+export function ExploreClient({ initialData, picks = [], picksUpdated }: ExploreClientProps) {
   const [timeWindow, setTimeWindow] = useState<'today' | 'week' | 'month'>('today');
   const [selectedLanguage, setSelectedLanguage] = useState('All');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -67,17 +71,23 @@ export function ExploreClient({ initialData }: ExploreClientProps) {
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight font-mono max-w-4xl">
-            GitHub Trend Intelligence <br className="hidden sm:inline" />
-            <span className="text-[#FF7905]">without the Bot Star Fraud.</span>
+            Trending open-source, <br className="hidden sm:inline" />
+            <span className="text-[#FF7905]">handpicked daily.</span>
           </h1>
 
           <p className="text-slate-400 text-sm sm:text-base mt-3 max-w-2xl leading-relaxed font-sans">
-            Real-time star velocity calculations, community fork dispersion auditing, and authentic hidden gem discovery across 10 top languages.
+            Real-time star velocity tracking plus human curation by <a href="https://www.instagram.com/repopicks" target="_blank" rel="noopener noreferrer" className="text-[#FF7905] hover:underline">@repopicks</a> — the day&apos;s biggest open-source movers, fraud-audited.
           </p>
         </section>
 
         {/* Bento Grid: Featured Breakouts */}
         <BentoBreakouts repositories={initialData.repositories} />
+
+        {/* Curated Picks of the Day (handpicked by @repopicks) */}
+        <PicksOfTheDay picks={picks} updated={picksUpdated} />
+
+        {/* Newsletter Signup */}
+        <NewsletterSignup />
 
         {/* Control Bar: Feed Header, TimeFilter, LanguageFilter */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5 pt-6 border-t border-white/10">
