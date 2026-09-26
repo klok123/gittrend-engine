@@ -1,0 +1,45 @@
+name: Weekly Digest
+
+# Fully automated weekly newsletter. Independent of the 6h trend ETL —
+# this workflow only READS public/data/trending-summary.json and can never
+# break the data pipeline.
+#
+# One-time owner setup: add the BUTTONDOWN_API_KEY repository secret
+# (Settings → Secrets and variables → Actions). Until then the script logs
+# a clear line and exits 0 — the run stays green.
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * MON'
+  workflow_dispatch: # Allow manual test-run from the GitHub UI
+
+concurrency:
+  group: repopicks-weekly-digest
+  cancel-in-progress: false
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compose and send digest
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+        run: npx tsx scripts/send-weekly-digest.ts
