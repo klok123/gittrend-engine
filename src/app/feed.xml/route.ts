@@ -28,12 +28,12 @@ export async function GET() {
     </item>`)
     .join('');
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gittrend-engine.vercel.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://clever-volta-lac.vercel.app';
 
   const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>GitTrend — Daily Trending GitHub Repositories</title>
+    <title>RepoPicks — Daily Trending GitHub Repositories</title>
     <link>${siteUrl}</link>
     <description>Daily trending GitHub repositories ranked by star momentum and velocity.</description>
     <language>en-us</language>
