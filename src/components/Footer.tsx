@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck, Mail, Megaphone } from 'lucide-react';
+import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck, Mail, Megaphone, Rocket } from 'lucide-react';
 import { LANGUAGES_TO_TRACK, languageSlug } from '../lib/languages';
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -71,6 +71,13 @@ export function Footer() {
             >
               <Mail className="h-3.5 w-3.5 text-[#FF7905]" />
               <span>Newsletter</span>
+            </Link>
+            <Link
+              href="/submit"
+              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+            >
+              <Rocket className="h-3.5 w-3.5 text-emerald-400" />
+              <span>Submit a project</span>
             </Link>
             <Link
               href="/methodology"

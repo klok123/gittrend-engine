@@ -5,6 +5,7 @@ import { VelocityLogStrategy, GravityDecayStrategy, BreakoutStrategy, isHiddenGe
 import { AnomalyDetector } from '../src/engine/anomaly';
 import { getDbPool, isDatabaseConfigured } from '../src/lib/db';
 import { LANGUAGES_TO_TRACK } from '../src/lib/languages';
+import { fetchCommunitySubmissions, resolveSubmissionIssue } from './lib/submission-intake';
 
 export interface NormalizedTrendingRepo {
   id: number;
@@ -33,6 +34,7 @@ export interface NormalizedTrendingRepo {
   sparkline: number[]; // 7 data points representing weekly momentum curve
   createdAt: string;
   pushedAt: string;
+  isCommunitySubmission?: boolean; // true when the repo arrived via the /submit intake
 }
 
 export interface TrendingDataset {
@@ -259,6 +261,26 @@ async function runEtl() {
 
   console.log(`\n📊 Total unique repositories to score & rank: ${rawCandidates.length}`);
 
+  // Community submissions (/submit page -> `submission` issues) join the same pipeline
+  const submissionIssueByRepoId = new Map<number, number>();
+  if (client.hasToken() && !isBaselineSeed) {
+    try {
+      const submissions = await fetchCommunitySubmissions(client);
+      for (const sub of submissions) {
+        if (!rawCandidateMap.has(sub.node.databaseId)) {
+          rawCandidateMap.set(sub.node.databaseId, sub.node);
+          rawCandidates.push(sub.node);
+        }
+        submissionIssueByRepoId.set(sub.node.databaseId, sub.issueNumber);
+      }
+      if (submissions.length > 0) {
+        console.log(`[SUBMISSIONS] +${submissions.length} verified community repositories added to the pool.`);
+      }
+    } catch (e: any) {
+      console.warn(`[SUBMISSIONS] Intake failed (non-fatal): ${e.message}`);
+    }
+  }
+
   // Ranking & Anomaly Scoring
   const velocityLogStrategy = new VelocityLogStrategy();
   const breakoutStrategy = new BreakoutStrategy();
@@ -434,11 +456,23 @@ async function runEtl() {
       sparkline,
       createdAt: node.createdAt,
       pushedAt: node.pushedAt,
+      isCommunitySubmission: (node as any).isCommunitySubmission ?? false,
     };
   });
 
   // Sort by velocity score descending
   normalizedRepos.sort((a, b) => b.velocityScore - a.velocityScore);
+
+  // Resolve community submission issues now that the anomaly gate has decided
+  if (submissionIssueByRepoId.size > 0) {
+    for (const repo of normalizedRepos) {
+      const issueNumber = submissionIssueByRepoId.get(repo.id);
+      if (issueNumber === undefined || !repo.isCommunitySubmission) continue;
+      const featured = repo.anomalyStatus !== 'ANOMALOUS SIGNAL';
+      await resolveSubmissionIssue(issueNumber, featured, repo.fullName);
+      submissionIssueByRepoId.delete(repo.id);
+    }
+  }
 
   // Database persistence (if DATABASE_URL is configured)
   if (pool) {
