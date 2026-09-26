@@ -28,6 +28,7 @@ export interface NormalizedTrendingRepo {
   anomalyScore: number;
   anomalyStatus: 'NORMAL' | 'REVIEW' | 'ANOMALOUS SIGNAL';
   anomalyFlags: string[];
+  isFork?: boolean;
   sparkline: number[]; // 7 data points representing weekly momentum curve
   createdAt: string;
   pushedAt: string;
@@ -290,6 +291,7 @@ async function runEtl() {
       anomalyScore: anomalyEval.score,
       anomalyStatus: anomalyEval.status,
       anomalyFlags: anomalyEval.flags,
+      isFork: node.isFork ?? false,
       sparkline,
       createdAt: node.createdAt,
       pushedAt: node.pushedAt,
@@ -424,6 +426,14 @@ async function runEtl() {
   const outputPath = path.join(process.cwd(), 'public', 'data', 'trending-summary.json');
   fs.writeFileSync(outputPath, JSON.stringify(outputDataset, null, 2), 'utf8');
   console.log(`📦 Compiled static dataset to: ${outputPath}`);
+
+  // Automated "Picks of the Day" + RSS feed (zero manual input)
+  try {
+    const { generateDailyPicks } = await import('./generate-picks');
+    generateDailyPicks(outputDataset);
+  } catch (pickErr: any) {
+    console.error('❌ Picks generation failed (non-fatal):', pickErr?.message || pickErr);
+  }
 
   if (pool) {
     try {
