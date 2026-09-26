@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T15:25:17.742Z",
+  "generatedAt": "2026-09-26T20:24:25.077Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 86347,
-      "starsGainedToday": 1731
+      "totalStars": 86955,
+      "starsGainedToday": 2339
     },
     {
       "owner": "robbietilton",
@@ -22,8 +22,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 5704,
-      "starsGainedToday": 867
+      "totalStars": 5741,
+      "starsGainedToday": 904
     },
     {
       "owner": "deepseek-ai",
@@ -38,8 +38,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 236673,
-      "starsGainedToday": 718
+      "totalStars": 236785,
+      "starsGainedToday": 830
     },
     {
       "owner": "nextlevelbuilder",
@@ -55,8 +55,8 @@
         "command-line"
       ],
       "language": "Python",
-      "totalStars": 130777,
-      "starsGainedToday": 661
+      "totalStars": 130819,
+      "starsGainedToday": 703
     },
     {
       "owner": "stablyai",
@@ -72,8 +72,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 78731,
-      "starsGainedToday": 511
+      "totalStars": 78843,
+      "starsGainedToday": 623
     }
   ]
 }
