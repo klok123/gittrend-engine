@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gittrend-engine.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://clever-volta-lac.vercel.app'),
   title: {
-    default: 'GitTrend | Production-Grade GitHub Repository Discovery & Star Velocity Analytics',
-    template: '%s | GitTrend',
+    default: 'RepoPicks | Trending open-source, handpicked daily',
+    template: '%s | RepoPicks',
   },
-  description: 'Discover trending GitHub repositories, track breakout open source projects, and explore developer tools ranked by true star velocity momentum.',
-  keywords: ['github trending', 'trending repositories', 'open source', 'star velocity', 'developer tools', 'github analytics'],
-  authors: [{ name: 'GitTrend Engine Team' }],
+  description: 'RepoPicks — trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
+  keywords: ['github trending', 'trending repositories', 'open source', 'star velocity', 'developer tools', 'repopicks'],
+  authors: [{ name: 'RepoPicks' }],
   openGraph: {
-    title: 'GitTrend | Production-Grade GitHub Repository Discovery & Star Velocity Analytics',
-    description: 'Discover trending GitHub repositories, track breakout open source projects, and explore developer tools ranked by true star velocity momentum.',
+    title: 'RepoPicks | Trending open-source, handpicked daily',
+    description: 'Trending GitHub repositories, handpicked daily. Discover breakout open-source projects and developer tools ranked by true star velocity.',
     type: 'website',
-    siteName: 'GitTrend',
+    siteName: 'RepoPicks',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GitTrend | Production-Grade GitHub Repository Discovery',
-    description: 'Discover breakout open source repositories and tools ranked by true star velocity.',
+    title: 'RepoPicks | Trending open-source, handpicked daily',
+    description: 'Discover breakout open-source repositories and tools ranked by true star velocity.',
   },
 };
 
