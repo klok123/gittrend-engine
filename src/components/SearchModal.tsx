@@ -53,12 +53,12 @@ export function SearchModal({ isOpen, onClose, repositories }: SearchModalProps)
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 px-4 bg-black/80 backdrop-blur-md">
       <div
-        className="w-full max-w-2xl bg-[#11131F] border border-white/15 rounded-xl shadow-[0_16px_50px_rgba(0,0,0,0.6)] overflow-hidden animate-in fade-in zoom-in-95 duration-100"
+        className="w-full max-w-2xl bg-[#131313] border border-white/15 rounded-xl shadow-[0_16px_50px_rgba(0,0,0,0.6)] overflow-hidden animate-in fade-in zoom-in-95 duration-100"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Search Input Bar */}
-        <div className="flex items-center px-4 py-3.5 border-b border-white/10 gap-3 bg-[#181A2B]">
-          <Search className="h-5 w-5 text-[#FF7905] shrink-0" />
+        <div className="flex items-center px-4 py-3.5 border-b border-white/10 gap-3 bg-[#1B1B1B]">
+          <Search className="h-5 w-5 text-[#16DC76] shrink-0" />
           <input
             type="text"
             value={query}
@@ -108,7 +108,7 @@ export function SearchModal({ isOpen, onClose, repositories }: SearchModalProps)
                   <div className="min-w-0 pr-4">
                     <div className="flex items-center gap-2">
                       <span className="font-bold text-sm text-white font-mono truncate">
-                        {repo.owner} / <span className="text-[#FF7905]">{repo.name}</span>
+                        {repo.owner} / <span className="text-[#16DC76]">{repo.name}</span>
                       </span>
                       <span
                         className="text-[10px] text-slate-400 font-mono px-2 py-0.5 rounded border border-white/10 bg-black/40"
@@ -123,7 +123,7 @@ export function SearchModal({ isOpen, onClose, repositories }: SearchModalProps)
 
                   <div className="flex items-center gap-3 shrink-0 text-xs font-mono text-slate-400">
                     <span className="flex items-center gap-1 font-bold text-white">
-                      <Star className="h-3.5 w-3.5 text-[#FF7905] fill-[#FF7905]" />
+                      <Star className="h-3.5 w-3.5 text-[#16DC76] fill-[#16DC76]" />
                       {repo.totalStars.toLocaleString()}
                     </span>
                     <ArrowUpRight className="h-4 w-4 text-slate-500" />

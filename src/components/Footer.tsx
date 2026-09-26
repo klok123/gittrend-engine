@@ -26,11 +26,11 @@ function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-[#090A0F] mt-20 py-12">
+    <footer className="border-t border-white/10 bg-[#0A0A0A] mt-20 py-12">
       <div className="mx-auto max-w-[1560px] px-4 sm:px-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="bg-[#FF7905] rounded-lg p-2 text-black shadow-[0_0_15px_rgba(255,121,5,0.3)]">
+            <div className="bg-[#16DC76] rounded-lg p-2 text-black shadow-[0_0_15px_rgba(22,220,118,0.3)]">
               <TrendingUp className="h-5 w-5 stroke-[2.5]" />
             </div>
             <div>
@@ -46,43 +46,43 @@ export function Footer() {
               href="https://www.instagram.com/repopicks"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
-              <InstagramIcon className="h-3.5 w-3.5 text-[#FF7905]" />
+              <InstagramIcon className="h-3.5 w-3.5 text-[#16DC76]" />
               <span>@repopicks</span>
             </a>
             <a
               href="mailto:hello@repopicks.dev?subject=Advertising%20on%20RepoPicks"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
-              <Megaphone className="h-3.5 w-3.5 text-[#FF7905]" />
+              <Megaphone className="h-3.5 w-3.5 text-[#16DC76]" />
               <span>Advertise with us</span>
             </a>
             <a
               href="mailto:hello@repopicks.dev"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
               <Mail className="h-3.5 w-3.5 text-slate-400" />
               <span>Contact</span>
             </a>
             <Link
               href="/newsletter"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
-              <Mail className="h-3.5 w-3.5 text-[#FF7905]" />
+              <Mail className="h-3.5 w-3.5 text-[#16DC76]" />
               <span>Newsletter</span>
             </Link>
             <Link
               href="/methodology"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
-              <BookOpen className="h-3.5 w-3.5 text-[#FF7905]" />
+              <BookOpen className="h-3.5 w-3.5 text-[#16DC76]" />
               <span>Methodology</span>
             </Link>
             <Link
               href="/api/trending"
               target="_blank"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
               <Code2 className="h-3.5 w-3.5 text-blue-400" />
               <span>Public JSON API</span>
@@ -90,7 +90,7 @@ export function Footer() {
             <Link
               href="/feed.xml"
               target="_blank"
-              className="flex items-center gap-1.5 hover:text-[#FF7905] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#16DC76] transition-colors"
             >
               <Rss className="h-3.5 w-3.5 text-amber-400" />
               <span>RSS 2.0 Feed</span>
@@ -118,7 +118,7 @@ export function Footer() {
               href={`/rss/${languageSlug(lang)}.xml`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#FF7905] transition-colors"
+              className="hover:text-[#16DC76] transition-colors"
             >
               {lang}
             </a>

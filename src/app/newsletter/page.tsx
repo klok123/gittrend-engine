@@ -45,7 +45,7 @@ function getDataset(): TrendingDataset {
 const WHAT_YOU_GET = [
   {
     icon: Rocket,
-    color: 'text-[#FF7905]',
+    color: 'text-[#16DC76]',
     title: 'Top 5 rising repos',
     text: 'The fastest-moving open-source projects of the week, ranked by star velocity — not all-time fame.',
   },
@@ -72,13 +72,13 @@ export default function NewsletterPage() {
   const ready = NEWSLETTER_URL.length > 0;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
+    <div className="min-h-screen flex flex-col bg-[#0A0A0A] text-slate-100 font-sans">
       <Header />
 
       <main className="mx-auto max-w-[1100px] px-4 sm:px-6 py-10 sm:py-14 flex-1 w-full">
         {/* Hero */}
         <div className="text-center max-w-2xl mx-auto">
-          <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#FF7905] text-black shadow-[0_0_25px_rgba(255,121,5,0.4)]">
+          <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#16DC76] text-black shadow-[0_0_25px_rgba(22,220,118,0.4)]">
             <Mail className="h-6 w-6 stroke-[2.5]" />
           </div>
           <p className="text-xs font-mono font-bold tracking-wider text-slate-400 uppercase mb-3">
@@ -87,7 +87,7 @@ export default function NewsletterPage() {
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-mono leading-tight">
             5 best repos,
             <br />
-            <span className="text-[#FF7905]">every Monday.</span>
+            <span className="text-[#16DC76]">every Monday.</span>
           </h1>
           <p className="mt-4 text-sm sm:text-base text-slate-400 leading-relaxed font-sans">
             One short email. The most useful open-source finds of the week —
@@ -100,13 +100,13 @@ export default function NewsletterPage() {
                 href={NEWSLETTER_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#FF7905] px-8 py-3 text-sm font-mono font-bold text-black hover:bg-[#ff8a1f] active:scale-95 transition-all"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#16DC76] px-8 py-3 text-sm font-mono font-bold text-black hover:bg-[#1FE084] active:scale-95 transition-all"
               >
                 Subscribe free
                 <ArrowUpRight className="h-4 w-4" />
               </a>
             ) : (
-              <div className="inline-block rounded-xl border border-white/10 bg-[#11131F] px-6 py-4">
+              <div className="inline-block rounded-xl border border-white/10 bg-[#131313] px-6 py-4">
                 <p className="text-sm font-mono text-slate-300">
                   The newsletter launches soon.
                 </p>
@@ -116,7 +116,7 @@ export default function NewsletterPage() {
                     href={INSTAGRAM_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#FF7905] hover:underline"
+                    className="text-[#16DC76] hover:underline"
                   >
                     Instagram @repopicks
                   </a>{' '}
@@ -150,7 +150,7 @@ export default function NewsletterPage() {
               return (
                 <div
                   key={item.title}
-                  className="bg-[#11131F] border border-white/10 rounded-xl p-5 shadow-md"
+                  className="bg-[#131313] border border-white/10 rounded-xl p-5 shadow-md"
                 >
                   <Icon className={`h-5 w-5 ${item.color}`} />
                   <h3 className="mt-3 font-mono font-bold text-white text-sm">{item.title}</h3>
@@ -173,8 +173,8 @@ export default function NewsletterPage() {
               Live sample from today&apos;s data
             </span>
           </div>
-          <div className="mt-5 rounded-xl border border-white/10 bg-[#11131F] overflow-hidden">
-            <div className="border-b border-white/10 bg-[#181A2B] px-5 py-3">
+          <div className="mt-5 rounded-xl border border-white/10 bg-[#131313] overflow-hidden">
+            <div className="border-b border-white/10 bg-[#1B1B1B] px-5 py-3">
               <p className="font-mono text-xs text-slate-400">
                 <span className="text-white font-bold">Subject:</span> RepoPicks Weekly — 5
                 repos rising right now
@@ -183,13 +183,13 @@ export default function NewsletterPage() {
             <div className="divide-y divide-white/5">
               {sample.map((repo, i) => (
                 <div key={repo.id} className="px-5 py-4 flex items-start gap-4">
-                  <span className="font-mono text-xs font-bold text-[#FF7905] mt-0.5 w-4 shrink-0">
+                  <span className="font-mono text-xs font-bold text-[#16DC76] mt-0.5 w-4 shrink-0">
                     {i + 1}
                   </span>
                   <div className="min-w-0">
                     <Link
                       href={`/repo/${repo.owner}/${repo.name}`}
-                      className="font-mono text-sm font-bold text-white hover:text-[#FF7905] transition-colors"
+                      className="font-mono text-sm font-bold text-white hover:text-[#16DC76] transition-colors"
                     >
                       {repo.owner} / {repo.name}
                     </Link>
@@ -222,7 +222,7 @@ export default function NewsletterPage() {
                 href={NEWSLETTER_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#FF7905] px-8 py-3 text-sm font-mono font-bold text-black hover:bg-[#ff8a1f] active:scale-95 transition-all"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#16DC76] px-8 py-3 text-sm font-mono font-bold text-black hover:bg-[#1FE084] active:scale-95 transition-all"
               >
                 Subscribe free
                 <ArrowUpRight className="h-4 w-4" />
@@ -234,7 +234,7 @@ export default function NewsletterPage() {
                   href={INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#FF7905] hover:underline"
+                  className="text-[#16DC76] hover:underline"
                 >
                   @repopicks
                 </a>{' '}

@@ -39,17 +39,17 @@ export default function WithoutAiPage() {
   const removed = all.length - filtered.length;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
+    <div className="min-h-screen flex flex-col bg-[#0A0A0A] text-slate-100 font-sans">
       <Header />
       <main className="mx-auto max-w-[1560px] px-4 sm:px-6 py-8 flex-1 w-full">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs font-mono text-slate-400 hover:text-[#FF7905] mb-6"
+          className="inline-flex items-center gap-1.5 text-xs font-mono text-slate-400 hover:text-[#16DC76] mb-6"
         >
           <ArrowLeft className="h-3.5 w-3.5" /> Back to full trending
         </Link>
 
-        <div className="mb-8 p-6 bg-[#11131F] border border-emerald-400/30 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
+        <div className="mb-8 p-6 bg-[#131313] border border-emerald-400/30 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
           <div className="flex items-center gap-2 text-emerald-400 font-bold font-mono text-xs uppercase tracking-wider">
             <Leaf className="h-4 w-4 text-emerald-400" />
             AI/ML filtered out · heuristic
@@ -68,7 +68,7 @@ export default function WithoutAiPage() {
 
         <div className="space-y-3">
           {filtered.length === 0 ? (
-            <div className="text-center py-16 bg-[#11131F] border border-white/10 rounded-xl">
+            <div className="text-center py-16 bg-[#131313] border border-white/10 rounded-xl">
               <p className="text-slate-400 font-mono text-sm">
                 Everything trending right now is AI-related. The robots win today.
               </p>

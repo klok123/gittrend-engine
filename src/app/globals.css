@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --background: #090A0F;
+  --background: #0A0A0A;
   --foreground: #F8FAFC;
-  --surface-card: #11131F;
-  --surface-elevated: #181A2B;
+  --surface-card: #131313;
+  --surface-elevated: #1B1B1B;
   --border-hairline: rgba(255, 255, 255, 0.08);
-  --border-focus: rgba(255, 121, 5, 0.4);
-  --accent-orange: #FF7905;
-  --accent-emerald: #10B981;
+  --border-focus: rgba(22, 220, 118, 0.4);
+  --accent-brand: #16DC76;
+  --accent-brand-hover: #1FE084;
+  --accent-brand-soft: #A7F3D0;
 }
 
 @theme inline {
@@ -24,7 +25,20 @@ body {
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   min-height: 100vh;
-  background-image: radial-gradient(circle at 50% 0%, rgba(255, 121, 5, 0.04) 0%, transparent 60%);
+  background-image: radial-gradient(circle at 50% 0%, rgba(22, 220, 118, 0.05) 0%, transparent 60%);
+}
+
+/* Film-grain texture overlay — echoes the @repopicks profile picture grain.
+   Fixed full-viewport SVG turbulence noise, non-interactive, very subtle. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
 }
 
 /* Tabular figures for numbers */
@@ -38,12 +52,12 @@ body {
   height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #090A0F;
+  background: #0A0A0A;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1E2238;
+  background: #262626;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2E3454;
+  background: #383838;
 }

@@ -40,12 +40,12 @@ export default function BreakoutsPage() {
     .sort((a, b) => b.breakoutScore - a.breakoutScore);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
+    <div className="min-h-screen flex flex-col bg-[#0A0A0A] text-slate-100 font-sans">
       <Header />
       <main className="mx-auto max-w-[1560px] px-4 sm:px-6 py-8 flex-1 w-full">
-        <div className="mb-8 p-6 bg-[#11131F] border border-[#FF7905]/30 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
-          <div className="flex items-center gap-2 text-[#FF7905] font-bold font-mono text-xs uppercase tracking-wider">
-            <Radar className="h-4 w-4 text-[#FF7905]" />
+        <div className="mb-8 p-6 bg-[#131313] border border-[#16DC76]/30 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
+          <div className="flex items-center gap-2 text-[#16DC76] font-bold font-mono text-xs uppercase tracking-wider">
+            <Radar className="h-4 w-4 text-[#16DC76]" />
             Early-breakout radar
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold text-white font-mono mt-2">
@@ -60,7 +60,7 @@ export default function BreakoutsPage() {
 
         <div className="space-y-3">
           {breakoutRepos.length === 0 ? (
-            <div className="text-center py-16 bg-[#11131F] border border-white/10 rounded-xl">
+            <div className="text-center py-16 bg-[#131313] border border-white/10 rounded-xl">
               <p className="text-slate-400 font-mono text-sm">
                 No breakouts on the radar right now — check back after the next data refresh.
               </p>
@@ -69,7 +69,7 @@ export default function BreakoutsPage() {
             breakoutRepos.map((repo, idx) => (
               <div key={repo.id}>
                 <div className="flex items-center gap-2 mb-1.5 ml-1">
-                  <span className="inline-flex items-center gap-1.5 text-[11px] font-mono font-bold text-[#FF7905] bg-[#FF7905]/10 border border-[#FF7905]/30 rounded-full px-2.5 py-0.5">
+                  <span className="inline-flex items-center gap-1.5 text-[11px] font-mono font-bold text-[#16DC76] bg-[#16DC76]/10 border border-[#16DC76]/30 rounded-full px-2.5 py-0.5">
                     <Zap className="h-3 w-3" />
                     Caught at {formatStars(repo.totalStars)} stars
                   </span>

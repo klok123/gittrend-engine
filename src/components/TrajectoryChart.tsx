@@ -44,11 +44,11 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
   const dayLabels = ['7d ago', '6d ago', '5d ago', '4d ago', '3d ago', 'Yesterday', 'Today'];
 
   return (
-    <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 sm:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)]">
+    <div className="bg-[#131313] border border-white/10 rounded-xl p-5 sm:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)]">
       <div className="flex items-center justify-between mb-4">
         <div>
           <h3 className="font-mono font-bold text-base text-white flex items-center gap-2">
-            <span className="inline-block w-2 h-2 bg-[#FF7905] rounded-full" />
+            <span className="inline-block w-2 h-2 bg-[#16DC76] rounded-full" />
             7-Day Star Velocity Trajectory
           </h3>
           <p className="text-xs text-slate-400 font-sans mt-0.5">
@@ -56,7 +56,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
           </p>
         </div>
         <div className="font-mono text-xs bg-white/5 border border-white/10 px-2.5 py-1 rounded-md font-semibold text-slate-300">
-          Max: <span className="text-[#FF7905]">+{maxVal}</span> / day
+          Max: <span className="text-[#16DC76]">+{maxVal}</span> / day
         </div>
       </div>
 
@@ -69,8 +69,8 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
         >
           <defs>
             <linearGradient id={`grad-${repoName.replace(/[^a-zA-Z0-9]/g, '')}`} x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#FF7905" stopOpacity="0.35" />
-              <stop offset="100%" stopColor="#FF7905" stopOpacity="0.0" />
+              <stop offset="0%" stopColor="#16DC76" stopOpacity="0.35" />
+              <stop offset="100%" stopColor="#16DC76" stopOpacity="0.0" />
             </linearGradient>
           </defs>
 
@@ -80,7 +80,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
             y1={paddingY}
             x2={width - paddingX}
             y2={paddingY}
-            stroke="#1E2238"
+            stroke="#262626"
             strokeDasharray="4 4"
           />
           <line
@@ -88,7 +88,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
             y1={paddingY + chartH / 2}
             x2={width - paddingX}
             y2={paddingY + chartH / 2}
-            stroke="#1E2238"
+            stroke="#262626"
             strokeDasharray="4 4"
           />
           <line
@@ -110,7 +110,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
           <path
             d={linePath}
             fill="none"
-            stroke="#FF7905"
+            stroke="#16DC76"
             strokeWidth="2.5"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -137,7 +137,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
                     cx={pt.x}
                     cy={pt.y}
                     r={7}
-                    fill="#FF7905"
+                    fill="#16DC76"
                     fillOpacity="0.2"
                   />
                 )}
@@ -146,8 +146,8 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
                   cx={pt.x}
                   cy={pt.y}
                   r={isHovered ? 4.5 : 3}
-                  fill={isHovered ? '#FF7905' : '#090A0F'}
-                  stroke="#FF7905"
+                  fill={isHovered ? '#16DC76' : '#0A0A0A'}
+                  stroke="#16DC76"
                   strokeWidth="1.5"
                   className="transition-all duration-150 pointer-events-none"
                 />
@@ -159,14 +159,14 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
         {/* Hover Tooltip Overlay */}
         {hoverIndex !== null && (
           <div
-            className="absolute z-10 pointer-events-none bg-[#181A2B] text-white font-mono text-xs px-2.5 py-1.5 rounded-lg border border-white/15 shadow-xl -translate-x-1/2 -translate-y-full mb-2"
+            className="absolute z-10 pointer-events-none bg-[#1B1B1B] text-white font-mono text-xs px-2.5 py-1.5 rounded-lg border border-white/15 shadow-xl -translate-x-1/2 -translate-y-full mb-2"
             style={{
               left: `${(coords[hoverIndex].x / width) * 100}%`,
               top: `${(coords[hoverIndex].y / height) * 100}%`,
             }}
           >
             <div className="text-[10px] text-slate-400 font-sans">{dayLabels[hoverIndex]}</div>
-            <div className="font-bold text-[#FF7905]">+{points[hoverIndex]} stars</div>
+            <div className="font-bold text-[#16DC76]">+{points[hoverIndex]} stars</div>
           </div>
         )}
       </div>
@@ -177,7 +177,7 @@ export function TrajectoryChart({ data, repoName }: TrajectoryChartProps) {
           <span
             key={idx}
             className={`transition-colors ${
-              hoverIndex === idx ? 'text-[#FF7905] font-bold' : ''
+              hoverIndex === idx ? 'text-[#16DC76] font-bold' : ''
             }`}
           >
             {lbl}

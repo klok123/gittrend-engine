@@ -69,7 +69,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
   }, [initialData.repositories, selectedLanguage, timeWindow, hideAi, maintainedOnly, hideSuspicious]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans">
+    <div className="min-h-screen flex flex-col bg-[#0A0A0A] text-slate-100 font-sans">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="mx-auto max-w-[1560px] px-4 sm:px-6 py-8 flex-1 w-full">
@@ -84,7 +84,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
         {/* Hero Headline Section (Strict 2-line rule) */}
         <section className="mb-10 text-left">
           <div className="flex items-center gap-2 mb-3">
-            <span className="inline-block w-2 h-2 rounded-full bg-[#FF7905]"></span>
+            <span className="inline-block w-2 h-2 rounded-full bg-[#16DC76]"></span>
             <span className="text-xs font-mono font-bold tracking-wider text-slate-400 uppercase">
               Algorithmic Star Velocity &amp; Fraud Audit
             </span>
@@ -92,11 +92,11 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight font-mono max-w-4xl">
             Trending open-source, <br className="hidden sm:inline" />
-            <span className="text-[#FF7905]">handpicked daily.</span>
+            <span className="text-[#16DC76]">handpicked daily.</span>
           </h1>
 
           <p className="text-slate-400 text-sm sm:text-base mt-3 max-w-2xl leading-relaxed font-sans">
-            Real-time star velocity tracking plus human curation by <a href="https://www.instagram.com/repopicks" target="_blank" rel="noopener noreferrer" className="text-[#FF7905] hover:underline">@repopicks</a> — the day&apos;s biggest open-source movers, fraud-audited.
+            Real-time star velocity tracking plus human curation by <a href="https://www.instagram.com/repopicks" target="_blank" rel="noopener noreferrer" className="text-[#16DC76] hover:underline">@repopicks</a> — the day&apos;s biggest open-source movers, fraud-audited.
           </p>
         </section>
 
@@ -113,7 +113,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5 pt-6 border-t border-white/10">
           <div>
             <div className="flex items-center gap-2.5">
-              <Layers className="h-5 w-5 text-[#FF7905]" />
+              <Layers className="h-5 w-5 text-[#16DC76]" />
               <h2 className="text-xl sm:text-2xl font-bold text-white font-mono">
                 Trending Leaderboard
               </h2>
@@ -126,7 +126,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
               {timeWindow === 'week' && 'Ranked by 7-day cumulative star velocity'}
               {timeWindow === 'month' && 'Ranked by 30-day cumulative star velocity'}
               {' · '}
-              <Link href="/methodology" className="text-[#FF7905] hover:underline">
+              <Link href="/methodology" className="text-[#16DC76] hover:underline">
                 View mathematical formulas →
               </Link>
             </p>
@@ -142,7 +142,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
                 hideAi
                   ? 'bg-sky-400/15 text-sky-300 border-sky-400/40 font-bold'
-                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+                  : 'bg-[#131313] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
               }`}
             >
               <span className={`w-2 h-2 rounded-full ${hideAi ? 'bg-sky-400' : 'bg-slate-500'}`}></span>
@@ -156,7 +156,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
                 maintainedOnly
                   ? 'bg-emerald-400/15 text-emerald-300 border-emerald-400/40 font-bold'
-                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+                  : 'bg-[#131313] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
               }`}
             >
               <span className={`w-2 h-2 rounded-full ${maintainedOnly ? 'bg-emerald-400' : 'bg-slate-500'}`}></span>
@@ -170,7 +170,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg border transition-all duration-150 cursor-pointer ${
                 hideSuspicious
                   ? 'bg-rose-400/15 text-rose-300 border-rose-400/40 font-bold'
-                  : 'bg-[#11131F] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
+                  : 'bg-[#131313] text-slate-400 border-white/10 hover:text-white hover:bg-white/5'
               }`}
             >
               <span className={`w-2 h-2 rounded-full ${hideSuspicious ? 'bg-rose-400' : 'bg-slate-500'}`}></span>
@@ -215,7 +215,7 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
         {/* Main Repository Feed */}
         <div className="space-y-3">
           {filteredRepos.length === 0 ? (
-            <div className="text-center py-16 bg-[#11131F] border border-white/10 rounded-xl">
+            <div className="text-center py-16 bg-[#131313] border border-white/10 rounded-xl">
               <p className="text-slate-400 font-mono text-sm">
                 No repositories found matching language &ldquo;{selectedLanguage}&rdquo;.
               </p>

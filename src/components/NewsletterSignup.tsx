@@ -17,10 +17,10 @@ export function NewsletterSignup() {
   return (
     <section
       aria-label="Newsletter signup"
-      className="mb-10 rounded-xl border border-white/10 bg-[#11131F] p-6 sm:p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.25)]"
+      className="mb-10 rounded-xl border border-white/10 bg-[#131313] p-6 sm:p-8 text-center shadow-[0_4px_20px_rgba(0,0,0,0.25)]"
     >
       <div className="mx-auto max-w-xl">
-        <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#FF7905] text-black">
+        <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#16DC76] text-black">
           <Mail className="h-5 w-5 stroke-[2.5]" />
         </div>
         <h2 className="text-xl sm:text-2xl font-extrabold text-white font-mono tracking-tight">
@@ -37,7 +37,7 @@ export function NewsletterSignup() {
               href={NEWSLETTER_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-[#FF7905] px-6 py-2.5 text-sm font-mono font-bold text-black hover:bg-[#ff8a1f] active:scale-95 transition-all"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#16DC76] px-6 py-2.5 text-sm font-mono font-bold text-black hover:bg-[#1FE084] active:scale-95 transition-all"
             >
               Subscribe free
               <ArrowUpRight className="h-4 w-4" />
@@ -49,7 +49,7 @@ export function NewsletterSignup() {
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#FF7905] hover:underline"
+                className="text-[#16DC76] hover:underline"
               >
                 Instagram @repopicks
               </a>{' '}
@@ -57,7 +57,7 @@ export function NewsletterSignup() {
             </p>
           )}
           <p className="mt-3 text-[11px] font-mono text-slate-500">
-            <Link href="/newsletter" className="text-[#FF7905] hover:underline">
+            <Link href="/newsletter" className="text-[#16DC76] hover:underline">
               What&apos;s inside each email →
             </Link>
           </p>

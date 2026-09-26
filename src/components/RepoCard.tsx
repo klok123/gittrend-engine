@@ -43,9 +43,9 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
 
   return (
     <div
-      className={`group relative flex flex-col sm:flex-row bg-[#11131F] border rounded-xl overflow-hidden transition-all duration-150 ${
+      className={`group relative flex flex-col sm:flex-row bg-[#131313] border rounded-xl overflow-hidden transition-all duration-150 ${
         isNumberOne
-          ? 'border-[#FF7905]/50 shadow-[0_4px_24px_rgba(255,121,5,0.12)] hover:border-[#FF7905] hover:shadow-[0_8px_32px_rgba(255,121,5,0.22)] hover:-translate-y-0.5'
+          ? 'border-[#16DC76]/50 shadow-[0_4px_24px_rgba(22,220,118,0.12)] hover:border-[#16DC76] hover:shadow-[0_8px_32px_rgba(22,220,118,0.22)] hover:-translate-y-0.5'
           : isTopThree
           ? 'border-amber-400/30 hover:border-amber-400/60 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
           : 'border-white/10 hover:border-white/20 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
@@ -76,7 +76,7 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
             <span
               className={`hidden sm:inline-block text-[10px] font-extrabold uppercase px-2 py-0.5 rounded border font-mono ${
                 isNumberOne
-                  ? 'bg-[#FF7905] text-black border-[#FF7905]'
+                  ? 'bg-[#16DC76] text-black border-[#16DC76]'
                   : isTopThree
                   ? 'bg-amber-400/20 text-amber-300 border-amber-400/40'
                   : 'bg-white/5 text-slate-300 border-white/10'
@@ -87,7 +87,7 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
 
             <Link
               href={`/repo/${repo.owner}/${repo.name}`}
-              className="font-bold text-white group-hover:text-[#FF7905] transition-colors break-words text-base sm:text-lg font-mono tracking-tight"
+              className="font-bold text-white group-hover:text-[#16DC76] transition-colors break-words text-base sm:text-lg font-mono tracking-tight"
             >
               {repo.owner}
               <span className="text-slate-500 font-normal"> / </span>
@@ -165,7 +165,7 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
               {repo.topics.slice(0, 5).map((topic) => (
                 <span
                   key={topic}
-                  className="inline-flex items-center gap-1 text-[11px] text-slate-400 font-mono bg-[#181A2B] border border-white/5 px-2 py-0.5 rounded"
+                  className="inline-flex items-center gap-1 text-[11px] text-slate-400 font-mono bg-[#1B1B1B] border border-white/5 px-2 py-0.5 rounded"
                 >
                   <span className="text-slate-500">#</span>
                   {topic}
@@ -180,7 +180,7 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
           <div className="flex items-center gap-4 text-xs font-semibold text-slate-400 flex-wrap font-mono">
             {/* Stars */}
             <span className="flex items-center gap-1 font-bold text-white tabular-nums">
-              <Star className="h-4 w-4 text-[#FF7905] fill-[#FF7905]" />
+              <Star className="h-4 w-4 text-[#16DC76] fill-[#16DC76]" />
               {formattedStars}
             </span>
 
@@ -201,12 +201,12 @@ export function RepoCard({ repo, rank, timeWindow = 'today' }: RepoCardProps) {
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex items-center gap-2">
               <span className="text-[10px] uppercase font-mono text-slate-500 tracking-wider">7D Trend</span>
-              <Sparkline data={repo.sparkline} color={isNumberOne ? '#FF7905' : '#10b981'} width={80} height={24} />
+              <Sparkline data={repo.sparkline} color={isNumberOne ? '#16DC76' : '#10b981'} width={80} height={24} />
             </div>
 
             <Link
               href={`/repo/${repo.owner}/${repo.name}`}
-              className="inline-flex items-center gap-1 text-xs font-mono font-bold text-white hover:text-black bg-[#181A2B] hover:bg-[#FF7905] px-2.5 py-1 rounded-md border border-white/10 hover:border-[#FF7905] transition-all cursor-pointer"
+              className="inline-flex items-center gap-1 text-xs font-mono font-bold text-white hover:text-black bg-[#1B1B1B] hover:bg-[#16DC76] px-2.5 py-1 rounded-md border border-white/10 hover:border-[#16DC76] transition-all cursor-pointer"
             >
               <span>Dossier</span>
               <ChevronRight className="h-3.5 w-3.5" />

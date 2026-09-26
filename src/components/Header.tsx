@@ -64,7 +64,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-40 backdrop-blur-md bg-[#090A0F]/85 border-b border-white/10">
+    <header className="sticky top-0 z-40 backdrop-blur-md bg-[#0A0A0A]/85 border-b border-white/10">
       <div className="mx-auto max-w-[1560px] px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* Logo */}
@@ -72,12 +72,12 @@ export function Header({ onOpenSearch }: HeaderProps) {
             href="/"
             className="flex items-center gap-2.5 shrink-0 group transition-transform duration-150 active:scale-95"
           >
-            <div className="flex items-center justify-center h-9 w-9 rounded-lg bg-[#FF7905] text-black shadow-[0_0_20px_rgba(255,121,5,0.4)] border border-[#FF7905]">
+            <div className="flex items-center justify-center h-9 w-9 rounded-lg bg-[#16DC76] text-black shadow-[0_0_20px_rgba(22,220,118,0.4)] border border-[#16DC76]">
               <TrendingUp className="h-5 w-5 stroke-[2.5]" />
             </div>
             <div className="flex flex-col">
-              <span className="font-extrabold text-lg text-white tracking-tight font-mono leading-none">
-                RepoPicks
+              <span className="font-extrabold text-lg tracking-tight font-mono leading-none">
+                <span className="text-white">repo</span><span className="text-[#16DC76]">picks</span>
               </span>
               <span className="text-[10px] font-mono text-slate-400 leading-none mt-1">
                 Handpicked daily
@@ -100,7 +100,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
                       : 'text-slate-400 hover:text-white hover:bg-white/5 border border-transparent'
                   }`}
                 >
-                  <Icon className={`h-4 w-4 ${isActive ? 'text-[#FF7905]' : 'text-slate-400'}`} />
+                  <Icon className={`h-4 w-4 ${isActive ? 'text-[#16DC76]' : 'text-slate-400'}`} />
                   {item.label}
                 </Link>
               );
@@ -112,9 +112,9 @@ export function Header({ onOpenSearch }: HeaderProps) {
             {onOpenSearch && (
               <button
                 onClick={onOpenSearch}
-                className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 bg-[#181A2B] hover:bg-[#20233A] text-slate-300 hover:text-white border border-white/10 rounded-lg text-xs font-mono transition-colors cursor-pointer"
+                className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 bg-[#1B1B1B] hover:bg-[#20233A] text-slate-300 hover:text-white border border-white/10 rounded-lg text-xs font-mono transition-colors cursor-pointer"
               >
-                <Search className="h-3.5 w-3.5 text-[#FF7905]" />
+                <Search className="h-3.5 w-3.5 text-[#16DC76]" />
                 <span>Search</span>
                 <kbd className="text-[10px] text-slate-500 bg-black/40 px-1 py-0.5 rounded border border-white/5">
                   /
@@ -126,7 +126,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
               href="https://www.instagram.com/repopicks"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#FF7905]/10 hover:bg-[#FF7905]/20 text-orange-200 hover:text-white border border-[#FF7905]/30 rounded-lg text-xs font-mono transition-colors"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#16DC76]/10 hover:bg-[#16DC76]/20 text-[#A7F3D0] hover:text-white border border-[#16DC76]/30 rounded-lg text-xs font-mono transition-colors"
             >
               <InstagramIcon className="h-4 w-4" />
               <span className="hidden sm:inline">Follow @repopicks</span>
@@ -170,7 +170,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
                       : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
-                  <Icon className="h-4 w-4 text-[#FF7905]" />
+                  <Icon className="h-4 w-4 text-[#16DC76]" />
                   {item.label}
                 </Link>
               );

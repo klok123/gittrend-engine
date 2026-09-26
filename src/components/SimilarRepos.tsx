@@ -14,13 +14,13 @@ function MiniRow({ item, rank }: { item: SimilarRepo; rank: number }) {
   return (
     <Link
       href={`/repo/${repo.owner}/${repo.name}`}
-      className="flex items-start gap-3 p-3 rounded-lg bg-[#181A2B] border border-white/5 hover:border-[#FF7905]/40 hover:bg-[#1d2033] transition-all group"
+      className="flex items-start gap-3 p-3 rounded-lg bg-[#1B1B1B] border border-white/5 hover:border-[#16DC76]/40 hover:bg-[#1d2033] transition-all group"
     >
       <span className="font-mono text-[10px] font-bold text-slate-500 mt-0.5 w-5 shrink-0">
         {rank}
       </span>
       <div className="min-w-0 flex-1">
-        <div className="font-mono text-sm font-bold text-white group-hover:text-[#FF7905] transition-colors truncate">
+        <div className="font-mono text-sm font-bold text-white group-hover:text-[#16DC76] transition-colors truncate">
           {repo.owner}
           <span className="text-slate-500 font-normal"> / </span>
           {repo.name}
@@ -30,7 +30,7 @@ function MiniRow({ item, rank }: { item: SimilarRepo; rank: number }) {
         </p>
         <div className="flex items-center gap-3 mt-1.5 text-[11px] font-mono text-slate-500">
           <span className="inline-flex items-center gap-1 text-slate-300">
-            <Star className="h-3 w-3 text-[#FF7905]" />
+            <Star className="h-3 w-3 text-[#16DC76]" />
             {repo.totalStars.toLocaleString()}
           </span>
           <span className="inline-flex items-center gap-1 text-emerald-400">
@@ -66,9 +66,9 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
     <section aria-label="Similar repositories" className="mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {similar.length > 0 && (
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 shadow-md">
             <div className="flex items-center gap-2 mb-1">
-              <GitCompareArrows className="h-4 w-4 text-[#FF7905]" />
+              <GitCompareArrows className="h-4 w-4 text-[#16DC76]" />
               <h3 className="font-mono font-bold text-base text-white">Similar repos</h3>
             </div>
             <p className="text-[11px] text-slate-500 font-mono mb-4">
@@ -83,9 +83,9 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
         )}
 
         {similar.length === 0 && peers.length > 0 && (
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 shadow-md">
             <div className="flex items-center gap-2 mb-1">
-              <GitCompareArrows className="h-4 w-4 text-[#FF7905]" />
+              <GitCompareArrows className="h-4 w-4 text-[#16DC76]" />
               <h3 className="font-mono font-bold text-base text-white">
                 More in {current.language}
               </h3>
@@ -103,7 +103,7 @@ export function SimilarRepos({ current, all }: SimilarReposProps) {
         )}
 
         {alternatives.length > 0 && (
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 shadow-md">
             <div className="flex items-center gap-2 mb-1">
               <Shuffle className="h-4 w-4 text-sky-400" />
               <h3 className="font-mono font-bold text-base text-white">Open-source alternatives</h3>

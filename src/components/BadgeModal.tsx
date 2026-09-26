@@ -33,15 +33,15 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#181A2B] hover:bg-[#202338] text-white border border-white/10 rounded-md font-mono text-xs font-semibold shadow-xs hover:border-white/20 active:translate-y-0.5 transition-all cursor-pointer"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#1B1B1B] hover:bg-[#202338] text-white border border-white/10 rounded-md font-mono text-xs font-semibold shadow-xs hover:border-white/20 active:translate-y-0.5 transition-all cursor-pointer"
       >
-        <Award className="h-4 w-4 text-[#FF7905]" />
+        <Award className="h-4 w-4 text-[#16DC76]" />
         <span>Get README Badge</span>
       </button>
 
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-          <div className="relative w-full max-w-lg bg-[#11131F] border border-white/10 rounded-xl p-6 shadow-2xl animate-in fade-in zoom-in-95 duration-150 text-slate-100">
+          <div className="relative w-full max-w-lg bg-[#131313] border border-white/10 rounded-xl p-6 shadow-2xl animate-in fade-in zoom-in-95 duration-150 text-slate-100">
             {/* Close Button */}
             <button
               onClick={() => setIsOpen(false)}
@@ -52,7 +52,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
 
             {/* Modal Title */}
             <div className="flex items-center gap-2 mb-1">
-              <Award className="h-5 w-5 text-[#FF7905]" />
+              <Award className="h-5 w-5 text-[#16DC76]" />
               <h3 className="font-mono font-bold text-lg text-white">Embed GitTrend Badge</h3>
             </div>
             <p className="text-xs text-slate-400 mb-4 font-sans">
@@ -60,7 +60,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
             </p>
 
             {/* Badge Live Preview */}
-            <div className="p-4 bg-[#090A0F] border border-white/10 rounded-lg mb-4 flex flex-col items-center justify-center gap-2">
+            <div className="p-4 bg-[#0A0A0A] border border-white/10 rounded-lg mb-4 flex flex-col items-center justify-center gap-2">
               <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider">Live Badge Preview</span>
               <img
                 src={badgeUrl}
@@ -76,7 +76,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
                 <span className="text-xs font-mono font-semibold text-slate-300">Markdown Format</span>
                 <button
                   onClick={() => copyToClipboard(markdownCode, 'markdown')}
-                  className="flex items-center gap-1 text-xs font-mono font-semibold text-[#FF7905] hover:text-orange-400 transition-colors cursor-pointer"
+                  className="flex items-center gap-1 text-xs font-mono font-semibold text-[#16DC76] hover:text-[#16DC76] transition-colors cursor-pointer"
                 >
                   {copiedFormat === 'markdown' ? (
                     <>
@@ -91,7 +91,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
                   )}
                 </button>
               </div>
-              <pre className="p-2.5 bg-[#090A0F] text-slate-200 font-mono text-xs rounded-md border border-white/10 overflow-x-auto select-all">
+              <pre className="p-2.5 bg-[#0A0A0A] text-slate-200 font-mono text-xs rounded-md border border-white/10 overflow-x-auto select-all">
                 {markdownCode}
               </pre>
             </div>
@@ -102,7 +102,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
                 <span className="text-xs font-mono font-semibold text-slate-300">HTML Format</span>
                 <button
                   onClick={() => copyToClipboard(htmlCode, 'html')}
-                  className="flex items-center gap-1 text-xs font-mono font-semibold text-[#FF7905] hover:text-orange-400 transition-colors cursor-pointer"
+                  className="flex items-center gap-1 text-xs font-mono font-semibold text-[#16DC76] hover:text-[#16DC76] transition-colors cursor-pointer"
                 >
                   {copiedFormat === 'html' ? (
                     <>
@@ -117,7 +117,7 @@ export function BadgeModal({ owner, name }: BadgeModalProps) {
                   )}
                 </button>
               </div>
-              <pre className="p-2.5 bg-[#090A0F] text-slate-200 font-mono text-xs rounded-md border border-white/10 overflow-x-auto select-all">
+              <pre className="p-2.5 bg-[#0A0A0A] text-slate-200 font-mono text-xs rounded-md border border-white/10 overflow-x-auto select-all">
                 {htmlCode}
               </pre>
             </div>

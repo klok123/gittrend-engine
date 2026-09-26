@@ -21,7 +21,7 @@ export function TrustScoreGauge({ trust }: TrustScoreGaugeProps) {
   }[grade];
 
   return (
-    <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 sm:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)] flex flex-col justify-between">
+    <div className="bg-[#131313] border border-white/10 rounded-xl p-5 sm:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)] flex flex-col justify-between">
       {/* Header */}
       <div>
         <div className="flex items-center justify-between">
@@ -41,7 +41,7 @@ export function TrustScoreGauge({ trust }: TrustScoreGaugeProps) {
         </p>
 
         {/* Score & Progress Section */}
-        <div className="mt-4 p-4 bg-[#181A2B] border border-white/10 rounded-xl">
+        <div className="mt-4 p-4 bg-[#1B1B1B] border border-white/10 rounded-xl">
           <div className="flex items-baseline justify-between">
             <span className="text-xs font-mono font-bold text-slate-400 uppercase tracking-wider">
               Organic Confidence Index

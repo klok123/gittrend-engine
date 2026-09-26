@@ -51,10 +51,10 @@ export async function GET(
   if (rank !== null && repoData) {
     if (rank <= 10) {
       value = `#${rank} Trending`;
-      valueColor = '#FF7905';
+      valueColor = '#16DC76';
     } else if (repoData.starsGainedToday > 0) {
       value = `+${repoData.starsGainedToday} today`;
-      valueColor = '#FF7905';
+      valueColor = '#16DC76';
     } else if (repoData.isHiddenGem) {
       value = `Gem #${rank}`;
       valueColor = '#8b5cf6';

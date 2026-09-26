@@ -29,7 +29,7 @@ export function PlatformTelemetry({
   }, [onOpenSearch]);
 
   return (
-    <div className="w-full bg-[#11131F] border border-white/10 rounded-xl p-4 sm:p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] mb-8 backdrop-blur-md">
+    <div className="w-full bg-[#131313] border border-white/10 rounded-xl p-4 sm:p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] mb-8 backdrop-blur-md">
       {/* Top Telemetry Header */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
         {/* Left: Mission Control Pulse */}
@@ -43,7 +43,7 @@ export function PlatformTelemetry({
           </div>
 
           <div className="hidden sm:inline-flex items-center gap-1.5 text-xs font-mono text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/5">
-            <Database className="h-3.5 w-3.5 text-[#FF7905]" />
+            <Database className="h-3.5 w-3.5 text-[#16DC76]" />
             <span>Neon Serverless PostgreSQL</span>
           </div>
 
@@ -56,10 +56,10 @@ export function PlatformTelemetry({
         {/* Right: Quick Search Button with Shortcut */}
         <button
           onClick={onOpenSearch}
-          className="w-full lg:w-auto inline-flex items-center justify-between lg:justify-start gap-4 px-3.5 py-1.5 bg-[#181A2B] hover:bg-[#20233A] text-slate-300 hover:text-white border border-white/10 rounded-lg text-xs font-mono transition-all duration-150 cursor-pointer group"
+          className="w-full lg:w-auto inline-flex items-center justify-between lg:justify-start gap-4 px-3.5 py-1.5 bg-[#1B1B1B] hover:bg-[#20233A] text-slate-300 hover:text-white border border-white/10 rounded-lg text-xs font-mono transition-all duration-150 cursor-pointer group"
         >
           <div className="flex items-center gap-2">
-            <Search className="h-3.5 w-3.5 text-[#FF7905] group-hover:scale-110 transition-transform" />
+            <Search className="h-3.5 w-3.5 text-[#16DC76] group-hover:scale-110 transition-transform" />
             <span>Search repositories, topics...</span>
           </div>
           <div className="flex items-center gap-1 text-[10px] text-slate-500 bg-black/40 px-1.5 py-0.5 rounded border border-white/10">
@@ -88,7 +88,7 @@ export function PlatformTelemetry({
 
         <div>
           <div className="text-[11px] font-mono text-slate-500 uppercase tracking-wider">Storage Infrastructure</div>
-          <div className="text-base sm:text-lg font-mono font-bold text-[#FF7905] mt-0.5">
+          <div className="text-base sm:text-lg font-mono font-bold text-[#16DC76] mt-0.5">
             $0.00 <span className="text-xs text-slate-500 font-normal">lifetime creator cost</span>
           </div>
         </div>

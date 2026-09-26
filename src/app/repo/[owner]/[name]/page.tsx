@@ -154,7 +154,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090A0F] text-slate-100 font-sans selection:bg-[#FF7905]/30 selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#0A0A0A] text-slate-100 font-sans selection:bg-[#16DC76]/30 selection:text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -178,17 +178,17 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
               href={repo.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#181A2B] hover:bg-[#202338] text-white border border-white/10 rounded-md font-mono text-xs font-semibold shadow-xs hover:border-white/20 active:translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#1B1B1B] hover:bg-[#202338] text-white border border-white/10 rounded-md font-mono text-xs font-semibold shadow-xs hover:border-white/20 active:translate-y-0.5 transition-all"
             >
               <span>View on GitHub</span>
-              <ExternalLink className="h-3.5 w-3.5 text-[#FF7905]" />
+              <ExternalLink className="h-3.5 w-3.5 text-[#16DC76]" />
             </a>
           </div>
         </div>
 
         {/* Hero Dossier Card */}
-        <div className="bg-[#11131F] border border-white/10 rounded-xl p-6 sm:p-8 mb-8 backdrop-blur-sm relative overflow-hidden shadow-xl">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-[#FF7905]/5 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
+        <div className="bg-[#131313] border border-white/10 rounded-xl p-6 sm:p-8 mb-8 backdrop-blur-sm relative overflow-hidden shadow-xl">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#16DC76]/5 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 relative z-10">
             <img
@@ -196,12 +196,12 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
               alt={`${repo.owner} avatar`}
               width={72}
               height={72}
-              className="rounded-full bg-[#181A2B] border border-white/15 h-16 w-16 sm:h-20 sm:w-20 object-cover shrink-0 ring-2 ring-white/5"
+              className="rounded-full bg-[#1B1B1B] border border-white/15 h-16 w-16 sm:h-20 sm:w-20 object-cover shrink-0 ring-2 ring-white/5"
             />
 
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 flex-wrap mb-2">
-                <span className="font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-orange-500/30 bg-orange-500/10 text-orange-400">
+                <span className="font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-[#16DC76]/30 bg-[#16DC76]/10 text-[#16DC76]">
                   RANK #{rank}
                 </span>
 
@@ -255,10 +255,10 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
         {/* 4-Card Vitality Metrics Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {/* Card 1: Star Momentum */}
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
             <div className="flex items-center justify-between text-slate-400 mb-2">
               <span className="font-mono text-xs font-bold uppercase tracking-wider">Star Velocity</span>
-              <Star className="h-4 w-4 text-[#FF7905]" />
+              <Star className="h-4 w-4 text-[#16DC76]" />
             </div>
             <div className="flex items-baseline gap-2 font-mono">
               <span className="text-2xl sm:text-3xl font-extrabold text-white tabular-nums">{formattedStars}</span>
@@ -275,7 +275,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
           </div>
 
           {/* Card 2: Organic Trust */}
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
             <div className="flex items-center justify-between text-slate-400 mb-2">
               <span className="font-mono text-xs font-bold uppercase tracking-wider">Organic Trust</span>
               <Award className="h-4 w-4 text-emerald-400" />
@@ -292,7 +292,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
           </div>
 
           {/* Card 3: Community Dispersion */}
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
             <div className="flex items-center justify-between text-slate-400 mb-2">
               <span className="font-mono text-xs font-bold uppercase tracking-wider">Fork Dispersion</span>
               <GitFork className="h-4 w-4 text-sky-400" />
@@ -310,7 +310,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
           </div>
 
           {/* Card 4: Maintenance Cadence */}
-          <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
+          <div className="bg-[#131313] border border-white/10 rounded-xl p-5 hover:border-white/20 transition-all shadow-md">
             <div className="flex items-center justify-between text-slate-400 mb-2">
               <span className="font-mono text-xs font-bold uppercase tracking-wider">Vitality Cadence</span>
               <Activity className="h-4 w-4 text-purple-400" />
@@ -336,9 +336,9 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
           {/* Right / Breakdown Column (1 span) */}
           <div className="space-y-6">
             {/* Algorithmic Scoring Specs */}
-            <div className="bg-[#11131F] border border-white/10 rounded-xl p-5 shadow-md">
+            <div className="bg-[#131313] border border-white/10 rounded-xl p-5 shadow-md">
               <div className="flex items-center gap-2 mb-4">
-                <Zap className="h-4 w-4 text-[#FF7905]" />
+                <Zap className="h-4 w-4 text-[#16DC76]" />
                 <h3 className="font-mono font-bold text-base text-white">Algorithmic Breakdown</h3>
               </div>
 
@@ -349,7 +349,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-white/[0.06]">
                   <span className="text-slate-400">Breakout Ratio:</span>
-                  <span className="font-bold text-[#FF7905] tabular-nums">{repo.breakoutScore}x</span>
+                  <span className="font-bold text-[#16DC76] tabular-nums">{repo.breakoutScore}x</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-white/[0.06]">
                   <span className="text-slate-400">Growth Rate / Day:</span>
@@ -374,7 +374,7 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
               <div className="mt-4 pt-3 border-t border-white/10">
                 <Link
                   href="/methodology"
-                  className="inline-flex items-center gap-1 text-xs font-mono font-bold text-[#FF7905] hover:text-orange-400 hover:underline transition-colors"
+                  className="inline-flex items-center gap-1 text-xs font-mono font-bold text-[#16DC76] hover:text-[#16DC76] hover:underline transition-colors"
                 >
                   <span>Read ranking mathematical models</span>
                   <span>→</span>
@@ -383,15 +383,15 @@ export default async function RepoDossierPage({ params }: RepoPageProps) {
             </div>
 
             {/* Quick Readme Embed Card */}
-            <div className="bg-[#181A2B] text-white border border-white/10 rounded-xl p-5 shadow-md">
+            <div className="bg-[#1B1B1B] text-white border border-white/10 rounded-xl p-5 shadow-md">
               <div className="flex items-center gap-2 mb-2">
-                <Award className="h-4 w-4 text-[#FF7905]" />
+                <Award className="h-4 w-4 text-[#16DC76]" />
                 <h3 className="font-mono font-bold text-sm text-white">Embed in README</h3>
               </div>
               <p className="text-xs text-slate-400 font-sans mb-3 leading-relaxed">
                 Show off your live ranking and star velocity directly on GitHub.
               </p>
-              <div className="p-3 bg-[#090A0F] rounded-lg border border-white/10 mb-3 flex justify-center">
+              <div className="p-3 bg-[#0A0A0A] rounded-lg border border-white/10 mb-3 flex justify-center">
                 <img
                   src={`https://clever-volta-lac.vercel.app/api/badge/${repo.owner}/${repo.name}`}
                   alt="GitTrend Badge"

@@ -31,7 +31,7 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
       <div className="flex items-center justify-between mb-4">
         <div>
           <h2 className="text-xl sm:text-2xl font-mono font-bold text-white flex items-center gap-2">
-            <Zap className="h-5 w-5 text-[#FF7905]" />
+            <Zap className="h-5 w-5 text-[#16DC76]" />
             Featured Breakouts & Radar Spotlight
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
@@ -43,11 +43,11 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Tile 1: #1 Breakout of the Day (2 columns on desktop) */}
         {topBreakout && (
-          <div className="lg:col-span-2 bg-[#11131F] border border-white/10 hover:border-[#FF7905]/40 rounded-xl p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 flex flex-col justify-between group">
+          <div className="lg:col-span-2 bg-[#131313] border border-white/10 hover:border-[#16DC76]/40 rounded-xl p-6 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 flex flex-col justify-between group">
             <div>
               <div className="flex items-center justify-between gap-3 mb-3 flex-wrap">
-                <div className="inline-flex items-center gap-2 bg-[#FF7905]/15 border border-[#FF7905]/30 text-[#FF7905] px-3 py-1 rounded-full font-mono text-xs font-extrabold">
-                  <span className="w-2 h-2 rounded-full bg-[#FF7905]"></span>
+                <div className="inline-flex items-center gap-2 bg-[#16DC76]/15 border border-[#16DC76]/30 text-[#16DC76] px-3 py-1 rounded-full font-mono text-xs font-extrabold">
+                  <span className="w-2 h-2 rounded-full bg-[#16DC76]"></span>
                   #1 BREAKOUT OF THE DAY
                 </div>
 
@@ -72,7 +72,7 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
                 <div className="min-w-0 flex-1">
                   <Link
                     href={`/repo/${topBreakout.owner}/${topBreakout.name}`}
-                    className="font-mono font-bold text-xl sm:text-2xl text-white group-hover:text-[#FF7905] transition-colors break-words"
+                    className="font-mono font-bold text-xl sm:text-2xl text-white group-hover:text-[#16DC76] transition-colors break-words"
                   >
                     <span className="text-slate-400 font-normal">{topBreakout.owner} / </span>
                     <span>{topBreakout.name}</span>
@@ -88,7 +88,7 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
             <div className="mt-6 pt-4 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div className="flex items-center gap-4 text-xs font-mono">
                 <span className="flex items-center gap-1.5 font-bold text-white text-base">
-                  <Star className="h-4 w-4 text-[#FF7905] fill-[#FF7905]" />
+                  <Star className="h-4 w-4 text-[#16DC76] fill-[#16DC76]" />
                   {topBreakout.totalStars.toLocaleString()}
                 </span>
                 <span className="flex items-center gap-1 text-emerald-400 font-bold bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md text-xs">
@@ -103,11 +103,11 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
 
               <div className="flex items-center gap-4 w-full sm:w-auto justify-between sm:justify-end">
                 <div className="hidden md:block">
-                  <Sparkline data={topBreakout.sparkline} color="#FF7905" width={110} height={28} />
+                  <Sparkline data={topBreakout.sparkline} color="#16DC76" width={110} height={28} />
                 </div>
                 <Link
                   href={`/repo/${topBreakout.owner}/${topBreakout.name}`}
-                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-[#181A2B] hover:bg-[#FF7905] text-white hover:text-black font-mono text-xs font-bold rounded-lg border border-white/10 transition-all cursor-pointer"
+                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-[#1B1B1B] hover:bg-[#16DC76] text-white hover:text-black font-mono text-xs font-bold rounded-lg border border-white/10 transition-all cursor-pointer"
                 >
                   <span>Inspect Dossier</span>
                   <ArrowRight className="h-3.5 w-3.5" />
@@ -121,7 +121,7 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
         <div className="space-y-4">
           {/* Tile 2: Fastest Accelerating Star */}
           {fastestAccelerating && (
-            <div className="bg-[#11131F] border border-white/10 hover:border-amber-400/40 rounded-xl p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 group flex flex-col justify-between">
+            <div className="bg-[#131313] border border-white/10 hover:border-amber-400/40 rounded-xl p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 group flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-amber-400 bg-amber-400/10 border border-amber-400/20 px-2.5 py-0.5 rounded-full">
@@ -164,7 +164,7 @@ export function BentoBreakouts({ repositories }: BentoBreakoutsProps) {
 
           {/* Tile 3: Top Organic Hidden Gem */}
           {topHiddenGem && (
-            <div className="bg-[#11131F] border border-white/10 hover:border-purple-400/40 rounded-xl p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 group flex flex-col justify-between">
+            <div className="bg-[#131313] border border-white/10 hover:border-purple-400/40 rounded-xl p-5 shadow-[0_8px_30px_rgba(0,0,0,0.35)] transition-all duration-200 group flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-purple-400 bg-purple-400/10 border border-purple-400/20 px-2.5 py-0.5 rounded-full">
