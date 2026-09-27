@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:04:43.083Z",
+  "generatedAt": "2026-09-27T16:04:33.177Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 88336,
-      "starsGainedToday": 1381
+      "totalStars": 88959,
+      "starsGainedToday": 2004
     },
     {
       "owner": "rohitg00",
@@ -28,8 +28,8 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 58692,
-      "starsGainedToday": 1126
+      "totalStars": 58949,
+      "starsGainedToday": 1383
     },
     {
       "owner": "hugohe3",
@@ -45,8 +45,24 @@
         "office"
       ],
       "language": "Python",
-      "totalStars": 56593,
-      "starsGainedToday": 796
+      "totalStars": 56629,
+      "starsGainedToday": 832
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 237520,
+      "starsGainedToday": 735
     },
     {
       "owner": "juspay",
@@ -62,25 +78,8 @@
         "beginner-friendly"
       ],
       "language": "Rust",
-      "totalStars": 44653,
-      "starsGainedToday": 423
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
-      ],
-      "language": "TypeScript",
-      "totalStars": 79204,
-      "starsGainedToday": 361
+      "totalStars": 44782,
+      "starsGainedToday": 552
     }
   ]
 }
