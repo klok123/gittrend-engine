@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:43:25.518Z",
+  "generatedAt": "2026-09-27T20:38:27.142Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 89283,
-      "starsGainedToday": 2328
+      "totalStars": 89484,
+      "starsGainedToday": 2529
     },
     {
       "owner": "yt-dlp",
@@ -28,8 +28,8 @@
         "youtube-downloader"
       ],
       "language": "Python",
-      "totalStars": 193925,
-      "starsGainedToday": 1972
+      "totalStars": 193949,
+      "starsGainedToday": 1996
     },
     {
       "owner": "rohitg00",
@@ -45,25 +45,8 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 59056,
-      "starsGainedToday": 1490
-    },
-    {
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "fullName": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
-      "topics": [
-        "ai-agent",
-        "powerpoint",
-        "pptx",
-        "presentation",
-        "office"
-      ],
-      "language": "Python",
-      "totalStars": 56642,
-      "starsGainedToday": 845
+      "totalStars": 59138,
+      "starsGainedToday": 1572
     },
     {
       "owner": "deepseek-ai",
@@ -78,8 +61,25 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 237591,
-      "starsGainedToday": 806
+      "totalStars": 237619,
+      "starsGainedToday": 834
+    },
+    {
+      "owner": "juspay",
+      "name": "hyperswitch",
+      "fullName": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…",
+      "topics": [
+        "payments",
+        "rust",
+        "orchestration",
+        "hacktoberfest",
+        "beginner-friendly"
+      ],
+      "language": "Rust",
+      "totalStars": 44887,
+      "starsGainedToday": 657
     }
   ]
 }
