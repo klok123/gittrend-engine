@@ -5,9 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 02:37:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 11:04:43 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+861 stars today)]]></title>
+      <title><![CDATA[paperclipai/paperclip (+1,381 stars today)]]></title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-27</guid>
+      <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
+      
+      <pubDate>Sun, 27 Sep 2026 11:04:43 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,126 stars today)]]></title>
       <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
       <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-27</guid>
       <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
@@ -16,50 +24,43 @@
       <category>ai-agents</category>
       <category>ai-engineering</category>
       <category>computer-vision</category>
-      <pubDate>Sun, 27 Sep 2026 02:37:48 GMT</pubDate>
+      <pubDate>Sun, 27 Sep 2026 11:04:43 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+538 stars today)]]></title>
-      <link>https://github.com/paperclipai/paperclip</link>
-      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-27</guid>
-      <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
-      
-      <pubDate>Sun, 27 Sep 2026 02:37:48 GMT</pubDate>
+      <title><![CDATA[hugohe3/ppt-master (+796 stars today)]]></title>
+      <link>https://github.com/hugohe3/ppt-master</link>
+      <guid isPermaLink="false">https://github.com/hugohe3/ppt-master#2026-09-27</guid>
+      <description><![CDATA[AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…]]></description>
+      <category>ai-agent</category>
+      <category>powerpoint</category>
+      <category>pptx</category>
+      <category>presentation</category>
+      <category>office</category>
+      <pubDate>Sun, 27 Sep 2026 11:04:43 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[cjpais/Handy (+265 stars today)]]></title>
-      <link>https://github.com/cjpais/Handy</link>
-      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-09-27</guid>
-      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
-      <category>speech-to-text</category>
-      <category>tauri-v2</category>
-      <category>accessibility</category>
-      <category>cross-platform</category>
-      <pubDate>Sun, 27 Sep 2026 02:37:48 GMT</pubDate>
+      <title><![CDATA[juspay/hyperswitch (+423 stars today)]]></title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <guid isPermaLink="false">https://github.com/juspay/hyperswitch#2026-09-27</guid>
+      <description><![CDATA[Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…]]></description>
+      <category>payments</category>
+      <category>rust</category>
+      <category>orchestration</category>
+      <category>hacktoberfest</category>
+      <category>beginner-friendly</category>
+      <pubDate>Sun, 27 Sep 2026 11:04:43 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[ZhuLinsen/daily_stock_analysis (+246 stars today)]]></title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <guid isPermaLink="false">https://github.com/ZhuLinsen/daily_stock_analysis#2026-09-27</guid>
-      <description><![CDATA[LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…]]></description>
-      <category>aigc</category>
-      <category>llm</category>
-      <category>quant</category>
-      <category>quantitative-trading</category>
-      <category>a-stock</category>
-      <pubDate>Sun, 27 Sep 2026 02:37:48 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[odoo/odoo (+216 stars today)]]></title>
-      <link>https://github.com/odoo/odoo</link>
-      <guid isPermaLink="false">https://github.com/odoo/odoo#2026-09-27</guid>
-      <description><![CDATA[Odoo. Open Source Apps To Grow Your Business.]]></description>
-      <category>odoo</category>
-      <category>python</category>
-      <category>business</category>
-      <category>management</category>
-      <category>odoo-apps</category>
-      <pubDate>Sun, 27 Sep 2026 02:37:48 GMT</pubDate>
+      <title><![CDATA[stablyai/orca (+361 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-09-27</guid>
+      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>cli</category>
+      <pubDate>Sun, 27 Sep 2026 11:04:43 GMT</pubDate>
     </item>
   </channel>
 </rss>
