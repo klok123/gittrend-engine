@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:04:33.177Z",
+  "generatedAt": "2026-09-27T18:43:25.518Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,25 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 88959,
-      "starsGainedToday": 2004
+      "totalStars": 89283,
+      "starsGainedToday": 2328
+    },
+    {
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "topics": [
+        "youtube-dl",
+        "python",
+        "sponsorblock",
+        "yt-dlp",
+        "youtube-downloader"
+      ],
+      "language": "Python",
+      "totalStars": 193925,
+      "starsGainedToday": 1972
     },
     {
       "owner": "rohitg00",
@@ -28,8 +45,8 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 58949,
-      "starsGainedToday": 1383
+      "totalStars": 59056,
+      "starsGainedToday": 1490
     },
     {
       "owner": "hugohe3",
@@ -45,8 +62,8 @@
         "office"
       ],
       "language": "Python",
-      "totalStars": 56629,
-      "starsGainedToday": 832
+      "totalStars": 56642,
+      "starsGainedToday": 845
     },
     {
       "owner": "deepseek-ai",
@@ -61,25 +78,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 237520,
-      "starsGainedToday": 735
-    },
-    {
-      "owner": "juspay",
-      "name": "hyperswitch",
-      "fullName": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…",
-      "topics": [
-        "payments",
-        "rust",
-        "orchestration",
-        "hacktoberfest",
-        "beginner-friendly"
-      ],
-      "language": "Rust",
-      "totalStars": 44782,
-      "starsGainedToday": 552
+      "totalStars": 237591,
+      "starsGainedToday": 806
     }
   ]
 }

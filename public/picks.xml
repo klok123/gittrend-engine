@@ -5,17 +5,29 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 16:04:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 18:43:25 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+2,004 stars today)]]></title>
+      <title><![CDATA[paperclipai/paperclip (+2,328 stars today)]]></title>
       <link>https://github.com/paperclipai/paperclip</link>
       <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-27</guid>
       <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
       
-      <pubDate>Sun, 27 Sep 2026 16:04:33 GMT</pubDate>
+      <pubDate>Sun, 27 Sep 2026 18:43:25 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,383 stars today)]]></title>
+      <title><![CDATA[yt-dlp/yt-dlp (+1,972 stars today)]]></title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-09-27</guid>
+      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
+      <category>youtube-dl</category>
+      <category>python</category>
+      <category>sponsorblock</category>
+      <category>yt-dlp</category>
+      <category>youtube-downloader</category>
+      <pubDate>Sun, 27 Sep 2026 18:43:25 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,490 stars today)]]></title>
       <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
       <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-27</guid>
       <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
@@ -24,10 +36,10 @@
       <category>ai-agents</category>
       <category>ai-engineering</category>
       <category>computer-vision</category>
-      <pubDate>Sun, 27 Sep 2026 16:04:33 GMT</pubDate>
+      <pubDate>Sun, 27 Sep 2026 18:43:25 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[hugohe3/ppt-master (+832 stars today)]]></title>
+      <title><![CDATA[hugohe3/ppt-master (+845 stars today)]]></title>
       <link>https://github.com/hugohe3/ppt-master</link>
       <guid isPermaLink="false">https://github.com/hugohe3/ppt-master#2026-09-27</guid>
       <description><![CDATA[AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…]]></description>
@@ -36,10 +48,10 @@
       <category>pptx</category>
       <category>presentation</category>
       <category>office</category>
-      <pubDate>Sun, 27 Sep 2026 16:04:33 GMT</pubDate>
+      <pubDate>Sun, 27 Sep 2026 18:43:25 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+735 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+806 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-09-27</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -47,19 +59,7 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Sun, 27 Sep 2026 16:04:33 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[juspay/hyperswitch (+552 stars today)]]></title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <guid isPermaLink="false">https://github.com/juspay/hyperswitch#2026-09-27</guid>
-      <description><![CDATA[Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…]]></description>
-      <category>payments</category>
-      <category>rust</category>
-      <category>orchestration</category>
-      <category>hacktoberfest</category>
-      <category>beginner-friendly</category>
-      <pubDate>Sun, 27 Sep 2026 16:04:33 GMT</pubDate>
+      <pubDate>Sun, 27 Sep 2026 18:43:25 GMT</pubDate>
     </item>
   </channel>
 </rss>
