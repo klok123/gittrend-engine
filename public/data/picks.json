@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-26T20:24:25.077Z",
+  "generatedAt": "2026-09-27T02:37:48.398Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
+      ],
+      "language": "Python",
+      "totalStars": 58427,
+      "starsGainedToday": 861
+    },
     {
       "owner": "paperclipai",
       "name": "paperclip",
@@ -11,69 +28,58 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 86955,
-      "starsGainedToday": 2339
+      "totalStars": 87493,
+      "starsGainedToday": 538
     },
     {
-      "owner": "robbietilton",
-      "name": "Compositor",
-      "fullName": "robbietilton/Compositor",
-      "url": "https://github.com/robbietilton/Compositor",
-      "description": "The Photoshop alternative for Mac",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 5741,
-      "starsGainedToday": 904
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "cjpais",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
+        "speech-to-text",
+        "tauri-v2",
+        "accessibility",
+        "cross-platform"
       ],
-      "language": "TypeScript",
-      "totalStars": 236785,
-      "starsGainedToday": 830
+      "language": "Rust",
+      "totalStars": 32250,
+      "starsGainedToday": 265
     },
     {
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…",
       "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "command-line"
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-trading",
+        "a-stock"
       ],
       "language": "Python",
-      "totalStars": 130819,
-      "starsGainedToday": 703
+      "totalStars": 65685,
+      "starsGainedToday": 246
     },
     {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner": "odoo",
+      "name": "odoo",
+      "fullName": "odoo/odoo",
+      "url": "https://github.com/odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
       "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
+        "odoo",
+        "python",
+        "business",
+        "management",
+        "odoo-apps"
       ],
-      "language": "TypeScript",
-      "totalStars": 78843,
-      "starsGainedToday": 623
+      "language": "Python",
+      "totalStars": 54693,
+      "starsGainedToday": 216
     }
   ]
 }
