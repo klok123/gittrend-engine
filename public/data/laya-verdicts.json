@@ -1,176 +1,206 @@
 {
-  "crewaiinc/crewai|rohitg00/ai-engineering-from-scratch": {
-    "pick": "A",
-    "confidence": 0.8417,
-    "note": "Deciding factors: stars today (+903 vs +34), velocity (74108.2 vs 105.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
   "nousresearch/hermes-agent|rohitg00/ai-engineering-from-scratch": {
     "pick": "A",
-    "confidence": 0.6525,
-    "note": "Deciding factors: stars today (+903 vs +209), velocity (74108.2 vs 3514.7).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.5922,
+    "note": "Deciding factors: stars today (+1,209 vs +317), velocity (132783.1 vs 8085.4).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
-  "521xueweihan/hellogithub|vinta/awesome-python": {
-    "pick": "B",
-    "confidence": 0.5385,
-    "note": "Deciding factors: stars today (+819 vs +180), velocity (55457.7 vs 2553.7).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+  "aaif-goose/goose|rohitg00/ai-engineering-from-scratch": {
+    "pick": "A",
+    "confidence": 0.8591,
+    "note": "Deciding factors: stars today (+1,209 vs +31), velocity (132783.1 vs 88.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "dzhng/jevgrep|stablyai/orca": {
     "pick": "A",
-    "confidence": 0.5503,
-    "note": "Deciding factors: stars today (+773 vs +428), velocity (52911.9 vs 26107.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.6416,
+    "note": "Deciding factors: stars today (+1,195 vs +718), velocity (126394.5 vs 71128.4).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "manaflow-ai/cmux|stablyai/orca": {
     "pick": "A",
-    "confidence": 0.4981,
-    "note": "Deciding factors: stars today (+773 vs +18), velocity (52911.9 vs 31.7).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.529,
+    "note": "Deciding factors: stars today (+1,195 vs +30), velocity (126394.5 vs 88.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "deepseek-ai/deepseek-harness|zouyuxuan122/dsh-our-free-model": {
     "pick": "A",
-    "confidence": 0.588,
-    "note": "Deciding factors: stars today (+799 vs +37), velocity (51559.5 vs 234.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.6045,
+    "note": "Deciding factors: stars today (+1,096 vs +51), velocity (97004.7 vs 441.9).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "affaan-m/ecc|decolua/9router": {
     "pick": "A",
-    "confidence": 0.6832,
-    "note": "Deciding factors: stars today (+793 vs +40), velocity (50302.8 vs 155.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.687,
+    "note": "Deciding factors: stars today (+1,076 vs +69), velocity (92604.8 vs 461.9).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
-  "affaan-m/ecc|jarrodwatts/claude-hud": {
+  "affaan-m/ecc|juliusbrussee/caveman": {
     "pick": "A",
-    "confidence": 0.7775,
-    "note": "Deciding factors: stars today (+793 vs +19), velocity (50302.8 vs 35.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.744,
+    "note": "Deciding factors: stars today (+1,076 vs +145), velocity (92604.8 vs 1813.8).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "dzhng/jevgrep|yetone/magpie": {
     "pick": "A",
-    "confidence": 0.717,
-    "note": "Deciding factors: stars today (+428 vs +281), velocity (26107.2 vs 10782.4).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.7661,
+    "note": "Deciding factors: stars today (+718 vs +361), velocity (71128.4 vs 17671.5).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "521xueweihan/hellogithub|vinta/awesome-python": {
+    "pick": "B",
+    "confidence": 0.4311,
+    "note": "Deciding factors: stars today (+882 vs +310), velocity (64315.9 vs 7574.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "farion1231/cc-switch|tauri-apps/tauri": {
-    "pick": "B",
-    "confidence": 0.4847,
-    "note": "Deciding factors: stars today (+534 vs +21), velocity (24094.0 vs 37.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "pick": "A",
+    "confidence": 0.479,
+    "note": "Deciding factors: stars today (+633 vs +33), velocity (33853.8 vs 93.7).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "bevyengine/bevy|farion1231/cc-switch": {
     "pick": "A",
-    "confidence": 0.8373,
-    "note": "Deciding factors: stars today (+534 vs +8), velocity (24094.0 vs 5.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "esengine/deepseek-reasonix|yetone/magpie": {
-    "pick": "A",
-    "confidence": 0.8386,
-    "note": "Deciding factors: stars today (+281 vs +3), velocity (10782.4 vs 0.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "wei-shaw/sub2api|yetone/magpie": {
-    "pick": "B",
-    "confidence": 0.4952,
-    "note": "Deciding factors: stars today (+281 vs +54), velocity (10782.4 vs 273.3).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.8474,
+    "note": "Deciding factors: stars today (+633 vs +23), velocity (33853.8 vs 49.0).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "firecrawl/firecrawl|opendataloader-project/opendataloader-pdf": {
     "pick": "A",
-    "confidence": 0.6725,
-    "note": "Deciding factors: stars today (+262 vs +18), velocity (5658.0 vs 31.5).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.6864,
+    "note": "Deciding factors: stars today (+481 vs +19), velocity (19068.1 vs 35.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
-  "langchain-ai/langchain|nousresearch/hermes-agent": {
+  "esengine/deepseek-reasonix|yetone/magpie": {
+    "pick": "A",
+    "confidence": 0.8182,
+    "note": "Deciding factors: stars today (+361 vs +0), velocity (17671.5 vs 0.0).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "wei-shaw/sub2api|yetone/magpie": {
     "pick": "B",
-    "confidence": 0.5394,
-    "note": "Deciding factors: stars today (+209 vs +35), velocity (3514.7 vs 102.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "nousresearch/hermes-agent|thedotmack/claude-mem": {
-    "pick": "A",
-    "confidence": 0.897,
-    "note": "Deciding factors: stars today (+209 vs +26), velocity (3514.7 vs 59.0).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "lemomo-ai/lemo-opuscar|yihui-dev/awesome-opus5-5-videos": {
-    "pick": "A",
-    "confidence": 0.5897,
-    "note": "Deciding factors: stars today (+128 vs +0), velocity (2657.4 vs 0.0).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "alexgreensh/anidoodle|lemomo-ai/lemo-opuscar": {
-    "pick": "A",
-    "confidence": 0.7777,
-    "note": "Deciding factors: stars today (+128 vs +71), velocity (2657.4 vs 780.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "bytedance/deer-flow|leonxlnx/taste-skill": {
-    "pick": "A",
-    "confidence": 0.8714,
-    "note": "Deciding factors: stars today (+171 vs +91), velocity (2561.3 vs 731.0).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "headroomlabs-ai/headroom|leonxlnx/taste-skill": {
-    "pick": "A",
-    "confidence": 0.7505,
-    "note": "Deciding factors: stars today (+171 vs +42), velocity (2561.3 vs 157.3).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "d4vinci/scrapling|scrapy/scrapy": {
-    "pick": "A",
-    "confidence": 0.6603,
-    "note": "Deciding factors: stars today (+168 vs +9), velocity (2488.6 vs 7.3).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "decolua/9router|diegosouzapw/omniroute": {
-    "pick": "A",
-    "confidence": 0.6738,
-    "note": "Deciding factors: stars today (+166 vs +40), velocity (2467.1 vs 155.2).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "code-yeongyu/oh-my-openagent|diegosouzapw/omniroute": {
-    "pick": "A",
-    "confidence": 0.6408,
-    "note": "Deciding factors: stars today (+166 vs +19), velocity (2467.1 vs 32.4).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "herdrdev/herdr|tinyhumansai/openhuman": {
-    "pick": "A",
-    "confidence": 0.8052,
-    "note": "Deciding factors: stars today (+152 vs +7), velocity (2174.4 vs 4.6).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "herdrdev/herdr|zeroclaw-labs/zeroclaw": {
-    "pick": "A",
-    "confidence": 0.7426,
-    "note": "Deciding factors: stars today (+152 vs +4), velocity (2174.4 vs 1.5).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "egonex-ai/understand-anything|graphify-labs/graphify": {
-    "pick": "A",
-    "confidence": 0.5518,
-    "note": "Deciding factors: stars today (+154 vs +0), velocity (2024.9 vs 0.0).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
-  },
-  "graphify-labs/graphify|stablyai/orca": {
-    "pick": "A",
-    "confidence": 0.5718,
-    "note": "Deciding factors: stars today (+773 vs +154), velocity (52911.9 vs 2024.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.5108,
+    "note": "Deciding factors: stars today (+361 vs +73), velocity (17671.5 vs 499.5).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "alexgreensh/anidoodle|feitangyuan/onetake": {
     "pick": "A",
-    "confidence": 0.8517,
-    "note": "Deciding factors: stars today (+112 vs +71), velocity (1938.1 vs 780.9).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.8319,
+    "note": "Deciding factors: stars today (+297 vs +105), velocity (13118.9 vs 1694.3).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   },
   "feitangyuan/onetake|lemomo-ai/lemo-opuscar": {
     "pick": "A",
-    "confidence": 0.562,
-    "note": "Deciding factors: stars today (+128 vs +112), velocity (2657.4 vs 1938.1).",
-    "computedAt": "2026-09-28T12:25:16.952Z"
+    "confidence": 0.5604,
+    "note": "Deciding factors: stars today (+297 vs +176), velocity (13118.9 vs 4947.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "decolua/9router|diegosouzapw/omniroute": {
+    "pick": "A",
+    "confidence": 0.5889,
+    "note": "Deciding factors: stars today (+316 vs +69), velocity (8938.4 vs 461.9).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "code-yeongyu/oh-my-openagent|diegosouzapw/omniroute": {
+    "pick": "A",
+    "confidence": 0.5942,
+    "note": "Deciding factors: stars today (+316 vs +30), velocity (8938.4 vs 80.7).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "langchain-ai/langchain|nousresearch/hermes-agent": {
+    "pick": "B",
+    "confidence": 0.5057,
+    "note": "Deciding factors: stars today (+317 vs +52), velocity (8085.4 vs 227.2).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "nousresearch/hermes-agent|thedotmack/claude-mem": {
+    "pick": "A",
+    "confidence": 0.89,
+    "note": "Deciding factors: stars today (+317 vs +52), velocity (8085.4 vs 235.9).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "bytedance/deer-flow|leonxlnx/taste-skill": {
+    "pick": "A",
+    "confidence": 0.8925,
+    "note": "Deciding factors: stars today (+290 vs +113), velocity (7365.7 vs 1127.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "headroomlabs-ai/headroom|leonxlnx/taste-skill": {
+    "pick": "A",
+    "confidence": 0.8098,
+    "note": "Deciding factors: stars today (+290 vs +72), velocity (7365.7 vs 462.3).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "juspay/hyperswitch|rust-lang/rustlings": {
+    "pick": "A",
+    "confidence": 0.8222,
+    "note": "Deciding factors: stars today (+280 vs +36), velocity (7314.6 vs 117.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "d4vinci/scrapling|scrapy/scrapy": {
+    "pick": "A",
+    "confidence": 0.7004,
+    "note": "Deciding factors: stars today (+284 vs +12), velocity (7110.9 vs 13.0).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "egonex-ai/understand-anything|graphify-labs/graphify": {
+    "pick": "A",
+    "confidence": 0.5256,
+    "note": "Deciding factors: stars today (+285 vs +0), velocity (6934.6 vs 0.0).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "graphify-labs/graphify|stablyai/orca": {
+    "pick": "A",
+    "confidence": 0.62,
+    "note": "Deciding factors: stars today (+1,195 vs +285), velocity (126394.5 vs 6934.6).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "herdrdev/herdr|tinyhumansai/openhuman": {
+    "pick": "A",
+    "confidence": 0.7849,
+    "note": "Deciding factors: stars today (+260 vs +15), velocity (6360.6 vs 21.2).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "aaif-goose/goose|herdrdev/herdr": {
+    "pick": "A",
+    "confidence": 0.8581,
+    "note": "Deciding factors: stars today (+260 vs +31), velocity (6360.6 vs 88.1).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "mvanhorn/last30days-skill|nextlevelbuilder/ui-ux-pro-max-skill": {
+    "pick": "A",
+    "confidence": 0.8326,
+    "note": "Deciding factors: stars today (+247 vs +105), velocity (5176.8 vs 997.5).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "juliusbrussee/caveman|nextlevelbuilder/ui-ux-pro-max-skill": {
+    "pick": "A",
+    "confidence": 0.9252,
+    "note": "Deciding factors: stars today (+247 vs +145), velocity (5176.8 vs 1813.8).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "alexgreensh/anidoodle|lemomo-ai/lemo-opuscar": {
+    "pick": "A",
+    "confidence": 0.8335,
+    "note": "Deciding factors: stars today (+176 vs +105), velocity (4947.1 vs 1694.3).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "lemomo-ai/lemo-opuscar|yihui-dev/awesome-opus5-5-videos": {
+    "pick": "A",
+    "confidence": 0.5529,
+    "note": "Deciding factors: stars today (+176 vs +0), velocity (4947.1 vs 0.0).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "addyosmani/agent-skills|decolua/9router": {
+    "pick": "A",
+    "confidence": 0.5277,
+    "note": "Deciding factors: stars today (+221 vs +69), velocity (4243.4 vs 461.9).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
+  },
+  "addyosmani/agent-skills|nextlevelbuilder/ui-ux-pro-max-skill": {
+    "pick": "A",
+    "confidence": 0.7051,
+    "note": "Deciding factors: stars today (+247 vs +221), velocity (5176.8 vs 4243.4).",
+    "computedAt": "2026-09-28T22:47:31.283Z"
   }
 }
