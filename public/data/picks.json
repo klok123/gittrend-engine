@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T12:25:16.952Z",
+  "generatedAt": "2026-09-28T22:47:31.283Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 91626,
-      "starsGainedToday": 2142
+      "totalStars": 92655,
+      "starsGainedToday": 3171
     },
     {
       "owner": "rohitg00",
@@ -28,24 +28,25 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 60041,
-      "starsGainedToday": 903
+      "totalStars": 60347,
+      "starsGainedToday": 1209
     },
     {
-      "owner": "521xueweihan",
-      "name": "HelloGitHub",
-      "fullName": "521xueweihan/HelloGitHub",
-      "url": "https://github.com/521xueweihan/HelloGitHub",
-      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "topics": [
-        "github",
-        "hellogithub",
-        "python",
-        "awesome"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
       ],
-      "language": "Python",
-      "totalStars": 178967,
-      "starsGainedToday": 819
+      "language": "TypeScript",
+      "totalStars": 80663,
+      "starsGainedToday": 1195
     },
     {
       "owner": "deepseek-ai",
@@ -60,8 +61,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 238418,
-      "starsGainedToday": 799
+      "totalStars": 238715,
+      "starsGainedToday": 1096
     },
     {
       "owner": "affaan-m",
@@ -77,8 +78,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 268671,
-      "starsGainedToday": 793
+      "totalStars": 268954,
+      "starsGainedToday": 1076
     }
   ]
 }

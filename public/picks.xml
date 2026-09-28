@@ -5,17 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 12:25:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 22:47:31 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+2,142 stars today)]]></title>
+      <title><![CDATA[paperclipai/paperclip (+3,171 stars today)]]></title>
       <link>https://github.com/paperclipai/paperclip</link>
       <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-28</guid>
       <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
       
-      <pubDate>Mon, 28 Sep 2026 12:25:16 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 22:47:31 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+903 stars today)]]></title>
+      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,209 stars today)]]></title>
       <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
       <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-28</guid>
       <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
@@ -24,21 +24,22 @@
       <category>ai-agents</category>
       <category>ai-engineering</category>
       <category>computer-vision</category>
-      <pubDate>Mon, 28 Sep 2026 12:25:16 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 22:47:31 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[521xueweihan/HelloGitHub (+819 stars today)]]></title>
-      <link>https://github.com/521xueweihan/HelloGitHub</link>
-      <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-09-28</guid>
-      <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
-      <category>github</category>
-      <category>hellogithub</category>
-      <category>python</category>
-      <category>awesome</category>
-      <pubDate>Mon, 28 Sep 2026 12:25:16 GMT</pubDate>
+      <title><![CDATA[stablyai/orca (+1,195 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-09-28</guid>
+      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>cli</category>
+      <pubDate>Mon, 28 Sep 2026 22:47:31 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+799 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,096 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-09-28</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -46,10 +47,10 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Mon, 28 Sep 2026 12:25:16 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 22:47:31 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+793 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+1,076 stars today)]]></title>
       <link>https://github.com/affaan-m/ECC</link>
       <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-09-28</guid>
       <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
@@ -58,7 +59,7 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>developer-tools</category>
-      <pubDate>Mon, 28 Sep 2026 12:25:16 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 22:47:31 GMT</pubDate>
     </item>
   </channel>
 </rss>
