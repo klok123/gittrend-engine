@@ -19,17 +19,25 @@ async function runMigrations() {
     throw new Error('Failed to initialize connection pool.');
   }
 
-  const migrationPath = path.join(__dirname, 'migrations', '001_init_schema.sql');
-  console.log(`Loading migration: ${migrationPath}`);
-  const sql = fs.readFileSync(migrationPath, 'utf8');
+  const migrationsDir = path.join(__dirname, 'migrations');
+  const migrationFiles = fs
+    .readdirSync(migrationsDir)
+    .filter((f) => f.endsWith('.sql'))
+    .sort();
+  console.log(`Found ${migrationFiles.length} migration(s): ${migrationFiles.join(', ')}`);
 
   const client = await pool.connect();
   try {
-    console.log('Applying database schema and indexes...');
-    await client.query('BEGIN');
-    await client.query(sql);
-    await client.query('COMMIT');
-    console.log('✅ Migration successfully applied!');
+    for (const file of migrationFiles) {
+      const migrationPath = path.join(migrationsDir, file);
+      console.log(`Loading migration: ${migrationPath}`);
+      const sql = fs.readFileSync(migrationPath, 'utf8');
+      console.log(`Applying ${file}...`);
+      await client.query('BEGIN');
+      await client.query(sql);
+      await client.query('COMMIT');
+    }
+    console.log('✅ All migrations successfully applied!');
   } catch (error: any) {
     await client.query('ROLLBACK');
     console.error('❌ Migration failed:', error.message);
