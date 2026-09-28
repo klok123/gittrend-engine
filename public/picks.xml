@@ -5,61 +5,59 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 20:38:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 02:41:24 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+2,529 stars today)]]></title>
+      <title><![CDATA[remotion-dev/remotion (+902 stars today)]]></title>
+      <link>https://github.com/remotion-dev/remotion</link>
+      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-09-28</guid>
+      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
+      <category>react</category>
+      <category>video</category>
+      <category>javascript</category>
+      <pubDate>Mon, 28 Sep 2026 02:41:24 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[521xueweihan/HelloGitHub (+735 stars today)]]></title>
+      <link>https://github.com/521xueweihan/HelloGitHub</link>
+      <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-09-28</guid>
+      <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
+      <category>github</category>
+      <category>hellogithub</category>
+      <category>python</category>
+      <category>awesome</category>
+      <pubDate>Mon, 28 Sep 2026 02:41:24 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[paperclipai/paperclip (+669 stars today)]]></title>
       <link>https://github.com/paperclipai/paperclip</link>
-      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-27</guid>
+      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-28</guid>
       <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
       
-      <pubDate>Sun, 27 Sep 2026 20:38:27 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 02:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[yt-dlp/yt-dlp (+1,996 stars today)]]></title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-09-27</guid>
-      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
-      <category>youtube-dl</category>
-      <category>python</category>
-      <category>sponsorblock</category>
-      <category>yt-dlp</category>
-      <category>youtube-downloader</category>
-      <pubDate>Sun, 27 Sep 2026 20:38:27 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,572 stars today)]]></title>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-27</guid>
-      <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
-      <category>agents</category>
-      <category>ai</category>
+      <title><![CDATA[affaan-m/ECC (+578 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-09-28</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
       <category>ai-agents</category>
-      <category>ai-engineering</category>
-      <category>computer-vision</category>
-      <pubDate>Sun, 27 Sep 2026 20:38:27 GMT</pubDate>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Mon, 28 Sep 2026 02:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+834 stars today)]]></title>
-      <link>https://github.com/deepseek-ai/deepseek-harness</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-09-27</guid>
-      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
-      <category>cordis</category>
-      <category>dsh</category>
-      <category>dsh-plugin</category>
-      <category>ai-agents</category>
-      <pubDate>Sun, 27 Sep 2026 20:38:27 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[juspay/hyperswitch (+657 stars today)]]></title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <guid isPermaLink="false">https://github.com/juspay/hyperswitch#2026-09-27</guid>
-      <description><![CDATA[Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…]]></description>
-      <category>payments</category>
-      <category>rust</category>
-      <category>orchestration</category>
-      <category>hacktoberfest</category>
-      <category>beginner-friendly</category>
-      <pubDate>Sun, 27 Sep 2026 20:38:27 GMT</pubDate>
+      <title><![CDATA[twentyhq/twenty (+412 stars today)]]></title>
+      <link>https://github.com/twentyhq/twenty</link>
+      <guid isPermaLink="false">https://github.com/twentyhq/twenty#2026-09-28</guid>
+      <description><![CDATA[The open alternative to Salesforce, designed for AI.]]></description>
+      <category>crm</category>
+      <category>customer</category>
+      <category>graphql</category>
+      <category>marketing</category>
+      <category>react</category>
+      <pubDate>Mon, 28 Sep 2026 02:41:24 GMT</pubDate>
     </item>
   </channel>
 </rss>

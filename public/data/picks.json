@@ -1,8 +1,39 @@
 {
-  "generatedAt": "2026-09-27T20:38:27.142Z",
+  "generatedAt": "2026-09-28T02:41:24.542Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
+      "language": "TypeScript",
+      "totalStars": 60782,
+      "starsGainedToday": 902
+    },
+    {
+      "owner": "521xueweihan",
+      "name": "HelloGitHub",
+      "fullName": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "topics": [
+        "github",
+        "hellogithub",
+        "python",
+        "awesome"
+      ],
+      "language": "Python",
+      "totalStars": 178883,
+      "starsGainedToday": 735
+    },
     {
       "owner": "paperclipai",
       "name": "paperclip",
@@ -11,75 +42,42 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 89484,
-      "starsGainedToday": 2529
+      "totalStars": 90153,
+      "starsGainedToday": 669
     },
     {
-      "owner": "yt-dlp",
-      "name": "yt-dlp",
-      "fullName": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "topics": [
-        "youtube-dl",
-        "python",
-        "sponsorblock",
-        "yt-dlp",
-        "youtube-downloader"
-      ],
-      "language": "Python",
-      "totalStars": 193949,
-      "starsGainedToday": 1996
-    },
-    {
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "topics": [
-        "agents",
-        "ai",
         "ai-agents",
-        "ai-engineering",
-        "computer-vision"
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
       ],
-      "language": "Python",
-      "totalStars": 59138,
-      "starsGainedToday": 1572
+      "language": "JavaScript",
+      "totalStars": 268456,
+      "starsGainedToday": 578
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "twentyhq",
+      "name": "twenty",
+      "fullName": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
+        "crm",
+        "customer",
+        "graphql",
+        "marketing",
+        "react"
       ],
       "language": "TypeScript",
-      "totalStars": 237619,
-      "starsGainedToday": 834
-    },
-    {
-      "owner": "juspay",
-      "name": "hyperswitch",
-      "fullName": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts…",
-      "topics": [
-        "payments",
-        "rust",
-        "orchestration",
-        "hacktoberfest",
-        "beginner-friendly"
-      ],
-      "language": "Rust",
-      "totalStars": 44887,
-      "starsGainedToday": 657
+      "totalStars": 57582,
+      "starsGainedToday": 412
     }
   ]
 }
