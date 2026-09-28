@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { TrendingUp, Rss, Code2, BookOpen, ShieldCheck, Mail, Megaphone, Rocket } from 'lucide-react';
 import { LANGUAGES_TO_TRACK, languageSlug } from '../lib/languages';
+import { VisitorStats } from './VisitorStats';
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -111,6 +112,10 @@ export function Footer() {
 
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-xs font-mono text-slate-500">
           Ranked purely by verified star velocity. 0 sponsored biases. Unaffiliated with GitHub Inc.
+        </div>
+
+        <div className="mt-4 flex items-center justify-center text-xs font-mono text-slate-400">
+          <VisitorStats />
         </div>
 
         {/* Per-language RSS feeds */}
