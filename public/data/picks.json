@@ -1,22 +1,35 @@
 {
-  "generatedAt": "2026-09-28T02:41:24.542Z",
+  "generatedAt": "2026-09-28T12:25:16.952Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "topics": [
-        "react",
-        "video",
-        "javascript"
-      ],
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "fullName": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "topics": [],
       "language": "TypeScript",
-      "totalStars": 60782,
-      "starsGainedToday": 902
+      "totalStars": 91626,
+      "starsGainedToday": 2142
+    },
+    {
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
+      ],
+      "language": "Python",
+      "totalStars": 60041,
+      "starsGainedToday": 903
     },
     {
       "owner": "521xueweihan",
@@ -31,19 +44,24 @@
         "awesome"
       ],
       "language": "Python",
-      "totalStars": 178883,
-      "starsGainedToday": 735
+      "totalStars": 178967,
+      "starsGainedToday": 819
     },
     {
-      "owner": "paperclipai",
-      "name": "paperclip",
-      "fullName": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "topics": [],
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
       "language": "TypeScript",
-      "totalStars": 90153,
-      "starsGainedToday": 669
+      "totalStars": 238418,
+      "starsGainedToday": 799
     },
     {
       "owner": "affaan-m",
@@ -59,25 +77,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 268456,
-      "starsGainedToday": 578
-    },
-    {
-      "owner": "twentyhq",
-      "name": "twenty",
-      "fullName": "twentyhq/twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
-      "topics": [
-        "crm",
-        "customer",
-        "graphql",
-        "marketing",
-        "react"
-      ],
-      "language": "TypeScript",
-      "totalStars": 57582,
-      "starsGainedToday": 412
+      "totalStars": 268671,
+      "starsGainedToday": 793
     }
   ]
 }
