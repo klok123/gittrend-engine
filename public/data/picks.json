@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:51:04.312Z",
+  "generatedAt": "2026-09-29T17:20:14.247Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 93908,
-      "starsGainedToday": 1253
+      "totalStars": 94190,
+      "starsGainedToday": 1535
     },
     {
       "owner": "deepseek-ai",
@@ -27,8 +27,25 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 239430,
-      "starsGainedToday": 715
+      "totalStars": 239839,
+      "starsGainedToday": 1124
+    },
+    {
+      "owner": "yetone",
+      "name": "magpie",
+      "fullName": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm"
+      ],
+      "language": "Go",
+      "totalStars": 2476,
+      "starsGainedToday": 891
     },
     {
       "owner": "stablyai",
@@ -44,8 +61,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 81215,
-      "starsGainedToday": 552
+      "totalStars": 81470,
+      "starsGainedToday": 807
     },
     {
       "owner": "rohitg00",
@@ -61,25 +78,8 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 60808,
-      "starsGainedToday": 461
-    },
-    {
-      "owner": "tt-a1i",
-      "name": "archify",
-      "fullName": "tt-a1i/archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "topics": [
-        "architecture-diagram",
-        "claude-skill",
-        "developer-tools",
-        "diagram-as-code",
-        "mermaid-alternative"
-      ],
-      "language": "JavaScript",
-      "totalStars": 73922,
-      "starsGainedToday": 416
+      "totalStars": 61091,
+      "starsGainedToday": 744
     }
   ]
 }
