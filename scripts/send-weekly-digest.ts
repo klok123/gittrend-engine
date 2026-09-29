@@ -145,6 +145,11 @@ async function sendViaButtondown(apiKey: string, subject: string, body: string):
         headers: {
           Authorization: `Token ${apiKey}`,
           'Content-Type': 'application/json',
+          // Buttondown safety rail: creating an email with status 'about_to_send'
+          // requires this one-time confirmation header per API key, otherwise
+          // the API answers 400 sending_requires_confirmation. Harmless to send
+          // on every request.
+          'X-Buttondown-Live-Dangerously': 'true',
         },
         // Fail fast (30s) instead of hanging the 10-minute job on a dead socket.
         signal: AbortSignal.timeout(30000),
