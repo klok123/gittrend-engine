@@ -124,30 +124,85 @@ function composeDigest(repos: DigestRepo[]): { subject: string; body: string } {
   return { subject, body: sections.join('\n') };
 }
 
-async function sendViaButtondown(apiKey: string, subject: string, body: string): Promise<void> {
-  const res = await fetch(BUTTONDOWN_API, {
-    method: 'POST',
-    headers: {
-      Authorization: `Token ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      subject,
-      body,
-      // "about_to_send" dispatches immediately (verified vs Buttondown API docs).
-      // "draft" would park it in the dashboard for manual review instead.
-      status: 'about_to_send',
-      email_type: 'public',
-    }),
-  });
+class FatalDigestError extends Error {}
 
-  if (!res.ok) {
-    const detail = await res.text().catch(() => '');
-    throw new Error(`Buttondown API rejected the digest (HTTP ${res.status}): ${detail.slice(0, 300)}`);
+/**
+ * POST the composed digest to Buttondown.
+ *
+ * Transient problems (network blips, HTTP 429/5xx) are retried up to 3 times
+ * with backoff. Configuration problems (HTTP 401/403 = bad API key, other 4xx
+ * = account issue) fail immediately with an actionable message — retrying a
+ * bad key will never succeed, so the run stays red until the secret is fixed.
+ */
+async function sendViaButtondown(apiKey: string, subject: string, body: string): Promise<void> {
+  const maxAttempts = 3;
+  let lastError: unknown = null;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const res = await fetch(BUTTONDOWN_API, {
+        method: 'POST',
+        headers: {
+          Authorization: `Token ${apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        // Fail fast (30s) instead of hanging the 10-minute job on a dead socket.
+        signal: AbortSignal.timeout(30000),
+        body: JSON.stringify({
+          subject,
+          body,
+          // "about_to_send" dispatches immediately (verified vs Buttondown API docs).
+          // "draft" would park it in the dashboard for manual review instead.
+          status: 'about_to_send',
+          email_type: 'public',
+        }),
+      });
+
+      if (res.ok) {
+        const payload = (await res.json().catch(() => ({}))) as { id?: string };
+        console.log(`[digest] Sent via Buttondown (email id: ${payload.id || 'unknown'}).`);
+        return;
+      }
+
+      const detail = (await res.text().catch(() => '')).slice(0, 300);
+
+      if (res.status === 401 || res.status === 403) {
+        throw new FatalDigestError(
+          `[digest] Buttondown rejected the API key (HTTP ${res.status}). ` +
+            `Fix: copy a fresh key from buttondown.email → Settings → API, then update the ` +
+            `BUTTONDOWN_API_KEY repository secret (Settings → Secrets and variables → Actions). ` +
+            `Buttondown's reply: ${detail}`
+        );
+      }
+
+      if (res.status >= 400 && res.status < 500) {
+        throw new FatalDigestError(
+          `[digest] Buttondown refused the digest (HTTP ${res.status}) — likely an account issue ` +
+            `(e.g. sender email not verified in the Buttondown dashboard). ` +
+            `Buttondown's reply: ${detail}`
+        );
+      }
+
+      // HTTP 429 / 5xx: transient — fall through to the retry below.
+      lastError = new Error(`Buttondown returned HTTP ${res.status}: ${detail}`);
+      console.log(`[digest] Attempt ${attempt}/${maxAttempts}: HTTP ${res.status} — retrying…`);
+    } catch (err) {
+      if (err instanceof FatalDigestError) throw err;
+      // Raw network failure (DNS, TLS, connection reset): transient — retry.
+      lastError = err;
+      console.log(
+        `[digest] Attempt ${attempt}/${maxAttempts} failed ` +
+          `(${err instanceof Error ? err.message : err}) — retrying…`
+      );
+    }
+
+    if (attempt < maxAttempts) await new Promise((r) => setTimeout(r, 5000 * attempt));
   }
 
-  const payload = (await res.json().catch(() => ({}))) as { id?: string };
-  console.log(`[digest] Sent via Buttondown (email id: ${payload.id || 'unknown'}).`);
+  throw new Error(
+    `[digest] Could not reach Buttondown after ${maxAttempts} attempts. ` +
+      `Last error: ${lastError instanceof Error ? lastError.message : lastError}`
+  );
 }
 
 async function main(): Promise<void> {
