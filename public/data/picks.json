@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:47:31.283Z",
+  "generatedAt": "2026-09-29T03:23:42.837Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,25 +11,37 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 92655,
-      "starsGainedToday": 3171
+      "totalStars": 93089,
+      "starsGainedToday": 434
     },
     {
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "owner": "anthropics",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
       "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "computer-vision"
+        "agent-skills"
       ],
       "language": "Python",
-      "totalStars": 60347,
-      "starsGainedToday": 1209
+      "totalStars": 178844,
+      "starsGainedToday": 298
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 238923,
+      "starsGainedToday": 208
     },
     {
       "owner": "stablyai",
@@ -45,41 +57,25 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 80663,
-      "starsGainedToday": 1195
+      "totalStars": 80845,
+      "starsGainedToday": 182
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 238715,
-      "starsGainedToday": 1096
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
+        "agents",
+        "ai",
         "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
+        "ai-engineering",
+        "computer-vision"
       ],
-      "language": "JavaScript",
-      "totalStars": 268954,
-      "starsGainedToday": 1076
+      "language": "Python",
+      "totalStars": 60486,
+      "starsGainedToday": 139
     }
   ]
 }
