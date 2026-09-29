@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:20:14.247Z",
+  "generatedAt": "2026-09-29T21:41:24.535Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 94190,
-      "starsGainedToday": 1535
+      "totalStars": 94348,
+      "starsGainedToday": 1693
     },
     {
       "owner": "deepseek-ai",
@@ -27,8 +27,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 239839,
-      "starsGainedToday": 1124
+      "totalStars": 239945,
+      "starsGainedToday": 1230
     },
     {
       "owner": "yetone",
@@ -44,8 +44,8 @@
         "llm"
       ],
       "language": "Go",
-      "totalStars": 2476,
-      "starsGainedToday": 891
+      "totalStars": 2583,
+      "starsGainedToday": 998
     },
     {
       "owner": "stablyai",
@@ -61,25 +61,25 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 81470,
-      "starsGainedToday": 807
+      "totalStars": 81574,
+      "starsGainedToday": 911
     },
     {
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "computer-vision"
+        "architecture-diagram",
+        "claude-skill",
+        "developer-tools",
+        "diagram-as-code",
+        "mermaid-alternative"
       ],
-      "language": "Python",
-      "totalStars": 61091,
-      "starsGainedToday": 744
+      "language": "JavaScript",
+      "totalStars": 74197,
+      "starsGainedToday": 691
     }
   ]
 }

@@ -5,17 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 17:20:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 21:41:24 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+1,535 stars today)]]></title>
+      <title><![CDATA[paperclipai/paperclip (+1,693 stars today)]]></title>
       <link>https://github.com/paperclipai/paperclip</link>
       <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-29</guid>
       <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
       
-      <pubDate>Tue, 29 Sep 2026 17:20:14 GMT</pubDate>
+      <pubDate>Tue, 29 Sep 2026 21:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+1,124 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,230 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-09-29</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -23,10 +23,10 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Tue, 29 Sep 2026 17:20:14 GMT</pubDate>
+      <pubDate>Tue, 29 Sep 2026 21:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[yetone/magpie (+891 stars today)]]></title>
+      <title><![CDATA[yetone/magpie (+998 stars today)]]></title>
       <link>https://github.com/yetone/magpie</link>
       <guid isPermaLink="false">https://github.com/yetone/magpie#2026-09-29</guid>
       <description><![CDATA[Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.]]></description>
@@ -35,10 +35,10 @@
       <category>deepseek</category>
       <category>gemini-cli</category>
       <category>llm</category>
-      <pubDate>Tue, 29 Sep 2026 17:20:14 GMT</pubDate>
+      <pubDate>Tue, 29 Sep 2026 21:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+807 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+911 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-09-29</guid>
       <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -47,19 +47,19 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>cli</category>
-      <pubDate>Tue, 29 Sep 2026 17:20:14 GMT</pubDate>
+      <pubDate>Tue, 29 Sep 2026 21:41:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+744 stars today)]]></title>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-29</guid>
-      <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
-      <category>agents</category>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>ai-engineering</category>
-      <category>computer-vision</category>
-      <pubDate>Tue, 29 Sep 2026 17:20:14 GMT</pubDate>
+      <title><![CDATA[tt-a1i/archify (+691 stars today)]]></title>
+      <link>https://github.com/tt-a1i/archify</link>
+      <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-09-29</guid>
+      <description><![CDATA[Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.]]></description>
+      <category>architecture-diagram</category>
+      <category>claude-skill</category>
+      <category>developer-tools</category>
+      <category>diagram-as-code</category>
+      <category>mermaid-alternative</category>
+      <pubDate>Tue, 29 Sep 2026 21:41:24 GMT</pubDate>
     </item>
   </channel>
 </rss>
