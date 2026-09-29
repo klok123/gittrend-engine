@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T03:23:42.837Z",
+  "generatedAt": "2026-09-29T11:51:04.312Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,21 +11,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 93089,
-      "starsGainedToday": 434
-    },
-    {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "topics": [
-        "agent-skills"
-      ],
-      "language": "Python",
-      "totalStars": 178844,
-      "starsGainedToday": 298
+      "totalStars": 93908,
+      "starsGainedToday": 1253
     },
     {
       "owner": "deepseek-ai",
@@ -40,8 +27,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 238923,
-      "starsGainedToday": 208
+      "totalStars": 239430,
+      "starsGainedToday": 715
     },
     {
       "owner": "stablyai",
@@ -57,8 +44,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 80845,
-      "starsGainedToday": 182
+      "totalStars": 81215,
+      "starsGainedToday": 552
     },
     {
       "owner": "rohitg00",
@@ -74,8 +61,25 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 60486,
-      "starsGainedToday": 139
+      "totalStars": 60808,
+      "starsGainedToday": 461
+    },
+    {
+      "owner": "tt-a1i",
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "topics": [
+        "architecture-diagram",
+        "claude-skill",
+        "developer-tools",
+        "diagram-as-code",
+        "mermaid-alternative"
+      ],
+      "language": "JavaScript",
+      "totalStars": 73922,
+      "starsGainedToday": 416
     }
   ]
 }
