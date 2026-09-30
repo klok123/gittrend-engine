@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { TrendingUp, Compass, Sparkles, Gem, BookOpen, Search, Menu, X, Zap, Archive, Rocket } from 'lucide-react';
+import { TrendingUp, Compass, Sparkles, Gem, BookOpen, Search, Menu, X, Zap, Archive, Rocket, Mail } from 'lucide-react';
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -41,6 +41,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
     { href: '/hidden-gems', label: 'Hidden Gems', icon: Gem },
     { href: '/submit', label: 'Submit', icon: Rocket },
     { href: '/methodology', label: 'Methodology', icon: BookOpen },
+    { href: '/newsletter', label: 'Newsletter', icon: Mail },
   ];
 
   return (
