@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-09-30T17:17:28.178Z",
+  "generatedAt": "2026-09-30T21:42:06.309Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Niko1221",
+      "name": "Strata",
+      "fullName": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 2920,
+      "starsGainedToday": 1269
+    },
     {
       "owner": "deepseek-ai",
       "name": "deepseek-harness",
@@ -16,19 +27,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 240990,
-      "starsGainedToday": 1045
-    },
-    {
-      "owner": "Niko1221",
-      "name": "Strata",
-      "fullName": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 2665,
-      "starsGainedToday": 1014
+      "totalStars": 241050,
+      "starsGainedToday": 1105
     },
     {
       "owner": "tt-a1i",
@@ -44,8 +44,8 @@
         "mermaid-alternative"
       ],
       "language": "JavaScript",
-      "totalStars": 75049,
-      "starsGainedToday": 852
+      "totalStars": 75180,
+      "starsGainedToday": 983
     },
     {
       "owner": "paperclipai",
@@ -55,8 +55,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 95134,
-      "starsGainedToday": 786
+      "totalStars": 95268,
+      "starsGainedToday": 920
     },
     {
       "owner": "stablyai",
@@ -72,8 +72,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 82198,
-      "starsGainedToday": 624
+      "totalStars": 82303,
+      "starsGainedToday": 729
     }
   ]
 }
