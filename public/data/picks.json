@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T03:06:14.701Z",
+  "generatedAt": "2026-09-30T11:37:40.300Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,8 +16,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 240240,
-      "starsGainedToday": 295
+      "totalStars": 240760,
+      "starsGainedToday": 815
     },
     {
       "owner": "paperclipai",
@@ -27,19 +27,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 94580,
-      "starsGainedToday": 232
-    },
-    {
-      "owner": "Niko1221",
-      "name": "Strata",
-      "fullName": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 1844,
-      "starsGainedToday": 193
+      "totalStars": 94983,
+      "starsGainedToday": 635
     },
     {
       "owner": "tt-a1i",
@@ -55,8 +44,19 @@
         "mermaid-alternative"
       ],
       "language": "JavaScript",
-      "totalStars": 74358,
-      "starsGainedToday": 161
+      "totalStars": 74802,
+      "starsGainedToday": 605
+    },
+    {
+      "owner": "Niko1221",
+      "name": "Strata",
+      "fullName": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 2161,
+      "starsGainedToday": 510
     },
     {
       "owner": "stablyai",
@@ -72,8 +72,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 81721,
-      "starsGainedToday": 147
+      "totalStars": 82012,
+      "starsGainedToday": 438
     }
   ]
 }
