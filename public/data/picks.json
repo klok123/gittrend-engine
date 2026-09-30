@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:37:40.300Z",
+  "generatedAt": "2026-09-30T17:17:28.178Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,19 +16,19 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 240760,
-      "starsGainedToday": 815
+      "totalStars": 240990,
+      "starsGainedToday": 1045
     },
     {
-      "owner": "paperclipai",
-      "name": "paperclip",
-      "fullName": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
+      "owner": "Niko1221",
+      "name": "Strata",
+      "fullName": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "topics": [],
-      "language": "TypeScript",
-      "totalStars": 94983,
-      "starsGainedToday": 635
+      "language": "C++",
+      "totalStars": 2665,
+      "starsGainedToday": 1014
     },
     {
       "owner": "tt-a1i",
@@ -44,19 +44,19 @@
         "mermaid-alternative"
       ],
       "language": "JavaScript",
-      "totalStars": 74802,
-      "starsGainedToday": 605
+      "totalStars": 75049,
+      "starsGainedToday": 852
     },
     {
-      "owner": "Niko1221",
-      "name": "Strata",
-      "fullName": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "fullName": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
       "topics": [],
-      "language": "C++",
-      "totalStars": 2161,
-      "starsGainedToday": 510
+      "language": "TypeScript",
+      "totalStars": 95134,
+      "starsGainedToday": 786
     },
     {
       "owner": "stablyai",
@@ -72,8 +72,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 82012,
-      "starsGainedToday": 438
+      "totalStars": 82198,
+      "starsGainedToday": 624
     }
   ]
 }

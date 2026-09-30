@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 11:37:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 17:17:28 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+815 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,045 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-09-30</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -15,18 +15,18 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Wed, 30 Sep 2026 11:37:40 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:17:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[paperclipai/paperclip (+635 stars today)]]></title>
-      <link>https://github.com/paperclipai/paperclip</link>
-      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-30</guid>
-      <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
+      <title><![CDATA[Niko1221/Strata (+1,014 stars today)]]></title>
+      <link>https://github.com/Niko1221/Strata</link>
+      <guid isPermaLink="false">https://github.com/Niko1221/Strata#2026-09-30</guid>
+      <description><![CDATA[Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.]]></description>
       
-      <pubDate>Wed, 30 Sep 2026 11:37:40 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:17:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[tt-a1i/archify (+605 stars today)]]></title>
+      <title><![CDATA[tt-a1i/archify (+852 stars today)]]></title>
       <link>https://github.com/tt-a1i/archify</link>
       <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-09-30</guid>
       <description><![CDATA[Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.]]></description>
@@ -35,18 +35,18 @@
       <category>developer-tools</category>
       <category>diagram-as-code</category>
       <category>mermaid-alternative</category>
-      <pubDate>Wed, 30 Sep 2026 11:37:40 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:17:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Niko1221/Strata (+510 stars today)]]></title>
-      <link>https://github.com/Niko1221/Strata</link>
-      <guid isPermaLink="false">https://github.com/Niko1221/Strata#2026-09-30</guid>
-      <description><![CDATA[Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.]]></description>
+      <title><![CDATA[paperclipai/paperclip (+786 stars today)]]></title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <guid isPermaLink="false">https://github.com/paperclipai/paperclip#2026-09-30</guid>
+      <description><![CDATA[The open-source app everyone uses to manage agents at work]]></description>
       
-      <pubDate>Wed, 30 Sep 2026 11:37:40 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:17:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+438 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+624 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-09-30</guid>
       <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -55,7 +55,7 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>cli</category>
-      <pubDate>Wed, 30 Sep 2026 11:37:40 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:17:28 GMT</pubDate>
     </item>
   </channel>
 </rss>
