@@ -101,6 +101,9 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
           </p>
         </section>
 
+        {/* Newsletter Signup — prominent placement right under the hero */}
+        <NewsletterSignup />
+
         {/* Bento Grid: Featured Breakouts */}
         <BentoBreakouts repositories={initialData.repositories} />
 
@@ -115,8 +118,6 @@ export function ExploreClient({ initialData, picks = [], picksUpdated }: Explore
             .slice(0, 5)}
         />
 
-        {/* Newsletter Signup */}
-        <NewsletterSignup />
 
         {/* Control Bar: Feed Header, TimeFilter, LanguageFilter */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5 pt-6 border-t border-white/10">
