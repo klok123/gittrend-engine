@@ -1,79 +1,86 @@
 {
-  "generatedAt": "2026-09-30T21:42:06.309Z",
+  "generatedAt": "2026-10-01T03:12:42.325Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "Niko1221",
-      "name": "Strata",
-      "fullName": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "owner": "Mak5er",
+      "name": "AirCard",
+      "fullName": "Mak5er/AirCard",
+      "url": "https://github.com/Mak5er/AirCard",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
       "topics": [],
-      "language": "C++",
-      "totalStars": 2920,
-      "starsGainedToday": 1269
+      "language": "Swift",
+      "totalStars": 5240,
+      "starsGainedToday": 2497
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
       ],
-      "language": "TypeScript",
-      "totalStars": 241050,
-      "starsGainedToday": 1105
+      "language": "Python",
+      "totalStars": 187794,
+      "starsGainedToday": 1160
     },
     {
-      "owner": "tt-a1i",
-      "name": "archify",
-      "fullName": "tt-a1i/archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
       "topics": [
-        "architecture-diagram",
-        "claude-skill",
-        "developer-tools",
-        "diagram-as-code",
-        "mermaid-alternative"
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
       ],
-      "language": "JavaScript",
-      "totalStars": 75180,
-      "starsGainedToday": 983
+      "language": "Python",
+      "totalStars": 62162,
+      "starsGainedToday": 1071
     },
     {
-      "owner": "paperclipai",
-      "name": "paperclip",
-      "fullName": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 95268,
-      "starsGainedToday": 920
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner": "Louis-CFM",
+      "name": "coucou",
+      "fullName": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
       "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
         "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
+        "dynamic-island"
       ],
-      "language": "TypeScript",
-      "totalStars": 82303,
-      "starsGainedToday": 729
+      "language": "Swift",
+      "totalStars": 1451,
+      "starsGainedToday": 449
+    },
+    {
+      "owner": "rehan-remade",
+      "name": "universal-modder",
+      "fullName": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+      "topics": [
+        "age-of-empires",
+        "claude-code",
+        "claude-code-plugin",
+        "fal",
+        "game-assets"
+      ],
+      "language": "Python",
+      "totalStars": 899,
+      "starsGainedToday": 171
     }
   ]
 }
