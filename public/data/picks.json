@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T03:12:42.325Z",
+  "generatedAt": "2026-10-01T12:06:25.665Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
       "topics": [],
       "language": "Swift",
-      "totalStars": 5240,
-      "starsGainedToday": 2497
+      "totalStars": 5318,
+      "starsGainedToday": 2575
     },
     {
       "owner": "microsoft",
@@ -28,8 +28,8 @@
         "markdown"
       ],
       "language": "Python",
-      "totalStars": 187794,
-      "starsGainedToday": 1160
+      "totalStars": 187832,
+      "starsGainedToday": 1198
     },
     {
       "owner": "rohitg00",
@@ -45,8 +45,8 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 62162,
-      "starsGainedToday": 1071
+      "totalStars": 62266,
+      "starsGainedToday": 1175
     },
     {
       "owner": "Louis-CFM",
@@ -62,8 +62,8 @@
         "dynamic-island"
       ],
       "language": "Swift",
-      "totalStars": 1451,
-      "starsGainedToday": 449
+      "totalStars": 2034,
+      "starsGainedToday": 1032
     },
     {
       "owner": "rehan-remade",
@@ -79,8 +79,8 @@
         "game-assets"
       ],
       "language": "Python",
-      "totalStars": 899,
-      "starsGainedToday": 171
+      "totalStars": 1220,
+      "starsGainedToday": 492
     }
   ]
 }
