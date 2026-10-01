@@ -5,41 +5,21 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:06:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 22:09:32 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Mak5er/AirCard (+2,575 stars today)]]></title>
-      <link>https://github.com/Mak5er/AirCard</link>
-      <guid isPermaLink="false">https://github.com/Mak5er/AirCard#2026-10-01</guid>
-      <description><![CDATA[Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)]]></description>
-      
-      <pubDate>Thu, 01 Oct 2026 12:06:25 GMT</pubDate>
+      <title><![CDATA[666ghj/MiroFish (+1,613 stars today)]]></title>
+      <link>https://github.com/666ghj/MiroFish</link>
+      <guid isPermaLink="false">https://github.com/666ghj/MiroFish#2026-10-01</guid>
+      <description><![CDATA[A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物]]></description>
+      <category>agent-memory</category>
+      <category>financial-forecasting</category>
+      <category>future-prediction</category>
+      <category>knowledge-graph</category>
+      <category>llms</category>
+      <pubDate>Thu, 01 Oct 2026 22:09:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[microsoft/markitdown (+1,198 stars today)]]></title>
-      <link>https://github.com/microsoft/markitdown</link>
-      <guid isPermaLink="false">https://github.com/microsoft/markitdown#2026-10-01</guid>
-      <description><![CDATA[Python tool for converting files and office documents to Markdown.]]></description>
-      <category>langchain</category>
-      <category>openai</category>
-      <category>autogen-extension</category>
-      <category>autogen</category>
-      <category>markdown</category>
-      <pubDate>Thu, 01 Oct 2026 12:06:25 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,175 stars today)]]></title>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-10-01</guid>
-      <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
-      <category>agents</category>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>ai-engineering</category>
-      <category>computer-vision</category>
-      <pubDate>Thu, 01 Oct 2026 12:06:25 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Louis-CFM/coucou (+1,032 stars today)]]></title>
+      <title><![CDATA[Louis-CFM/coucou (+1,427 stars today)]]></title>
       <link>https://github.com/Louis-CFM/coucou</link>
       <guid isPermaLink="false">https://github.com/Louis-CFM/coucou#2026-10-01</guid>
       <description><![CDATA[A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.]]></description>
@@ -48,10 +28,34 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>dynamic-island</category>
-      <pubDate>Thu, 01 Oct 2026 12:06:25 GMT</pubDate>
+      <pubDate>Thu, 01 Oct 2026 22:09:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rehan-remade/universal-modder (+492 stars today)]]></title>
+      <title><![CDATA[microsoft/markitdown (+1,255 stars today)]]></title>
+      <link>https://github.com/microsoft/markitdown</link>
+      <guid isPermaLink="false">https://github.com/microsoft/markitdown#2026-10-01</guid>
+      <description><![CDATA[Python tool for converting files and office documents to Markdown.]]></description>
+      <category>langchain</category>
+      <category>openai</category>
+      <category>autogen-extension</category>
+      <category>autogen</category>
+      <category>markdown</category>
+      <pubDate>Thu, 01 Oct 2026 22:09:32 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+815 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-01</guid>
+      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>cli</category>
+      <pubDate>Thu, 01 Oct 2026 22:09:32 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[rehan-remade/universal-modder (+778 stars today)]]></title>
       <link>https://github.com/rehan-remade/universal-modder</link>
       <guid isPermaLink="false">https://github.com/rehan-remade/universal-modder#2026-10-01</guid>
       <description><![CDATA[Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.]]></description>
@@ -60,7 +64,7 @@
       <category>claude-code-plugin</category>
       <category>fal</category>
       <category>game-assets</category>
-      <pubDate>Thu, 01 Oct 2026 12:06:25 GMT</pubDate>
+      <pubDate>Thu, 01 Oct 2026 22:09:32 GMT</pubDate>
     </item>
   </channel>
 </rss>

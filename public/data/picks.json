@@ -1,52 +1,24 @@
 {
-  "generatedAt": "2026-10-01T12:06:25.665Z",
+  "generatedAt": "2026-10-01T22:09:32.200Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "Mak5er",
-      "name": "AirCard",
-      "fullName": "Mak5er/AirCard",
-      "url": "https://github.com/Mak5er/AirCard",
-      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 5318,
-      "starsGainedToday": 2575
-    },
-    {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
+      "owner": "666ghj",
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction",
+        "knowledge-graph",
+        "llms"
       ],
       "language": "Python",
-      "totalStars": 187832,
-      "starsGainedToday": 1198
-    },
-    {
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "computer-vision"
-      ],
-      "language": "Python",
-      "totalStars": 62266,
-      "starsGainedToday": 1175
+      "totalStars": 75536,
+      "starsGainedToday": 1613
     },
     {
       "owner": "Louis-CFM",
@@ -62,8 +34,42 @@
         "dynamic-island"
       ],
       "language": "Swift",
-      "totalStars": 2034,
-      "starsGainedToday": 1032
+      "totalStars": 2429,
+      "starsGainedToday": 1427
+    },
+    {
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "topics": [
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
+      ],
+      "language": "Python",
+      "totalStars": 187889,
+      "starsGainedToday": 1255
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
+      ],
+      "language": "TypeScript",
+      "totalStars": 83118,
+      "starsGainedToday": 815
     },
     {
       "owner": "rehan-remade",
@@ -79,8 +85,8 @@
         "game-assets"
       ],
       "language": "Python",
-      "totalStars": 1220,
-      "starsGainedToday": 492
+      "totalStars": 1506,
+      "starsGainedToday": 778
     }
   ]
 }
