@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:05:32.000Z",
+  "generatedAt": "2026-10-02T21:37:30.104Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 1198,
-      "starsGainedToday": 922
+      "totalStars": 1382,
+      "starsGainedToday": 1106
     },
     {
       "owner": "addyosmani",
@@ -28,8 +28,8 @@
         "skills"
       ],
       "language": "JavaScript",
-      "totalStars": 100440,
-      "starsGainedToday": 752
+      "totalStars": 100502,
+      "starsGainedToday": 814
     },
     {
       "owner": "stablyai",
@@ -45,19 +45,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 83718,
-      "starsGainedToday": 600
-    },
-    {
-      "owner": "earendil-works",
-      "name": "pi",
-      "fullName": "earendil-works/pi",
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 111690,
-      "starsGainedToday": 535
+      "totalStars": 83834,
+      "starsGainedToday": 716
     },
     {
       "owner": "pbakaus",
@@ -67,8 +56,19 @@
       "description": "The design language that makes your AI harness better at design.",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 74111,
-      "starsGainedToday": 492
+      "totalStars": 74247,
+      "starsGainedToday": 628
+    },
+    {
+      "owner": "earendil-works",
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 111752,
+      "starsGainedToday": 597
     }
   ]
 }
