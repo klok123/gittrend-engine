@@ -1,92 +1,80 @@
 {
-  "generatedAt": "2026-10-01T22:09:32.200Z",
+  "generatedAt": "2026-10-02T03:14:17.960Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "fullName": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
       "topics": [
-        "agent-memory",
-        "financial-forecasting",
-        "future-prediction",
-        "knowledge-graph",
-        "llms"
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "cursor",
+        "skills"
       ],
-      "language": "Python",
-      "totalStars": 75536,
-      "starsGainedToday": 1613
+      "language": "JavaScript",
+      "totalStars": 100361,
+      "starsGainedToday": 673
     },
     {
-      "owner": "Louis-CFM",
-      "name": "coucou",
-      "fullName": "Louis-CFM/coucou",
-      "url": "https://github.com/Louis-CFM/coucou",
-      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "dynamic-island"
-      ],
+      "owner": "Mak5er",
+      "name": "AirCard",
+      "fullName": "Mak5er/AirCard",
+      "url": "https://github.com/Mak5er/AirCard",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "topics": [],
       "language": "Swift",
-      "totalStars": 2429,
-      "starsGainedToday": 1427
+      "totalStars": 5575,
+      "starsGainedToday": 257
     },
     {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
-      ],
-      "language": "Python",
-      "totalStars": 187889,
-      "starsGainedToday": 1255
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
-      ],
+      "owner": "CopilotKit",
+      "name": "OpenDots",
+      "fullName": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "topics": [],
       "language": "TypeScript",
-      "totalStars": 83118,
-      "starsGainedToday": 815
+      "totalStars": 488,
+      "starsGainedToday": 212
     },
     {
-      "owner": "rehan-remade",
-      "name": "universal-modder",
-      "fullName": "rehan-remade/universal-modder",
-      "url": "https://github.com/rehan-remade/universal-modder",
-      "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
       "topics": [
-        "age-of-empires",
-        "claude-code",
-        "claude-code-plugin",
-        "fal",
-        "game-assets"
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 1506,
-      "starsGainedToday": 778
+      "totalStars": 62475,
+      "starsGainedToday": 209
+    },
+    {
+      "owner": "BerriAI",
+      "name": "litellm",
+      "fullName": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
+      "topics": [
+        "anthropic",
+        "langchain",
+        "llm",
+        "llmops",
+        "openai"
+      ],
+      "language": "Python",
+      "totalStars": 60017,
+      "starsGainedToday": 163
     }
   ]
 }
