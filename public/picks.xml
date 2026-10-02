@@ -5,9 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2026 11:37:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:05:32 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[addyosmani/agent-skills (+741 stars today)]]></title>
+      <title><![CDATA[CopilotKit/OpenDots (+922 stars today)]]></title>
+      <link>https://github.com/CopilotKit/OpenDots</link>
+      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-02</guid>
+      <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
+      
+      <pubDate>Fri, 02 Oct 2026 17:05:32 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[addyosmani/agent-skills (+752 stars today)]]></title>
       <link>https://github.com/addyosmani/agent-skills</link>
       <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-02</guid>
       <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
@@ -16,18 +24,10 @@
       <category>claude-code</category>
       <category>cursor</category>
       <category>skills</category>
-      <pubDate>Fri, 02 Oct 2026 11:37:19 GMT</pubDate>
+      <pubDate>Fri, 02 Oct 2026 17:05:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[CopilotKit/OpenDots (+609 stars today)]]></title>
-      <link>https://github.com/CopilotKit/OpenDots</link>
-      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-02</guid>
-      <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
-      
-      <pubDate>Fri, 02 Oct 2026 11:37:19 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+413 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+600 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-02</guid>
       <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -36,23 +36,23 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>cli</category>
-      <pubDate>Fri, 02 Oct 2026 11:37:19 GMT</pubDate>
+      <pubDate>Fri, 02 Oct 2026 17:05:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[earendil-works/pi (+403 stars today)]]></title>
+      <title><![CDATA[earendil-works/pi (+535 stars today)]]></title>
       <link>https://github.com/earendil-works/pi</link>
       <guid isPermaLink="false">https://github.com/earendil-works/pi#2026-10-02</guid>
       <description><![CDATA[AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI]]></description>
       
-      <pubDate>Fri, 02 Oct 2026 11:37:19 GMT</pubDate>
+      <pubDate>Fri, 02 Oct 2026 17:05:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Mak5er/AirCard (+360 stars today)]]></title>
-      <link>https://github.com/Mak5er/AirCard</link>
-      <guid isPermaLink="false">https://github.com/Mak5er/AirCard#2026-10-02</guid>
-      <description><![CDATA[Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)]]></description>
+      <title><![CDATA[pbakaus/impeccable (+492 stars today)]]></title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-02</guid>
+      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
       
-      <pubDate>Fri, 02 Oct 2026 11:37:19 GMT</pubDate>
+      <pubDate>Fri, 02 Oct 2026 17:05:32 GMT</pubDate>
     </item>
   </channel>
 </rss>

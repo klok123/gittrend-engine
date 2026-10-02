@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-10-02T11:37:19.037Z",
+  "generatedAt": "2026-10-02T17:05:32.000Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "CopilotKit",
+      "name": "OpenDots",
+      "fullName": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 1198,
+      "starsGainedToday": 922
+    },
     {
       "owner": "addyosmani",
       "name": "agent-skills",
@@ -17,19 +28,8 @@
         "skills"
       ],
       "language": "JavaScript",
-      "totalStars": 100429,
-      "starsGainedToday": 741
-    },
-    {
-      "owner": "CopilotKit",
-      "name": "OpenDots",
-      "fullName": "CopilotKit/OpenDots",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 885,
-      "starsGainedToday": 609
+      "totalStars": 100440,
+      "starsGainedToday": 752
     },
     {
       "owner": "stablyai",
@@ -45,8 +45,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 83531,
-      "starsGainedToday": 413
+      "totalStars": 83718,
+      "starsGainedToday": 600
     },
     {
       "owner": "earendil-works",
@@ -56,19 +56,19 @@
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 111558,
-      "starsGainedToday": 403
+      "totalStars": 111690,
+      "starsGainedToday": 535
     },
     {
-      "owner": "Mak5er",
-      "name": "AirCard",
-      "fullName": "Mak5er/AirCard",
-      "url": "https://github.com/Mak5er/AirCard",
-      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
       "topics": [],
-      "language": "Swift",
-      "totalStars": 5678,
-      "starsGainedToday": 360
+      "language": "JavaScript",
+      "totalStars": 74111,
+      "starsGainedToday": 492
     }
   ]
 }
