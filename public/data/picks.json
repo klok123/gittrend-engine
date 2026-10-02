@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T03:14:17.960Z",
+  "generatedAt": "2026-10-02T11:37:19.037Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,8 @@
         "skills"
       ],
       "language": "JavaScript",
-      "totalStars": 100361,
-      "starsGainedToday": 673
-    },
-    {
-      "owner": "Mak5er",
-      "name": "AirCard",
-      "fullName": "Mak5er/AirCard",
-      "url": "https://github.com/Mak5er/AirCard",
-      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 5575,
-      "starsGainedToday": 257
+      "totalStars": 100429,
+      "starsGainedToday": 741
     },
     {
       "owner": "CopilotKit",
@@ -39,42 +28,47 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 488,
-      "starsGainedToday": 212
+      "totalStars": 885,
+      "starsGainedToday": 609
     },
     {
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "computer-vision"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
       ],
-      "language": "Python",
-      "totalStars": 62475,
-      "starsGainedToday": 209
+      "language": "TypeScript",
+      "totalStars": 83531,
+      "starsGainedToday": 413
     },
     {
-      "owner": "BerriAI",
-      "name": "litellm",
-      "fullName": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
-      "topics": [
-        "anthropic",
-        "langchain",
-        "llm",
-        "llmops",
-        "openai"
-      ],
-      "language": "Python",
-      "totalStars": 60017,
-      "starsGainedToday": 163
+      "owner": "earendil-works",
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 111558,
+      "starsGainedToday": 403
+    },
+    {
+      "owner": "Mak5er",
+      "name": "AirCard",
+      "fullName": "Mak5er/AirCard",
+      "url": "https://github.com/Mak5er/AirCard",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "topics": [],
+      "language": "Swift",
+      "totalStars": 5678,
+      "starsGainedToday": 360
     }
   ]
 }
