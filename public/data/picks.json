@@ -1,39 +1,8 @@
 {
-  "generatedAt": "2026-10-03T10:50:55.294Z",
+  "generatedAt": "2026-10-03T15:27:31.466Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 242640,
-      "starsGainedToday": 925
-    },
-    {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "topics": [
-        "react",
-        "video",
-        "javascript"
-      ],
-      "language": "TypeScript",
-      "totalStars": 61633,
-      "starsGainedToday": 851
-    },
     {
       "owner": "DietrichGebert",
       "name": "ponytail",
@@ -48,8 +17,39 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 152276,
-      "starsGainedToday": 610
+      "totalStars": 152740,
+      "starsGainedToday": 1074
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 242770,
+      "starsGainedToday": 1055
+    },
+    {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
+      "language": "TypeScript",
+      "totalStars": 61666,
+      "starsGainedToday": 884
     },
     {
       "owner": "affaan-m",
@@ -65,8 +65,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 271702,
-      "starsGainedToday": 505
+      "totalStars": 271918,
+      "starsGainedToday": 721
     },
     {
       "owner": "CopilotKit",
@@ -76,8 +76,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 1824,
-      "starsGainedToday": 442
+      "totalStars": 2036,
+      "starsGainedToday": 654
     }
   ]
 }
