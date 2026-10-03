@@ -5,19 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 03:00:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 10:50:55 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[remotion-dev/remotion (+816 stars today)]]></title>
-      <link>https://github.com/remotion-dev/remotion</link>
-      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-03</guid>
-      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
-      <category>react</category>
-      <category>video</category>
-      <category>javascript</category>
-      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+703 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+925 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-03</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -25,10 +15,20 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 10:50:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+232 stars today)]]></title>
+      <title><![CDATA[remotion-dev/remotion (+851 stars today)]]></title>
+      <link>https://github.com/remotion-dev/remotion</link>
+      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-03</guid>
+      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
+      <category>react</category>
+      <category>video</category>
+      <category>javascript</category>
+      <pubDate>Sat, 03 Oct 2026 10:50:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DietrichGebert/ponytail (+610 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-03</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -37,10 +37,10 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 10:50:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+219 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+505 stars today)]]></title>
       <link>https://github.com/affaan-m/ECC</link>
       <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-03</guid>
       <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
@@ -49,15 +49,15 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>developer-tools</category>
-      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 10:50:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[CopilotKit/OpenDots (+151 stars today)]]></title>
+      <title><![CDATA[CopilotKit/OpenDots (+442 stars today)]]></title>
       <link>https://github.com/CopilotKit/OpenDots</link>
       <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-03</guid>
       <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
       
-      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 10:50:55 GMT</pubDate>
     </item>
   </channel>
 </rss>

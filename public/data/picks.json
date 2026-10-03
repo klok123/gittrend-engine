@@ -1,23 +1,8 @@
 {
-  "generatedAt": "2026-10-03T03:00:14.622Z",
+  "generatedAt": "2026-10-03T10:50:55.294Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "topics": [
-        "react",
-        "video",
-        "javascript"
-      ],
-      "language": "TypeScript",
-      "totalStars": 61598,
-      "starsGainedToday": 816
-    },
     {
       "owner": "deepseek-ai",
       "name": "deepseek-harness",
@@ -31,8 +16,23 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 242418,
-      "starsGainedToday": 703
+      "totalStars": 242640,
+      "starsGainedToday": 925
+    },
+    {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
+      "language": "TypeScript",
+      "totalStars": 61633,
+      "starsGainedToday": 851
     },
     {
       "owner": "DietrichGebert",
@@ -48,8 +48,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 151898,
-      "starsGainedToday": 232
+      "totalStars": 152276,
+      "starsGainedToday": 610
     },
     {
       "owner": "affaan-m",
@@ -65,8 +65,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 271416,
-      "starsGainedToday": 219
+      "totalStars": 271702,
+      "starsGainedToday": 505
     },
     {
       "owner": "CopilotKit",
@@ -76,8 +76,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 1533,
-      "starsGainedToday": 151
+      "totalStars": 1824,
+      "starsGainedToday": 442
     }
   ]
 }
