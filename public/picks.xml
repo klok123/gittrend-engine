@@ -5,54 +5,59 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2026 21:37:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 03:00:14 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[CopilotKit/OpenDots (+1,106 stars today)]]></title>
+      <title><![CDATA[remotion-dev/remotion (+816 stars today)]]></title>
+      <link>https://github.com/remotion-dev/remotion</link>
+      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-03</guid>
+      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
+      <category>react</category>
+      <category>video</category>
+      <category>javascript</category>
+      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+703 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-03</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DietrichGebert/ponytail (+232 stars today)]]></title>
+      <link>https://github.com/DietrichGebert/ponytail</link>
+      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-03</guid>
+      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
+      <category>agent-skills</category>
+      <category>ai-agents</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>claude-code-plugin</category>
+      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[affaan-m/ECC (+219 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-03</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
+      <category>ai-agents</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[CopilotKit/OpenDots (+151 stars today)]]></title>
       <link>https://github.com/CopilotKit/OpenDots</link>
-      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-02</guid>
+      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-03</guid>
       <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
       
-      <pubDate>Fri, 02 Oct 2026 21:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[addyosmani/agent-skills (+814 stars today)]]></title>
-      <link>https://github.com/addyosmani/agent-skills</link>
-      <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-02</guid>
-      <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
-      <category>agent-skills</category>
-      <category>antigravity</category>
-      <category>claude-code</category>
-      <category>cursor</category>
-      <category>skills</category>
-      <pubDate>Fri, 02 Oct 2026 21:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+716 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-02</guid>
-      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>cli</category>
-      <pubDate>Fri, 02 Oct 2026 21:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pbakaus/impeccable (+628 stars today)]]></title>
-      <link>https://github.com/pbakaus/impeccable</link>
-      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-02</guid>
-      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
-      
-      <pubDate>Fri, 02 Oct 2026 21:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[earendil-works/pi (+597 stars today)]]></title>
-      <link>https://github.com/earendil-works/pi</link>
-      <guid isPermaLink="false">https://github.com/earendil-works/pi#2026-10-02</guid>
-      <description><![CDATA[AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI]]></description>
-      
-      <pubDate>Fri, 02 Oct 2026 21:37:30 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 03:00:14 GMT</pubDate>
     </item>
   </channel>
 </rss>

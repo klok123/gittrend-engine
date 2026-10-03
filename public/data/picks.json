@@ -1,8 +1,73 @@
 {
-  "generatedAt": "2026-10-02T21:37:30.104Z",
+  "generatedAt": "2026-10-03T03:00:14.622Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
+      "language": "TypeScript",
+      "totalStars": 61598,
+      "starsGainedToday": 816
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 242418,
+      "starsGainedToday": 703
+    },
+    {
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ],
+      "language": "JavaScript",
+      "totalStars": 151898,
+      "starsGainedToday": 232
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 271416,
+      "starsGainedToday": 219
+    },
     {
       "owner": "CopilotKit",
       "name": "OpenDots",
@@ -11,64 +76,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 1382,
-      "starsGainedToday": 1106
-    },
-    {
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "cursor",
-        "skills"
-      ],
-      "language": "JavaScript",
-      "totalStars": 100502,
-      "starsGainedToday": 814
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
-      ],
-      "language": "TypeScript",
-      "totalStars": 83834,
-      "starsGainedToday": 716
-    },
-    {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 74247,
-      "starsGainedToday": 628
-    },
-    {
-      "owner": "earendil-works",
-      "name": "pi",
-      "fullName": "earendil-works/pi",
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 111752,
-      "starsGainedToday": 597
+      "totalStars": 1533,
+      "starsGainedToday": 151
     }
   ]
 }
