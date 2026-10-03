@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:27:31.466Z",
+  "generatedAt": "2026-10-03T20:22:36.705Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 152740,
-      "starsGainedToday": 1074
+      "totalStars": 153159,
+      "starsGainedToday": 1493
+    },
+    {
+      "owner": "nextlevelbuilder",
+      "name": "ui-ux-pro-max-skill",
+      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "command-line"
+      ],
+      "language": "Python",
+      "totalStars": 132771,
+      "starsGainedToday": 1189
     },
     {
       "owner": "deepseek-ai",
@@ -33,23 +50,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 242770,
-      "starsGainedToday": 1055
-    },
-    {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "topics": [
-        "react",
-        "video",
-        "javascript"
-      ],
-      "language": "TypeScript",
-      "totalStars": 61666,
-      "starsGainedToday": 884
+      "totalStars": 242859,
+      "starsGainedToday": 1144
     },
     {
       "owner": "affaan-m",
@@ -65,19 +67,23 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 271918,
-      "starsGainedToday": 721
+      "totalStars": 272126,
+      "starsGainedToday": 929
     },
     {
-      "owner": "CopilotKit",
-      "name": "OpenDots",
-      "fullName": "CopilotKit/OpenDots",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-      "topics": [],
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
       "language": "TypeScript",
-      "totalStars": 2036,
-      "starsGainedToday": 654
+      "totalStars": 61700,
+      "starsGainedToday": 918
     }
   ]
 }

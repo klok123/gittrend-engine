@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 15:27:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 20:22:36 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+1,074 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+1,493 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-03</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -16,10 +16,22 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Sat, 03 Oct 2026 15:27:31 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 20:22:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+1,055 stars today)]]></title>
+      <title><![CDATA[nextlevelbuilder/ui-ux-pro-max-skill (+1,189 stars today)]]></title>
+      <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
+      <guid isPermaLink="false">https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#2026-10-03</guid>
+      <description><![CDATA[An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.]]></description>
+      <category>ai-skills</category>
+      <category>antigravity</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>command-line</category>
+      <pubDate>Sat, 03 Oct 2026 20:22:36 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,144 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-03</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -27,20 +39,10 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Sat, 03 Oct 2026 15:27:31 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 20:22:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[remotion-dev/remotion (+884 stars today)]]></title>
-      <link>https://github.com/remotion-dev/remotion</link>
-      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-03</guid>
-      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
-      <category>react</category>
-      <category>video</category>
-      <category>javascript</category>
-      <pubDate>Sat, 03 Oct 2026 15:27:31 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[affaan-m/ECC (+721 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+929 stars today)]]></title>
       <link>https://github.com/affaan-m/ECC</link>
       <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-03</guid>
       <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
@@ -49,15 +51,17 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>developer-tools</category>
-      <pubDate>Sat, 03 Oct 2026 15:27:31 GMT</pubDate>
+      <pubDate>Sat, 03 Oct 2026 20:22:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[CopilotKit/OpenDots (+654 stars today)]]></title>
-      <link>https://github.com/CopilotKit/OpenDots</link>
-      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-03</guid>
-      <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
-      
-      <pubDate>Sat, 03 Oct 2026 15:27:31 GMT</pubDate>
+      <title><![CDATA[remotion-dev/remotion (+918 stars today)]]></title>
+      <link>https://github.com/remotion-dev/remotion</link>
+      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-03</guid>
+      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
+      <category>react</category>
+      <category>video</category>
+      <category>javascript</category>
+      <pubDate>Sat, 03 Oct 2026 20:22:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
