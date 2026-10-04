@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:22:36.705Z",
+  "generatedAt": "2026-10-04T03:30:22.418Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,73 +17,58 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 153159,
-      "starsGainedToday": 1493
+      "totalStars": 153559,
+      "starsGainedToday": 400
     },
     {
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "command-line"
-      ],
-      "language": "Python",
-      "totalStars": 132771,
-      "starsGainedToday": 1189
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
+      "owner": "CopilotKit",
+      "name": "OpenDots",
+      "fullName": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "topics": [],
       "language": "TypeScript",
-      "totalStars": 242859,
-      "starsGainedToday": 1144
+      "totalStars": 2596,
+      "starsGainedToday": 299
     },
     {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "owner": "SillyTavern",
+      "name": "SillyTavern",
+      "fullName": "SillyTavern/SillyTavern",
+      "url": "https://github.com/SillyTavern/SillyTavern",
+      "description": "LLM Frontend for Power Users.",
       "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
+        "ai",
+        "chat",
+        "llm"
       ],
       "language": "JavaScript",
-      "totalStars": 272126,
-      "starsGainedToday": 929
+      "totalStars": 34059,
+      "starsGainedToday": 288
     },
     {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 75407,
+      "starsGainedToday": 264
+    },
+    {
+      "owner": "anthropics",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
       "topics": [
-        "react",
-        "video",
-        "javascript"
+        "agent-skills"
       ],
-      "language": "TypeScript",
-      "totalStars": 61700,
-      "starsGainedToday": 918
+      "language": "Python",
+      "totalStars": 179542,
+      "starsGainedToday": 226
     }
   ]
 }
