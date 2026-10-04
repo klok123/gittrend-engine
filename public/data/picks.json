@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T11:33:19.037Z",
+  "generatedAt": "2026-10-04T16:11:57.792Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 154167,
-      "starsGainedToday": 1008
+      "totalStars": 154443,
+      "starsGainedToday": 1284
     },
     {
       "owner": "pbakaus",
@@ -28,8 +28,8 @@
       "description": "The design language that makes your AI harness better at design.",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 75780,
-      "starsGainedToday": 637
+      "totalStars": 75988,
+      "starsGainedToday": 845
     },
     {
       "owner": "CopilotKit",
@@ -39,8 +39,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 2895,
-      "starsGainedToday": 598
+      "totalStars": 3034,
+      "starsGainedToday": 737
     },
     {
       "owner": "QingYunA",
@@ -56,25 +56,25 @@
         "diagram"
       ],
       "language": "JavaScript",
-      "totalStars": 728,
-      "starsGainedToday": 444
+      "totalStars": 902,
+      "starsGainedToday": 618
     },
     {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
       "topics": [
+        "agents",
+        "ai",
         "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
+        "ai-engineering",
+        "computer-vision"
       ],
-      "language": "JavaScript",
-      "totalStars": 272562,
-      "starsGainedToday": 436
+      "language": "Python",
+      "totalStars": 63669,
+      "starsGainedToday": 616
     }
   ]
 }
