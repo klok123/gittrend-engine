@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T16:11:57.792Z",
+  "generatedAt": "2026-10-04T20:40:52.549Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 154443,
-      "starsGainedToday": 1284
+      "totalStars": 154704,
+      "starsGainedToday": 1545
     },
     {
       "owner": "pbakaus",
@@ -28,8 +28,8 @@
       "description": "The design language that makes your AI harness better at design.",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 75988,
-      "starsGainedToday": 845
+      "totalStars": 76180,
+      "starsGainedToday": 1037
     },
     {
       "owner": "CopilotKit",
@@ -39,25 +39,8 @@
       "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 3034,
-      "starsGainedToday": 737
-    },
-    {
-      "owner": "QingYunA",
-      "name": "answer-me-with-html",
-      "fullName": "QingYunA/answer-me-with-html",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "topics": [
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "cli",
-        "diagram"
-      ],
-      "language": "JavaScript",
-      "totalStars": 902,
-      "starsGainedToday": 618
+      "totalStars": 3142,
+      "starsGainedToday": 845
     },
     {
       "owner": "rohitg00",
@@ -73,8 +56,25 @@
         "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 63669,
-      "starsGainedToday": 616
+      "totalStars": 63837,
+      "starsGainedToday": 784
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 272850,
+      "starsGainedToday": 724
     }
   ]
 }
