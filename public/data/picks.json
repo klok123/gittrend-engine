@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T03:30:22.418Z",
+  "generatedAt": "2026-10-04T11:33:19.037Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,34 +17,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 153559,
-      "starsGainedToday": 400
-    },
-    {
-      "owner": "CopilotKit",
-      "name": "OpenDots",
-      "fullName": "CopilotKit/OpenDots",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 2596,
-      "starsGainedToday": 299
-    },
-    {
-      "owner": "SillyTavern",
-      "name": "SillyTavern",
-      "fullName": "SillyTavern/SillyTavern",
-      "url": "https://github.com/SillyTavern/SillyTavern",
-      "description": "LLM Frontend for Power Users.",
-      "topics": [
-        "ai",
-        "chat",
-        "llm"
-      ],
-      "language": "JavaScript",
-      "totalStars": 34059,
-      "starsGainedToday": 288
+      "totalStars": 154167,
+      "starsGainedToday": 1008
     },
     {
       "owner": "pbakaus",
@@ -54,21 +28,53 @@
       "description": "The design language that makes your AI harness better at design.",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 75407,
-      "starsGainedToday": 264
+      "totalStars": 75780,
+      "starsGainedToday": 637
     },
     {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "owner": "CopilotKit",
+      "name": "OpenDots",
+      "fullName": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 2895,
+      "starsGainedToday": 598
+    },
+    {
+      "owner": "QingYunA",
+      "name": "answer-me-with-html",
+      "fullName": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
       "topics": [
-        "agent-skills"
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "diagram"
       ],
-      "language": "Python",
-      "totalStars": 179542,
-      "starsGainedToday": 226
+      "language": "JavaScript",
+      "totalStars": 728,
+      "starsGainedToday": 444
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 272562,
+      "starsGainedToday": 436
     }
   ]
 }
