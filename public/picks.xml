@@ -5,58 +5,61 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2026 20:40:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 03:08:15 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+1,545 stars today)]]></title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-04</guid>
-      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
-      <category>agent-skills</category>
-      <category>ai-agents</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>claude-code-plugin</category>
-      <pubDate>Sun, 04 Oct 2026 20:40:52 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pbakaus/impeccable (+1,037 stars today)]]></title>
-      <link>https://github.com/pbakaus/impeccable</link>
-      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-04</guid>
-      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
+      <title><![CDATA[Alishahryar1/free-claude-code (+578 stars today)]]></title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-05</guid>
+      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
       
-      <pubDate>Sun, 04 Oct 2026 20:40:52 GMT</pubDate>
+      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[CopilotKit/OpenDots (+845 stars today)]]></title>
-      <link>https://github.com/CopilotKit/OpenDots</link>
-      <guid isPermaLink="false">https://github.com/CopilotKit/OpenDots#2026-10-04</guid>
-      <description><![CDATA[Your always-on AI coworkers that move between text, calls, and Slack.]]></description>
-      
-      <pubDate>Sun, 04 Oct 2026 20:40:52 GMT</pubDate>
+      <title><![CDATA[cjpais/Handy (+509 stars today)]]></title>
+      <link>https://github.com/cjpais/Handy</link>
+      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-10-05</guid>
+      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
+      <category>speech-to-text</category>
+      <category>tauri-v2</category>
+      <category>accessibility</category>
+      <category>cross-platform</category>
+      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+784 stars today)]]></title>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-10-04</guid>
-      <description><![CDATA[Learn it. Build it. Ship it for others.]]></description>
-      <category>agents</category>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>ai-engineering</category>
-      <category>computer-vision</category>
-      <pubDate>Sun, 04 Oct 2026 20:40:52 GMT</pubDate>
+      <title><![CDATA[makeplane/plane (+407 stars today)]]></title>
+      <link>https://github.com/makeplane/plane</link>
+      <guid isPermaLink="false">https://github.com/makeplane/plane#2026-10-05</guid>
+      <description><![CDATA[🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.]]></description>
+      <category>django</category>
+      <category>docker</category>
+      <category>kanban</category>
+      <category>project-management</category>
+      <category>python</category>
+      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+724 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-04</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
+      <title><![CDATA[agalwood/Motrix (+380 stars today)]]></title>
+      <link>https://github.com/agalwood/Motrix</link>
+      <guid isPermaLink="false">https://github.com/agalwood/Motrix#2026-10-05</guid>
+      <description><![CDATA[A full-featured download manager.]]></description>
+      <category>motrix</category>
+      <category>aria2</category>
+      <category>macos</category>
+      <category>windows</category>
+      <category>linux</category>
+      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[hesreallyhim/awesome-claude-code (+373 stars today)]]></title>
+      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
+      <guid isPermaLink="false">https://github.com/hesreallyhim/awesome-claude-code#2026-10-05</guid>
+      <description><![CDATA[A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable…]]></description>
       <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Sun, 04 Oct 2026 20:40:52 GMT</pubDate>
+      <category>anthropic-claude</category>
+      <category>awesome</category>
+      <category>awesome-list</category>
+      <category>awesome-lists</category>
+      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
     </item>
   </channel>
 </rss>
