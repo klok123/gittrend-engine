@@ -5,61 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 03:08:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 13:05:49 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Alishahryar1/free-claude-code (+578 stars today)]]></title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-05</guid>
-      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
+      <title><![CDATA[DietrichGebert/ponytail (+866 stars today)]]></title>
+      <link>https://github.com/DietrichGebert/ponytail</link>
+      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-05</guid>
+      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
+      <category>agent-skills</category>
+      <category>ai-agents</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>claude-code-plugin</category>
+      <pubDate>Mon, 05 Oct 2026 13:05:49 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/photocraft (+821 stars today)]]></title>
+      <link>https://github.com/storytold/photocraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-05</guid>
+      <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
+      <category>images</category>
+      <category>photo-editing</category>
+      <category>photoshop</category>
+      <category>psd</category>
+      <category>art</category>
+      <pubDate>Mon, 05 Oct 2026 13:05:49 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[pbakaus/impeccable (+620 stars today)]]></title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-05</guid>
+      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
       
-      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
+      <pubDate>Mon, 05 Oct 2026 13:05:49 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[cjpais/Handy (+509 stars today)]]></title>
-      <link>https://github.com/cjpais/Handy</link>
-      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-10-05</guid>
-      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
-      <category>speech-to-text</category>
-      <category>tauri-v2</category>
-      <category>accessibility</category>
-      <category>cross-platform</category>
-      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
+      <title><![CDATA[stablyai/orca (+539 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-05</guid>
+      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>cli</category>
+      <pubDate>Mon, 05 Oct 2026 13:05:49 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[makeplane/plane (+407 stars today)]]></title>
-      <link>https://github.com/makeplane/plane</link>
-      <guid isPermaLink="false">https://github.com/makeplane/plane#2026-10-05</guid>
-      <description><![CDATA[🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.]]></description>
-      <category>django</category>
-      <category>docker</category>
-      <category>kanban</category>
-      <category>project-management</category>
-      <category>python</category>
-      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[agalwood/Motrix (+380 stars today)]]></title>
-      <link>https://github.com/agalwood/Motrix</link>
-      <guid isPermaLink="false">https://github.com/agalwood/Motrix#2026-10-05</guid>
-      <description><![CDATA[A full-featured download manager.]]></description>
-      <category>motrix</category>
-      <category>aria2</category>
-      <category>macos</category>
-      <category>windows</category>
-      <category>linux</category>
-      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[hesreallyhim/awesome-claude-code (+373 stars today)]]></title>
-      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
-      <guid isPermaLink="false">https://github.com/hesreallyhim/awesome-claude-code#2026-10-05</guid>
-      <description><![CDATA[A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable…]]></description>
-      <category>anthropic</category>
-      <category>anthropic-claude</category>
-      <category>awesome</category>
-      <category>awesome-list</category>
-      <category>awesome-lists</category>
-      <pubDate>Mon, 05 Oct 2026 03:08:15 GMT</pubDate>
+      <title><![CDATA[tt-a1i/archify (+530 stars today)]]></title>
+      <link>https://github.com/tt-a1i/archify</link>
+      <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-10-05</guid>
+      <description><![CDATA[Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.]]></description>
+      <category>architecture-diagram</category>
+      <category>developer-tools</category>
+      <category>system-design</category>
+      <category>agent-skills</category>
+      <category>codex</category>
+      <pubDate>Mon, 05 Oct 2026 13:05:49 GMT</pubDate>
     </item>
   </channel>
 </rss>
