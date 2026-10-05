@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-05T13:05:49.809Z",
+  "generatedAt": "2026-10-05T23:30:42.182Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin"
-      ],
-      "language": "JavaScript",
-      "totalStars": 155570,
-      "starsGainedToday": 866
-    },
     {
       "owner": "storytold",
       "name": "photocraft",
@@ -34,19 +17,25 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 1482,
-      "starsGainedToday": 821
+      "totalStars": 2026,
+      "starsGainedToday": 1365
     },
     {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "topics": [],
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ],
       "language": "JavaScript",
-      "totalStars": 76800,
-      "starsGainedToday": 620
+      "totalStars": 155965,
+      "starsGainedToday": 1261
     },
     {
       "owner": "stablyai",
@@ -62,25 +51,42 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 85447,
-      "starsGainedToday": 539
+      "totalStars": 85816,
+      "starsGainedToday": 908
     },
     {
-      "owner": "tt-a1i",
-      "name": "archify",
-      "fullName": "tt-a1i/archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
       "topics": [
-        "architecture-diagram",
-        "developer-tools",
-        "system-design",
-        "agent-skills",
-        "codex"
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
       ],
-      "language": "JavaScript",
-      "totalStars": 77859,
-      "starsGainedToday": 530
+      "language": "Python",
+      "totalStars": 64743,
+      "starsGainedToday": 906
+    },
+    {
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
+      ],
+      "language": "Python",
+      "totalStars": 63998,
+      "starsGainedToday": 893
     }
   ]
 }
