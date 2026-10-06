@@ -5,17 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 12:28:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 22:03:16 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[odysseus-dev/odysseus (+799 stars today)]]></title>
-      <link>https://github.com/odysseus-dev/odysseus</link>
-      <guid isPermaLink="false">https://github.com/odysseus-dev/odysseus#2026-10-06</guid>
-      <description><![CDATA[Self-hosted AI workspace.]]></description>
-      
-      <pubDate>Tue, 06 Oct 2026 12:28:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[storytold/photocraft (+586 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+3,828 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-06</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
@@ -24,10 +16,42 @@
       <category>photoshop</category>
       <category>psd</category>
       <category>art</category>
-      <pubDate>Tue, 06 Oct 2026 12:28:18 GMT</pubDate>
+      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+449 stars today)]]></title>
+      <title><![CDATA[Leonxlnx/taste-skill (+2,210 stars today)]]></title>
+      <link>https://github.com/Leonxlnx/taste-skill</link>
+      <guid isPermaLink="false">https://github.com/Leonxlnx/taste-skill#2026-10-06</guid>
+      <description><![CDATA[Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop]]></description>
+      <category>agent</category>
+      <category>ai</category>
+      <category>coding</category>
+      <category>lowcode</category>
+      <category>nocode</category>
+      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[odysseus-dev/odysseus (+1,240 stars today)]]></title>
+      <link>https://github.com/odysseus-dev/odysseus</link>
+      <guid isPermaLink="false">https://github.com/odysseus-dev/odysseus#2026-10-06</guid>
+      <description><![CDATA[Self-hosted AI workspace.]]></description>
+      
+      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/filmcraft (+884 stars today)]]></title>
+      <link>https://github.com/storytold/filmcraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/filmcraft#2026-10-06</guid>
+      <description><![CDATA[An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.]]></description>
+      <category>art</category>
+      <category>rust</category>
+      <category>video</category>
+      <category>video-editing</category>
+      <category>video-editor</category>
+      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DietrichGebert/ponytail (+812 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-06</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -36,31 +60,7 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Tue, 06 Oct 2026 12:28:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+409 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-06</guid>
-      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>cli</category>
-      <pubDate>Tue, 06 Oct 2026 12:28:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[tinyhumansai/openhuman (+390 stars today)]]></title>
-      <link>https://github.com/tinyhumansai/openhuman</link>
-      <guid isPermaLink="false">https://github.com/tinyhumansai/openhuman#2026-10-06</guid>
-      <description><![CDATA[OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust]]></description>
-      <category>ai-agents</category>
-      <category>llm</category>
-      <category>local-first</category>
-      <category>rust</category>
-      <category>agent-orchestration</category>
-      <pubDate>Tue, 06 Oct 2026 12:28:18 GMT</pubDate>
+      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
     </item>
   </channel>
 </rss>

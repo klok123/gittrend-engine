@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-10-06T12:28:18.571Z",
+  "generatedAt": "2026-10-06T22:03:16.014Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "odysseus-dev",
-      "name": "odysseus",
-      "fullName": "odysseus-dev/odysseus",
-      "url": "https://github.com/odysseus-dev/odysseus",
-      "description": "Self-hosted AI workspace.",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 90836,
-      "starsGainedToday": 799
-    },
     {
       "owner": "storytold",
       "name": "photocraft",
@@ -28,8 +17,53 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 2612,
-      "starsGainedToday": 586
+      "totalStars": 5854,
+      "starsGainedToday": 3828
+    },
+    {
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "topics": [
+        "agent",
+        "ai",
+        "coding",
+        "lowcode",
+        "nocode"
+      ],
+      "language": "JavaScript",
+      "totalStars": 93119,
+      "starsGainedToday": 2210
+    },
+    {
+      "owner": "odysseus-dev",
+      "name": "odysseus",
+      "fullName": "odysseus-dev/odysseus",
+      "url": "https://github.com/odysseus-dev/odysseus",
+      "description": "Self-hosted AI workspace.",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 91277,
+      "starsGainedToday": 1240
+    },
+    {
+      "owner": "storytold",
+      "name": "filmcraft",
+      "fullName": "storytold/filmcraft",
+      "url": "https://github.com/storytold/filmcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
+      "topics": [
+        "art",
+        "rust",
+        "video",
+        "video-editing",
+        "video-editor"
+      ],
+      "language": "Rust",
+      "totalStars": 1492,
+      "starsGainedToday": 884
     },
     {
       "owner": "DietrichGebert",
@@ -45,42 +79,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 156414,
-      "starsGainedToday": 449
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
-      ],
-      "language": "TypeScript",
-      "totalStars": 86225,
-      "starsGainedToday": 409
-    },
-    {
-      "owner": "tinyhumansai",
-      "name": "openhuman",
-      "fullName": "tinyhumansai/openhuman",
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
-      "topics": [
-        "ai-agents",
-        "llm",
-        "local-first",
-        "rust",
-        "agent-orchestration"
-      ],
-      "language": "Rust",
-      "totalStars": 41108,
-      "starsGainedToday": 390
+      "totalStars": 156777,
+      "starsGainedToday": 812
     }
   ]
 }
