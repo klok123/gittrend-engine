@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T03:57:28.195Z",
+  "generatedAt": "2026-10-06T12:28:18.571Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Self-hosted AI workspace.",
       "topics": [],
       "language": "Python",
-      "totalStars": 90296,
-      "starsGainedToday": 259
+      "totalStars": 90836,
+      "starsGainedToday": 799
     },
     {
       "owner": "storytold",
@@ -28,25 +28,8 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 2208,
-      "starsGainedToday": 182
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "cli"
-      ],
-      "language": "TypeScript",
-      "totalStars": 85960,
-      "starsGainedToday": 144
+      "totalStars": 2612,
+      "starsGainedToday": 586
     },
     {
       "owner": "DietrichGebert",
@@ -62,8 +45,25 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 156086,
-      "starsGainedToday": 121
+      "totalStars": 156414,
+      "starsGainedToday": 449
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
+      ],
+      "language": "TypeScript",
+      "totalStars": 86225,
+      "starsGainedToday": 409
     },
     {
       "owner": "tinyhumansai",
@@ -79,8 +79,8 @@
         "agent-orchestration"
       ],
       "language": "Rust",
-      "totalStars": 40832,
-      "starsGainedToday": 114
+      "totalStars": 41108,
+      "starsGainedToday": 390
     }
   ]
 }
