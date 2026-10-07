@@ -1,24 +1,18 @@
 {
-  "generatedAt": "2026-10-07T12:21:37.610Z",
+  "generatedAt": "2026-10-07T22:28:11.510Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "vinta",
-      "name": "awesome-python",
-      "fullName": "vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-      "topics": [
-        "awesome",
-        "python",
-        "python-frameworks",
-        "python-libraries",
-        "python-tools"
-      ],
-      "language": "Python",
-      "totalStars": 325779,
-      "starsGainedToday": 613
+      "owner": "robbietilton",
+      "name": "Compositor",
+      "fullName": "robbietilton/Compositor",
+      "url": "https://github.com/robbietilton/Compositor",
+      "description": "The Photoshop alternative for Mac",
+      "topics": [],
+      "language": "Swift",
+      "totalStars": 11128,
+      "starsGainedToday": 4354
     },
     {
       "owner": "DietrichGebert",
@@ -34,19 +28,42 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 157234,
-      "starsGainedToday": 457
+      "totalStars": 157541,
+      "starsGainedToday": 764
     },
     {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "topics": [],
+      "owner": "vinta",
+      "name": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "topics": [
+        "awesome",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
+      ],
+      "language": "Python",
+      "totalStars": 325882,
+      "starsGainedToday": 716
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
       "language": "JavaScript",
-      "totalStars": 78066,
-      "starsGainedToday": 431
+      "totalStars": 274902,
+      "starsGainedToday": 654
     },
     {
       "owner": "stablyai",
@@ -62,23 +79,8 @@
         "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 86823,
-      "starsGainedToday": 331
-    },
-    {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "topics": [
-        "react",
-        "video",
-        "javascript"
-      ],
-      "language": "TypeScript",
-      "totalStars": 62277,
-      "starsGainedToday": 321
+      "totalStars": 87088,
+      "starsGainedToday": 596
     }
   ]
 }

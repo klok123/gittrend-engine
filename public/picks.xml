@@ -5,21 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 12:21:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:28:11 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[vinta/awesome-python (+613 stars today)]]></title>
-      <link>https://github.com/vinta/awesome-python</link>
-      <guid isPermaLink="false">https://github.com/vinta/awesome-python#2026-10-07</guid>
-      <description><![CDATA[The definitive list that answers "I want to do X in Python, which tool should I use?"]]></description>
-      <category>awesome</category>
-      <category>python</category>
-      <category>python-frameworks</category>
-      <category>python-libraries</category>
-      <category>python-tools</category>
-      <pubDate>Wed, 07 Oct 2026 12:21:37 GMT</pubDate>
+      <title><![CDATA[robbietilton/Compositor (+4,354 stars today)]]></title>
+      <link>https://github.com/robbietilton/Compositor</link>
+      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-07</guid>
+      <description><![CDATA[The Photoshop alternative for Mac]]></description>
+      
+      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+457 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+764 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-07</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -28,18 +24,34 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Wed, 07 Oct 2026 12:21:37 GMT</pubDate>
+      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[pbakaus/impeccable (+431 stars today)]]></title>
-      <link>https://github.com/pbakaus/impeccable</link>
-      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-07</guid>
-      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
-      
-      <pubDate>Wed, 07 Oct 2026 12:21:37 GMT</pubDate>
+      <title><![CDATA[vinta/awesome-python (+716 stars today)]]></title>
+      <link>https://github.com/vinta/awesome-python</link>
+      <guid isPermaLink="false">https://github.com/vinta/awesome-python#2026-10-07</guid>
+      <description><![CDATA[The definitive list that answers "I want to do X in Python, which tool should I use?"]]></description>
+      <category>awesome</category>
+      <category>python</category>
+      <category>python-frameworks</category>
+      <category>python-libraries</category>
+      <category>python-tools</category>
+      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+331 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+654 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-07</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
+      <category>ai-agents</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+596 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-07</guid>
       <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -48,17 +60,7 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>cli</category>
-      <pubDate>Wed, 07 Oct 2026 12:21:37 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[remotion-dev/remotion (+321 stars today)]]></title>
-      <link>https://github.com/remotion-dev/remotion</link>
-      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-07</guid>
-      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
-      <category>react</category>
-      <category>video</category>
-      <category>javascript</category>
-      <pubDate>Wed, 07 Oct 2026 12:21:37 GMT</pubDate>
+      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
