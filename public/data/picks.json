@@ -1,22 +1,24 @@
 {
-  "generatedAt": "2026-10-07T03:25:01.521Z",
+  "generatedAt": "2026-10-07T12:21:37.610Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
+      "owner": "vinta",
+      "name": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
       "topics": [
-        "react",
-        "video",
-        "javascript"
+        "awesome",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
       ],
-      "language": "TypeScript",
-      "totalStars": 62211,
-      "starsGainedToday": 255
+      "language": "Python",
+      "totalStars": 325779,
+      "starsGainedToday": 613
     },
     {
       "owner": "DietrichGebert",
@@ -32,23 +34,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 156917,
-      "starsGainedToday": 140
-    },
-    {
-      "owner": "coreyhaines31",
-      "name": "marketingskills",
-      "fullName": "coreyhaines31/marketingskills",
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "topics": [
-        "claude",
-        "codex",
-        "marketing"
-      ],
-      "language": "JavaScript",
-      "totalStars": 53496,
-      "starsGainedToday": 134
+      "totalStars": 157234,
+      "starsGainedToday": 457
     },
     {
       "owner": "pbakaus",
@@ -58,25 +45,40 @@
       "description": "The design language that makes your AI harness better at design.",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 77765,
-      "starsGainedToday": 130
+      "totalStars": 78066,
+      "starsGainedToday": 431
     },
     {
-      "owner": "thedotmack",
-      "name": "claude-mem",
-      "fullName": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "topics": [
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "anthropic",
-        "artificial-intelligence"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
       ],
       "language": "TypeScript",
-      "totalStars": 97234,
-      "starsGainedToday": 119
+      "totalStars": 86823,
+      "starsGainedToday": 331
+    },
+    {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "topics": [
+        "react",
+        "video",
+        "javascript"
+      ],
+      "language": "TypeScript",
+      "totalStars": 62277,
+      "starsGainedToday": 321
     }
   ]
 }
