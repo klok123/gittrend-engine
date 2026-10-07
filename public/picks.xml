@@ -5,62 +5,58 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 22:03:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 03:25:01 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/photocraft (+3,828 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-06</guid>
-      <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>photoshop</category>
-      <category>psd</category>
-      <category>art</category>
-      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Leonxlnx/taste-skill (+2,210 stars today)]]></title>
-      <link>https://github.com/Leonxlnx/taste-skill</link>
-      <guid isPermaLink="false">https://github.com/Leonxlnx/taste-skill#2026-10-06</guid>
-      <description><![CDATA[Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop]]></description>
-      <category>agent</category>
-      <category>ai</category>
-      <category>coding</category>
-      <category>lowcode</category>
-      <category>nocode</category>
-      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[odysseus-dev/odysseus (+1,240 stars today)]]></title>
-      <link>https://github.com/odysseus-dev/odysseus</link>
-      <guid isPermaLink="false">https://github.com/odysseus-dev/odysseus#2026-10-06</guid>
-      <description><![CDATA[Self-hosted AI workspace.]]></description>
-      
-      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[storytold/filmcraft (+884 stars today)]]></title>
-      <link>https://github.com/storytold/filmcraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/filmcraft#2026-10-06</guid>
-      <description><![CDATA[An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.]]></description>
-      <category>art</category>
-      <category>rust</category>
+      <title><![CDATA[remotion-dev/remotion (+255 stars today)]]></title>
+      <link>https://github.com/remotion-dev/remotion</link>
+      <guid isPermaLink="false">https://github.com/remotion-dev/remotion#2026-10-07</guid>
+      <description><![CDATA[🎥 Make videos programmatically with React]]></description>
+      <category>react</category>
       <category>video</category>
-      <category>video-editing</category>
-      <category>video-editor</category>
-      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
+      <category>javascript</category>
+      <pubDate>Wed, 07 Oct 2026 03:25:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+812 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+140 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
-      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-06</guid>
+      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-07</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
       <category>agent-skills</category>
       <category>ai-agents</category>
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Tue, 06 Oct 2026 22:03:16 GMT</pubDate>
+      <pubDate>Wed, 07 Oct 2026 03:25:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[coreyhaines31/marketingskills (+134 stars today)]]></title>
+      <link>https://github.com/coreyhaines31/marketingskills</link>
+      <guid isPermaLink="false">https://github.com/coreyhaines31/marketingskills#2026-10-07</guid>
+      <description><![CDATA[Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.]]></description>
+      <category>claude</category>
+      <category>codex</category>
+      <category>marketing</category>
+      <pubDate>Wed, 07 Oct 2026 03:25:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[pbakaus/impeccable (+130 stars today)]]></title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-07</guid>
+      <description><![CDATA[The design language that makes your AI harness better at design.]]></description>
+      
+      <pubDate>Wed, 07 Oct 2026 03:25:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[thedotmack/claude-mem (+119 stars today)]]></title>
+      <link>https://github.com/thedotmack/claude-mem</link>
+      <guid isPermaLink="false">https://github.com/thedotmack/claude-mem#2026-10-07</guid>
+      <description><![CDATA[Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…]]></description>
+      <category>ai</category>
+      <category>ai-agents</category>
+      <category>ai-memory</category>
+      <category>anthropic</category>
+      <category>artificial-intelligence</category>
+      <pubDate>Wed, 07 Oct 2026 03:25:01 GMT</pubDate>
     </item>
   </channel>
 </rss>

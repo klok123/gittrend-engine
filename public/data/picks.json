@@ -1,69 +1,22 @@
 {
-  "generatedAt": "2026-10-06T22:03:16.014Z",
+  "generatedAt": "2026-10-07T03:25:01.521Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
       "topics": [
-        "images",
-        "photo-editing",
-        "photoshop",
-        "psd",
-        "art"
-      ],
-      "language": "Rust",
-      "totalStars": 5854,
-      "starsGainedToday": 3828
-    },
-    {
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "fullName": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "topics": [
-        "agent",
-        "ai",
-        "coding",
-        "lowcode",
-        "nocode"
-      ],
-      "language": "JavaScript",
-      "totalStars": 93119,
-      "starsGainedToday": 2210
-    },
-    {
-      "owner": "odysseus-dev",
-      "name": "odysseus",
-      "fullName": "odysseus-dev/odysseus",
-      "url": "https://github.com/odysseus-dev/odysseus",
-      "description": "Self-hosted AI workspace.",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 91277,
-      "starsGainedToday": 1240
-    },
-    {
-      "owner": "storytold",
-      "name": "filmcraft",
-      "fullName": "storytold/filmcraft",
-      "url": "https://github.com/storytold/filmcraft",
-      "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
-      "topics": [
-        "art",
-        "rust",
+        "react",
         "video",
-        "video-editing",
-        "video-editor"
+        "javascript"
       ],
-      "language": "Rust",
-      "totalStars": 1492,
-      "starsGainedToday": 884
+      "language": "TypeScript",
+      "totalStars": 62211,
+      "starsGainedToday": 255
     },
     {
       "owner": "DietrichGebert",
@@ -79,8 +32,51 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 156777,
-      "starsGainedToday": 812
+      "totalStars": 156917,
+      "starsGainedToday": 140
+    },
+    {
+      "owner": "coreyhaines31",
+      "name": "marketingskills",
+      "fullName": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "topics": [
+        "claude",
+        "codex",
+        "marketing"
+      ],
+      "language": "JavaScript",
+      "totalStars": 53496,
+      "starsGainedToday": 134
+    },
+    {
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 77765,
+      "starsGainedToday": 130
+    },
+    {
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence"
+      ],
+      "language": "TypeScript",
+      "totalStars": 97234,
+      "starsGainedToday": 119
     }
   ]
 }
