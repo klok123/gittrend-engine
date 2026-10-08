@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T12:31:03.118Z",
+  "generatedAt": "2026-10-08T22:41:10.966Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 12628,
-      "starsGainedToday": 1500
+      "totalStars": 13049,
+      "starsGainedToday": 1921
     },
     {
       "owner": "Panniantong",
@@ -28,42 +28,8 @@
         "bilibili"
       ],
       "language": "Python",
-      "totalStars": 93845,
-      "starsGainedToday": 662
-    },
-    {
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "command-line"
-      ],
-      "language": "Python",
-      "totalStars": 133990,
-      "starsGainedToday": 650
-    },
-    {
-      "owner": "farion1231",
-      "name": "cc-switch",
-      "fullName": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "topics": [
-        "ai-tools",
-        "claude-code",
-        "desktop-app",
-        "open-source",
-        "rust"
-      ],
-      "language": "Rust",
-      "totalStars": 141415,
-      "starsGainedToday": 649
+      "totalStars": 94104,
+      "starsGainedToday": 921
     },
     {
       "owner": "DietrichGebert",
@@ -79,8 +45,42 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 158137,
-      "starsGainedToday": 596
+      "totalStars": 158457,
+      "starsGainedToday": 916
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "cli"
+      ],
+      "language": "TypeScript",
+      "totalStars": 87891,
+      "starsGainedToday": 803
+    },
+    {
+      "owner": "tt-a1i",
+      "name": "archify",
+      "fullName": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "topics": [
+        "architecture-diagram",
+        "developer-tools",
+        "system-design",
+        "agent-skills",
+        "codex"
+      ],
+      "language": "JavaScript",
+      "totalStars": 79944,
+      "starsGainedToday": 752
     }
   ]
 }

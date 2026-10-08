@@ -5,17 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:31:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 22:41:10 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[robbietilton/Compositor (+1,500 stars today)]]></title>
+      <title><![CDATA[robbietilton/Compositor (+1,921 stars today)]]></title>
       <link>https://github.com/robbietilton/Compositor</link>
       <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-08</guid>
       <description><![CDATA[The Photoshop alternative for Mac]]></description>
       
-      <pubDate>Thu, 08 Oct 2026 12:31:03 GMT</pubDate>
+      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Panniantong/Agent-Reach (+662 stars today)]]></title>
+      <title><![CDATA[Panniantong/Agent-Reach (+921 stars today)]]></title>
       <link>https://github.com/Panniantong/Agent-Reach</link>
       <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-08</guid>
       <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
@@ -24,34 +24,10 @@
       <category>ai-search</category>
       <category>automation</category>
       <category>bilibili</category>
-      <pubDate>Thu, 08 Oct 2026 12:31:03 GMT</pubDate>
+      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[nextlevelbuilder/ui-ux-pro-max-skill (+650 stars today)]]></title>
-      <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
-      <guid isPermaLink="false">https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#2026-10-08</guid>
-      <description><![CDATA[An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.]]></description>
-      <category>ai-skills</category>
-      <category>antigravity</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>command-line</category>
-      <pubDate>Thu, 08 Oct 2026 12:31:03 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[farion1231/cc-switch (+649 stars today)]]></title>
-      <link>https://github.com/farion1231/cc-switch</link>
-      <guid isPermaLink="false">https://github.com/farion1231/cc-switch#2026-10-08</guid>
-      <description><![CDATA[A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io]]></description>
-      <category>ai-tools</category>
-      <category>claude-code</category>
-      <category>desktop-app</category>
-      <category>open-source</category>
-      <category>rust</category>
-      <pubDate>Thu, 08 Oct 2026 12:31:03 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[DietrichGebert/ponytail (+596 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+916 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-08</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -60,7 +36,31 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Thu, 08 Oct 2026 12:31:03 GMT</pubDate>
+      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+803 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-08</guid>
+      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>cli</category>
+      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[tt-a1i/archify (+752 stars today)]]></title>
+      <link>https://github.com/tt-a1i/archify</link>
+      <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-10-08</guid>
+      <description><![CDATA[Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.]]></description>
+      <category>architecture-diagram</category>
+      <category>developer-tools</category>
+      <category>system-design</category>
+      <category>agent-skills</category>
+      <category>codex</category>
+      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
