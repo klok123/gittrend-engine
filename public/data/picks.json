@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-08T03:40:11.188Z",
+  "generatedAt": "2026-10-08T12:31:03.118Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "command-line"
-      ],
-      "language": "Python",
-      "totalStars": 133871,
-      "starsGainedToday": 531
-    },
     {
       "owner": "robbietilton",
       "name": "Compositor",
@@ -28,42 +11,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 11595,
-      "starsGainedToday": 467
-    },
-    {
-      "owner": "4ian",
-      "name": "GDevelop",
-      "fullName": "4ian/GDevelop",
-      "url": "https://github.com/4ian/GDevelop",
-      "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
-      "topics": [
-        "game",
-        "javascript",
-        "gamedev",
-        "game-development",
-        "game-engine"
-      ],
-      "language": "JavaScript",
-      "totalStars": 27240,
-      "starsGainedToday": 306
-    },
-    {
-      "owner": "farion1231",
-      "name": "cc-switch",
-      "fullName": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "topics": [
-        "ai-tools",
-        "claude-code",
-        "desktop-app",
-        "open-source",
-        "rust"
-      ],
-      "language": "Rust",
-      "totalStars": 141022,
-      "starsGainedToday": 256
+      "totalStars": 12628,
+      "starsGainedToday": 1500
     },
     {
       "owner": "Panniantong",
@@ -79,8 +28,59 @@
         "bilibili"
       ],
       "language": "Python",
-      "totalStars": 93425,
-      "starsGainedToday": 242
+      "totalStars": 93845,
+      "starsGainedToday": 662
+    },
+    {
+      "owner": "nextlevelbuilder",
+      "name": "ui-ux-pro-max-skill",
+      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "command-line"
+      ],
+      "language": "Python",
+      "totalStars": 133990,
+      "starsGainedToday": 650
+    },
+    {
+      "owner": "farion1231",
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "desktop-app",
+        "open-source",
+        "rust"
+      ],
+      "language": "Rust",
+      "totalStars": 141415,
+      "starsGainedToday": 649
+    },
+    {
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ],
+      "language": "JavaScript",
+      "totalStars": 158137,
+      "starsGainedToday": 596
     }
   ]
 }
