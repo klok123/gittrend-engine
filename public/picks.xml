@@ -5,62 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 22:28:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 03:40:11 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[robbietilton/Compositor (+4,354 stars today)]]></title>
+      <title><![CDATA[nextlevelbuilder/ui-ux-pro-max-skill (+531 stars today)]]></title>
+      <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
+      <guid isPermaLink="false">https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#2026-10-08</guid>
+      <description><![CDATA[An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.]]></description>
+      <category>ai-skills</category>
+      <category>antigravity</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>command-line</category>
+      <pubDate>Thu, 08 Oct 2026 03:40:11 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[robbietilton/Compositor (+467 stars today)]]></title>
       <link>https://github.com/robbietilton/Compositor</link>
-      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-07</guid>
+      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-08</guid>
       <description><![CDATA[The Photoshop alternative for Mac]]></description>
       
-      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
+      <pubDate>Thu, 08 Oct 2026 03:40:11 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+764 stars today)]]></title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-07</guid>
-      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
-      <category>agent-skills</category>
-      <category>ai-agents</category>
-      <category>claude</category>
+      <title><![CDATA[4ian/GDevelop (+306 stars today)]]></title>
+      <link>https://github.com/4ian/GDevelop</link>
+      <guid isPermaLink="false">https://github.com/4ian/GDevelop#2026-10-08</guid>
+      <description><![CDATA[🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.]]></description>
+      <category>game</category>
+      <category>javascript</category>
+      <category>gamedev</category>
+      <category>game-development</category>
+      <category>game-engine</category>
+      <pubDate>Thu, 08 Oct 2026 03:40:11 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[farion1231/cc-switch (+256 stars today)]]></title>
+      <link>https://github.com/farion1231/cc-switch</link>
+      <guid isPermaLink="false">https://github.com/farion1231/cc-switch#2026-10-08</guid>
+      <description><![CDATA[A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io]]></description>
+      <category>ai-tools</category>
       <category>claude-code</category>
-      <category>claude-code-plugin</category>
-      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
+      <category>desktop-app</category>
+      <category>open-source</category>
+      <category>rust</category>
+      <pubDate>Thu, 08 Oct 2026 03:40:11 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[vinta/awesome-python (+716 stars today)]]></title>
-      <link>https://github.com/vinta/awesome-python</link>
-      <guid isPermaLink="false">https://github.com/vinta/awesome-python#2026-10-07</guid>
-      <description><![CDATA[The definitive list that answers "I want to do X in Python, which tool should I use?"]]></description>
-      <category>awesome</category>
-      <category>python</category>
-      <category>python-frameworks</category>
-      <category>python-libraries</category>
-      <category>python-tools</category>
-      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[affaan-m/ECC (+654 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-07</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+596 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-07</guid>
-      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>cli</category>
-      <pubDate>Wed, 07 Oct 2026 22:28:11 GMT</pubDate>
+      <title><![CDATA[Panniantong/Agent-Reach (+242 stars today)]]></title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-08</guid>
+      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
+      <category>agent-infrastructure</category>
+      <category>ai-agent</category>
+      <category>ai-search</category>
+      <category>automation</category>
+      <category>bilibili</category>
+      <pubDate>Thu, 08 Oct 2026 03:40:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
