@@ -5,62 +5,50 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 22:41:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 03:45:35 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[robbietilton/Compositor (+1,921 stars today)]]></title>
+      <title><![CDATA[shihabal3amri/DiPlay (+6,096 stars today)]]></title>
+      <link>https://github.com/shihabal3amri/DiPlay</link>
+      <guid isPermaLink="false">https://github.com/shihabal3amri/DiPlay#2026-10-09</guid>
+      <description><![CDATA[Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.]]></description>
+      
+      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[robbietilton/Compositor (+589 stars today)]]></title>
       <link>https://github.com/robbietilton/Compositor</link>
-      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-08</guid>
+      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-09</guid>
       <description><![CDATA[The Photoshop alternative for Mac]]></description>
       
-      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Panniantong/Agent-Reach (+921 stars today)]]></title>
-      <link>https://github.com/Panniantong/Agent-Reach</link>
-      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-08</guid>
-      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
-      <category>agent-infrastructure</category>
-      <category>ai-agent</category>
-      <category>ai-search</category>
-      <category>automation</category>
-      <category>bilibili</category>
-      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[DietrichGebert/ponytail (+916 stars today)]]></title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-08</guid>
-      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
-      <category>agent-skills</category>
-      <category>ai-agents</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>claude-code-plugin</category>
-      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+803 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-08</guid>
-      <description><![CDATA[Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>cli</category>
-      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[tt-a1i/archify (+752 stars today)]]></title>
+      <title><![CDATA[tt-a1i/archify (+352 stars today)]]></title>
       <link>https://github.com/tt-a1i/archify</link>
-      <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-10-08</guid>
+      <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-10-09</guid>
       <description><![CDATA[Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.]]></description>
       <category>architecture-diagram</category>
       <category>developer-tools</category>
       <category>system-design</category>
       <category>agent-skills</category>
       <category>codex</category>
-      <pubDate>Thu, 08 Oct 2026 22:41:10 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[noahdunnagan/fsearch (+256 stars today)]]></title>
+      <link>https://github.com/noahdunnagan/fsearch</link>
+      <guid isPermaLink="false">https://github.com/noahdunnagan/fsearch#2026-10-09</guid>
+      <description><![CDATA[Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.]]></description>
+      
+      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[nullmoth/nvidia-macos-driver (+237 stars today)]]></title>
+      <link>https://github.com/nullmoth/nvidia-macos-driver</link>
+      <guid isPermaLink="false">https://github.com/nullmoth/nvidia-macos-driver#2026-10-09</guid>
+      <description><![CDATA[Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.]]></description>
+      
+      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
     </item>
   </channel>
 </rss>
