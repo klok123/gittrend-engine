@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:45:35.060Z",
+  "generatedAt": "2026-10-09T12:19:44.318Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,24 @@
       "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 7540,
-      "starsGainedToday": 6096
+      "totalStars": 7980,
+      "starsGainedToday": 6536
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 246130,
+      "starsGainedToday": 2133
     },
     {
       "owner": "robbietilton",
@@ -22,8 +38,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 13638,
-      "starsGainedToday": 589
+      "totalStars": 14436,
+      "starsGainedToday": 1387
     },
     {
       "owner": "tt-a1i",
@@ -39,30 +55,25 @@
         "codex"
       ],
       "language": "JavaScript",
-      "totalStars": 80296,
-      "starsGainedToday": 352
+      "totalStars": 80853,
+      "starsGainedToday": 909
     },
     {
-      "owner": "noahdunnagan",
-      "name": "fsearch",
-      "fullName": "noahdunnagan/fsearch",
-      "url": "https://github.com/noahdunnagan/fsearch",
-      "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 570,
-      "starsGainedToday": 256
-    },
-    {
-      "owner": "nullmoth",
-      "name": "nvidia-macos-driver",
-      "fullName": "nullmoth/nvidia-macos-driver",
-      "url": "https://github.com/nullmoth/nvidia-macos-driver",
-      "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 1233,
-      "starsGainedToday": 237
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ],
+      "language": "JavaScript",
+      "totalStars": 159151,
+      "starsGainedToday": 694
     }
   ]
 }

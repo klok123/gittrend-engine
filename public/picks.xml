@@ -5,25 +5,36 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 03:45:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 12:19:44 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[shihabal3amri/DiPlay (+6,096 stars today)]]></title>
+      <title><![CDATA[shihabal3amri/DiPlay (+6,536 stars today)]]></title>
       <link>https://github.com/shihabal3amri/DiPlay</link>
       <guid isPermaLink="false">https://github.com/shihabal3amri/DiPlay#2026-10-09</guid>
       <description><![CDATA[Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.]]></description>
       
-      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:19:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[robbietilton/Compositor (+589 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+2,133 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-09</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Fri, 09 Oct 2026 12:19:44 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[robbietilton/Compositor (+1,387 stars today)]]></title>
       <link>https://github.com/robbietilton/Compositor</link>
       <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-09</guid>
       <description><![CDATA[The Photoshop alternative for Mac]]></description>
       
-      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:19:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[tt-a1i/archify (+352 stars today)]]></title>
+      <title><![CDATA[tt-a1i/archify (+909 stars today)]]></title>
       <link>https://github.com/tt-a1i/archify</link>
       <guid isPermaLink="false">https://github.com/tt-a1i/archify#2026-10-09</guid>
       <description><![CDATA[Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.]]></description>
@@ -32,23 +43,19 @@
       <category>system-design</category>
       <category>agent-skills</category>
       <category>codex</category>
-      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:19:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[noahdunnagan/fsearch (+256 stars today)]]></title>
-      <link>https://github.com/noahdunnagan/fsearch</link>
-      <guid isPermaLink="false">https://github.com/noahdunnagan/fsearch#2026-10-09</guid>
-      <description><![CDATA[Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.]]></description>
-      
-      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[nullmoth/nvidia-macos-driver (+237 stars today)]]></title>
-      <link>https://github.com/nullmoth/nvidia-macos-driver</link>
-      <guid isPermaLink="false">https://github.com/nullmoth/nvidia-macos-driver#2026-10-09</guid>
-      <description><![CDATA[Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.]]></description>
-      
-      <pubDate>Fri, 09 Oct 2026 03:45:35 GMT</pubDate>
+      <title><![CDATA[DietrichGebert/ponytail (+694 stars today)]]></title>
+      <link>https://github.com/DietrichGebert/ponytail</link>
+      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-09</guid>
+      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
+      <category>agent-skills</category>
+      <category>ai-agents</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>claude-code-plugin</category>
+      <pubDate>Fri, 09 Oct 2026 12:19:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
