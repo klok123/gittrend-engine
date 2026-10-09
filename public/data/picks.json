@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:19:44.318Z",
+  "generatedAt": "2026-10-09T22:02:40.597Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 7980,
-      "starsGainedToday": 6536
+      "totalStars": 8202,
+      "starsGainedToday": 6758
     },
     {
       "owner": "deepseek-ai",
@@ -27,8 +27,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 246130,
-      "starsGainedToday": 2133
+      "totalStars": 246320,
+      "starsGainedToday": 2323
     },
     {
       "owner": "robbietilton",
@@ -38,8 +38,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 14436,
-      "starsGainedToday": 1387
+      "totalStars": 14751,
+      "starsGainedToday": 1702
     },
     {
       "owner": "tt-a1i",
@@ -55,8 +55,8 @@
         "codex"
       ],
       "language": "JavaScript",
-      "totalStars": 80853,
-      "starsGainedToday": 909
+      "totalStars": 81150,
+      "starsGainedToday": 1206
     },
     {
       "owner": "DietrichGebert",
@@ -72,8 +72,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 159151,
-      "starsGainedToday": 694
+      "totalStars": 159555,
+      "starsGainedToday": 1098
     }
   ]
 }
