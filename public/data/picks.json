@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T03:27:57.387Z",
+  "generatedAt": "2026-10-10T11:38:26.414Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 36130,
-      "starsGainedToday": 30276
+      "totalStars": 38725,
+      "starsGainedToday": 32871
+    },
+    {
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "language": "JavaScript",
+      "totalStars": 104310,
+      "starsGainedToday": 2769
     },
     {
       "owner": "storytold",
@@ -28,8 +45,8 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
       "language": "Rust",
-      "totalStars": 1990,
-      "starsGainedToday": 245
+      "totalStars": 2483,
+      "starsGainedToday": 738
     },
     {
       "owner": "alibaba",
@@ -45,30 +62,24 @@
         "repository-level-context"
       ],
       "language": "Go",
-      "totalStars": 45364,
-      "starsGainedToday": 231
+      "totalStars": 45729,
+      "starsGainedToday": 596
     },
     {
-      "owner": "shihabal3amri",
-      "name": "DiPlay",
-      "fullName": "shihabal3amri/DiPlay",
-      "url": "https://github.com/shihabal3amri/DiPlay",
-      "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
-      "topics": [],
-      "language": "Kotlin",
-      "totalStars": 8411,
-      "starsGainedToday": 209
-    },
-    {
-      "owner": "robbietilton",
-      "name": "Compositor",
-      "fullName": "robbietilton/Compositor",
-      "url": "https://github.com/robbietilton/Compositor",
-      "description": "The Photoshop alternative for Mac",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 14958,
-      "starsGainedToday": 207
+      "owner": "cjpais",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "topics": [
+        "speech-to-text",
+        "tauri-v2",
+        "accessibility",
+        "cross-platform"
+      ],
+      "language": "Rust",
+      "totalStars": 33412,
+      "starsGainedToday": 557
     }
   ]
 }

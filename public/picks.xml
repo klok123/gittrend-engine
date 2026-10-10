@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 03:27:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 11:38:26 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/photocraft (+30,276 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+32,871 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-10</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
@@ -16,18 +16,30 @@
       <category>photoshop</category>
       <category>psd</category>
       <category>art</category>
-      <pubDate>Sat, 10 Oct 2026 03:27:57 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 11:38:26 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+245 stars today)]]></title>
+      <title><![CDATA[addyosmani/agent-skills (+2,769 stars today)]]></title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-10</guid>
+      <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
+      <category>agent-skills</category>
+      <category>antigravity</category>
+      <category>claude-code</category>
+      <category>cursor</category>
+      <category>skills</category>
+      <pubDate>Sat, 10 Oct 2026 11:38:26 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/wordcraft (+738 stars today)]]></title>
       <link>https://github.com/storytold/wordcraft</link>
       <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-10</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
       
-      <pubDate>Sat, 10 Oct 2026 03:27:57 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 11:38:26 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[alibaba/open-code-review (+231 stars today)]]></title>
+      <title><![CDATA[alibaba/open-code-review (+596 stars today)]]></title>
       <link>https://github.com/alibaba/open-code-review</link>
       <guid isPermaLink="false">https://github.com/alibaba/open-code-review#2026-10-10</guid>
       <description><![CDATA[Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…]]></description>
@@ -36,23 +48,18 @@
       <category>code-review-assistant</category>
       <category>harness</category>
       <category>repository-level-context</category>
-      <pubDate>Sat, 10 Oct 2026 03:27:57 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 11:38:26 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[shihabal3amri/DiPlay (+209 stars today)]]></title>
-      <link>https://github.com/shihabal3amri/DiPlay</link>
-      <guid isPermaLink="false">https://github.com/shihabal3amri/DiPlay#2026-10-10</guid>
-      <description><![CDATA[Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.]]></description>
-      
-      <pubDate>Sat, 10 Oct 2026 03:27:57 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[robbietilton/Compositor (+207 stars today)]]></title>
-      <link>https://github.com/robbietilton/Compositor</link>
-      <guid isPermaLink="false">https://github.com/robbietilton/Compositor#2026-10-10</guid>
-      <description><![CDATA[The Photoshop alternative for Mac]]></description>
-      
-      <pubDate>Sat, 10 Oct 2026 03:27:57 GMT</pubDate>
+      <title><![CDATA[cjpais/Handy (+557 stars today)]]></title>
+      <link>https://github.com/cjpais/Handy</link>
+      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-10-10</guid>
+      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
+      <category>speech-to-text</category>
+      <category>tauri-v2</category>
+      <category>accessibility</category>
+      <category>cross-platform</category>
+      <pubDate>Sat, 10 Oct 2026 11:38:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
