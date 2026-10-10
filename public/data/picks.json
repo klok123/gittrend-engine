@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-10-09T22:02:40.597Z",
+  "generatedAt": "2026-10-10T03:27:57.387Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "topics": [
+        "images",
+        "photo-editing",
+        "photoshop",
+        "psd",
+        "art"
+      ],
+      "language": "Rust",
+      "totalStars": 36130,
+      "starsGainedToday": 30276
+    },
+    {
+      "owner": "storytold",
+      "name": "wordcraft",
+      "fullName": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 1990,
+      "starsGainedToday": 245
+    },
+    {
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…",
+      "topics": [
+        "agent",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "language": "Go",
+      "totalStars": 45364,
+      "starsGainedToday": 231
+    },
     {
       "owner": "shihabal3amri",
       "name": "DiPlay",
@@ -11,24 +56,8 @@
       "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 8202,
-      "starsGainedToday": 6758
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 246320,
-      "starsGainedToday": 2323
+      "totalStars": 8411,
+      "starsGainedToday": 209
     },
     {
       "owner": "robbietilton",
@@ -38,42 +67,8 @@
       "description": "The Photoshop alternative for Mac",
       "topics": [],
       "language": "Swift",
-      "totalStars": 14751,
-      "starsGainedToday": 1702
-    },
-    {
-      "owner": "tt-a1i",
-      "name": "archify",
-      "fullName": "tt-a1i/archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-      "topics": [
-        "architecture-diagram",
-        "developer-tools",
-        "system-design",
-        "agent-skills",
-        "codex"
-      ],
-      "language": "JavaScript",
-      "totalStars": 81150,
-      "starsGainedToday": 1206
-    },
-    {
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin"
-      ],
-      "language": "JavaScript",
-      "totalStars": 159555,
-      "starsGainedToday": 1098
+      "totalStars": 14958,
+      "starsGainedToday": 207
     }
   ]
 }
