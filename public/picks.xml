@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 16:38:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 20:55:24 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/photocraft (+34,341 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+35,479 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-10</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
@@ -16,10 +16,10 @@
       <category>photoshop</category>
       <category>psd</category>
       <category>art</category>
-      <pubDate>Sat, 10 Oct 2026 16:38:28 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[addyosmani/agent-skills (+2,841 stars today)]]></title>
+      <title><![CDATA[addyosmani/agent-skills (+2,923 stars today)]]></title>
       <link>https://github.com/addyosmani/agent-skills</link>
       <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-10</guid>
       <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
@@ -28,18 +28,30 @@
       <category>claude-code</category>
       <category>cursor</category>
       <category>skills</category>
-      <pubDate>Sat, 10 Oct 2026 16:38:28 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+1,082 stars today)]]></title>
+      <title><![CDATA[yt-dlp/yt-dlp (+2,298 stars today)]]></title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-10-10</guid>
+      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
+      <category>youtube-dl</category>
+      <category>python</category>
+      <category>sponsorblock</category>
+      <category>yt-dlp</category>
+      <category>youtube-downloader</category>
+      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/wordcraft (+1,291 stars today)]]></title>
       <link>https://github.com/storytold/wordcraft</link>
       <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-10</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
       
-      <pubDate>Sat, 10 Oct 2026 16:38:28 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+696 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+815 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-10</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -48,15 +60,7 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Sat, 10 Oct 2026 16:38:28 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[shihabal3amri/DiPlay (+690 stars today)]]></title>
-      <link>https://github.com/shihabal3amri/DiPlay</link>
-      <guid isPermaLink="false">https://github.com/shihabal3amri/DiPlay#2026-10-10</guid>
-      <description><![CDATA[Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.]]></description>
-      
-      <pubDate>Sat, 10 Oct 2026 16:38:28 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
     </item>
   </channel>
 </rss>

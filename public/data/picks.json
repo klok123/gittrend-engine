@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T16:38:28.242Z",
+  "generatedAt": "2026-10-10T20:55:24.926Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 40195,
-      "starsGainedToday": 34341
+      "totalStars": 41333,
+      "starsGainedToday": 35479
     },
     {
       "owner": "addyosmani",
@@ -34,8 +34,25 @@
         "skills"
       ],
       "language": "JavaScript",
-      "totalStars": 104382,
-      "starsGainedToday": 2841
+      "totalStars": 104464,
+      "starsGainedToday": 2923
+    },
+    {
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "topics": [
+        "youtube-dl",
+        "python",
+        "sponsorblock",
+        "yt-dlp",
+        "youtube-downloader"
+      ],
+      "language": "Python",
+      "totalStars": 196656,
+      "starsGainedToday": 2298
     },
     {
       "owner": "storytold",
@@ -45,8 +62,8 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
       "language": "Rust",
-      "totalStars": 2827,
-      "starsGainedToday": 1082
+      "totalStars": 3036,
+      "starsGainedToday": 1291
     },
     {
       "owner": "DietrichGebert",
@@ -62,19 +79,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 160251,
-      "starsGainedToday": 696
-    },
-    {
-      "owner": "shihabal3amri",
-      "name": "DiPlay",
-      "fullName": "shihabal3amri/DiPlay",
-      "url": "https://github.com/shihabal3amri/DiPlay",
-      "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
-      "topics": [],
-      "language": "Kotlin",
-      "totalStars": 8892,
-      "starsGainedToday": 690
+      "totalStars": 160370,
+      "starsGainedToday": 815
     }
   ]
 }
