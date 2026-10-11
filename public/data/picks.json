@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:04:11.699Z",
+  "generatedAt": "2026-10-11T21:16:33.966Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,25 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 94598,
-      "starsGainedToday": 25282
+      "totalStars": 99980,
+      "starsGainedToday": 30664
     },
     {
       "owner": "storytold",
       "name": "photocraft",
       "fullName": "storytold/photocraft",
       "url": "https://github.com/storytold/photocraft",
-      "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
         "images",
         "photo-editing",
-        "photoshop",
-        "psd",
-        "art"
+        "art",
+        "rust",
+        "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 46034,
-      "starsGainedToday": 4701
+      "totalStars": 47025,
+      "starsGainedToday": 5692
     },
     {
       "owner": "boykopovar",
@@ -51,8 +51,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 29047,
-      "starsGainedToday": 2780
+      "totalStars": 29687,
+      "starsGainedToday": 3420
     },
     {
       "owner": "storytold",
@@ -62,8 +62,8 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
       "language": "Rust",
-      "totalStars": 4838,
-      "starsGainedToday": 1802
+      "totalStars": 5531,
+      "starsGainedToday": 2495
     },
     {
       "owner": "bilawalsidhu",
@@ -79,8 +79,8 @@
         "geospatial-intelligence"
       ],
       "language": "JavaScript",
-      "totalStars": 51121,
-      "starsGainedToday": 943
+      "totalStars": 51443,
+      "starsGainedToday": 1265
     }
   ]
 }

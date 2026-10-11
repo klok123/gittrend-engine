@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 17:04:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 21:16:33 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+25,282 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+30,664 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-11</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,22 +16,22 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>disassembler</category>
-      <pubDate>Sun, 11 Oct 2026 17:04:11 GMT</pubDate>
+      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+4,701 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+5,692 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-11</guid>
-      <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
+      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
       <category>images</category>
       <category>photo-editing</category>
-      <category>photoshop</category>
-      <category>psd</category>
       <category>art</category>
-      <pubDate>Sun, 11 Oct 2026 17:04:11 GMT</pubDate>
+      <category>rust</category>
+      <category>image-editing</category>
+      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+2,780 stars today)]]></title>
+      <title><![CDATA[boykopovar/AnyPS5 (+3,420 stars today)]]></title>
       <link>https://github.com/boykopovar/AnyPS5</link>
       <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-11</guid>
       <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
@@ -40,18 +40,18 @@
       <category>ps5-tools</category>
       <category>vulkan</category>
       <category>spir-v</category>
-      <pubDate>Sun, 11 Oct 2026 17:04:11 GMT</pubDate>
+      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+1,802 stars today)]]></title>
+      <title><![CDATA[storytold/wordcraft (+2,495 stars today)]]></title>
       <link>https://github.com/storytold/wordcraft</link>
       <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-11</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
       
-      <pubDate>Sun, 11 Oct 2026 17:04:11 GMT</pubDate>
+      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[bilawalsidhu/gods-eye-view (+943 stars today)]]></title>
+      <title><![CDATA[bilawalsidhu/gods-eye-view (+1,265 stars today)]]></title>
       <link>https://github.com/bilawalsidhu/gods-eye-view</link>
       <guid isPermaLink="false">https://github.com/bilawalsidhu/gods-eye-view#2026-10-11</guid>
       <description><![CDATA[A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.]]></description>
@@ -60,7 +60,7 @@
       <category>flight-tracking</category>
       <category>geospatial</category>
       <category>geospatial-intelligence</category>
-      <pubDate>Sun, 11 Oct 2026 17:04:11 GMT</pubDate>
+      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
     </item>
   </channel>
 </rss>
