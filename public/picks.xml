@@ -5,62 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 20:55:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 03:01:07 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/photocraft (+35,479 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+5,719 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-11</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>ai-agents</category>
+      <category>binary-analysis</category>
+      <category>cli</category>
+      <category>decompiler</category>
+      <category>disassembler</category>
+      <pubDate>Sun, 11 Oct 2026 03:01:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/photocraft (+1,237 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-10</guid>
+      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-11</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust]]></description>
       <category>images</category>
       <category>photo-editing</category>
       <category>photoshop</category>
       <category>psd</category>
       <category>art</category>
-      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
+      <pubDate>Sun, 11 Oct 2026 03:01:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[addyosmani/agent-skills (+2,923 stars today)]]></title>
-      <link>https://github.com/addyosmani/agent-skills</link>
-      <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-10</guid>
-      <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
-      <category>agent-skills</category>
-      <category>antigravity</category>
-      <category>claude-code</category>
-      <category>cursor</category>
-      <category>skills</category>
-      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
+      <title><![CDATA[boykopovar/AnyPS5 (+849 stars today)]]></title>
+      <link>https://github.com/boykopovar/AnyPS5</link>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-11</guid>
+      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
+      <category>dynamic-library</category>
+      <category>game-porting</category>
+      <category>ps5-tools</category>
+      <category>vulkan</category>
+      <category>spir-v</category>
+      <pubDate>Sun, 11 Oct 2026 03:01:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[yt-dlp/yt-dlp (+2,298 stars today)]]></title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-10-10</guid>
-      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
-      <category>youtube-dl</category>
-      <category>python</category>
-      <category>sponsorblock</category>
-      <category>yt-dlp</category>
-      <category>youtube-downloader</category>
-      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
+      <title><![CDATA[BerriAI/litellm (+527 stars today)]]></title>
+      <link>https://github.com/BerriAI/litellm</link>
+      <guid isPermaLink="false">https://github.com/BerriAI/litellm#2026-10-11</guid>
+      <description><![CDATA[The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…]]></description>
+      <category>anthropic</category>
+      <category>langchain</category>
+      <category>llm</category>
+      <category>llmops</category>
+      <category>openai</category>
+      <pubDate>Sun, 11 Oct 2026 03:01:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+1,291 stars today)]]></title>
-      <link>https://github.com/storytold/wordcraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-10</guid>
-      <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
-      
-      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[DietrichGebert/ponytail (+815 stars today)]]></title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-10</guid>
-      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
-      <category>agent-skills</category>
+      <title><![CDATA[jackwener/OpenCLI (+390 stars today)]]></title>
+      <link>https://github.com/jackwener/OpenCLI</link>
+      <guid isPermaLink="false">https://github.com/jackwener/OpenCLI#2026-10-11</guid>
+      <description><![CDATA[Make Any Website into CLI & Use your logged-in browser by AI agent.]]></description>
+      <category>ai-agent</category>
       <category>ai-agents</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>claude-code-plugin</category>
-      <pubDate>Sat, 10 Oct 2026 20:55:24 GMT</pubDate>
+      <category>ai-tools</category>
+      <category>cli</category>
+      <category>browser-automation</category>
+      <pubDate>Sun, 11 Oct 2026 03:01:07 GMT</pubDate>
     </item>
   </channel>
 </rss>

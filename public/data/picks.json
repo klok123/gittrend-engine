@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-10T20:55:24.926Z",
+  "generatedAt": "2026-10-11T03:01:07.933Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "ai-agents",
+        "binary-analysis",
+        "cli",
+        "decompiler",
+        "disassembler"
+      ],
+      "language": "TypeScript",
+      "totalStars": 75035,
+      "starsGainedToday": 5719
+    },
     {
       "owner": "storytold",
       "name": "photocraft",
@@ -17,70 +34,59 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 41333,
-      "starsGainedToday": 35479
+      "totalStars": 42570,
+      "starsGainedToday": 1237
     },
     {
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "cursor",
-        "skills"
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
       ],
-      "language": "JavaScript",
-      "totalStars": 104464,
-      "starsGainedToday": 2923
+      "language": "C++",
+      "totalStars": 27116,
+      "starsGainedToday": 849
     },
     {
-      "owner": "yt-dlp",
-      "name": "yt-dlp",
-      "fullName": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
+      "owner": "BerriAI",
+      "name": "litellm",
+      "fullName": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
       "topics": [
-        "youtube-dl",
-        "python",
-        "sponsorblock",
-        "yt-dlp",
-        "youtube-downloader"
+        "anthropic",
+        "langchain",
+        "llm",
+        "llmops",
+        "openai"
       ],
       "language": "Python",
-      "totalStars": 196656,
-      "starsGainedToday": 2298
+      "totalStars": 60928,
+      "starsGainedToday": 527
     },
     {
-      "owner": "storytold",
-      "name": "wordcraft",
-      "fullName": "storytold/wordcraft",
-      "url": "https://github.com/storytold/wordcraft",
-      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 3036,
-      "starsGainedToday": 1291
-    },
-    {
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "owner": "jackwener",
+      "name": "OpenCLI",
+      "fullName": "jackwener/OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
       "topics": [
-        "agent-skills",
+        "ai-agent",
         "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin"
+        "ai-tools",
+        "cli",
+        "browser-automation"
       ],
       "language": "JavaScript",
-      "totalStars": 160370,
-      "starsGainedToday": 815
+      "totalStars": 30023,
+      "starsGainedToday": 390
     }
   ]
 }
