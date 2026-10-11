@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T11:51:12.397Z",
+  "generatedAt": "2026-10-11T17:04:11.699Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 86018,
-      "starsGainedToday": 16702
+      "totalStars": 94598,
+      "starsGainedToday": 25282
     },
     {
       "owner": "storytold",
@@ -34,8 +34,8 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 44594,
-      "starsGainedToday": 3261
+      "totalStars": 46034,
+      "starsGainedToday": 4701
     },
     {
       "owner": "boykopovar",
@@ -51,8 +51,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 28278,
-      "starsGainedToday": 2011
+      "totalStars": 29047,
+      "starsGainedToday": 2780
     },
     {
       "owner": "storytold",
@@ -62,23 +62,25 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
       "language": "Rust",
-      "totalStars": 3938,
-      "starsGainedToday": 902
+      "totalStars": 4838,
+      "starsGainedToday": 1802
     },
     {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "topics": [
-        "react",
-        "video",
-        "javascript"
+        "3d-globe",
+        "cesium",
+        "flight-tracking",
+        "geospatial",
+        "geospatial-intelligence"
       ],
-      "language": "TypeScript",
-      "totalStars": 63175,
-      "starsGainedToday": 779
+      "language": "JavaScript",
+      "totalStars": 51121,
+      "starsGainedToday": 943
     }
   ]
 }
