@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:01:07.933Z",
+  "generatedAt": "2026-10-11T11:51:12.397Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 75035,
-      "starsGainedToday": 5719
+      "totalStars": 86018,
+      "starsGainedToday": 16702
     },
     {
       "owner": "storytold",
@@ -34,8 +34,8 @@
         "art"
       ],
       "language": "Rust",
-      "totalStars": 42570,
-      "starsGainedToday": 1237
+      "totalStars": 44594,
+      "starsGainedToday": 3261
     },
     {
       "owner": "boykopovar",
@@ -51,42 +51,34 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 27116,
-      "starsGainedToday": 849
+      "totalStars": 28278,
+      "starsGainedToday": 2011
     },
     {
-      "owner": "BerriAI",
-      "name": "litellm",
-      "fullName": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
-      "topics": [
-        "anthropic",
-        "langchain",
-        "llm",
-        "llmops",
-        "openai"
-      ],
-      "language": "Python",
-      "totalStars": 60928,
-      "starsGainedToday": 527
+      "owner": "storytold",
+      "name": "wordcraft",
+      "fullName": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 3938,
+      "starsGainedToday": 902
     },
     {
-      "owner": "jackwener",
-      "name": "OpenCLI",
-      "fullName": "jackwener/OpenCLI",
-      "url": "https://github.com/jackwener/OpenCLI",
-      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
       "topics": [
-        "ai-agent",
-        "ai-agents",
-        "ai-tools",
-        "cli",
-        "browser-automation"
+        "react",
+        "video",
+        "javascript"
       ],
-      "language": "JavaScript",
-      "totalStars": 30023,
-      "starsGainedToday": 390
+      "language": "TypeScript",
+      "totalStars": 63175,
+      "starsGainedToday": 779
     }
   ]
 }
