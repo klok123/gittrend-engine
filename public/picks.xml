@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:57:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:59:14 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+36,074 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+55,629 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-12</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>disassembler</category>
-      <pubDate>Mon, 12 Oct 2026 13:57:16 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 23:59:14 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+4,139 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+6,341 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-12</guid>
       <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
@@ -28,30 +28,30 @@
       <category>art</category>
       <category>rust</category>
       <category>image-editing</category>
-      <pubDate>Mon, 12 Oct 2026 13:57:16 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 23:59:14 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+2,348 stars today)]]></title>
+      <title><![CDATA[storytold/wordcraft (+3,561 stars today)]]></title>
       <link>https://github.com/storytold/wordcraft</link>
       <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-12</guid>
       <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
       
-      <pubDate>Mon, 12 Oct 2026 13:57:16 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 23:59:14 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+2,141 stars today)]]></title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-12</guid>
-      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
-      <category>dynamic-library</category>
-      <category>game-porting</category>
-      <category>ps5-tools</category>
-      <category>vulkan</category>
-      <category>spir-v</category>
-      <pubDate>Mon, 12 Oct 2026 13:57:16 GMT</pubDate>
+      <title><![CDATA[calesthio/OpenMontage (+3,546 stars today)]]></title>
+      <link>https://github.com/calesthio/OpenMontage</link>
+      <guid isPermaLink="false">https://github.com/calesthio/OpenMontage#2026-10-12</guid>
+      <description><![CDATA[World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…]]></description>
+      <category>agent</category>
+      <category>agentic-ai</category>
+      <category>ai</category>
+      <category>claude</category>
+      <category>copilot</category>
+      <pubDate>Mon, 12 Oct 2026 23:59:14 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[wheresryan22/anatomy (+1,969 stars today)]]></title>
+      <title><![CDATA[wheresryan22/anatomy (+3,183 stars today)]]></title>
       <link>https://github.com/wheresryan22/anatomy</link>
       <guid isPermaLink="false">https://github.com/wheresryan22/anatomy#2026-10-12</guid>
       <description><![CDATA[An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.]]></description>
@@ -59,7 +59,7 @@
       <category>open-source</category>
       <category>svg</category>
       <category>vizualization</category>
-      <pubDate>Mon, 12 Oct 2026 13:57:16 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 23:59:14 GMT</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T13:57:16.633Z",
+  "generatedAt": "2026-10-12T23:59:14.108Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 136054,
-      "starsGainedToday": 36074
+      "totalStars": 155609,
+      "starsGainedToday": 55629
     },
     {
       "owner": "storytold",
@@ -34,8 +34,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 51164,
-      "starsGainedToday": 4139
+      "totalStars": 53366,
+      "starsGainedToday": 6341
     },
     {
       "owner": "storytold",
@@ -45,25 +45,25 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
       "language": "Rust",
-      "totalStars": 7879,
-      "starsGainedToday": 2348
+      "totalStars": 9092,
+      "starsGainedToday": 3561
     },
     {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
       "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
       ],
-      "language": "C++",
-      "totalStars": 31828,
-      "starsGainedToday": 2141
+      "language": "Python",
+      "totalStars": 67544,
+      "starsGainedToday": 3546
     },
     {
       "owner": "wheresryan22",
@@ -78,8 +78,8 @@
         "vizualization"
       ],
       "language": "JavaScript",
-      "totalStars": 4964,
-      "starsGainedToday": 1969
+      "totalStars": 6178,
+      "starsGainedToday": 3183
     }
   ]
 }
