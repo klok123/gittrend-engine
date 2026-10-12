@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:16:33.966Z",
+  "generatedAt": "2026-10-12T03:24:18.360Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,70 +17,70 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 99980,
-      "starsGainedToday": 30664
+      "totalStars": 111597,
+      "starsGainedToday": 11617
     },
     {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
       "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap"
       ],
-      "language": "Rust",
-      "totalStars": 47025,
-      "starsGainedToday": 5692
+      "language": "TypeScript",
+      "totalStars": 61069,
+      "starsGainedToday": 4249
     },
     {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner": "hugohe3",
+      "name": "ppt-master",
+      "fullName": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
       "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
+        "ai-agent",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "office"
       ],
-      "language": "C++",
-      "totalStars": 29687,
-      "starsGainedToday": 3420
+      "language": "Python",
+      "totalStars": 60458,
+      "starsGainedToday": 3590
     },
     {
-      "owner": "storytold",
-      "name": "wordcraft",
-      "fullName": "storytold/wordcraft",
-      "url": "https://github.com/storytold/wordcraft",
-      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "owner": "Tencent",
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "topics": [
+        "agent",
+        "agentic",
+        "ai",
+        "golang",
+        "llm"
+      ],
+      "language": "Go",
+      "totalStars": 33277,
+      "starsGainedToday": 2624
+    },
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
       "topics": [],
-      "language": "Rust",
-      "totalStars": 5531,
-      "starsGainedToday": 2495
-    },
-    {
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "topics": [
-        "3d-globe",
-        "cesium",
-        "flight-tracking",
-        "geospatial",
-        "geospatial-intelligence"
-      ],
-      "language": "JavaScript",
-      "totalStars": 51443,
-      "starsGainedToday": 1265
+      "language": "Python",
+      "totalStars": 58120,
+      "starsGainedToday": 1450
     }
   ]
 }

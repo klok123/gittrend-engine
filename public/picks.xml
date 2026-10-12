@@ -5,62 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 21:16:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 03:24:18 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+30,664 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+11,617 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-11</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-12</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>disassembler</category>
-      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:24:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+5,692 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-11</guid>
-      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>art</category>
-      <category>rust</category>
-      <category>image-editing</category>
-      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
+      <title><![CDATA[heygen-com/hyperframes (+4,249 stars today)]]></title>
+      <link>https://github.com/heygen-com/hyperframes</link>
+      <guid isPermaLink="false">https://github.com/heygen-com/hyperframes#2026-10-12</guid>
+      <description><![CDATA[Write HTML. Render video. Built for agents.]]></description>
+      <category>ai</category>
+      <category>animation</category>
+      <category>ffmpeg</category>
+      <category>framework</category>
+      <category>gsap</category>
+      <pubDate>Mon, 12 Oct 2026 03:24:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+3,420 stars today)]]></title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-11</guid>
-      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
-      <category>dynamic-library</category>
-      <category>game-porting</category>
-      <category>ps5-tools</category>
-      <category>vulkan</category>
-      <category>spir-v</category>
-      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
+      <title><![CDATA[hugohe3/ppt-master (+3,590 stars today)]]></title>
+      <link>https://github.com/hugohe3/ppt-master</link>
+      <guid isPermaLink="false">https://github.com/hugohe3/ppt-master#2026-10-12</guid>
+      <description><![CDATA[AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…]]></description>
+      <category>ai-agent</category>
+      <category>powerpoint</category>
+      <category>pptx</category>
+      <category>presentation</category>
+      <category>office</category>
+      <pubDate>Mon, 12 Oct 2026 03:24:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/wordcraft (+2,495 stars today)]]></title>
-      <link>https://github.com/storytold/wordcraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/wordcraft#2026-10-11</guid>
-      <description><![CDATA[An open-source, clean-room reimplementation of Microsoft Word in pure Rust]]></description>
+      <title><![CDATA[Tencent/WeKnora (+2,624 stars today)]]></title>
+      <link>https://github.com/Tencent/WeKnora</link>
+      <guid isPermaLink="false">https://github.com/Tencent/WeKnora#2026-10-12</guid>
+      <description><![CDATA[Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.]]></description>
+      <category>agent</category>
+      <category>agentic</category>
+      <category>ai</category>
+      <category>golang</category>
+      <category>llm</category>
+      <pubDate>Mon, 12 Oct 2026 03:24:18 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Alishahryar1/free-claude-code (+1,450 stars today)]]></title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-12</guid>
+      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
       
-      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[bilawalsidhu/gods-eye-view (+1,265 stars today)]]></title>
-      <link>https://github.com/bilawalsidhu/gods-eye-view</link>
-      <guid isPermaLink="false">https://github.com/bilawalsidhu/gods-eye-view#2026-10-11</guid>
-      <description><![CDATA[A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.]]></description>
-      <category>3d-globe</category>
-      <category>cesium</category>
-      <category>flight-tracking</category>
-      <category>geospatial</category>
-      <category>geospatial-intelligence</category>
-      <pubDate>Sun, 11 Oct 2026 21:16:33 GMT</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:24:18 GMT</pubDate>
     </item>
   </channel>
 </rss>
