@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T03:24:18.360Z",
+  "generatedAt": "2026-10-12T13:57:16.633Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,70 +17,69 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 111597,
-      "starsGainedToday": 11617
+      "totalStars": 136054,
+      "starsGainedToday": 36074
     },
     {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
-        "ai",
-        "animation",
-        "ffmpeg",
-        "framework",
-        "gsap"
+        "images",
+        "photo-editing",
+        "art",
+        "rust",
+        "image-editing"
       ],
-      "language": "TypeScript",
-      "totalStars": 61069,
-      "starsGainedToday": 4249
+      "language": "Rust",
+      "totalStars": 51164,
+      "starsGainedToday": 4139
     },
     {
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "fullName": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
-      "topics": [
-        "ai-agent",
-        "powerpoint",
-        "pptx",
-        "presentation",
-        "office"
-      ],
-      "language": "Python",
-      "totalStars": 60458,
-      "starsGainedToday": 3590
-    },
-    {
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "topics": [
-        "agent",
-        "agentic",
-        "ai",
-        "golang",
-        "llm"
-      ],
-      "language": "Go",
-      "totalStars": 33277,
-      "starsGainedToday": 2624
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
+      "owner": "storytold",
+      "name": "wordcraft",
+      "fullName": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "topics": [],
-      "language": "Python",
-      "totalStars": 58120,
-      "starsGainedToday": 1450
+      "language": "Rust",
+      "totalStars": 7879,
+      "starsGainedToday": 2348
+    },
+    {
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "topics": [
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
+      ],
+      "language": "C++",
+      "totalStars": 31828,
+      "starsGainedToday": 2141
+    },
+    {
+      "owner": "wheresryan22",
+      "name": "anatomy",
+      "fullName": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "topics": [
+        "agent-skill",
+        "open-source",
+        "svg",
+        "vizualization"
+      ],
+      "language": "JavaScript",
+      "totalStars": 4964,
+      "starsGainedToday": 1969
     }
   ]
 }
