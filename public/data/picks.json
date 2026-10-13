@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:13:46.327Z",
+  "generatedAt": "2026-10-13T22:07:20.977Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -14,11 +14,11 @@
         "binary-analysis",
         "cli",
         "decompiler",
-        "disassembler"
+        "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 189289,
-      "starsGainedToday": 33680
+      "totalStars": 204506,
+      "starsGainedToday": 48897
     },
     {
       "owner": "Droid-Deck",
@@ -28,8 +28,8 @@
       "description": "DroidDeck brings the SteamOS experience to Android",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 6994,
-      "starsGainedToday": 6677
+      "totalStars": 7391,
+      "starsGainedToday": 7074
     },
     {
       "owner": "storytold",
@@ -45,39 +45,42 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 56010,
-      "starsGainedToday": 2644
+      "totalStars": 57618,
+      "starsGainedToday": 4252
     },
     {
-      "owner": "NationalSecurityAgency",
-      "name": "ghidra",
-      "fullName": "NationalSecurityAgency/ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "topics": [
-        "software-analysis",
-        "disassembler",
-        "reverse-engineering"
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
       ],
-      "language": "Java",
-      "totalStars": 85883,
-      "starsGainedToday": 2520
+      "language": "Python",
+      "totalStars": 62981,
+      "starsGainedToday": 4043
     },
     {
-      "owner": "wheresryan22",
-      "name": "anatomy",
-      "fullName": "wheresryan22/anatomy",
-      "url": "https://github.com/wheresryan22/anatomy",
-      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "owner": "xtool-org",
+      "name": "xtool",
+      "fullName": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
       "topics": [
-        "agent-skill",
-        "open-source",
-        "svg",
-        "vizualization"
+        "ios",
+        "linux",
+        "swift",
+        "swift-package-manager",
+        "windows"
       ],
-      "language": "JavaScript",
-      "totalStars": 7463,
-      "starsGainedToday": 1285
+      "language": "Swift",
+      "totalStars": 9213,
+      "starsGainedToday": 3658
     }
   ]
 }
