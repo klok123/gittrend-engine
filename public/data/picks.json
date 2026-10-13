@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:59:14.108Z",
+  "generatedAt": "2026-10-13T05:35:40.818Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 155609,
-      "starsGainedToday": 55629
+      "totalStars": 170065,
+      "starsGainedToday": 14456
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 60774,
+      "starsGainedToday": 1836
     },
     {
       "owner": "storytold",
@@ -34,36 +51,25 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 53366,
-      "starsGainedToday": 6341
+      "totalStars": 54386,
+      "starsGainedToday": 1020
     },
     {
-      "owner": "storytold",
-      "name": "wordcraft",
-      "fullName": "storytold/wordcraft",
-      "url": "https://github.com/storytold/wordcraft",
-      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 9092,
-      "starsGainedToday": 3561
-    },
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
+      "owner": "hugohe3",
+      "name": "ppt-master",
+      "fullName": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
       "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
+        "ai-agent",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "office"
       ],
       "language": "Python",
-      "totalStars": 67544,
-      "starsGainedToday": 3546
+      "totalStars": 61269,
+      "starsGainedToday": 811
     },
     {
       "owner": "wheresryan22",
@@ -78,8 +84,8 @@
         "vizualization"
       ],
       "language": "JavaScript",
-      "totalStars": 6178,
-      "starsGainedToday": 3183
+      "totalStars": 6675,
+      "starsGainedToday": 497
     }
   ]
 }
