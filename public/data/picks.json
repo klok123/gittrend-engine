@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T05:35:40.818Z",
+  "generatedAt": "2026-10-13T13:13:46.327Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,19 @@
         "disassembler"
       ],
       "language": "TypeScript",
-      "totalStars": 170065,
-      "starsGainedToday": 14456
+      "totalStars": 189289,
+      "starsGainedToday": 33680
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 60774,
-      "starsGainedToday": 1836
+      "owner": "Droid-Deck",
+      "name": "DroidDeck",
+      "fullName": "Droid-Deck/DroidDeck",
+      "url": "https://github.com/Droid-Deck/DroidDeck",
+      "description": "DroidDeck brings the SteamOS experience to Android",
+      "topics": [],
+      "language": "Kotlin",
+      "totalStars": 6994,
+      "starsGainedToday": 6677
     },
     {
       "owner": "storytold",
@@ -51,25 +45,23 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 54386,
-      "starsGainedToday": 1020
+      "totalStars": 56010,
+      "starsGainedToday": 2644
     },
     {
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "fullName": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
       "topics": [
-        "ai-agent",
-        "powerpoint",
-        "pptx",
-        "presentation",
-        "office"
+        "software-analysis",
+        "disassembler",
+        "reverse-engineering"
       ],
-      "language": "Python",
-      "totalStars": 61269,
-      "starsGainedToday": 811
+      "language": "Java",
+      "totalStars": 85883,
+      "starsGainedToday": 2520
     },
     {
       "owner": "wheresryan22",
@@ -84,8 +76,8 @@
         "vizualization"
       ],
       "language": "JavaScript",
-      "totalStars": 6675,
-      "starsGainedToday": 497
+      "totalStars": 7463,
+      "starsGainedToday": 1285
     }
   ]
 }

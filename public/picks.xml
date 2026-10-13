@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 05:35:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:13:46 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+14,456 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+33,680 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-13</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,22 +16,18 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>disassembler</category>
-      <pubDate>Tue, 13 Oct 2026 05:35:40 GMT</pubDate>
+      <pubDate>Tue, 13 Oct 2026 13:13:46 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+1,836 stars today)]]></title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-13</guid>
-      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
-      <category>tts</category>
-      <category>voice-cloning</category>
-      <category>voice-generation</category>
-      <category>voice-ai</category>
-      <category>ai</category>
-      <pubDate>Tue, 13 Oct 2026 05:35:40 GMT</pubDate>
+      <title><![CDATA[Droid-Deck/DroidDeck (+6,677 stars today)]]></title>
+      <link>https://github.com/Droid-Deck/DroidDeck</link>
+      <guid isPermaLink="false">https://github.com/Droid-Deck/DroidDeck#2026-10-13</guid>
+      <description><![CDATA[DroidDeck brings the SteamOS experience to Android]]></description>
+      
+      <pubDate>Tue, 13 Oct 2026 13:13:46 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+1,020 stars today)]]></title>
+      <title><![CDATA[storytold/photocraft (+2,644 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-13</guid>
       <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
@@ -40,22 +36,20 @@
       <category>art</category>
       <category>rust</category>
       <category>image-editing</category>
-      <pubDate>Tue, 13 Oct 2026 05:35:40 GMT</pubDate>
+      <pubDate>Tue, 13 Oct 2026 13:13:46 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[hugohe3/ppt-master (+811 stars today)]]></title>
-      <link>https://github.com/hugohe3/ppt-master</link>
-      <guid isPermaLink="false">https://github.com/hugohe3/ppt-master#2026-10-13</guid>
-      <description><![CDATA[AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…]]></description>
-      <category>ai-agent</category>
-      <category>powerpoint</category>
-      <category>pptx</category>
-      <category>presentation</category>
-      <category>office</category>
-      <pubDate>Tue, 13 Oct 2026 05:35:40 GMT</pubDate>
+      <title><![CDATA[NationalSecurityAgency/ghidra (+2,520 stars today)]]></title>
+      <link>https://github.com/NationalSecurityAgency/ghidra</link>
+      <guid isPermaLink="false">https://github.com/NationalSecurityAgency/ghidra#2026-10-13</guid>
+      <description><![CDATA[Ghidra is a software reverse engineering (SRE) framework]]></description>
+      <category>software-analysis</category>
+      <category>disassembler</category>
+      <category>reverse-engineering</category>
+      <pubDate>Tue, 13 Oct 2026 13:13:46 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[wheresryan22/anatomy (+497 stars today)]]></title>
+      <title><![CDATA[wheresryan22/anatomy (+1,285 stars today)]]></title>
       <link>https://github.com/wheresryan22/anatomy</link>
       <guid isPermaLink="false">https://github.com/wheresryan22/anatomy#2026-10-13</guid>
       <description><![CDATA[An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.]]></description>
@@ -63,7 +57,7 @@
       <category>open-source</category>
       <category>svg</category>
       <category>vizualization</category>
-      <pubDate>Tue, 13 Oct 2026 05:35:40 GMT</pubDate>
+      <pubDate>Tue, 13 Oct 2026 13:13:46 GMT</pubDate>
     </item>
   </channel>
 </rss>
