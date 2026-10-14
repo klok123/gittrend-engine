@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:07:20.977Z",
+  "generatedAt": "2026-10-14T02:48:32.013Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,36 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 204506,
-      "starsGainedToday": 48897
-    },
-    {
-      "owner": "Droid-Deck",
-      "name": "DroidDeck",
-      "fullName": "Droid-Deck/DroidDeck",
-      "url": "https://github.com/Droid-Deck/DroidDeck",
-      "description": "DroidDeck brings the SteamOS experience to Android",
-      "topics": [],
-      "language": "Kotlin",
-      "totalStars": 7391,
-      "starsGainedToday": 7074
-    },
-    {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-      "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
-      ],
-      "language": "Rust",
-      "totalStars": 57618,
-      "starsGainedToday": 4252
+      "totalStars": 211338,
+      "starsGainedToday": 6832
     },
     {
       "owner": "debpalash",
@@ -62,25 +34,59 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 62981,
-      "starsGainedToday": 4043
+      "totalStars": 63605,
+      "starsGainedToday": 624
     },
     {
-      "owner": "xtool-org",
-      "name": "xtool",
-      "fullName": "xtool-org/xtool",
-      "url": "https://github.com/xtool-org/xtool",
-      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
-        "ios",
-        "linux",
-        "swift",
-        "swift-package-manager",
-        "windows"
+        "images",
+        "photo-editing",
+        "art",
+        "rust",
+        "image-editing"
       ],
-      "language": "Swift",
-      "totalStars": 9213,
-      "starsGainedToday": 3658
+      "language": "Rust",
+      "totalStars": 58227,
+      "starsGainedToday": 609
+    },
+    {
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "topics": [
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
+      ],
+      "language": "C++",
+      "totalStars": 35491,
+      "starsGainedToday": 365
+    },
+    {
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "topics": [
+        "3d-globe",
+        "cesium",
+        "flight-tracking",
+        "geospatial",
+        "geospatial-intelligence"
+      ],
+      "language": "JavaScript",
+      "totalStars": 55551,
+      "starsGainedToday": 325
     }
   ]
 }

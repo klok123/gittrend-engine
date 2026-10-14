@@ -5,62 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 22:07:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 02:48:32 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+48,897 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+6,832 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-13</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-14</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Tue, 13 Oct 2026 22:07:20 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 02:48:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Droid-Deck/DroidDeck (+7,074 stars today)]]></title>
-      <link>https://github.com/Droid-Deck/DroidDeck</link>
-      <guid isPermaLink="false">https://github.com/Droid-Deck/DroidDeck#2026-10-13</guid>
-      <description><![CDATA[DroidDeck brings the SteamOS experience to Android]]></description>
-      
-      <pubDate>Tue, 13 Oct 2026 22:07:20 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[storytold/photocraft (+4,252 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-13</guid>
-      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>art</category>
-      <category>rust</category>
-      <category>image-editing</category>
-      <pubDate>Tue, 13 Oct 2026 22:07:20 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+4,043 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+624 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-13</guid>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-14</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
       <category>tts</category>
       <category>voice-cloning</category>
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Tue, 13 Oct 2026 22:07:20 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 02:48:32 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[xtool-org/xtool (+3,658 stars today)]]></title>
-      <link>https://github.com/xtool-org/xtool</link>
-      <guid isPermaLink="false">https://github.com/xtool-org/xtool#2026-10-13</guid>
-      <description><![CDATA[Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.]]></description>
-      <category>ios</category>
-      <category>linux</category>
-      <category>swift</category>
-      <category>swift-package-manager</category>
-      <category>windows</category>
-      <pubDate>Tue, 13 Oct 2026 22:07:20 GMT</pubDate>
+      <title><![CDATA[storytold/photocraft (+609 stars today)]]></title>
+      <link>https://github.com/storytold/photocraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-14</guid>
+      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
+      <category>images</category>
+      <category>photo-editing</category>
+      <category>art</category>
+      <category>rust</category>
+      <category>image-editing</category>
+      <pubDate>Wed, 14 Oct 2026 02:48:32 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[boykopovar/AnyPS5 (+365 stars today)]]></title>
+      <link>https://github.com/boykopovar/AnyPS5</link>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-14</guid>
+      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
+      <category>dynamic-library</category>
+      <category>game-porting</category>
+      <category>ps5-tools</category>
+      <category>vulkan</category>
+      <category>spir-v</category>
+      <pubDate>Wed, 14 Oct 2026 02:48:32 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[bilawalsidhu/gods-eye-view (+325 stars today)]]></title>
+      <link>https://github.com/bilawalsidhu/gods-eye-view</link>
+      <guid isPermaLink="false">https://github.com/bilawalsidhu/gods-eye-view#2026-10-14</guid>
+      <description><![CDATA[A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.]]></description>
+      <category>3d-globe</category>
+      <category>cesium</category>
+      <category>flight-tracking</category>
+      <category>geospatial</category>
+      <category>geospatial-intelligence</category>
+      <pubDate>Wed, 14 Oct 2026 02:48:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
