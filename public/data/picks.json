@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T02:48:32.013Z",
+  "generatedAt": "2026-10-14T10:53:43.163Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 211338,
-      "starsGainedToday": 6832
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 63605,
-      "starsGainedToday": 624
+      "totalStars": 224768,
+      "starsGainedToday": 20262
     },
     {
       "owner": "storytold",
@@ -51,8 +34,25 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 58227,
-      "starsGainedToday": 609
+      "totalStars": 59430,
+      "starsGainedToday": 1812
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 64743,
+      "starsGainedToday": 1762
     },
     {
       "owner": "boykopovar",
@@ -68,8 +68,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 35491,
-      "starsGainedToday": 365
+      "totalStars": 36114,
+      "starsGainedToday": 988
     },
     {
       "owner": "bilawalsidhu",
@@ -85,8 +85,8 @@
         "geospatial-intelligence"
       ],
       "language": "JavaScript",
-      "totalStars": 55551,
-      "starsGainedToday": 325
+      "totalStars": 56118,
+      "starsGainedToday": 892
     }
   ]
 }
