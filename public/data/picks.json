@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:53:43.163Z",
+  "generatedAt": "2026-10-14T16:12:56.606Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 224768,
-      "starsGainedToday": 20262
+      "totalStars": 233225,
+      "starsGainedToday": 28719
     },
     {
       "owner": "storytold",
@@ -34,8 +34,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 59430,
-      "starsGainedToday": 1812
+      "totalStars": 60198,
+      "starsGainedToday": 2580
     },
     {
       "owner": "debpalash",
@@ -51,8 +51,24 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 64743,
-      "starsGainedToday": 1762
+      "totalStars": 65423,
+      "starsGainedToday": 2442
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 249569,
+      "starsGainedToday": 2104
     },
     {
       "owner": "boykopovar",
@@ -68,25 +84,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 36114,
-      "starsGainedToday": 988
-    },
-    {
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "topics": [
-        "3d-globe",
-        "cesium",
-        "flight-tracking",
-        "geospatial",
-        "geospatial-intelligence"
-      ],
-      "language": "JavaScript",
-      "totalStars": 56118,
-      "starsGainedToday": 892
+      "totalStars": 36590,
+      "starsGainedToday": 1464
     }
   ]
 }
