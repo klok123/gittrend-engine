@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:01:01.081Z",
+  "generatedAt": "2026-10-15T20:45:07.494Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,59 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 263172,
-      "starsGainedToday": 24415
+      "totalStars": 267326,
+      "starsGainedToday": 28569
+    },
+    {
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "topics": [
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap"
+      ],
+      "language": "TypeScript",
+      "totalStars": 64431,
+      "starsGainedToday": 3362
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 68770,
+      "starsGainedToday": 2797
+    },
+    {
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili"
+      ],
+      "language": "Python",
+      "totalStars": 97733,
+      "starsGainedToday": 2284
     },
     {
       "owner": "storytold",
@@ -34,57 +85,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 62691,
-      "starsGainedToday": 1893
-    },
-    {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
-      ],
-      "language": "C++",
-      "totalStars": 38095,
-      "starsGainedToday": 1127
-    },
-    {
-      "owner": "NationalSecurityAgency",
-      "name": "ghidra",
-      "fullName": "NationalSecurityAgency/ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "topics": [
-        "software-analysis",
-        "disassembler",
-        "reverse-engineering"
-      ],
-      "language": "Java",
-      "totalStars": 88351,
-      "starsGainedToday": 1020
-    },
-    {
-      "owner": "jhaizhou-ops",
-      "name": "d2r-mobile",
-      "fullName": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60…",
-      "topics": [
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "ios"
-      ],
-      "language": "C",
-      "totalStars": 2951,
-      "starsGainedToday": 898
+      "totalStars": 63067,
+      "starsGainedToday": 2269
     }
   ]
 }

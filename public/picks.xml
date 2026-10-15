@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:01:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:45:07 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+24,415 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+28,569 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-15</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,46 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Thu, 15 Oct 2026 16:01:01 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 20:45:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+1,893 stars today)]]></title>
+      <title><![CDATA[heygen-com/hyperframes (+3,362 stars today)]]></title>
+      <link>https://github.com/heygen-com/hyperframes</link>
+      <guid isPermaLink="false">https://github.com/heygen-com/hyperframes#2026-10-15</guid>
+      <description><![CDATA[Write HTML. Render video. Built for agents.]]></description>
+      <category>ai</category>
+      <category>animation</category>
+      <category>ffmpeg</category>
+      <category>framework</category>
+      <category>gsap</category>
+      <pubDate>Thu, 15 Oct 2026 20:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+2,797 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-15</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Thu, 15 Oct 2026 20:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Panniantong/Agent-Reach (+2,284 stars today)]]></title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-15</guid>
+      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
+      <category>agent-infrastructure</category>
+      <category>ai-agent</category>
+      <category>ai-search</category>
+      <category>automation</category>
+      <category>bilibili</category>
+      <pubDate>Thu, 15 Oct 2026 20:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/photocraft (+2,269 stars today)]]></title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-15</guid>
       <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
@@ -28,41 +64,7 @@
       <category>art</category>
       <category>rust</category>
       <category>image-editing</category>
-      <pubDate>Thu, 15 Oct 2026 16:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+1,127 stars today)]]></title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-15</guid>
-      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
-      <category>dynamic-library</category>
-      <category>game-porting</category>
-      <category>ps5-tools</category>
-      <category>vulkan</category>
-      <category>spir-v</category>
-      <pubDate>Thu, 15 Oct 2026 16:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[NationalSecurityAgency/ghidra (+1,020 stars today)]]></title>
-      <link>https://github.com/NationalSecurityAgency/ghidra</link>
-      <guid isPermaLink="false">https://github.com/NationalSecurityAgency/ghidra#2026-10-15</guid>
-      <description><![CDATA[Ghidra is a software reverse engineering (SRE) framework]]></description>
-      <category>software-analysis</category>
-      <category>disassembler</category>
-      <category>reverse-engineering</category>
-      <pubDate>Thu, 15 Oct 2026 16:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[jhaizhou-ops/d2r-mobile (+898 stars today)]]></title>
-      <link>https://github.com/jhaizhou-ops/d2r-mobile</link>
-      <guid isPermaLink="false">https://github.com/jhaizhou-ops/d2r-mobile#2026-10-15</guid>
-      <description><![CDATA[Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60…]]></description>
-      <category>compatibility-layer</category>
-      <category>diablo-2-resurrected</category>
-      <category>diablo2</category>
-      <category>game-port</category>
-      <category>ios</category>
-      <pubDate>Thu, 15 Oct 2026 16:01:01 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 20:45:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
