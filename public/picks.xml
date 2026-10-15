@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 02:27:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 10:36:05 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+6,063 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+17,693 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-15</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,22 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 10:36:05 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[heygen-com/hyperframes (+2,701 stars today)]]></title>
-      <link>https://github.com/heygen-com/hyperframes</link>
-      <guid isPermaLink="false">https://github.com/heygen-com/hyperframes#2026-10-15</guid>
-      <description><![CDATA[Write HTML. Render video. Built for agents.]]></description>
-      <category>ai</category>
-      <category>animation</category>
-      <category>ffmpeg</category>
-      <category>framework</category>
-      <category>gsap</category>
-      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+599 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+1,727 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
       <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-15</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
@@ -40,31 +28,41 @@
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 10:36:05 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+472 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-15</guid>
-      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>art</category>
-      <category>rust</category>
-      <category>image-editing</category>
-      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
+      <title><![CDATA[xtool-org/xtool (+747 stars today)]]></title>
+      <link>https://github.com/xtool-org/xtool</link>
+      <guid isPermaLink="false">https://github.com/xtool-org/xtool#2026-10-15</guid>
+      <description><![CDATA[Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.]]></description>
+      <category>ios</category>
+      <category>linux</category>
+      <category>swift</category>
+      <category>swift-package-manager</category>
+      <category>windows</category>
+      <pubDate>Thu, 15 Oct 2026 10:36:05 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[browser-use/browser-use (+349 stars today)]]></title>
-      <link>https://github.com/browser-use/browser-use</link>
-      <guid isPermaLink="false">https://github.com/browser-use/browser-use#2026-10-15</guid>
-      <description><![CDATA[Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.]]></description>
-      <category>llm</category>
-      <category>ai-agents</category>
-      <category>ai-tools</category>
-      <category>browser-automation</category>
-      <category>python</category>
-      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
+      <title><![CDATA[boykopovar/AnyPS5 (+740 stars today)]]></title>
+      <link>https://github.com/boykopovar/AnyPS5</link>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-15</guid>
+      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
+      <category>dynamic-library</category>
+      <category>game-porting</category>
+      <category>ps5-tools</category>
+      <category>vulkan</category>
+      <category>spir-v</category>
+      <pubDate>Thu, 15 Oct 2026 10:36:05 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[NationalSecurityAgency/ghidra (+732 stars today)]]></title>
+      <link>https://github.com/NationalSecurityAgency/ghidra</link>
+      <guid isPermaLink="false">https://github.com/NationalSecurityAgency/ghidra#2026-10-15</guid>
+      <description><![CDATA[Ghidra is a software reverse engineering (SRE) framework]]></description>
+      <category>software-analysis</category>
+      <category>disassembler</category>
+      <category>reverse-engineering</category>
+      <pubDate>Thu, 15 Oct 2026 10:36:05 GMT</pubDate>
     </item>
   </channel>
 </rss>

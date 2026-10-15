@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T02:27:40.305Z",
+  "generatedAt": "2026-10-15T10:36:05.977Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 244820,
-      "starsGainedToday": 6063
-    },
-    {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "topics": [
-        "ai",
-        "animation",
-        "ffmpeg",
-        "framework",
-        "gsap"
-      ],
-      "language": "TypeScript",
-      "totalStars": 63770,
-      "starsGainedToday": 2701
+      "totalStars": 256450,
+      "starsGainedToday": 17693
     },
     {
       "owner": "debpalash",
@@ -51,42 +34,57 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 66572,
-      "starsGainedToday": 599
+      "totalStars": 67700,
+      "starsGainedToday": 1727
     },
     {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "owner": "xtool-org",
+      "name": "xtool",
+      "fullName": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
       "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
+        "ios",
+        "linux",
+        "swift",
+        "swift-package-manager",
+        "windows"
       ],
-      "language": "Rust",
-      "totalStars": 61270,
-      "starsGainedToday": 472
+      "language": "Swift",
+      "totalStars": 11367,
+      "starsGainedToday": 747
     },
     {
-      "owner": "browser-use",
-      "name": "browser-use",
-      "fullName": "browser-use/browser-use",
-      "url": "https://github.com/browser-use/browser-use",
-      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "topics": [
-        "llm",
-        "ai-agents",
-        "ai-tools",
-        "browser-automation",
-        "python"
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
       ],
-      "language": "Python",
-      "totalStars": 118004,
-      "starsGainedToday": 349
+      "language": "C++",
+      "totalStars": 37708,
+      "starsGainedToday": 740
+    },
+    {
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "topics": [
+        "software-analysis",
+        "disassembler",
+        "reverse-engineering"
+      ],
+      "language": "Java",
+      "totalStars": 88063,
+      "starsGainedToday": 732
     }
   ]
 }
