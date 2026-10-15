@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:36:05.977Z",
+  "generatedAt": "2026-10-15T16:01:01.081Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,42 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 256450,
-      "starsGainedToday": 17693
+      "totalStars": 263172,
+      "starsGainedToday": 24415
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "images",
+        "photo-editing",
+        "art",
+        "rust",
+        "image-editing"
       ],
-      "language": "Python",
-      "totalStars": 67700,
-      "starsGainedToday": 1727
-    },
-    {
-      "owner": "xtool-org",
-      "name": "xtool",
-      "fullName": "xtool-org/xtool",
-      "url": "https://github.com/xtool-org/xtool",
-      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
-      "topics": [
-        "ios",
-        "linux",
-        "swift",
-        "swift-package-manager",
-        "windows"
-      ],
-      "language": "Swift",
-      "totalStars": 11367,
-      "starsGainedToday": 747
+      "language": "Rust",
+      "totalStars": 62691,
+      "starsGainedToday": 1893
     },
     {
       "owner": "boykopovar",
@@ -68,8 +51,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 37708,
-      "starsGainedToday": 740
+      "totalStars": 38095,
+      "starsGainedToday": 1127
     },
     {
       "owner": "NationalSecurityAgency",
@@ -83,8 +66,25 @@
         "reverse-engineering"
       ],
       "language": "Java",
-      "totalStars": 88063,
-      "starsGainedToday": 732
+      "totalStars": 88351,
+      "starsGainedToday": 1020
+    },
+    {
+      "owner": "jhaizhou-ops",
+      "name": "d2r-mobile",
+      "fullName": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60…",
+      "topics": [
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "ios"
+      ],
+      "language": "C",
+      "totalStars": 2951,
+      "starsGainedToday": 898
     }
   ]
 }
