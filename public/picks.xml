@@ -5,65 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 21:08:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 02:27:40 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+34,251 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+6,063 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-14</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-15</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Wed, 14 Oct 2026 21:08:39 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/photocraft (+3,180 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-14</guid>
-      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>art</category>
-      <category>rust</category>
-      <category>image-editing</category>
-      <pubDate>Wed, 14 Oct 2026 21:08:39 GMT</pubDate>
+      <title><![CDATA[heygen-com/hyperframes (+2,701 stars today)]]></title>
+      <link>https://github.com/heygen-com/hyperframes</link>
+      <guid isPermaLink="false">https://github.com/heygen-com/hyperframes#2026-10-15</guid>
+      <description><![CDATA[Write HTML. Render video. Built for agents.]]></description>
+      <category>ai</category>
+      <category>animation</category>
+      <category>ffmpeg</category>
+      <category>framework</category>
+      <category>gsap</category>
+      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+2,992 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+599 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-14</guid>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-15</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
       <category>tts</category>
       <category>voice-cloning</category>
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Wed, 14 Oct 2026 21:08:39 GMT</pubDate>
+      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+2,179 stars today)]]></title>
-      <link>https://github.com/deepseek-ai/deepseek-harness</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-14</guid>
-      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
-      <category>cordis</category>
-      <category>dsh</category>
-      <category>dsh-plugin</category>
+      <title><![CDATA[storytold/photocraft (+472 stars today)]]></title>
+      <link>https://github.com/storytold/photocraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-15</guid>
+      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
+      <category>images</category>
+      <category>photo-editing</category>
+      <category>art</category>
+      <category>rust</category>
+      <category>image-editing</category>
+      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[browser-use/browser-use (+349 stars today)]]></title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <guid isPermaLink="false">https://github.com/browser-use/browser-use#2026-10-15</guid>
+      <description><![CDATA[Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.]]></description>
+      <category>llm</category>
       <category>ai-agents</category>
-      <pubDate>Wed, 14 Oct 2026 21:08:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+1,842 stars today)]]></title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-14</guid>
-      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
-      <category>dynamic-library</category>
-      <category>game-porting</category>
-      <category>ps5-tools</category>
-      <category>vulkan</category>
-      <category>spir-v</category>
-      <pubDate>Wed, 14 Oct 2026 21:08:39 GMT</pubDate>
+      <category>ai-tools</category>
+      <category>browser-automation</category>
+      <category>python</category>
+      <pubDate>Thu, 15 Oct 2026 02:27:40 GMT</pubDate>
     </item>
   </channel>
 </rss>

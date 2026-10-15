@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:08:39.360Z",
+  "generatedAt": "2026-10-15T02:27:40.305Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 238757,
-      "starsGainedToday": 34251
+      "totalStars": 244820,
+      "starsGainedToday": 6063
     },
     {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
       "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap"
       ],
-      "language": "Rust",
-      "totalStars": 60798,
-      "starsGainedToday": 3180
+      "language": "TypeScript",
+      "totalStars": 63770,
+      "starsGainedToday": 2701
     },
     {
       "owner": "debpalash",
@@ -51,41 +51,42 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 65973,
-      "starsGainedToday": 2992
+      "totalStars": 66572,
+      "starsGainedToday": 599
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
+        "images",
+        "photo-editing",
+        "art",
+        "rust",
+        "image-editing"
       ],
-      "language": "TypeScript",
-      "totalStars": 249644,
-      "starsGainedToday": 2179
+      "language": "Rust",
+      "totalStars": 61270,
+      "starsGainedToday": 472
     },
     {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner": "browser-use",
+      "name": "browser-use",
+      "fullName": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
       "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
+        "llm",
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "python"
       ],
-      "language": "C++",
-      "totalStars": 36968,
-      "starsGainedToday": 1842
+      "language": "Python",
+      "totalStars": 118004,
+      "starsGainedToday": 349
     }
   ]
 }
