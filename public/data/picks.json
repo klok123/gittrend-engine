@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:49:22.264Z",
+  "generatedAt": "2026-10-16T20:17:42.482Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "topics": [],
       "language": "C++",
-      "totalStars": 26066,
-      "starsGainedToday": 23146
+      "totalStars": 26178,
+      "starsGainedToday": 23258
     },
     {
       "owner": "morluto",
@@ -28,8 +28,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 285961,
-      "starsGainedToday": 18635
+      "totalStars": 288978,
+      "starsGainedToday": 21652
     },
     {
       "owner": "666ghj",
@@ -45,8 +45,8 @@
         "llms"
       ],
       "language": "Python",
-      "totalStars": 79677,
-      "starsGainedToday": 3997
+      "totalStars": 79727,
+      "starsGainedToday": 4047
     },
     {
       "owner": "debpalash",
@@ -62,8 +62,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 70430,
-      "starsGainedToday": 1660
+      "totalStars": 70767,
+      "starsGainedToday": 1997
     },
     {
       "owner": "storytold",
@@ -79,8 +79,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 64542,
-      "starsGainedToday": 1475
+      "totalStars": 64831,
+      "starsGainedToday": 1764
     }
   ]
 }
