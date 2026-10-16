@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T02:21:11.084Z",
+  "generatedAt": "2026-10-16T10:23:03.811Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,8 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "topics": [],
       "language": "C++",
-      "totalStars": 25527,
-      "starsGainedToday": 22607
+      "totalStars": 25872,
+      "starsGainedToday": 22952
     },
     {
       "owner": "morluto",
@@ -28,8 +28,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 272400,
-      "starsGainedToday": 5074
+      "totalStars": 281455,
+      "starsGainedToday": 14129
+    },
+    {
+      "owner": "666ghj",
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "topics": [
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction",
+        "knowledge-graph",
+        "llms"
+      ],
+      "language": "Python",
+      "totalStars": 79605,
+      "starsGainedToday": 3925
     },
     {
       "owner": "debpalash",
@@ -45,8 +62,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 69227,
-      "starsGainedToday": 457
+      "totalStars": 69952,
+      "starsGainedToday": 1182
     },
     {
       "owner": "storytold",
@@ -62,25 +79,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 63469,
-      "starsGainedToday": 402
-    },
-    {
-      "owner": "decolua",
-      "name": "9router",
-      "fullName": "decolua/9router",
-      "url": "https://github.com/decolua/9router",
-      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-      "topics": [
-        "claude-code",
-        "cursor",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic"
-      ],
-      "language": "JavaScript",
-      "totalStars": 30881,
-      "starsGainedToday": 351
+      "totalStars": 64100,
+      "starsGainedToday": 1033
     }
   ]
 }
