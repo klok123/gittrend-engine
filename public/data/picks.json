@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-10-15T20:45:07.494Z",
+  "generatedAt": "2026-10-16T02:21:11.084Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Niko1221",
+      "name": "Strata",
+      "fullName": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 25527,
+      "starsGainedToday": 22607
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,25 +28,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 267326,
-      "starsGainedToday": 28569
-    },
-    {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "topics": [
-        "ai",
-        "animation",
-        "ffmpeg",
-        "framework",
-        "gsap"
-      ],
-      "language": "TypeScript",
-      "totalStars": 64431,
-      "starsGainedToday": 3362
+      "totalStars": 272400,
+      "starsGainedToday": 5074
     },
     {
       "owner": "debpalash",
@@ -51,25 +45,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 68770,
-      "starsGainedToday": 2797
-    },
-    {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
-      ],
-      "language": "Python",
-      "totalStars": 97733,
-      "starsGainedToday": 2284
+      "totalStars": 69227,
+      "starsGainedToday": 457
     },
     {
       "owner": "storytold",
@@ -85,8 +62,25 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 63067,
-      "starsGainedToday": 2269
+      "totalStars": 63469,
+      "starsGainedToday": 402
+    },
+    {
+      "owner": "decolua",
+      "name": "9router",
+      "fullName": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "topics": [
+        "claude-code",
+        "cursor",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic"
+      ],
+      "language": "JavaScript",
+      "totalStars": 30881,
+      "starsGainedToday": 351
     }
   ]
 }
