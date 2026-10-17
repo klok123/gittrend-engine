@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:56:06.288Z",
+  "generatedAt": "2026-10-17T14:41:54.404Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 297308,
-      "starsGainedToday": 8330
-    },
-    {
-      "owner": "Louis-CFM",
-      "name": "coucou",
-      "fullName": "Louis-CFM/coucou",
-      "url": "https://github.com/Louis-CFM/coucou",
-      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock…",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "dynamic-island"
-      ],
-      "language": "Swift",
-      "totalStars": 5393,
-      "starsGainedToday": 2190
+      "totalStars": 301400,
+      "starsGainedToday": 12422
     },
     {
       "owner": "TauricResearch",
@@ -51,8 +34,8 @@
         "trading"
       ],
       "language": "Python",
-      "totalStars": 111603,
-      "starsGainedToday": 1725
+      "totalStars": 111650,
+      "starsGainedToday": 1772
     },
     {
       "owner": "debpalash",
@@ -68,8 +51,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 71975,
-      "starsGainedToday": 1208
+      "totalStars": 72439,
+      "starsGainedToday": 1672
+    },
+    {
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "topics": [
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
+      ],
+      "language": "C++",
+      "totalStars": 40736,
+      "starsGainedToday": 1006
     },
     {
       "owner": "storytold",
@@ -85,8 +85,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 65471,
-      "starsGainedToday": 640
+      "totalStars": 65806,
+      "starsGainedToday": 975
     }
   ]
 }
