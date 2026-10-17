@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:41:54.404Z",
+  "generatedAt": "2026-10-17T19:53:38.728Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 301400,
-      "starsGainedToday": 12422
-    },
-    {
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "fullName": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "topics": [
-        "agent",
-        "finance",
-        "llm",
-        "multiagent",
-        "trading"
-      ],
-      "language": "Python",
-      "totalStars": 111650,
-      "starsGainedToday": 1772
+      "totalStars": 305436,
+      "starsGainedToday": 16458
     },
     {
       "owner": "debpalash",
@@ -51,8 +34,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 72439,
-      "starsGainedToday": 1672
+      "totalStars": 72967,
+      "starsGainedToday": 2200
+    },
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "language": "Python",
+      "totalStars": 111705,
+      "starsGainedToday": 1827
     },
     {
       "owner": "boykopovar",
@@ -68,8 +68,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 40736,
-      "starsGainedToday": 1006
+      "totalStars": 41357,
+      "starsGainedToday": 1627
     },
     {
       "owner": "storytold",
@@ -85,8 +85,8 @@
         "image-editing"
       ],
       "language": "Rust",
-      "totalStars": 65806,
-      "starsGainedToday": 975
+      "totalStars": 66189,
+      "starsGainedToday": 1358
     }
   ]
 }
