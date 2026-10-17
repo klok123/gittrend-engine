@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T02:14:13.769Z",
+  "generatedAt": "2026-10-17T09:56:06.288Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 291933,
-      "starsGainedToday": 2955
+      "totalStars": 297308,
+      "starsGainedToday": 8330
     },
     {
       "owner": "Louis-CFM",
@@ -34,8 +34,8 @@
         "dynamic-island"
       ],
       "language": "Swift",
-      "totalStars": 5379,
-      "starsGainedToday": 2176
+      "totalStars": 5393,
+      "starsGainedToday": 2190
     },
     {
       "owner": "TauricResearch",
@@ -51,8 +51,8 @@
         "trading"
       ],
       "language": "Python",
-      "totalStars": 111534,
-      "starsGainedToday": 1656
+      "totalStars": 111603,
+      "starsGainedToday": 1725
     },
     {
       "owner": "debpalash",
@@ -68,25 +68,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 71318,
-      "starsGainedToday": 551
+      "totalStars": 71975,
+      "starsGainedToday": 1208
     },
     {
-      "owner": "peetzweg",
-      "name": "opendisplay",
-      "fullName": "peetzweg/opendisplay",
-      "url": "https://github.com/peetzweg/opendisplay",
-      "description": "Use an iPhone, iPad, or spare Mac as a true second display for your Mac without restrictions.",
+      "owner": "storytold",
+      "name": "photocraft",
+      "fullName": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "topics": [
-        "duet-display",
-        "external-display",
-        "ipad",
-        "iphone",
-        "macos"
+        "images",
+        "photo-editing",
+        "art",
+        "rust",
+        "image-editing"
       ],
-      "language": "Swift",
-      "totalStars": 5644,
-      "starsGainedToday": 482
+      "language": "Rust",
+      "totalStars": 65471,
+      "starsGainedToday": 640
     }
   ]
 }

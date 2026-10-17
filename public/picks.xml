@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 02:14:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:56:06 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+2,955 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+8,330 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-17</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Sat, 17 Oct 2026 02:14:13 GMT</pubDate>
+      <pubDate>Sat, 17 Oct 2026 09:56:06 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Louis-CFM/coucou (+2,176 stars today)]]></title>
+      <title><![CDATA[Louis-CFM/coucou (+2,190 stars today)]]></title>
       <link>https://github.com/Louis-CFM/coucou</link>
       <guid isPermaLink="false">https://github.com/Louis-CFM/coucou#2026-10-17</guid>
       <description><![CDATA[A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock…]]></description>
@@ -28,10 +28,10 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>dynamic-island</category>
-      <pubDate>Sat, 17 Oct 2026 02:14:13 GMT</pubDate>
+      <pubDate>Sat, 17 Oct 2026 09:56:06 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[TauricResearch/TradingAgents (+1,656 stars today)]]></title>
+      <title><![CDATA[TauricResearch/TradingAgents (+1,725 stars today)]]></title>
       <link>https://github.com/TauricResearch/TradingAgents</link>
       <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-10-17</guid>
       <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
@@ -40,10 +40,10 @@
       <category>llm</category>
       <category>multiagent</category>
       <category>trading</category>
-      <pubDate>Sat, 17 Oct 2026 02:14:13 GMT</pubDate>
+      <pubDate>Sat, 17 Oct 2026 09:56:06 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+551 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+1,208 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
       <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-17</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
@@ -52,19 +52,19 @@
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Sat, 17 Oct 2026 02:14:13 GMT</pubDate>
+      <pubDate>Sat, 17 Oct 2026 09:56:06 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[peetzweg/opendisplay (+482 stars today)]]></title>
-      <link>https://github.com/peetzweg/opendisplay</link>
-      <guid isPermaLink="false">https://github.com/peetzweg/opendisplay#2026-10-17</guid>
-      <description><![CDATA[Use an iPhone, iPad, or spare Mac as a true second display for your Mac without restrictions.]]></description>
-      <category>duet-display</category>
-      <category>external-display</category>
-      <category>ipad</category>
-      <category>iphone</category>
-      <category>macos</category>
-      <pubDate>Sat, 17 Oct 2026 02:14:13 GMT</pubDate>
+      <title><![CDATA[storytold/photocraft (+640 stars today)]]></title>
+      <link>https://github.com/storytold/photocraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-17</guid>
+      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
+      <category>images</category>
+      <category>photo-editing</category>
+      <category>art</category>
+      <category>rust</category>
+      <category>image-editing</category>
+      <pubDate>Sat, 17 Oct 2026 09:56:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
