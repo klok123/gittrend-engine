@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-10-16T20:17:42.482Z",
+  "generatedAt": "2026-10-17T02:14:13.769Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "Niko1221",
-      "name": "Strata",
-      "fullName": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 26178,
-      "starsGainedToday": 23258
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -28,25 +17,42 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 288978,
-      "starsGainedToday": 21652
+      "totalStars": 291933,
+      "starsGainedToday": 2955
     },
     {
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "fullName": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "owner": "Louis-CFM",
+      "name": "coucou",
+      "fullName": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock…",
       "topics": [
-        "agent-memory",
-        "financial-forecasting",
-        "future-prediction",
-        "knowledge-graph",
-        "llms"
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "dynamic-island"
+      ],
+      "language": "Swift",
+      "totalStars": 5379,
+      "starsGainedToday": 2176
+    },
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
       ],
       "language": "Python",
-      "totalStars": 79727,
-      "starsGainedToday": 4047
+      "totalStars": 111534,
+      "starsGainedToday": 1656
     },
     {
       "owner": "debpalash",
@@ -62,25 +68,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 70767,
-      "starsGainedToday": 1997
+      "totalStars": 71318,
+      "starsGainedToday": 551
     },
     {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "owner": "peetzweg",
+      "name": "opendisplay",
+      "fullName": "peetzweg/opendisplay",
+      "url": "https://github.com/peetzweg/opendisplay",
+      "description": "Use an iPhone, iPad, or spare Mac as a true second display for your Mac without restrictions.",
       "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
+        "duet-display",
+        "external-display",
+        "ipad",
+        "iphone",
+        "macos"
       ],
-      "language": "Rust",
-      "totalStars": 64831,
-      "starsGainedToday": 1764
+      "language": "Swift",
+      "totalStars": 5644,
+      "starsGainedToday": 482
     }
   ]
 }
