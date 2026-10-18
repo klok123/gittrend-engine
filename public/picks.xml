@@ -5,66 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 19:53:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 02:13:45 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+16,458 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+3,008 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-17</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-18</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Sat, 17 Oct 2026 19:53:38 GMT</pubDate>
+      <pubDate>Sun, 18 Oct 2026 02:13:45 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+2,200 stars today)]]></title>
+      <title><![CDATA[hugohe3/ppt-master (+1,906 stars today)]]></title>
+      <link>https://github.com/hugohe3/ppt-master</link>
+      <guid isPermaLink="false">https://github.com/hugohe3/ppt-master#2026-10-18</guid>
+      <description><![CDATA[AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…]]></description>
+      <category>ai-agent</category>
+      <category>powerpoint</category>
+      <category>pptx</category>
+      <category>presentation</category>
+      <category>office</category>
+      <pubDate>Sun, 18 Oct 2026 02:13:45 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Tencent/WeKnora (+1,250 stars today)]]></title>
+      <link>https://github.com/Tencent/WeKnora</link>
+      <guid isPermaLink="false">https://github.com/Tencent/WeKnora#2026-10-18</guid>
+      <description><![CDATA[Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.]]></description>
+      <category>agent</category>
+      <category>agentic</category>
+      <category>ai</category>
+      <category>golang</category>
+      <category>llm</category>
+      <pubDate>Sun, 18 Oct 2026 02:13:45 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+505 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-17</guid>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-18</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
       <category>tts</category>
       <category>voice-cloning</category>
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Sat, 17 Oct 2026 19:53:38 GMT</pubDate>
+      <pubDate>Sun, 18 Oct 2026 02:13:45 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[TauricResearch/TradingAgents (+1,827 stars today)]]></title>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-10-17</guid>
-      <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
-      <category>agent</category>
-      <category>finance</category>
-      <category>llm</category>
-      <category>multiagent</category>
-      <category>trading</category>
-      <pubDate>Sat, 17 Oct 2026 19:53:38 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+1,627 stars today)]]></title>
+      <title><![CDATA[boykopovar/AnyPS5 (+480 stars today)]]></title>
       <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-17</guid>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-10-18</guid>
       <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
       <category>dynamic-library</category>
       <category>game-porting</category>
       <category>ps5-tools</category>
       <category>vulkan</category>
       <category>spir-v</category>
-      <pubDate>Sat, 17 Oct 2026 19:53:38 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[storytold/photocraft (+1,358 stars today)]]></title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/photocraft#2026-10-17</guid>
-      <description><![CDATA[PhotoCraft: An open-source, photo editor written by scratch in pure Rust]]></description>
-      <category>images</category>
-      <category>photo-editing</category>
-      <category>art</category>
-      <category>rust</category>
-      <category>image-editing</category>
-      <pubDate>Sat, 17 Oct 2026 19:53:38 GMT</pubDate>
+      <pubDate>Sun, 18 Oct 2026 02:13:45 GMT</pubDate>
     </item>
   </channel>
 </rss>

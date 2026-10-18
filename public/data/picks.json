@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:53:38.728Z",
+  "generatedAt": "2026-10-18T02:13:45.922Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,42 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 305436,
-      "starsGainedToday": 16458
+      "totalStars": 308444,
+      "starsGainedToday": 3008
+    },
+    {
+      "owner": "hugohe3",
+      "name": "ppt-master",
+      "fullName": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
+      "topics": [
+        "ai-agent",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "office"
+      ],
+      "language": "Python",
+      "totalStars": 63175,
+      "starsGainedToday": 1906
+    },
+    {
+      "owner": "Tencent",
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "topics": [
+        "agent",
+        "agentic",
+        "ai",
+        "golang",
+        "llm"
+      ],
+      "language": "Go",
+      "totalStars": 34527,
+      "starsGainedToday": 1250
     },
     {
       "owner": "debpalash",
@@ -34,25 +68,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 72967,
-      "starsGainedToday": 2200
-    },
-    {
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "fullName": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "topics": [
-        "agent",
-        "finance",
-        "llm",
-        "multiagent",
-        "trading"
-      ],
-      "language": "Python",
-      "totalStars": 111705,
-      "starsGainedToday": 1827
+      "totalStars": 73472,
+      "starsGainedToday": 505
     },
     {
       "owner": "boykopovar",
@@ -68,25 +85,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 41357,
-      "starsGainedToday": 1627
-    },
-    {
-      "owner": "storytold",
-      "name": "photocraft",
-      "fullName": "storytold/photocraft",
-      "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-      "topics": [
-        "images",
-        "photo-editing",
-        "art",
-        "rust",
-        "image-editing"
-      ],
-      "language": "Rust",
-      "totalStars": 66189,
-      "starsGainedToday": 1358
+      "totalStars": 41837,
+      "starsGainedToday": 480
     }
   ]
 }
