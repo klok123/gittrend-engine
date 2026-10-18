@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:08:38.401Z",
+  "generatedAt": "2026-10-18T19:53:36.679Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 317382,
-      "starsGainedToday": 11946
+      "totalStars": 320351,
+      "starsGainedToday": 14915
     },
     {
       "owner": "hugohe3",
@@ -34,8 +34,8 @@
         "office"
       ],
       "language": "Python",
-      "totalStars": 63412,
-      "starsGainedToday": 2143
+      "totalStars": 63450,
+      "starsGainedToday": 2181
     },
     {
       "owner": "debpalash",
@@ -51,8 +51,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 74490,
-      "starsGainedToday": 1523
+      "totalStars": 74915,
+      "starsGainedToday": 1948
     },
     {
       "owner": "boykopovar",
@@ -68,8 +68,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 42693,
-      "starsGainedToday": 1336
+      "totalStars": 42984,
+      "starsGainedToday": 1627
     },
     {
       "owner": "anomalyco",
@@ -79,8 +79,8 @@
       "description": "The open source coding agent.",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 216113,
-      "starsGainedToday": 1070
+      "totalStars": 216396,
+      "starsGainedToday": 1353
     }
   ]
 }
