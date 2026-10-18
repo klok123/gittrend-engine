@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T02:13:45.922Z",
+  "generatedAt": "2026-10-18T10:08:04.676Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 308444,
-      "starsGainedToday": 3008
+      "totalStars": 313826,
+      "starsGainedToday": 8390
     },
     {
       "owner": "hugohe3",
@@ -34,25 +34,8 @@
         "office"
       ],
       "language": "Python",
-      "totalStars": 63175,
-      "starsGainedToday": 1906
-    },
-    {
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "topics": [
-        "agent",
-        "agentic",
-        "ai",
-        "golang",
-        "llm"
-      ],
-      "language": "Go",
-      "totalStars": 34527,
-      "starsGainedToday": 1250
+      "totalStars": 63308,
+      "starsGainedToday": 2039
     },
     {
       "owner": "debpalash",
@@ -68,8 +51,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 73472,
-      "starsGainedToday": 505
+      "totalStars": 74052,
+      "starsGainedToday": 1085
     },
     {
       "owner": "boykopovar",
@@ -85,8 +68,19 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 41837,
-      "starsGainedToday": 480
+      "totalStars": 42340,
+      "starsGainedToday": 983
+    },
+    {
+      "owner": "anomalyco",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 215851,
+      "starsGainedToday": 808
     }
   ]
 }
