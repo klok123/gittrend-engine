@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-10-18T19:53:36.679Z",
+  "generatedAt": "2026-10-19T02:29:45.995Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 61584,
+      "starsGainedToday": 3464
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,70 +28,59 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 320351,
-      "starsGainedToday": 14915
+      "totalStars": 323477,
+      "starsGainedToday": 3126
     },
     {
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "fullName": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support…",
+      "owner": "hesreallyhim",
+      "name": "awesome-claude-code",
+      "fullName": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no…",
       "topics": [
-        "ai-agent",
-        "powerpoint",
-        "pptx",
-        "presentation",
-        "office"
+        "anthropic",
+        "anthropic-claude",
+        "awesome",
+        "awesome-list",
+        "awesome-lists"
       ],
       "language": "Python",
-      "totalStars": 63450,
-      "starsGainedToday": 2181
+      "totalStars": 55972,
+      "starsGainedToday": 886
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "feder-cr",
+      "name": "git-ai",
+      "fullName": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Git designed for AI agents.",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion"
       ],
-      "language": "Python",
-      "totalStars": 74915,
-      "starsGainedToday": 1948
+      "language": "Go",
+      "totalStars": 2305,
+      "starsGainedToday": 766
     },
     {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner": "makeplane",
+      "name": "plane",
+      "fullName": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
+        "django",
+        "docker",
+        "kanban",
+        "project-management",
+        "python"
       ],
-      "language": "C++",
-      "totalStars": 42984,
-      "starsGainedToday": 1627
-    },
-    {
-      "owner": "anomalyco",
-      "name": "opencode",
-      "fullName": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "topics": [],
       "language": "TypeScript",
-      "totalStars": 216396,
-      "starsGainedToday": 1353
+      "totalStars": 61081,
+      "starsGainedToday": 708
     }
   ]
 }
