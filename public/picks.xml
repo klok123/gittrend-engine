@@ -5,17 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 02:29:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 11:37:55 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Alishahryar1/free-claude-code (+3,464 stars today)]]></title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-19</guid>
-      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
-      
-      <pubDate>Mon, 19 Oct 2026 02:29:45 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+3,126 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+9,828 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-19</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -24,43 +16,51 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Mon, 19 Oct 2026 02:29:45 GMT</pubDate>
+      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[hesreallyhim/awesome-claude-code (+886 stars today)]]></title>
-      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
-      <guid isPermaLink="false">https://github.com/hesreallyhim/awesome-claude-code#2026-10-19</guid>
-      <description><![CDATA[A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no…]]></description>
-      <category>anthropic</category>
-      <category>anthropic-claude</category>
-      <category>awesome</category>
-      <category>awesome-list</category>
-      <category>awesome-lists</category>
-      <pubDate>Mon, 19 Oct 2026 02:29:45 GMT</pubDate>
+      <title><![CDATA[Alishahryar1/free-claude-code (+3,632 stars today)]]></title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-19</guid>
+      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
+      
+      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[feder-cr/git-ai (+766 stars today)]]></title>
-      <link>https://github.com/feder-cr/git-ai</link>
-      <guid isPermaLink="false">https://github.com/feder-cr/git-ai#2026-10-19</guid>
-      <description><![CDATA[Git designed for AI agents.]]></description>
+      <title><![CDATA[Gathin23/cleanyourtv (+1,765 stars today)]]></title>
+      <link>https://github.com/Gathin23/cleanyourtv</link>
+      <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-19</guid>
+      <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
+      <category>adb</category>
+      <category>android-tv</category>
+      <category>claude-code</category>
+      <category>debloat</category>
+      <category>launcher</category>
+      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+1,712 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-19</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[affaan-m/ECC (+1,330 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-19</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
       <category>ai-agents</category>
-      <category>coding-agents</category>
-      <category>git</category>
-      <category>golang</category>
-      <category>scion</category>
-      <pubDate>Mon, 19 Oct 2026 02:29:45 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[makeplane/plane (+708 stars today)]]></title>
-      <link>https://github.com/makeplane/plane</link>
-      <guid isPermaLink="false">https://github.com/makeplane/plane#2026-10-19</guid>
-      <description><![CDATA[🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.]]></description>
-      <category>django</category>
-      <category>docker</category>
-      <category>kanban</category>
-      <category>project-management</category>
-      <category>python</category>
-      <pubDate>Mon, 19 Oct 2026 02:29:45 GMT</pubDate>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
     </item>
   </channel>
 </rss>

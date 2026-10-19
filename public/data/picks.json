@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-10-19T02:29:45.995Z",
+  "generatedAt": "2026-10-19T11:37:55.587Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 61584,
-      "starsGainedToday": 3464
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -28,59 +17,70 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 323477,
-      "starsGainedToday": 3126
+      "totalStars": 330179,
+      "starsGainedToday": 9828
     },
     {
-      "owner": "hesreallyhim",
-      "name": "awesome-claude-code",
-      "fullName": "hesreallyhim/awesome-claude-code",
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no…",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 61752,
+      "starsGainedToday": 3632
+    },
+    {
+      "owner": "Gathin23",
+      "name": "cleanyourtv",
+      "fullName": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "topics": [
-        "anthropic",
-        "anthropic-claude",
-        "awesome",
-        "awesome-list",
-        "awesome-lists"
+        "adb",
+        "android-tv",
+        "claude-code",
+        "debloat",
+        "launcher"
+      ],
+      "language": "Java",
+      "totalStars": 3346,
+      "starsGainedToday": 1765
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
       ],
       "language": "Python",
-      "totalStars": 55972,
-      "starsGainedToday": 886
+      "totalStars": 76627,
+      "starsGainedToday": 1712
     },
     {
-      "owner": "feder-cr",
-      "name": "git-ai",
-      "fullName": "feder-cr/git-ai",
-      "url": "https://github.com/feder-cr/git-ai",
-      "description": "Git designed for AI agents.",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "topics": [
         "ai-agents",
-        "coding-agents",
-        "git",
-        "golang",
-        "scion"
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
       ],
-      "language": "Go",
-      "totalStars": 2305,
-      "starsGainedToday": 766
-    },
-    {
-      "owner": "makeplane",
-      "name": "plane",
-      "fullName": "makeplane/plane",
-      "url": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "topics": [
-        "django",
-        "docker",
-        "kanban",
-        "project-management",
-        "python"
-      ],
-      "language": "TypeScript",
-      "totalStars": 61081,
-      "starsGainedToday": 708
+      "language": "JavaScript",
+      "totalStars": 283632,
+      "starsGainedToday": 1330
     }
   ]
 }
