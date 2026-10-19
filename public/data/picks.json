@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T18:00:27.677Z",
+  "generatedAt": "2026-10-19T22:06:18.104Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 334307,
-      "starsGainedToday": 13956
+      "totalStars": 335935,
+      "starsGainedToday": 15584
     },
     {
       "owner": "Gathin23",
@@ -34,8 +34,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 4330,
-      "starsGainedToday": 2749
+      "totalStars": 4913,
+      "starsGainedToday": 3332
     },
     {
       "owner": "debpalash",
@@ -51,8 +51,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 77134,
-      "starsGainedToday": 2219
+      "totalStars": 77387,
+      "starsGainedToday": 2472
     },
     {
       "owner": "affaan-m",
@@ -68,8 +68,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 283883,
-      "starsGainedToday": 1581
+      "totalStars": 284063,
+      "starsGainedToday": 1761
     },
     {
       "owner": "stablyai",
@@ -85,8 +85,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 97968,
-      "starsGainedToday": 1551
+      "totalStars": 98148,
+      "starsGainedToday": 1731
     }
   ]
 }
