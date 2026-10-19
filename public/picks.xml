@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 11:37:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 18:00:27 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+9,828 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+13,956 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-19</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,18 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:00:27 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Alishahryar1/free-claude-code (+3,632 stars today)]]></title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-19</guid>
-      <description><![CDATA[Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…]]></description>
-      
-      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+1,765 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+2,749 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-19</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -36,10 +28,10 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:00:27 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+1,712 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+2,219 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
       <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-19</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
@@ -48,10 +40,10 @@
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:00:27 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+1,330 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+1,581 stars today)]]></title>
       <link>https://github.com/affaan-m/ECC</link>
       <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-19</guid>
       <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
@@ -60,7 +52,19 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>developer-tools</category>
-      <pubDate>Mon, 19 Oct 2026 11:37:55 GMT</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:00:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+1,551 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-19</guid>
+      <description><![CDATA[Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>opencode</category>
+      <pubDate>Mon, 19 Oct 2026 18:00:27 GMT</pubDate>
     </item>
   </channel>
 </rss>

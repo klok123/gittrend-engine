@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T11:37:55.587Z",
+  "generatedAt": "2026-10-19T18:00:27.677Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 330179,
-      "starsGainedToday": 9828
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 61752,
-      "starsGainedToday": 3632
+      "totalStars": 334307,
+      "starsGainedToday": 13956
     },
     {
       "owner": "Gathin23",
@@ -45,8 +34,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 3346,
-      "starsGainedToday": 1765
+      "totalStars": 4330,
+      "starsGainedToday": 2749
     },
     {
       "owner": "debpalash",
@@ -62,8 +51,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 76627,
-      "starsGainedToday": 1712
+      "totalStars": 77134,
+      "starsGainedToday": 2219
     },
     {
       "owner": "affaan-m",
@@ -79,8 +68,25 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 283632,
-      "starsGainedToday": 1330
+      "totalStars": 283883,
+      "starsGainedToday": 1581
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
+      ],
+      "language": "TypeScript",
+      "totalStars": 97968,
+      "starsGainedToday": 1551
     }
   ]
 }
