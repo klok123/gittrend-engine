@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:42:38.962Z",
+  "generatedAt": "2026-10-20T10:42:02.698Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 337803,
-      "starsGainedToday": 1868
-    },
-    {
-      "owner": "storytold",
-      "name": "artcraft",
-      "fullName": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "topics": [
-        "3d-graphics",
-        "ai",
-        "aivideo",
-        "filmmaking",
-        "imagegeneration"
-      ],
-      "language": "Rust",
-      "totalStars": 33800,
-      "starsGainedToday": 988
+      "totalStars": 342226,
+      "starsGainedToday": 6291
     },
     {
       "owner": "Gathin23",
@@ -51,25 +34,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 5778,
-      "starsGainedToday": 865
+      "totalStars": 8412,
+      "starsGainedToday": 3499
     },
     {
-      "owner": "Anil-matcha",
-      "name": "Open-Generative-AI",
-      "fullName": "Anil-matcha/Open-Generative-AI",
-      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT…",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "topics": [
-        "ai-image-generation",
-        "ai-video-generation",
-        "generative-ai",
-        "muapi",
-        "text-to-video"
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili"
       ],
-      "language": "JavaScript",
-      "totalStars": 30927,
-      "starsGainedToday": 308
+      "language": "Python",
+      "totalStars": 100029,
+      "starsGainedToday": 1358
     },
     {
       "owner": "stablyai",
@@ -85,8 +68,25 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 98396,
-      "starsGainedToday": 248
+      "totalStars": 98956,
+      "starsGainedToday": 808
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 78143,
+      "starsGainedToday": 756
     }
   ]
 }

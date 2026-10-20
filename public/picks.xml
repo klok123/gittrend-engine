@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 02:42:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 10:42:02 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+1,868 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+6,291 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-20</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,22 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 10:42:02 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/artcraft (+988 stars today)]]></title>
-      <link>https://github.com/storytold/artcraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/artcraft#2026-10-20</guid>
-      <description><![CDATA[ArtCraft is an intentional crafting engine for artists, designers, and filmmakers]]></description>
-      <category>3d-graphics</category>
-      <category>ai</category>
-      <category>aivideo</category>
-      <category>filmmaking</category>
-      <category>imagegeneration</category>
-      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+865 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+3,499 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-20</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -40,22 +28,22 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 10:42:02 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Anil-matcha/Open-Generative-AI (+308 stars today)]]></title>
-      <link>https://github.com/Anil-matcha/Open-Generative-AI</link>
-      <guid isPermaLink="false">https://github.com/Anil-matcha/Open-Generative-AI#2026-10-20</guid>
-      <description><![CDATA[Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT…]]></description>
-      <category>ai-image-generation</category>
-      <category>ai-video-generation</category>
-      <category>generative-ai</category>
-      <category>muapi</category>
-      <category>text-to-video</category>
-      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
+      <title><![CDATA[Panniantong/Agent-Reach (+1,358 stars today)]]></title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-20</guid>
+      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
+      <category>agent-infrastructure</category>
+      <category>ai-agent</category>
+      <category>ai-search</category>
+      <category>automation</category>
+      <category>bilibili</category>
+      <pubDate>Tue, 20 Oct 2026 10:42:02 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+248 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+808 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-20</guid>
       <description><![CDATA[Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -64,7 +52,19 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 10:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+756 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-20</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Tue, 20 Oct 2026 10:42:02 GMT</pubDate>
     </item>
   </channel>
 </rss>
