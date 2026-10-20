@@ -5,66 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 22:06:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 02:42:38 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+15,584 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,868 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-19</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-20</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Mon, 19 Oct 2026 22:06:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+3,332 stars today)]]></title>
+      <title><![CDATA[storytold/artcraft (+988 stars today)]]></title>
+      <link>https://github.com/storytold/artcraft</link>
+      <guid isPermaLink="false">https://github.com/storytold/artcraft#2026-10-20</guid>
+      <description><![CDATA[ArtCraft is an intentional crafting engine for artists, designers, and filmmakers]]></description>
+      <category>3d-graphics</category>
+      <category>ai</category>
+      <category>aivideo</category>
+      <category>filmmaking</category>
+      <category>imagegeneration</category>
+      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Gathin23/cleanyourtv (+865 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
-      <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-19</guid>
+      <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-20</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
       <category>adb</category>
       <category>android-tv</category>
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Mon, 19 Oct 2026 22:06:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+2,472 stars today)]]></title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-19</guid>
-      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
-      <category>tts</category>
-      <category>voice-cloning</category>
-      <category>voice-generation</category>
-      <category>voice-ai</category>
-      <category>ai</category>
-      <pubDate>Mon, 19 Oct 2026 22:06:18 GMT</pubDate>
+      <title><![CDATA[Anil-matcha/Open-Generative-AI (+308 stars today)]]></title>
+      <link>https://github.com/Anil-matcha/Open-Generative-AI</link>
+      <guid isPermaLink="false">https://github.com/Anil-matcha/Open-Generative-AI#2026-10-20</guid>
+      <description><![CDATA[Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT…]]></description>
+      <category>ai-image-generation</category>
+      <category>ai-video-generation</category>
+      <category>generative-ai</category>
+      <category>muapi</category>
+      <category>text-to-video</category>
+      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+1,761 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-19</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Mon, 19 Oct 2026 22:06:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+1,731 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+248 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-19</guid>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-20</guid>
       <description><![CDATA[Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
       <category>claude-code</category>
       <category>codex</category>
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Mon, 19 Oct 2026 22:06:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 02:42:38 GMT</pubDate>
     </item>
   </channel>
 </rss>

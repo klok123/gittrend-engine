@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:06:18.104Z",
+  "generatedAt": "2026-10-20T02:42:38.962Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 335935,
-      "starsGainedToday": 15584
+      "totalStars": 337803,
+      "starsGainedToday": 1868
+    },
+    {
+      "owner": "storytold",
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "topics": [
+        "3d-graphics",
+        "ai",
+        "aivideo",
+        "filmmaking",
+        "imagegeneration"
+      ],
+      "language": "Rust",
+      "totalStars": 33800,
+      "starsGainedToday": 988
     },
     {
       "owner": "Gathin23",
@@ -34,42 +51,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 4913,
-      "starsGainedToday": 3332
+      "totalStars": 5778,
+      "starsGainedToday": 865
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "Anil-matcha",
+      "name": "Open-Generative-AI",
+      "fullName": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT…",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 77387,
-      "starsGainedToday": 2472
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
+        "ai-image-generation",
+        "ai-video-generation",
+        "generative-ai",
+        "muapi",
+        "text-to-video"
       ],
       "language": "JavaScript",
-      "totalStars": 284063,
-      "starsGainedToday": 1761
+      "totalStars": 30927,
+      "starsGainedToday": 308
     },
     {
       "owner": "stablyai",
@@ -85,8 +85,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 98148,
-      "starsGainedToday": 1731
+      "totalStars": 98396,
+      "starsGainedToday": 248
     }
   ]
 }
