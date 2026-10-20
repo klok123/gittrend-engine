@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:42:02.698Z",
+  "generatedAt": "2026-10-20T16:04:18.023Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 342226,
-      "starsGainedToday": 6291
+      "totalStars": 345127,
+      "starsGainedToday": 9192
     },
     {
       "owner": "Gathin23",
@@ -34,8 +34,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 8412,
-      "starsGainedToday": 3499
+      "totalStars": 10136,
+      "starsGainedToday": 5223
+    },
+    {
+      "owner": "storytold",
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "topics": [
+        "3d-graphics",
+        "ai",
+        "aivideo",
+        "filmmaking",
+        "imagegeneration"
+      ],
+      "language": "Rust",
+      "totalStars": 34310,
+      "starsGainedToday": 1498
     },
     {
       "owner": "Panniantong",
@@ -51,8 +68,8 @@
         "bilibili"
       ],
       "language": "Python",
-      "totalStars": 100029,
-      "starsGainedToday": 1358
+      "totalStars": 100165,
+      "starsGainedToday": 1494
     },
     {
       "owner": "stablyai",
@@ -68,25 +85,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 98956,
-      "starsGainedToday": 808
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 78143,
-      "starsGainedToday": 756
+      "totalStars": 99331,
+      "starsGainedToday": 1183
     }
   ]
 }
