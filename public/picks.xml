@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 16:04:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 21:02:34 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+9,192 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+11,066 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-20</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Tue, 20 Oct 2026 16:04:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 21:02:34 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+5,223 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+6,244 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-20</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -28,22 +28,22 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Tue, 20 Oct 2026 16:04:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 21:02:34 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/artcraft (+1,498 stars today)]]></title>
-      <link>https://github.com/storytold/artcraft</link>
-      <guid isPermaLink="false">https://github.com/storytold/artcraft#2026-10-20</guid>
-      <description><![CDATA[ArtCraft is an intentional crafting engine for artists, designers, and filmmakers]]></description>
-      <category>3d-graphics</category>
-      <category>ai</category>
-      <category>aivideo</category>
-      <category>filmmaking</category>
-      <category>imagegeneration</category>
-      <pubDate>Tue, 20 Oct 2026 16:04:18 GMT</pubDate>
+      <title><![CDATA[Graphify-Labs/graphify (+1,760 stars today)]]></title>
+      <link>https://github.com/Graphify-Labs/graphify</link>
+      <guid isPermaLink="false">https://github.com/Graphify-Labs/graphify#2026-10-20</guid>
+      <description><![CDATA[Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…]]></description>
+      <category>claude-code</category>
+      <category>graphrag</category>
+      <category>knowledge-graph</category>
+      <category>codex</category>
+      <category>openclaw</category>
+      <pubDate>Tue, 20 Oct 2026 21:02:34 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Panniantong/Agent-Reach (+1,494 stars today)]]></title>
+      <title><![CDATA[Panniantong/Agent-Reach (+1,578 stars today)]]></title>
       <link>https://github.com/Panniantong/Agent-Reach</link>
       <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-10-20</guid>
       <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
@@ -52,10 +52,10 @@
       <category>ai-search</category>
       <category>automation</category>
       <category>bilibili</category>
-      <pubDate>Tue, 20 Oct 2026 16:04:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 21:02:34 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+1,183 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+1,444 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-20</guid>
       <description><![CDATA[Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -64,7 +64,7 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Tue, 20 Oct 2026 16:04:18 GMT</pubDate>
+      <pubDate>Tue, 20 Oct 2026 21:02:34 GMT</pubDate>
     </item>
   </channel>
 </rss>

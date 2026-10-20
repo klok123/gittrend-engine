@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T16:04:18.023Z",
+  "generatedAt": "2026-10-20T21:02:34.134Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 345127,
-      "starsGainedToday": 9192
+      "totalStars": 347001,
+      "starsGainedToday": 11066
     },
     {
       "owner": "Gathin23",
@@ -34,25 +34,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 10136,
-      "starsGainedToday": 5223
+      "totalStars": 11157,
+      "starsGainedToday": 6244
     },
     {
-      "owner": "storytold",
-      "name": "artcraft",
-      "fullName": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "owner": "Graphify-Labs",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
       "topics": [
-        "3d-graphics",
-        "ai",
-        "aivideo",
-        "filmmaking",
-        "imagegeneration"
+        "claude-code",
+        "graphrag",
+        "knowledge-graph",
+        "codex",
+        "openclaw"
       ],
-      "language": "Rust",
-      "totalStars": 34310,
-      "starsGainedToday": 1498
+      "language": "Python",
+      "totalStars": 130071,
+      "starsGainedToday": 1760
     },
     {
       "owner": "Panniantong",
@@ -68,8 +68,8 @@
         "bilibili"
       ],
       "language": "Python",
-      "totalStars": 100165,
-      "starsGainedToday": 1494
+      "totalStars": 100249,
+      "starsGainedToday": 1578
     },
     {
       "owner": "stablyai",
@@ -85,8 +85,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 99331,
-      "starsGainedToday": 1183
+      "totalStars": 99592,
+      "starsGainedToday": 1444
     }
   ]
 }
