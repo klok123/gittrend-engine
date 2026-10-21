@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:36:30.238Z",
+  "generatedAt": "2026-10-21T10:52:32.864Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 31009,
-      "starsGainedToday": 30501
-    },
-    {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
-      ],
-      "language": "Python",
-      "totalStars": 191325,
-      "starsGainedToday": 2472
+      "totalStars": 32399,
+      "starsGainedToday": 31891
     },
     {
       "owner": "morluto",
@@ -51,8 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 348848,
-      "starsGainedToday": 1847
+      "totalStars": 352844,
+      "starsGainedToday": 5843
     },
     {
       "owner": "deepseek-ai",
@@ -62,8 +45,8 @@
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "topics": [],
       "language": "Python",
-      "totalStars": 13409,
-      "starsGainedToday": 1771
+      "totalStars": 16466,
+      "starsGainedToday": 4828
     },
     {
       "owner": "Gathin23",
@@ -79,8 +62,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 12435,
-      "starsGainedToday": 1278
+      "totalStars": 15229,
+      "starsGainedToday": 4072
+    },
+    {
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "topics": [
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
+      ],
+      "language": "Python",
+      "totalStars": 191390,
+      "starsGainedToday": 2537
     }
   ]
 }
