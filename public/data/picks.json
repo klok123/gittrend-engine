@@ -1,8 +1,42 @@
 {
-  "generatedAt": "2026-10-20T21:02:34.134Z",
+  "generatedAt": "2026-10-21T02:36:30.238Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 31009,
+      "starsGainedToday": 30501
+    },
+    {
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "topics": [
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
+      ],
+      "language": "Python",
+      "totalStars": 191325,
+      "starsGainedToday": 2472
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +51,19 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 347001,
-      "starsGainedToday": 11066
+      "totalStars": 348848,
+      "starsGainedToday": 1847
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "DeepInfer",
+      "fullName": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 13409,
+      "starsGainedToday": 1771
     },
     {
       "owner": "Gathin23",
@@ -34,59 +79,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 11157,
-      "starsGainedToday": 6244
-    },
-    {
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
-      "topics": [
-        "claude-code",
-        "graphrag",
-        "knowledge-graph",
-        "codex",
-        "openclaw"
-      ],
-      "language": "Python",
-      "totalStars": 130071,
-      "starsGainedToday": 1760
-    },
-    {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
-      ],
-      "language": "Python",
-      "totalStars": 100249,
-      "starsGainedToday": 1578
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
-      ],
-      "language": "TypeScript",
-      "totalStars": 99592,
-      "starsGainedToday": 1444
+      "totalStars": 12435,
+      "starsGainedToday": 1278
     }
   ]
 }
