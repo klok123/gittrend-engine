@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 16:20:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 21:04:10 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+32,886 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+33,190 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-21</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -16,10 +16,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Wed, 21 Oct 2026 16:20:55 GMT</pubDate>
+      <pubDate>Wed, 21 Oct 2026 21:04:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+8,337 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+9,918 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-21</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -28,10 +28,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Wed, 21 Oct 2026 16:20:55 GMT</pubDate>
+      <pubDate>Wed, 21 Oct 2026 21:04:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+6,171 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+7,373 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-21</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -40,18 +40,18 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Wed, 21 Oct 2026 16:20:55 GMT</pubDate>
+      <pubDate>Wed, 21 Oct 2026 21:04:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/DeepInfer (+5,708 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/DeepInfer (+6,027 stars today)]]></title>
       <link>https://github.com/deepseek-ai/DeepInfer</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/DeepInfer#2026-10-21</guid>
       <description><![CDATA[DeepInfer: High-performance, large-scale inference framework for DeepSeek models]]></description>
       
-      <pubDate>Wed, 21 Oct 2026 16:20:55 GMT</pubDate>
+      <pubDate>Wed, 21 Oct 2026 21:04:10 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[yt-dlp/yt-dlp (+2,717 stars today)]]></title>
+      <title><![CDATA[yt-dlp/yt-dlp (+2,765 stars today)]]></title>
       <link>https://github.com/yt-dlp/yt-dlp</link>
       <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-10-21</guid>
       <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
@@ -60,7 +60,7 @@
       <category>sponsorblock</category>
       <category>yt-dlp</category>
       <category>youtube-downloader</category>
-      <pubDate>Wed, 21 Oct 2026 16:20:55 GMT</pubDate>
+      <pubDate>Wed, 21 Oct 2026 21:04:10 GMT</pubDate>
     </item>
   </channel>
 </rss>

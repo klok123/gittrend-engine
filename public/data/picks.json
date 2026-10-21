@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:20:55.900Z",
+  "generatedAt": "2026-10-21T21:04:10.413Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 33394,
-      "starsGainedToday": 32886
+      "totalStars": 33698,
+      "starsGainedToday": 33190
     },
     {
       "owner": "morluto",
@@ -34,8 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 355338,
-      "starsGainedToday": 8337
+      "totalStars": 356919,
+      "starsGainedToday": 9918
     },
     {
       "owner": "Gathin23",
@@ -51,8 +51,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 17328,
-      "starsGainedToday": 6171
+      "totalStars": 18530,
+      "starsGainedToday": 7373
     },
     {
       "owner": "deepseek-ai",
@@ -62,8 +62,8 @@
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "topics": [],
       "language": "Python",
-      "totalStars": 17346,
-      "starsGainedToday": 5708
+      "totalStars": 17665,
+      "starsGainedToday": 6027
     },
     {
       "owner": "yt-dlp",
@@ -79,8 +79,8 @@
         "youtube-downloader"
       ],
       "language": "Python",
-      "totalStars": 199919,
-      "starsGainedToday": 2717
+      "totalStars": 199967,
+      "starsGainedToday": 2765
     }
   ]
 }
