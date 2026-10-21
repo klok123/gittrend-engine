@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:52:32.864Z",
+  "generatedAt": "2026-10-21T16:20:55.900Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 32399,
-      "starsGainedToday": 31891
+      "totalStars": 33394,
+      "starsGainedToday": 32886
     },
     {
       "owner": "morluto",
@@ -34,19 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 352844,
-      "starsGainedToday": 5843
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "DeepInfer",
-      "fullName": "deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 16466,
-      "starsGainedToday": 4828
+      "totalStars": 355338,
+      "starsGainedToday": 8337
     },
     {
       "owner": "Gathin23",
@@ -62,25 +51,36 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 15229,
-      "starsGainedToday": 4072
+      "totalStars": 17328,
+      "starsGainedToday": 6171
     },
     {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
+      "owner": "deepseek-ai",
+      "name": "DeepInfer",
+      "fullName": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 17346,
+      "starsGainedToday": 5708
+    },
+    {
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
       "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
+        "youtube-dl",
+        "python",
+        "sponsorblock",
+        "yt-dlp",
+        "youtube-downloader"
       ],
       "language": "Python",
-      "totalStars": 191390,
-      "starsGainedToday": 2537
+      "totalStars": 199919,
+      "starsGainedToday": 2717
     }
   ]
 }
