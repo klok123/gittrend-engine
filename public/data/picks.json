@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-22T02:40:39.105Z",
+  "generatedAt": "2026-10-22T10:53:54.320Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "ARahim3",
-      "name": "DigUp",
-      "fullName": "ARahim3/DigUp",
-      "url": "https://github.com/ARahim3/DigUp",
-      "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
-      "topics": [
-        "embeddinggemma",
-        "embeddings",
-        "llama-cpp",
-        "local-first",
-        "macos"
-      ],
-      "language": "Swift",
-      "totalStars": 5370,
-      "starsGainedToday": 1818
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -34,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 358514,
-      "starsGainedToday": 1595
+      "totalStars": 361853,
+      "starsGainedToday": 4934
     },
     {
       "owner": "Gathin23",
@@ -51,19 +34,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 19715,
-      "starsGainedToday": 1185
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "DeepInfer",
-      "fullName": "deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 18174,
-      "starsGainedToday": 509
+      "totalStars": 21717,
+      "starsGainedToday": 3187
     },
     {
       "owner": "Ebony-Vinyl",
@@ -79,8 +51,36 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 34194,
-      "starsGainedToday": 496
+      "totalStars": 35636,
+      "starsGainedToday": 1938
+    },
+    {
+      "owner": "ARahim3",
+      "name": "DigUp",
+      "fullName": "ARahim3/DigUp",
+      "url": "https://github.com/ARahim3/DigUp",
+      "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+      "topics": [
+        "embeddinggemma",
+        "embeddings",
+        "llama-cpp",
+        "local-first",
+        "macos"
+      ],
+      "language": "Swift",
+      "totalStars": 5443,
+      "starsGainedToday": 1891
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "DeepInfer",
+      "fullName": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 19117,
+      "starsGainedToday": 1452
     }
   ]
 }
