@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-21T21:04:10.413Z",
+  "generatedAt": "2026-10-22T02:40:39.105Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "ARahim3",
+      "name": "DigUp",
+      "fullName": "ARahim3/DigUp",
+      "url": "https://github.com/ARahim3/DigUp",
+      "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "embeddinggemma",
+        "embeddings",
+        "llama-cpp",
+        "local-first",
+        "macos"
       ],
-      "language": "JavaScript",
-      "totalStars": 33698,
-      "starsGainedToday": 33190
+      "language": "Swift",
+      "totalStars": 5370,
+      "starsGainedToday": 1818
     },
     {
       "owner": "morluto",
@@ -34,8 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 356919,
-      "starsGainedToday": 9918
+      "totalStars": 358514,
+      "starsGainedToday": 1595
     },
     {
       "owner": "Gathin23",
@@ -51,8 +51,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 18530,
-      "starsGainedToday": 7373
+      "totalStars": 19715,
+      "starsGainedToday": 1185
     },
     {
       "owner": "deepseek-ai",
@@ -62,25 +62,25 @@
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "topics": [],
       "language": "Python",
-      "totalStars": 17665,
-      "starsGainedToday": 6027
+      "totalStars": 18174,
+      "starsGainedToday": 509
     },
     {
-      "owner": "yt-dlp",
-      "name": "yt-dlp",
-      "fullName": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "youtube-dl",
-        "python",
-        "sponsorblock",
-        "yt-dlp",
-        "youtube-downloader"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Python",
-      "totalStars": 199967,
-      "starsGainedToday": 2765
+      "language": "JavaScript",
+      "totalStars": 34194,
+      "starsGainedToday": 496
     }
   ]
 }
