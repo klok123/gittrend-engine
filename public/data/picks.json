@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T10:53:54.320Z",
+  "generatedAt": "2026-10-22T16:20:04.357Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 361853,
-      "starsGainedToday": 4934
+      "totalStars": 363979,
+      "starsGainedToday": 7060
     },
     {
       "owner": "Gathin23",
@@ -34,53 +34,53 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 21717,
-      "starsGainedToday": 3187
+      "totalStars": 22888,
+      "starsGainedToday": 4358
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
       ],
-      "language": "JavaScript",
-      "totalStars": 35636,
-      "starsGainedToday": 1938
+      "language": "TypeScript",
+      "totalStars": 102475,
+      "starsGainedToday": 1391
     },
     {
-      "owner": "ARahim3",
-      "name": "DigUp",
-      "fullName": "ARahim3/DigUp",
-      "url": "https://github.com/ARahim3/DigUp",
-      "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
       "topics": [
-        "embeddinggemma",
-        "embeddings",
-        "llama-cpp",
-        "local-first",
-        "macos"
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap"
       ],
-      "language": "Swift",
-      "totalStars": 5443,
-      "starsGainedToday": 1891
+      "language": "TypeScript",
+      "totalStars": 69792,
+      "starsGainedToday": 656
     },
     {
-      "owner": "deepseek-ai",
-      "name": "DeepInfer",
-      "fullName": "deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "owner": "anomalyco",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
       "topics": [],
-      "language": "Python",
-      "totalStars": 19117,
-      "starsGainedToday": 1452
+      "language": "TypeScript",
+      "totalStars": 220058,
+      "starsGainedToday": 445
     }
   ]
 }
