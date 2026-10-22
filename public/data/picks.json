@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:20:04.357Z",
+  "generatedAt": "2026-10-22T21:00:37.183Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 363979,
-      "starsGainedToday": 7060
+      "totalStars": 365458,
+      "starsGainedToday": 8539
     },
     {
       "owner": "Gathin23",
@@ -34,8 +34,36 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 22888,
-      "starsGainedToday": 4358
+      "totalStars": 23596,
+      "starsGainedToday": 5066
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 36678,
+      "starsGainedToday": 2980
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "DeepInfer",
+      "fullName": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 19793,
+      "starsGainedToday": 2128
     },
     {
       "owner": "stablyai",
@@ -51,36 +79,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 102475,
-      "starsGainedToday": 1391
-    },
-    {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "topics": [
-        "ai",
-        "animation",
-        "ffmpeg",
-        "framework",
-        "gsap"
-      ],
-      "language": "TypeScript",
-      "totalStars": 69792,
-      "starsGainedToday": 656
-    },
-    {
-      "owner": "anomalyco",
-      "name": "opencode",
-      "fullName": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 220058,
-      "starsGainedToday": 445
+      "totalStars": 102645,
+      "starsGainedToday": 1561
     }
   ]
 }

@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 16:20:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 21:00:37 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+7,060 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+8,539 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-22</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Thu, 22 Oct 2026 16:20:04 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 21:00:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+4,358 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+5,066 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-22</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -28,10 +28,30 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Thu, 22 Oct 2026 16:20:04 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 21:00:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+1,391 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+2,980 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-22</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Thu, 22 Oct 2026 21:00:37 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/DeepInfer (+2,128 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/DeepInfer</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/DeepInfer#2026-10-22</guid>
+      <description><![CDATA[DeepInfer: High-performance, large-scale inference framework for DeepSeek models]]></description>
+      
+      <pubDate>Thu, 22 Oct 2026 21:00:37 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+1,561 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-10-22</guid>
       <description><![CDATA[Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -40,27 +60,7 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Thu, 22 Oct 2026 16:20:04 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[heygen-com/hyperframes (+656 stars today)]]></title>
-      <link>https://github.com/heygen-com/hyperframes</link>
-      <guid isPermaLink="false">https://github.com/heygen-com/hyperframes#2026-10-22</guid>
-      <description><![CDATA[Write HTML. Render video. Built for agents.]]></description>
-      <category>ai</category>
-      <category>animation</category>
-      <category>ffmpeg</category>
-      <category>framework</category>
-      <category>gsap</category>
-      <pubDate>Thu, 22 Oct 2026 16:20:04 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[anomalyco/opencode (+445 stars today)]]></title>
-      <link>https://github.com/anomalyco/opencode</link>
-      <guid isPermaLink="false">https://github.com/anomalyco/opencode#2026-10-22</guid>
-      <description><![CDATA[The open source coding agent.]]></description>
-      
-      <pubDate>Thu, 22 Oct 2026 16:20:04 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 21:00:37 GMT</pubDate>
     </item>
   </channel>
 </rss>
