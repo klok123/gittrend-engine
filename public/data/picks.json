@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:09:54.489Z",
+  "generatedAt": "2026-10-23T20:50:07.300Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 371417,
-      "starsGainedToday": 5959
+      "totalStars": 372589,
+      "starsGainedToday": 7131
     },
     {
       "owner": "deepseek-ai",
@@ -33,8 +33,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 259251,
-      "starsGainedToday": 4833
+      "totalStars": 259385,
+      "starsGainedToday": 4967
     },
     {
       "owner": "Gathin23",
@@ -50,25 +50,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 27008,
-      "starsGainedToday": 3412
-    },
-    {
-      "owner": "omlahore",
-      "name": "RemoveMacAI",
-      "fullName": "omlahore/RemoveMacAI",
-      "url": "https://github.com/omlahore/RemoveMacAI",
-      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
-      "topics": [
-        "apple-intelligence",
-        "cli",
-        "debloat",
-        "macos",
-        "macos-27"
-      ],
-      "language": "Swift",
-      "totalStars": 5171,
-      "starsGainedToday": 3182
+      "totalStars": 27609,
+      "starsGainedToday": 4013
     },
     {
       "owner": "Ebony-Vinyl",
@@ -84,8 +67,25 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 38825,
-      "starsGainedToday": 2147
+      "totalStars": 39034,
+      "starsGainedToday": 2356
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 83044,
+      "starsGainedToday": 1423
     }
   ]
 }
