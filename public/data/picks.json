@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-22T21:00:37.183Z",
+  "generatedAt": "2026-10-23T02:38:33.988Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "omlahore",
+      "name": "RemoveMacAI",
+      "fullName": "omlahore/RemoveMacAI",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+      "topics": [
+        "apple-intelligence",
+        "cli",
+        "debloat",
+        "macos",
+        "macos-27"
+      ],
+      "language": "Swift",
+      "totalStars": 5153,
+      "starsGainedToday": 3164
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 365458,
-      "starsGainedToday": 8539
+      "totalStars": 366822,
+      "starsGainedToday": 1364
     },
     {
       "owner": "Gathin23",
@@ -34,8 +51,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 23596,
-      "starsGainedToday": 5066
+      "totalStars": 24442,
+      "starsGainedToday": 846
     },
     {
       "owner": "Ebony-Vinyl",
@@ -51,36 +68,25 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 36678,
-      "starsGainedToday": 2980
+      "totalStars": 36999,
+      "starsGainedToday": 321
     },
     {
-      "owner": "deepseek-ai",
-      "name": "DeepInfer",
-      "fullName": "deepseek-ai/DeepInfer",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 19793,
-      "starsGainedToday": 2128
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner": "Graphify-Labs",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
       "topics": [
         "claude-code",
+        "graphrag",
+        "knowledge-graph",
         "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
+        "openclaw"
       ],
-      "language": "TypeScript",
-      "totalStars": 102645,
-      "starsGainedToday": 1561
+      "language": "Python",
+      "totalStars": 133054,
+      "starsGainedToday": 238
     }
   ]
 }
