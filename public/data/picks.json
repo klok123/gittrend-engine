@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:44:42.274Z",
+  "generatedAt": "2026-10-23T16:09:54.489Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,24 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 369730,
-      "starsGainedToday": 4272
+      "totalStars": 371417,
+      "starsGainedToday": 5959
     },
     {
-      "owner": "omlahore",
-      "name": "RemoveMacAI",
-      "fullName": "omlahore/RemoveMacAI",
-      "url": "https://github.com/omlahore/RemoveMacAI",
-      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
       "topics": [
-        "apple-intelligence",
-        "cli",
-        "debloat",
-        "macos",
-        "macos-27"
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
       ],
-      "language": "Swift",
-      "totalStars": 5162,
-      "starsGainedToday": 3173
+      "language": "TypeScript",
+      "totalStars": 259251,
+      "starsGainedToday": 4833
     },
     {
       "owner": "Gathin23",
@@ -51,8 +50,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 26107,
-      "starsGainedToday": 2511
+      "totalStars": 27008,
+      "starsGainedToday": 3412
+    },
+    {
+      "owner": "omlahore",
+      "name": "RemoveMacAI",
+      "fullName": "omlahore/RemoveMacAI",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+      "topics": [
+        "apple-intelligence",
+        "cli",
+        "debloat",
+        "macos",
+        "macos-27"
+      ],
+      "language": "Swift",
+      "totalStars": 5171,
+      "starsGainedToday": 3182
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,25 +84,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 38105,
-      "starsGainedToday": 1427
-    },
-    {
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
-      "topics": [
-        "claude-code",
-        "graphrag",
-        "knowledge-graph",
-        "codex",
-        "openclaw"
-      ],
-      "language": "Python",
-      "totalStars": 133514,
-      "starsGainedToday": 698
+      "totalStars": 38825,
+      "starsGainedToday": 2147
     }
   ]
 }

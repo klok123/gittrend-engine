@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 10:44:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:09:54 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+4,272 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+5,959 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-23</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,22 +16,21 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Fri, 23 Oct 2026 10:44:42 GMT</pubDate>
+      <pubDate>Fri, 23 Oct 2026 16:09:54 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[omlahore/RemoveMacAI (+3,173 stars today)]]></title>
-      <link>https://github.com/omlahore/RemoveMacAI</link>
-      <guid isPermaLink="false">https://github.com/omlahore/RemoveMacAI#2026-10-23</guid>
-      <description><![CDATA[Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.]]></description>
-      <category>apple-intelligence</category>
-      <category>cli</category>
-      <category>debloat</category>
-      <category>macos</category>
-      <category>macos-27</category>
-      <pubDate>Fri, 23 Oct 2026 10:44:42 GMT</pubDate>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+4,833 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-23</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Fri, 23 Oct 2026 16:09:54 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Gathin23/cleanyourtv (+2,511 stars today)]]></title>
+      <title><![CDATA[Gathin23/cleanyourtv (+3,412 stars today)]]></title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <guid isPermaLink="false">https://github.com/Gathin23/cleanyourtv#2026-10-23</guid>
       <description><![CDATA[Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.]]></description>
@@ -40,10 +39,22 @@
       <category>claude-code</category>
       <category>debloat</category>
       <category>launcher</category>
-      <pubDate>Fri, 23 Oct 2026 10:44:42 GMT</pubDate>
+      <pubDate>Fri, 23 Oct 2026 16:09:54 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,427 stars today)]]></title>
+      <title><![CDATA[omlahore/RemoveMacAI (+3,182 stars today)]]></title>
+      <link>https://github.com/omlahore/RemoveMacAI</link>
+      <guid isPermaLink="false">https://github.com/omlahore/RemoveMacAI#2026-10-23</guid>
+      <description><![CDATA[Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.]]></description>
+      <category>apple-intelligence</category>
+      <category>cli</category>
+      <category>debloat</category>
+      <category>macos</category>
+      <category>macos-27</category>
+      <pubDate>Fri, 23 Oct 2026 16:09:54 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+2,147 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-23</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -52,19 +63,7 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Fri, 23 Oct 2026 10:44:42 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Graphify-Labs/graphify (+698 stars today)]]></title>
-      <link>https://github.com/Graphify-Labs/graphify</link>
-      <guid isPermaLink="false">https://github.com/Graphify-Labs/graphify#2026-10-23</guid>
-      <description><![CDATA[Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…]]></description>
-      <category>claude-code</category>
-      <category>graphrag</category>
-      <category>knowledge-graph</category>
-      <category>codex</category>
-      <category>openclaw</category>
-      <pubDate>Fri, 23 Oct 2026 10:44:42 GMT</pubDate>
+      <pubDate>Fri, 23 Oct 2026 16:09:54 GMT</pubDate>
     </item>
   </channel>
 </rss>
