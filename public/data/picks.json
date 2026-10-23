@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-23T02:38:33.988Z",
+  "generatedAt": "2026-10-23T10:44:42.274Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "omlahore",
-      "name": "RemoveMacAI",
-      "fullName": "omlahore/RemoveMacAI",
-      "url": "https://github.com/omlahore/RemoveMacAI",
-      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
-      "topics": [
-        "apple-intelligence",
-        "cli",
-        "debloat",
-        "macos",
-        "macos-27"
-      ],
-      "language": "Swift",
-      "totalStars": 5153,
-      "starsGainedToday": 3164
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -34,8 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 366822,
-      "starsGainedToday": 1364
+      "totalStars": 369730,
+      "starsGainedToday": 4272
+    },
+    {
+      "owner": "omlahore",
+      "name": "RemoveMacAI",
+      "fullName": "omlahore/RemoveMacAI",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+      "topics": [
+        "apple-intelligence",
+        "cli",
+        "debloat",
+        "macos",
+        "macos-27"
+      ],
+      "language": "Swift",
+      "totalStars": 5162,
+      "starsGainedToday": 3173
     },
     {
       "owner": "Gathin23",
@@ -51,8 +51,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 24442,
-      "starsGainedToday": 846
+      "totalStars": 26107,
+      "starsGainedToday": 2511
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,8 +68,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 36999,
-      "starsGainedToday": 321
+      "totalStars": 38105,
+      "starsGainedToday": 1427
     },
     {
       "owner": "Graphify-Labs",
@@ -85,8 +85,8 @@
         "openclaw"
       ],
       "language": "Python",
-      "totalStars": 133054,
-      "starsGainedToday": 238
+      "totalStars": 133514,
+      "starsGainedToday": 698
     }
   ]
 }
