@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T10:01:14.952Z",
+  "generatedAt": "2026-10-24T15:06:17.992Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 375196,
-      "starsGainedToday": 2607
-    },
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "language": "Python",
-      "totalStars": 71291,
-      "starsGainedToday": 1798
+      "totalStars": 376564,
+      "starsGainedToday": 3975
     },
     {
       "owner": "Gathin23",
@@ -51,8 +34,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 29268,
-      "starsGainedToday": 1659
+      "totalStars": 30394,
+      "starsGainedToday": 2785
+    },
+    {
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
+      ],
+      "language": "Python",
+      "totalStars": 71425,
+      "starsGainedToday": 1932
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,8 +68,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 40181,
-      "starsGainedToday": 1147
+      "totalStars": 40830,
+      "starsGainedToday": 1796
     },
     {
       "owner": "debpalash",
@@ -85,8 +85,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 83958,
-      "starsGainedToday": 914
+      "totalStars": 84362,
+      "starsGainedToday": 1318
     }
   ]
 }
