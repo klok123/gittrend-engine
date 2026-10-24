@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-24T02:36:25.931Z",
+  "generatedAt": "2026-10-24T10:01:14.952Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "language": "Python",
-      "totalStars": 71203,
-      "starsGainedToday": 1710
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -34,8 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 373547,
-      "starsGainedToday": 958
+      "totalStars": 375196,
+      "starsGainedToday": 2607
+    },
+    {
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
+      ],
+      "language": "Python",
+      "totalStars": 71291,
+      "starsGainedToday": 1798
     },
     {
       "owner": "Gathin23",
@@ -51,25 +51,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 28166,
-      "starsGainedToday": 557
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 83450,
-      "starsGainedToday": 406
+      "totalStars": 29268,
+      "starsGainedToday": 1659
     },
     {
       "owner": "Ebony-Vinyl",
@@ -85,8 +68,25 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 39307,
-      "starsGainedToday": 273
+      "totalStars": 40181,
+      "starsGainedToday": 1147
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 83958,
+      "starsGainedToday": 914
     }
   ]
 }
