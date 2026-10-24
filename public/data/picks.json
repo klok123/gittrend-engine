@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:06:17.992Z",
+  "generatedAt": "2026-10-24T20:00:00.810Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 376564,
-      "starsGainedToday": 3975
+      "totalStars": 377843,
+      "starsGainedToday": 5254
     },
     {
       "owner": "Gathin23",
@@ -34,25 +34,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 30394,
-      "starsGainedToday": 2785
-    },
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "language": "Python",
-      "totalStars": 71425,
-      "starsGainedToday": 1932
+      "totalStars": 31244,
+      "starsGainedToday": 3635
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,25 +51,36 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 40830,
-      "starsGainedToday": 1796
+      "totalStars": 41162,
+      "starsGainedToday": 2128
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
       ],
       "language": "Python",
-      "totalStars": 84362,
-      "starsGainedToday": 1318
+      "totalStars": 71547,
+      "starsGainedToday": 2054
+    },
+    {
+      "owner": "Zagitta",
+      "name": "gpu-unlock",
+      "fullName": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+      "topics": [],
+      "language": "C",
+      "totalStars": 2461,
+      "starsGainedToday": 1977
     }
   ]
 }
