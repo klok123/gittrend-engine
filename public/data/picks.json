@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T02:24:24.586Z",
+  "generatedAt": "2026-10-25T10:26:20.039Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 379061,
-      "starsGainedToday": 1218
-    },
-    {
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "fullName": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "topics": [
-        "claude-code",
-        "codex",
-        "frontend",
-        "agent-skills",
-        "ai-agents"
-      ],
-      "language": "JavaScript",
-      "totalStars": 102039,
-      "starsGainedToday": 959
+      "totalStars": 380972,
+      "starsGainedToday": 3129
     },
     {
       "owner": "Gathin23",
@@ -51,40 +34,53 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 31970,
-      "starsGainedToday": 726
+      "totalStars": 33062,
+      "starsGainedToday": 1818
     },
     {
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "topics": [
-        "agent",
-        "agentic",
-        "ai",
-        "golang",
-        "llm"
-      ],
-      "language": "Go",
-      "totalStars": 35312,
-      "starsGainedToday": 611
+      "owner": "JustAResearcher",
+      "name": "gpu-unlock-ada",
+      "fullName": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "topics": [],
+      "language": "C",
+      "totalStars": 1664,
+      "starsGainedToday": 1167
     },
     {
-      "owner": "github",
-      "name": "github-mcp-server",
-      "fullName": "github/github-mcp-server",
-      "url": "https://github.com/github/github-mcp-server",
-      "description": "GitHub's official MCP Server",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "topics": [
-        "github",
-        "mcp",
-        "mcp-server"
+        "claude-code",
+        "codex",
+        "frontend",
+        "agent-skills",
+        "ai-agents"
       ],
-      "language": "Go",
-      "totalStars": 33932,
-      "starsGainedToday": 538
+      "language": "JavaScript",
+      "totalStars": 102198,
+      "starsGainedToday": 1118
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 42134,
+      "starsGainedToday": 972
     }
   ]
 }
