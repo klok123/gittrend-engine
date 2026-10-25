@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T10:26:20.039Z",
+  "generatedAt": "2026-10-25T15:18:22.212Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 380972,
-      "starsGainedToday": 3129
+      "totalStars": 382524,
+      "starsGainedToday": 4681
     },
     {
       "owner": "Gathin23",
@@ -34,8 +34,8 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 33062,
-      "starsGainedToday": 1818
+      "totalStars": 33919,
+      "starsGainedToday": 2675
     },
     {
       "owner": "JustAResearcher",
@@ -45,25 +45,8 @@
       "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
       "topics": [],
       "language": "C",
-      "totalStars": 1664,
-      "starsGainedToday": 1167
-    },
-    {
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "fullName": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "topics": [
-        "claude-code",
-        "codex",
-        "frontend",
-        "agent-skills",
-        "ai-agents"
-      ],
-      "language": "JavaScript",
-      "totalStars": 102198,
-      "starsGainedToday": 1118
+      "totalStars": 2164,
+      "starsGainedToday": 1667
     },
     {
       "owner": "Ebony-Vinyl",
@@ -79,8 +62,25 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 42134,
-      "starsGainedToday": 972
+      "totalStars": 42624,
+      "starsGainedToday": 1462
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 86032,
+      "starsGainedToday": 1335
     }
   ]
 }
