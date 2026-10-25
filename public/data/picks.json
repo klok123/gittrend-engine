@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:18:22.212Z",
+  "generatedAt": "2026-10-25T20:10:44.296Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 382524,
-      "starsGainedToday": 4681
+      "totalStars": 383857,
+      "starsGainedToday": 6014
     },
     {
       "owner": "Gathin23",
@@ -34,8 +34,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 33919,
-      "starsGainedToday": 2675
+      "totalStars": 34605,
+      "starsGainedToday": 3361
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 288739,
+      "starsGainedToday": 2319
     },
     {
       "owner": "JustAResearcher",
@@ -45,25 +62,8 @@
       "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
       "topics": [],
       "language": "C",
-      "totalStars": 2164,
-      "starsGainedToday": 1667
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 42624,
-      "starsGainedToday": 1462
+      "totalStars": 2457,
+      "starsGainedToday": 1960
     },
     {
       "owner": "debpalash",
@@ -79,8 +79,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 86032,
-      "starsGainedToday": 1335
+      "totalStars": 86478,
+      "starsGainedToday": 1781
     }
   ]
 }
