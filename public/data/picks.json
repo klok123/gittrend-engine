@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:55:28.616Z",
+  "generatedAt": "2026-10-26T17:58:24.767Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 388217,
-      "starsGainedToday": 4360
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 63599,
-      "starsGainedToday": 1847
+      "totalStars": 390354,
+      "starsGainedToday": 6497
     },
     {
       "owner": "debpalash",
@@ -45,8 +34,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 87917,
-      "starsGainedToday": 1439
+      "totalStars": 88628,
+      "starsGainedToday": 2150
     },
     {
       "owner": "Ebony-Vinyl",
@@ -62,8 +51,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 44109,
-      "starsGainedToday": 1256
+      "totalStars": 44680,
+      "starsGainedToday": 1827
     },
     {
       "owner": "JustAResearcher",
@@ -73,8 +62,25 @@
       "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
       "topics": [],
       "language": "C",
-      "totalStars": 3480,
-      "starsGainedToday": 1023
+      "totalStars": 3703,
+      "starsGainedToday": 1246
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
+      ],
+      "language": "TypeScript",
+      "totalStars": 106818,
+      "starsGainedToday": 1159
     }
   ]
 }
