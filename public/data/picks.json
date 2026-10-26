@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-10-26T02:24:06.010Z",
+  "generatedAt": "2026-10-26T11:55:28.616Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 63494,
-      "starsGainedToday": 1742
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -28,59 +17,64 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 385105,
-      "starsGainedToday": 1248
+      "totalStars": 388217,
+      "starsGainedToday": 4360
     },
     {
-      "owner": "twentyhq",
-      "name": "twenty",
-      "fullName": "twentyhq/twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 63599,
+      "starsGainedToday": 1847
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "topics": [
-        "crm",
-        "customer",
-        "graphql",
-        "marketing",
-        "react"
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
       ],
-      "language": "TypeScript",
-      "totalStars": 59747,
-      "starsGainedToday": 1237
+      "language": "Python",
+      "totalStars": 87917,
+      "starsGainedToday": 1439
     },
     {
-      "owner": "Gathin23",
-      "name": "cleanyourtv",
-      "fullName": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "adb",
-        "android-tv",
-        "claude-code",
-        "debloat",
-        "launcher"
-      ],
-      "language": "Java",
-      "totalStars": 35469,
-      "starsGainedToday": 864
-    },
-    {
-      "owner": "4ian",
-      "name": "GDevelop",
-      "fullName": "4ian/GDevelop",
-      "url": "https://github.com/4ian/GDevelop",
-      "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
-      "topics": [
-        "game",
-        "javascript",
-        "gamedev",
-        "game-development",
-        "game-engine"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 28049,
-      "starsGainedToday": 641
+      "totalStars": 44109,
+      "starsGainedToday": 1256
+    },
+    {
+      "owner": "JustAResearcher",
+      "name": "gpu-unlock-ada",
+      "fullName": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "topics": [],
+      "language": "C",
+      "totalStars": 3480,
+      "starsGainedToday": 1023
     }
   ]
 }
