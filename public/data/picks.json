@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-10-25T20:10:44.296Z",
+  "generatedAt": "2026-10-26T02:24:06.010Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 63494,
+      "starsGainedToday": 1742
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +28,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 383857,
-      "starsGainedToday": 6014
+      "totalStars": 385105,
+      "starsGainedToday": 1248
+    },
+    {
+      "owner": "twentyhq",
+      "name": "twenty",
+      "fullName": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "topics": [
+        "crm",
+        "customer",
+        "graphql",
+        "marketing",
+        "react"
+      ],
+      "language": "TypeScript",
+      "totalStars": 59747,
+      "starsGainedToday": 1237
     },
     {
       "owner": "Gathin23",
@@ -34,53 +62,25 @@
         "launcher"
       ],
       "language": "Java",
-      "totalStars": 34605,
-      "starsGainedToday": 3361
+      "totalStars": 35469,
+      "starsGainedToday": 864
     },
     {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "owner": "4ian",
+      "name": "GDevelop",
+      "fullName": "4ian/GDevelop",
+      "url": "https://github.com/4ian/GDevelop",
+      "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
       "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
+        "game",
+        "javascript",
+        "gamedev",
+        "game-development",
+        "game-engine"
       ],
       "language": "JavaScript",
-      "totalStars": 288739,
-      "starsGainedToday": 2319
-    },
-    {
-      "owner": "JustAResearcher",
-      "name": "gpu-unlock-ada",
-      "fullName": "JustAResearcher/gpu-unlock-ada",
-      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-      "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
-      "topics": [],
-      "language": "C",
-      "totalStars": 2457,
-      "starsGainedToday": 1960
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 86478,
-      "starsGainedToday": 1781
+      "totalStars": 28049,
+      "starsGainedToday": 641
     }
   ]
 }
