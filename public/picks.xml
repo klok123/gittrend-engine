@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 11:18:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 17:04:52 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[TauricResearch/TradingAgents (+5,036 stars today)]]></title>
+      <title><![CDATA[TauricResearch/TradingAgents (+5,256 stars today)]]></title>
       <link>https://github.com/TauricResearch/TradingAgents</link>
       <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-10-27</guid>
       <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
@@ -16,10 +16,10 @@
       <category>llm</category>
       <category>multiagent</category>
       <category>trading</category>
-      <pubDate>Tue, 27 Oct 2026 11:18:43 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 17:04:52 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+3,261 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+4,783 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-27</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -28,22 +28,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Tue, 27 Oct 2026 11:18:43 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 17:04:52 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[shareAI-lab/learn-claude-code (+1,490 stars today)]]></title>
-      <link>https://github.com/shareAI-lab/learn-claude-code</link>
-      <guid isPermaLink="false">https://github.com/shareAI-lab/learn-claude-code#2026-10-27</guid>
-      <description><![CDATA[Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1]]></description>
-      <category>agent</category>
-      <category>claude-code</category>
-      <category>teaching</category>
-      <category>agent-development</category>
-      <category>ai-agent</category>
-      <pubDate>Tue, 27 Oct 2026 11:18:43 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+1,372 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+1,873 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
       <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-27</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
@@ -52,10 +40,22 @@
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Tue, 27 Oct 2026 11:18:43 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 17:04:52 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[KnifeLemon/Filee (+1,314 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,824 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-27</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Tue, 27 Oct 2026 17:04:52 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[KnifeLemon/Filee (+1,641 stars today)]]></title>
       <link>https://github.com/KnifeLemon/Filee</link>
       <guid isPermaLink="false">https://github.com/KnifeLemon/Filee#2026-10-27</guid>
       <description><![CDATA[Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.]]></description>
@@ -64,7 +64,7 @@
       <category>batch-conversion</category>
       <category>converter</category>
       <category>csharp</category>
-      <pubDate>Tue, 27 Oct 2026 11:18:43 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 17:04:52 GMT</pubDate>
     </item>
   </channel>
 </rss>

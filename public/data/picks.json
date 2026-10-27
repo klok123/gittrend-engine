@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T11:18:43.214Z",
+  "generatedAt": "2026-10-27T17:04:52.740Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "trading"
       ],
       "language": "Python",
-      "totalStars": 116921,
-      "starsGainedToday": 5036
+      "totalStars": 117141,
+      "starsGainedToday": 5256
     },
     {
       "owner": "morluto",
@@ -34,25 +34,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 394498,
-      "starsGainedToday": 3261
-    },
-    {
-      "owner": "shareAI-lab",
-      "name": "learn-claude-code",
-      "fullName": "shareAI-lab/learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
-      "topics": [
-        "agent",
-        "claude-code",
-        "teaching",
-        "agent-development",
-        "ai-agent"
-      ],
-      "language": "Python",
-      "totalStars": 79335,
-      "starsGainedToday": 1490
+      "totalStars": 396020,
+      "starsGainedToday": 4783
     },
     {
       "owner": "debpalash",
@@ -68,8 +51,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 90424,
-      "starsGainedToday": 1372
+      "totalStars": 90925,
+      "starsGainedToday": 1873
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 46593,
+      "starsGainedToday": 1824
     },
     {
       "owner": "KnifeLemon",
@@ -85,8 +85,8 @@
         "csharp"
       ],
       "language": "C#",
-      "totalStars": 14241,
-      "starsGainedToday": 1314
+      "totalStars": 14568,
+      "starsGainedToday": 1641
     }
   ]
 }
