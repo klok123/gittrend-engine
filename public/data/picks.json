@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-27T02:59:40.716Z",
+  "generatedAt": "2026-10-27T11:18:43.214Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "language": "Python",
+      "totalStars": 116921,
+      "starsGainedToday": 5036
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,25 +34,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 392266,
-      "starsGainedToday": 1029
+      "totalStars": 394498,
+      "starsGainedToday": 3261
     },
     {
-      "owner": "KnifeLemon",
-      "name": "Filee",
-      "fullName": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "owner": "shareAI-lab",
+      "name": "learn-claude-code",
+      "fullName": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
       "topics": [
-        "audio-converter",
-        "avalonia",
-        "batch-conversion",
-        "converter",
-        "csharp"
+        "agent",
+        "claude-code",
+        "teaching",
+        "agent-development",
+        "ai-agent"
       ],
-      "language": "C#",
-      "totalStars": 13486,
-      "starsGainedToday": 559
+      "language": "Python",
+      "totalStars": 79335,
+      "starsGainedToday": 1490
     },
     {
       "owner": "debpalash",
@@ -51,42 +68,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 89474,
-      "starsGainedToday": 422
+      "totalStars": 90424,
+      "starsGainedToday": 1372
     },
     {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner": "KnifeLemon",
+      "name": "Filee",
+      "fullName": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp"
       ],
-      "language": "Python",
-      "totalStars": 103777,
-      "starsGainedToday": 323
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 45041,
-      "starsGainedToday": 272
+      "language": "C#",
+      "totalStars": 14241,
+      "starsGainedToday": 1314
     }
   ]
 }
