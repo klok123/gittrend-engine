@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-10-27T17:04:52.740Z",
+  "generatedAt": "2026-10-27T21:38:30.374Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "fullName": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "topics": [
-        "agent",
-        "finance",
-        "llm",
-        "multiagent",
-        "trading"
-      ],
-      "language": "Python",
-      "totalStars": 117141,
-      "starsGainedToday": 5256
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -34,8 +17,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 396020,
-      "starsGainedToday": 4783
+      "totalStars": 396923,
+      "starsGainedToday": 5686
+    },
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "language": "Python",
+      "totalStars": 117252,
+      "starsGainedToday": 5367
     },
     {
       "owner": "debpalash",
@@ -51,8 +51,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 90925,
-      "starsGainedToday": 1873
+      "totalStars": 91166,
+      "starsGainedToday": 2114
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,8 +68,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 46593,
-      "starsGainedToday": 1824
+      "totalStars": 46716,
+      "starsGainedToday": 1947
     },
     {
       "owner": "KnifeLemon",
@@ -85,8 +85,8 @@
         "csharp"
       ],
       "language": "C#",
-      "totalStars": 14568,
-      "starsGainedToday": 1641
+      "totalStars": 14660,
+      "starsGainedToday": 1733
     }
   ]
 }
