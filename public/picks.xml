@@ -5,66 +5,64 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 21:38:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 03:10:00 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+5,686 stars today)]]></title>
+      <title><![CDATA[521xueweihan/HelloGitHub (+5,669 stars today)]]></title>
+      <link>https://github.com/521xueweihan/HelloGitHub</link>
+      <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-10-28</guid>
+      <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
+      <category>github</category>
+      <category>hellogithub</category>
+      <category>python</category>
+      <category>awesome</category>
+      <pubDate>Wed, 28 Oct 2026 03:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+2,541 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-28</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Wed, 28 Oct 2026 03:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+979 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-27</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-28</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Tue, 27 Oct 2026 21:38:30 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 03:10:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[TauricResearch/TradingAgents (+5,367 stars today)]]></title>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-10-27</guid>
-      <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
-      <category>agent</category>
-      <category>finance</category>
-      <category>llm</category>
-      <category>multiagent</category>
-      <category>trading</category>
-      <pubDate>Tue, 27 Oct 2026 21:38:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+2,114 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+379 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-27</guid>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-10-28</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
       <category>tts</category>
       <category>voice-cloning</category>
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Tue, 27 Oct 2026 21:38:30 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 03:10:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,947 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-27</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
-      <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Tue, 27 Oct 2026 21:38:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[KnifeLemon/Filee (+1,733 stars today)]]></title>
-      <link>https://github.com/KnifeLemon/Filee</link>
-      <guid isPermaLink="false">https://github.com/KnifeLemon/Filee#2026-10-27</guid>
-      <description><![CDATA[Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.]]></description>
-      <category>audio-converter</category>
-      <category>avalonia</category>
-      <category>batch-conversion</category>
-      <category>converter</category>
-      <category>csharp</category>
-      <pubDate>Tue, 27 Oct 2026 21:38:30 GMT</pubDate>
+      <title><![CDATA[pbakaus/impeccable (+344 stars today)]]></title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-28</guid>
+      <description><![CDATA[The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.]]></description>
+      <category>agent-skills</category>
+      <category>ai</category>
+      <category>anti-slop</category>
+      <category>design</category>
+      <category>slop</category>
+      <pubDate>Wed, 28 Oct 2026 03:10:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
