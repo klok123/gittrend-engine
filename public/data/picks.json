@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:53:02.752Z",
+  "generatedAt": "2026-10-28T17:41:32.502Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,24 +16,8 @@
         "awesome"
       ],
       "language": "Python",
-      "totalStars": 185193,
-      "starsGainedToday": 5795
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 264397,
-      "starsGainedToday": 3102
+      "totalStars": 185277,
+      "starsGainedToday": 5879
     },
     {
       "owner": "morluto",
@@ -49,8 +33,24 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 399936,
-      "starsGainedToday": 3013
+      "totalStars": 401429,
+      "starsGainedToday": 4506
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 264668,
+      "starsGainedToday": 3373
     },
     {
       "owner": "Ebony-Vinyl",
@@ -66,25 +66,25 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 48072,
-      "starsGainedToday": 1356
+      "totalStars": 48715,
+      "starsGainedToday": 1999
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
       ],
-      "language": "Python",
-      "totalStars": 92233,
-      "starsGainedToday": 1067
+      "language": "Rust",
+      "totalStars": 92157,
+      "starsGainedToday": 1763
     }
   ]
 }
