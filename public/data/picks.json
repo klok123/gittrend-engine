@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T03:10:00.497Z",
+  "generatedAt": "2026-10-28T11:53:02.752Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,8 +16,8 @@
         "awesome"
       ],
       "language": "Python",
-      "totalStars": 185067,
-      "starsGainedToday": 5669
+      "totalStars": 185193,
+      "starsGainedToday": 5795
     },
     {
       "owner": "deepseek-ai",
@@ -32,8 +32,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 263836,
-      "starsGainedToday": 2541
+      "totalStars": 264397,
+      "starsGainedToday": 3102
     },
     {
       "owner": "morluto",
@@ -49,8 +49,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 397902,
-      "starsGainedToday": 979
+      "totalStars": 399936,
+      "starsGainedToday": 3013
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 48072,
+      "starsGainedToday": 1356
     },
     {
       "owner": "debpalash",
@@ -66,25 +83,8 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 91545,
-      "starsGainedToday": 379
-    },
-    {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "anti-slop",
-        "design",
-        "slop"
-      ],
-      "language": "Rust",
-      "totalStars": 90738,
-      "starsGainedToday": 344
+      "totalStars": 92233,
+      "starsGainedToday": 1067
     }
   ]
 }
