@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 18:09:50 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+10,241 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+10,522 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-29</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -16,10 +16,10 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 18:09:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[addyosmani/agent-skills (+4,590 stars today)]]></title>
+      <title><![CDATA[addyosmani/agent-skills (+4,680 stars today)]]></title>
       <link>https://github.com/addyosmani/agent-skills</link>
       <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-29</guid>
       <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
@@ -28,10 +28,10 @@
       <category>claude-code</category>
       <category>cursor</category>
       <category>skills</category>
-      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 18:09:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+3,201 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+4,647 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-29</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -40,22 +40,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 18:09:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,742 stars today)]]></title>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-10-29</guid>
-      <description><![CDATA[Learn AI Engineering! Learn it. Build it. Ship it for others.]]></description>
-      <category>agents</category>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>ai-engineering</category>
-      <category>computer-vision</category>
-      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pbakaus/impeccable (+1,709 stars today)]]></title>
+      <title><![CDATA[pbakaus/impeccable (+2,442 stars today)]]></title>
       <link>https://github.com/pbakaus/impeccable</link>
       <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-29</guid>
       <description><![CDATA[The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.]]></description>
@@ -64,7 +52,19 @@
       <category>anti-slop</category>
       <category>design</category>
       <category>slop</category>
-      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 18:09:50 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,934 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-29</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Thu, 29 Oct 2026 18:09:50 GMT</pubDate>
     </item>
   </channel>
 </rss>
