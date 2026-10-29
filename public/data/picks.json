@@ -1,23 +1,24 @@
 {
-  "generatedAt": "2026-10-28T22:02:18.598Z",
+  "generatedAt": "2026-10-29T03:35:41.064Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "521xueweihan",
-      "name": "HelloGitHub",
-      "fullName": "521xueweihan/HelloGitHub",
-      "url": "https://github.com/521xueweihan/HelloGitHub",
-      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "topics": [
-        "github",
-        "hellogithub",
-        "python",
-        "awesome"
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
       ],
-      "language": "Python",
-      "totalStars": 185300,
-      "starsGainedToday": 5902
+      "language": "JavaScript",
+      "totalStars": 179303,
+      "starsGainedToday": 9869
     },
     {
       "owner": "morluto",
@@ -33,54 +34,59 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 402147,
-      "starsGainedToday": 5224
+      "totalStars": 403319,
+      "starsGainedToday": 1172
     },
     {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "owner": "ai-job-search-dev",
+      "name": "ai-job-search",
+      "fullName": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "topics": [
-        "agent-skills"
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code",
+        "cover-letter"
       ],
       "language": "Python",
-      "totalStars": 184505,
-      "starsGainedToday": 4016
+      "totalStars": 67222,
+      "starsGainedToday": 674
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
+        "agent",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
       ],
-      "language": "TypeScript",
-      "totalStars": 264753,
-      "starsGainedToday": 3458
+      "language": "Go",
+      "totalStars": 48857,
+      "starsGainedToday": 659
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
       ],
-      "language": "JavaScript",
-      "totalStars": 48823,
-      "starsGainedToday": 2107
+      "language": "Rust",
+      "totalStars": 93060,
+      "starsGainedToday": 598
     }
   ]
 }

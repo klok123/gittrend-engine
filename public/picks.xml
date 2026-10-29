@@ -5,60 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 03:35:41 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[521xueweihan/HelloGitHub (+5,902 stars today)]]></title>
-      <link>https://github.com/521xueweihan/HelloGitHub</link>
-      <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-10-28</guid>
-      <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
-      <category>github</category>
-      <category>hellogithub</category>
-      <category>python</category>
-      <category>awesome</category>
-      <pubDate>Wed, 28 Oct 2026 22:02:18 GMT</pubDate>
+      <title><![CDATA[DietrichGebert/ponytail (+9,869 stars today)]]></title>
+      <link>https://github.com/DietrichGebert/ponytail</link>
+      <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-29</guid>
+      <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
+      <category>agent-skills</category>
+      <category>ai-agents</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>claude-code-plugin</category>
+      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+5,224 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,172 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-28</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-29</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>ai-agents</category>
       <category>binary-analysis</category>
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Wed, 28 Oct 2026 22:02:18 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[anthropics/skills (+4,016 stars today)]]></title>
-      <link>https://github.com/anthropics/skills</link>
-      <guid isPermaLink="false">https://github.com/anthropics/skills#2026-10-28</guid>
-      <description><![CDATA[Public repository for Agent Skills]]></description>
+      <title><![CDATA[ai-job-search-dev/ai-job-search (+674 stars today)]]></title>
+      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
+      <guid isPermaLink="false">https://github.com/ai-job-search-dev/ai-job-search#2026-10-29</guid>
+      <description><![CDATA[The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.]]></description>
+      <category>ai</category>
+      <category>ai-agents</category>
+      <category>career</category>
+      <category>claude-code</category>
+      <category>cover-letter</category>
+      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[alibaba/open-code-review (+659 stars today)]]></title>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <guid isPermaLink="false">https://github.com/alibaba/open-code-review#2026-10-29</guid>
+      <description><![CDATA[Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…]]></description>
+      <category>agent</category>
+      <category>code-review</category>
+      <category>code-review-assistant</category>
+      <category>harness</category>
+      <category>repository-level-context</category>
+      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[pbakaus/impeccable (+598 stars today)]]></title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-29</guid>
+      <description><![CDATA[The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.]]></description>
       <category>agent-skills</category>
-      <pubDate>Wed, 28 Oct 2026 22:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+3,458 stars today)]]></title>
-      <link>https://github.com/deepseek-ai/deepseek-harness</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-10-28</guid>
-      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
-      <category>cordis</category>
-      <category>dsh</category>
-      <category>dsh-plugin</category>
-      <category>ai-agents</category>
-      <pubDate>Wed, 28 Oct 2026 22:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+2,107 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-28</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
-      <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Wed, 28 Oct 2026 22:02:18 GMT</pubDate>
+      <category>ai</category>
+      <category>anti-slop</category>
+      <category>design</category>
+      <category>slop</category>
+      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
