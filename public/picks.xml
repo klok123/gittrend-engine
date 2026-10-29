@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 03:35:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 12:00:09 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+9,869 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+10,241 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-10-29</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -16,10 +16,22 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+1,172 stars today)]]></title>
+      <title><![CDATA[addyosmani/agent-skills (+4,590 stars today)]]></title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-10-29</guid>
+      <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
+      <category>agent-skills</category>
+      <category>antigravity</category>
+      <category>claude-code</category>
+      <category>cursor</category>
+      <category>skills</category>
+      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+3,201 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-29</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -28,34 +40,22 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[ai-job-search-dev/ai-job-search (+674 stars today)]]></title>
-      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
-      <guid isPermaLink="false">https://github.com/ai-job-search-dev/ai-job-search#2026-10-29</guid>
-      <description><![CDATA[The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.]]></description>
+      <title><![CDATA[rohitg00/ai-engineering-from-scratch (+1,742 stars today)]]></title>
+      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
+      <guid isPermaLink="false">https://github.com/rohitg00/ai-engineering-from-scratch#2026-10-29</guid>
+      <description><![CDATA[Learn AI Engineering! Learn it. Build it. Ship it for others.]]></description>
+      <category>agents</category>
       <category>ai</category>
       <category>ai-agents</category>
-      <category>career</category>
-      <category>claude-code</category>
-      <category>cover-letter</category>
-      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+      <category>ai-engineering</category>
+      <category>computer-vision</category>
+      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[alibaba/open-code-review (+659 stars today)]]></title>
-      <link>https://github.com/alibaba/open-code-review</link>
-      <guid isPermaLink="false">https://github.com/alibaba/open-code-review#2026-10-29</guid>
-      <description><![CDATA[Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…]]></description>
-      <category>agent</category>
-      <category>code-review</category>
-      <category>code-review-assistant</category>
-      <category>harness</category>
-      <category>repository-level-context</category>
-      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pbakaus/impeccable (+598 stars today)]]></title>
+      <title><![CDATA[pbakaus/impeccable (+1,709 stars today)]]></title>
       <link>https://github.com/pbakaus/impeccable</link>
       <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-29</guid>
       <description><![CDATA[The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.]]></description>
@@ -64,7 +64,7 @@
       <category>anti-slop</category>
       <category>design</category>
       <category>slop</category>
-      <pubDate>Thu, 29 Oct 2026 03:35:41 GMT</pubDate>
+      <pubDate>Thu, 29 Oct 2026 12:00:09 GMT</pubDate>
     </item>
   </channel>
 </rss>

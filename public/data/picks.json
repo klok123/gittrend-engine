@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T03:35:41.064Z",
+  "generatedAt": "2026-10-29T12:00:09.342Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 179303,
-      "starsGainedToday": 9869
+      "totalStars": 179675,
+      "starsGainedToday": 10241
+    },
+    {
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "language": "JavaScript",
+      "totalStars": 111593,
+      "starsGainedToday": 4590
     },
     {
       "owner": "morluto",
@@ -34,42 +51,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 403319,
-      "starsGainedToday": 1172
+      "totalStars": 405348,
+      "starsGainedToday": 3201
     },
     {
-      "owner": "ai-job-search-dev",
-      "name": "ai-job-search",
-      "fullName": "ai-job-search-dev/ai-job-search",
-      "url": "https://github.com/ai-job-search-dev/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "topics": [
+        "agents",
         "ai",
         "ai-agents",
-        "career",
-        "claude-code",
-        "cover-letter"
+        "ai-engineering",
+        "computer-vision"
       ],
       "language": "Python",
-      "totalStars": 67222,
-      "starsGainedToday": 674
-    },
-    {
-      "owner": "alibaba",
-      "name": "open-code-review",
-      "fullName": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…",
-      "topics": [
-        "agent",
-        "code-review",
-        "code-review-assistant",
-        "harness",
-        "repository-level-context"
-      ],
-      "language": "Go",
-      "totalStars": 48857,
-      "starsGainedToday": 659
+      "totalStars": 75478,
+      "starsGainedToday": 1742
     },
     {
       "owner": "pbakaus",
@@ -85,8 +85,8 @@
         "slop"
       ],
       "language": "Rust",
-      "totalStars": 93060,
-      "starsGainedToday": 598
+      "totalStars": 94171,
+      "starsGainedToday": 1709
     }
   ]
 }
