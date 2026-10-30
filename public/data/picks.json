@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T11:54:06.709Z",
+  "generatedAt": "2026-10-30T17:29:42.024Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 410206,
-      "starsGainedToday": 3412
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 65068,
-      "starsGainedToday": 1469
+      "totalStars": 411349,
+      "starsGainedToday": 4555
     },
     {
       "owner": "pbakaus",
@@ -45,25 +34,8 @@
         "slop"
       ],
       "language": "Rust",
-      "totalStars": 96365,
-      "starsGainedToday": 1461
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
-      ],
-      "language": "JavaScript",
-      "totalStars": 293038,
-      "starsGainedToday": 1340
+      "totalStars": 96735,
+      "starsGainedToday": 1831
     },
     {
       "owner": "Ebony-Vinyl",
@@ -79,8 +51,36 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 52081,
-      "starsGainedToday": 1324
+      "totalStars": 52581,
+      "starsGainedToday": 1824
+    },
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 65159,
+      "starsGainedToday": 1560
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 293233,
+      "starsGainedToday": 1535
     }
   ]
 }

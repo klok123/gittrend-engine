@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:54:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:29:42 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+3,412 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+4,555 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-30</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,18 +16,10 @@
       <category>cli</category>
       <category>decompiler</category>
       <category>mcp</category>
-      <pubDate>Fri, 30 Oct 2026 11:54:06 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 17:29:42 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Alishahryar1/free-claude-code (+1,469 stars today)]]></title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-30</guid>
-      <description><![CDATA[Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…]]></description>
-      
-      <pubDate>Fri, 30 Oct 2026 11:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pbakaus/impeccable (+1,461 stars today)]]></title>
+      <title><![CDATA[pbakaus/impeccable (+1,831 stars today)]]></title>
       <link>https://github.com/pbakaus/impeccable</link>
       <guid isPermaLink="false">https://github.com/pbakaus/impeccable#2026-10-30</guid>
       <description><![CDATA[The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.]]></description>
@@ -36,22 +28,10 @@
       <category>anti-slop</category>
       <category>design</category>
       <category>slop</category>
-      <pubDate>Fri, 30 Oct 2026 11:54:06 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 17:29:42 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[affaan-m/ECC (+1,340 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-30</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Fri, 30 Oct 2026 11:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,324 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,824 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-30</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -60,7 +40,27 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Fri, 30 Oct 2026 11:54:06 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 17:29:42 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Alishahryar1/free-claude-code (+1,560 stars today)]]></title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-10-30</guid>
+      <description><![CDATA[Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…]]></description>
+      
+      <pubDate>Fri, 30 Oct 2026 17:29:42 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[affaan-m/ECC (+1,535 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-10-30</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
+      <category>ai-agents</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Fri, 30 Oct 2026 17:29:42 GMT</pubDate>
     </item>
   </channel>
 </rss>
