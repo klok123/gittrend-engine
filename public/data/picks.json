@@ -1,42 +1,8 @@
 {
-  "generatedAt": "2026-10-29T18:09:50.259Z",
+  "generatedAt": "2026-10-30T03:38:38.783Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin"
-      ],
-      "language": "JavaScript",
-      "totalStars": 179956,
-      "starsGainedToday": 10522
-    },
-    {
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "cursor",
-        "skills"
-      ],
-      "language": "JavaScript",
-      "totalStars": 111683,
-      "starsGainedToday": 4680
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -51,8 +17,36 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 406794,
-      "starsGainedToday": 4647
+      "totalStars": 408444,
+      "starsGainedToday": 1650
+    },
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 64978,
+      "starsGainedToday": 1379
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 292788,
+      "starsGainedToday": 1090
     },
     {
       "owner": "pbakaus",
@@ -68,25 +62,25 @@
         "slop"
       ],
       "language": "Rust",
-      "totalStars": 94904,
-      "starsGainedToday": 2442
+      "totalStars": 95629,
+      "starsGainedToday": 725
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
       "topics": [
+        "ai",
         "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence"
       ],
-      "language": "JavaScript",
-      "totalStars": 50757,
-      "starsGainedToday": 1934
+      "language": "TypeScript",
+      "totalStars": 104937,
+      "starsGainedToday": 445
     }
   ]
 }
