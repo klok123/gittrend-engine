@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T17:29:42.024Z",
+  "generatedAt": "2026-10-30T21:49:34.540Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 411349,
-      "starsGainedToday": 4555
+      "totalStars": 412021,
+      "starsGainedToday": 5227
     },
     {
       "owner": "pbakaus",
@@ -34,8 +34,8 @@
         "slop"
       ],
       "language": "Rust",
-      "totalStars": 96735,
-      "starsGainedToday": 1831
+      "totalStars": 96929,
+      "starsGainedToday": 2025
     },
     {
       "owner": "Ebony-Vinyl",
@@ -51,19 +51,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 52581,
-      "starsGainedToday": 1824
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 65159,
-      "starsGainedToday": 1560
+      "totalStars": 52752,
+      "starsGainedToday": 1995
     },
     {
       "owner": "affaan-m",
@@ -79,8 +68,25 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 293233,
-      "starsGainedToday": 1535
+      "totalStars": 293352,
+      "starsGainedToday": 1654
+    },
+    {
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence"
+      ],
+      "language": "TypeScript",
+      "totalStars": 106087,
+      "starsGainedToday": 1595
     }
   ]
 }
