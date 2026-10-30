@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T03:38:38.783Z",
+  "generatedAt": "2026-10-30T11:54:06.709Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 408444,
-      "starsGainedToday": 1650
+      "totalStars": 410206,
+      "starsGainedToday": 3412
     },
     {
       "owner": "Alishahryar1",
@@ -28,25 +28,8 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
       "topics": [],
       "language": "Python",
-      "totalStars": 64978,
-      "starsGainedToday": 1379
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
-      ],
-      "language": "JavaScript",
-      "totalStars": 292788,
-      "starsGainedToday": 1090
+      "totalStars": 65068,
+      "starsGainedToday": 1469
     },
     {
       "owner": "pbakaus",
@@ -62,25 +45,42 @@
         "slop"
       ],
       "language": "Rust",
-      "totalStars": 95629,
-      "starsGainedToday": 725
+      "totalStars": 96365,
+      "starsGainedToday": 1461
     },
     {
-      "owner": "thedotmack",
-      "name": "claude-mem",
-      "fullName": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "topics": [
-        "ai",
         "ai-agents",
-        "ai-memory",
         "anthropic",
-        "artificial-intelligence"
+        "claude",
+        "claude-code",
+        "developer-tools"
       ],
-      "language": "TypeScript",
-      "totalStars": 104937,
-      "starsGainedToday": 445
+      "language": "JavaScript",
+      "totalStars": 293038,
+      "starsGainedToday": 1340
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 52081,
+      "starsGainedToday": 1324
     }
   ]
 }
