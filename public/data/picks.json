@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T16:34:40.874Z",
+  "generatedAt": "2026-10-31T20:49:53.627Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 414662,
-      "starsGainedToday": 2641
+      "totalStars": 415173,
+      "starsGainedToday": 3152
     },
     {
       "owner": "pengchujin",
@@ -28,8 +28,8 @@
       "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 8293,
-      "starsGainedToday": 2276
+      "totalStars": 8314,
+      "starsGainedToday": 2297
     },
     {
       "owner": "heydamir",
@@ -39,25 +39,25 @@
       "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 2897,
-      "starsGainedToday": 1879
+      "totalStars": 3249,
+      "starsGainedToday": 2231
     },
     {
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
       "topics": [
-        "claude-code",
-        "graphrag",
-        "knowledge-graph",
-        "codex",
-        "openclaw"
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence"
       ],
-      "language": "Python",
-      "totalStars": 139878,
-      "starsGainedToday": 1392
+      "language": "TypeScript",
+      "totalStars": 107662,
+      "starsGainedToday": 1575
     },
     {
       "owner": "Ebony-Vinyl",
@@ -73,8 +73,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 54093,
-      "starsGainedToday": 1341
+      "totalStars": 54272,
+      "starsGainedToday": 1520
     }
   ]
 }
