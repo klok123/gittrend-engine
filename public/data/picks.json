@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T03:23:44.285Z",
+  "generatedAt": "2026-10-31T11:28:01.213Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,25 @@
       "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
       "topics": [],
       "language": "Kotlin",
-      "totalStars": 8094,
-      "starsGainedToday": 2077
+      "totalStars": 8209,
+      "starsGainedToday": 2192
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
+      ],
+      "language": "TypeScript",
+      "totalStars": 413803,
+      "starsGainedToday": 1782
     },
     {
       "owner": "Graphify-Labs",
@@ -28,59 +45,36 @@
         "openclaw"
       ],
       "language": "Python",
-      "totalStars": 139533,
-      "starsGainedToday": 1047
+      "totalStars": 139742,
+      "starsGainedToday": 1256
     },
     {
-      "owner": "DavidHDev",
-      "name": "react-bits",
-      "fullName": "DavidHDev/react-bits",
-      "url": "https://github.com/DavidHDev/react-bits",
-      "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
-      "topics": [
-        "animations",
-        "components",
-        "components-library",
-        "components-react",
-        "javascript"
-      ],
+      "owner": "heydamir",
+      "name": "unslop",
+      "fullName": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "topics": [],
       "language": "JavaScript",
-      "totalStars": 50789,
-      "starsGainedToday": 877
+      "totalStars": 2264,
+      "starsGainedToday": 1246
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "ai-job-search-dev",
+      "name": "ai-job-search",
+      "fullName": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "topics": [
+        "ai",
         "ai-agents",
-        "binary-analysis",
-        "cli",
-        "decompiler",
-        "mcp"
+        "career",
+        "claude-code",
+        "cover-letter"
       ],
-      "language": "TypeScript",
-      "totalStars": 412665,
-      "starsGainedToday": 644
-    },
-    {
-      "owner": "wangzan101",
-      "name": "Mika",
-      "fullName": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose"
-      ],
-      "language": "Kotlin",
-      "totalStars": 1545,
-      "starsGainedToday": 409
+      "language": "Python",
+      "totalStars": 68228,
+      "starsGainedToday": 1006
     }
   ]
 }

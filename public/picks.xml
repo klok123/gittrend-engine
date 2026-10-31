@@ -5,17 +5,29 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 03:23:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 11:28:01 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[pengchujin/aerial-tv (+2,077 stars today)]]></title>
+      <title><![CDATA[pengchujin/aerial-tv (+2,192 stars today)]]></title>
       <link>https://github.com/pengchujin/aerial-tv</link>
       <guid isPermaLink="false">https://github.com/pengchujin/aerial-tv#2026-10-31</guid>
       <description><![CDATA[给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.]]></description>
       
-      <pubDate>Sat, 31 Oct 2026 03:23:44 GMT</pubDate>
+      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Graphify-Labs/graphify (+1,047 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,782 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-31</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>cli</category>
+      <category>mcp</category>
+      <category>agent-skills</category>
+      <category>dsh-plugin</category>
+      <category>claude-code</category>
+      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Graphify-Labs/graphify (+1,256 stars today)]]></title>
       <link>https://github.com/Graphify-Labs/graphify</link>
       <guid isPermaLink="false">https://github.com/Graphify-Labs/graphify#2026-10-31</guid>
       <description><![CDATA[Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…]]></description>
@@ -24,43 +36,27 @@
       <category>knowledge-graph</category>
       <category>codex</category>
       <category>openclaw</category>
-      <pubDate>Sat, 31 Oct 2026 03:23:44 GMT</pubDate>
+      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[DavidHDev/react-bits (+877 stars today)]]></title>
-      <link>https://github.com/DavidHDev/react-bits</link>
-      <guid isPermaLink="false">https://github.com/DavidHDev/react-bits#2026-10-31</guid>
-      <description><![CDATA[The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.]]></description>
-      <category>animations</category>
-      <category>components</category>
-      <category>components-library</category>
-      <category>components-react</category>
-      <category>javascript</category>
-      <pubDate>Sat, 31 Oct 2026 03:23:44 GMT</pubDate>
+      <title><![CDATA[heydamir/unslop (+1,246 stars today)]]></title>
+      <link>https://github.com/heydamir/unslop</link>
+      <guid isPermaLink="false">https://github.com/heydamir/unslop#2026-10-31</guid>
+      <description><![CDATA[A Claude skill that turns vibecoded, AI-looking UI into a designed interface]]></description>
+      
+      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+644 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-31</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <title><![CDATA[ai-job-search-dev/ai-job-search (+1,006 stars today)]]></title>
+      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
+      <guid isPermaLink="false">https://github.com/ai-job-search-dev/ai-job-search#2026-10-31</guid>
+      <description><![CDATA[The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.]]></description>
+      <category>ai</category>
       <category>ai-agents</category>
-      <category>binary-analysis</category>
-      <category>cli</category>
-      <category>decompiler</category>
-      <category>mcp</category>
-      <pubDate>Sat, 31 Oct 2026 03:23:44 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[wangzan101/Mika (+409 stars today)]]></title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <guid isPermaLink="false">https://github.com/wangzan101/Mika#2026-10-31</guid>
-      <description><![CDATA[Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.]]></description>
-      <category>accessibility</category>
-      <category>ai-agent</category>
-      <category>android</category>
-      <category>automation</category>
-      <category>jetpack-compose</category>
-      <pubDate>Sat, 31 Oct 2026 03:23:44 GMT</pubDate>
+      <category>career</category>
+      <category>claude-code</category>
+      <category>cover-letter</category>
+      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
     </item>
   </channel>
 </rss>
