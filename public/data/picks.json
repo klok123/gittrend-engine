@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-10-30T21:49:34.540Z",
+  "generatedAt": "2026-10-31T03:23:44.285Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "pengchujin",
+      "name": "aerial-tv",
+      "fullName": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "topics": [],
+      "language": "Kotlin",
+      "totalStars": 8094,
+      "starsGainedToday": 2077
+    },
+    {
+      "owner": "Graphify-Labs",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…",
+      "topics": [
+        "claude-code",
+        "graphrag",
+        "knowledge-graph",
+        "codex",
+        "openclaw"
+      ],
+      "language": "Python",
+      "totalStars": 139533,
+      "starsGainedToday": 1047
+    },
+    {
+      "owner": "DavidHDev",
+      "name": "react-bits",
+      "fullName": "DavidHDev/react-bits",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
+      "topics": [
+        "animations",
+        "components",
+        "components-library",
+        "components-react",
+        "javascript"
+      ],
+      "language": "JavaScript",
+      "totalStars": 50789,
+      "starsGainedToday": 877
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,76 +62,25 @@
         "mcp"
       ],
       "language": "TypeScript",
-      "totalStars": 412021,
-      "starsGainedToday": 5227
+      "totalStars": 412665,
+      "starsGainedToday": 644
     },
     {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "owner": "wangzan101",
+      "name": "Mika",
+      "fullName": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "topics": [
-        "agent-skills",
-        "ai",
-        "anti-slop",
-        "design",
-        "slop"
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose"
       ],
-      "language": "Rust",
-      "totalStars": 96929,
-      "starsGainedToday": 2025
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 52752,
-      "starsGainedToday": 1995
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
-      ],
-      "language": "JavaScript",
-      "totalStars": 293352,
-      "starsGainedToday": 1654
-    },
-    {
-      "owner": "thedotmack",
-      "name": "claude-mem",
-      "fullName": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "anthropic",
-        "artificial-intelligence"
-      ],
-      "language": "TypeScript",
-      "totalStars": 106087,
-      "starsGainedToday": 1595
+      "language": "Kotlin",
+      "totalStars": 1545,
+      "starsGainedToday": 409
     }
   ]
 }
