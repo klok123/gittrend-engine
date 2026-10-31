@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-10-31T11:28:01.213Z",
+  "generatedAt": "2026-10-31T16:34:40.874Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "pengchujin",
-      "name": "aerial-tv",
-      "fullName": "pengchujin/aerial-tv",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "topics": [],
-      "language": "Kotlin",
-      "totalStars": 8209,
-      "starsGainedToday": 2192
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -28,8 +17,30 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 413803,
-      "starsGainedToday": 1782
+      "totalStars": 414662,
+      "starsGainedToday": 2641
+    },
+    {
+      "owner": "pengchujin",
+      "name": "aerial-tv",
+      "fullName": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "topics": [],
+      "language": "Kotlin",
+      "totalStars": 8293,
+      "starsGainedToday": 2276
+    },
+    {
+      "owner": "heydamir",
+      "name": "unslop",
+      "fullName": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 2897,
+      "starsGainedToday": 1879
     },
     {
       "owner": "Graphify-Labs",
@@ -45,36 +56,25 @@
         "openclaw"
       ],
       "language": "Python",
-      "totalStars": 139742,
-      "starsGainedToday": 1256
+      "totalStars": 139878,
+      "starsGainedToday": 1392
     },
     {
-      "owner": "heydamir",
-      "name": "unslop",
-      "fullName": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 2264,
-      "starsGainedToday": 1246
-    },
-    {
-      "owner": "ai-job-search-dev",
-      "name": "ai-job-search",
-      "fullName": "ai-job-search-dev/ai-job-search",
-      "url": "https://github.com/ai-job-search-dev/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "ai",
         "ai-agents",
-        "career",
-        "claude-code",
-        "cover-letter"
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Python",
-      "totalStars": 68228,
-      "starsGainedToday": 1006
+      "language": "JavaScript",
+      "totalStars": 54093,
+      "starsGainedToday": 1341
     }
   ]
 }

@@ -5,17 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 11:28:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 16:34:40 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[pengchujin/aerial-tv (+2,192 stars today)]]></title>
-      <link>https://github.com/pengchujin/aerial-tv</link>
-      <guid isPermaLink="false">https://github.com/pengchujin/aerial-tv#2026-10-31</guid>
-      <description><![CDATA[给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.]]></description>
-      
-      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,782 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,641 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-10-31</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -24,10 +16,26 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
+      <pubDate>Sat, 31 Oct 2026 16:34:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Graphify-Labs/graphify (+1,256 stars today)]]></title>
+      <title><![CDATA[pengchujin/aerial-tv (+2,276 stars today)]]></title>
+      <link>https://github.com/pengchujin/aerial-tv</link>
+      <guid isPermaLink="false">https://github.com/pengchujin/aerial-tv#2026-10-31</guid>
+      <description><![CDATA[给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.]]></description>
+      
+      <pubDate>Sat, 31 Oct 2026 16:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[heydamir/unslop (+1,879 stars today)]]></title>
+      <link>https://github.com/heydamir/unslop</link>
+      <guid isPermaLink="false">https://github.com/heydamir/unslop#2026-10-31</guid>
+      <description><![CDATA[A Claude skill that turns vibecoded, AI-looking UI into a designed interface]]></description>
+      
+      <pubDate>Sat, 31 Oct 2026 16:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Graphify-Labs/graphify (+1,392 stars today)]]></title>
       <link>https://github.com/Graphify-Labs/graphify</link>
       <guid isPermaLink="false">https://github.com/Graphify-Labs/graphify#2026-10-31</guid>
       <description><![CDATA[Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…]]></description>
@@ -36,27 +44,19 @@
       <category>knowledge-graph</category>
       <category>codex</category>
       <category>openclaw</category>
-      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
+      <pubDate>Sat, 31 Oct 2026 16:34:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[heydamir/unslop (+1,246 stars today)]]></title>
-      <link>https://github.com/heydamir/unslop</link>
-      <guid isPermaLink="false">https://github.com/heydamir/unslop#2026-10-31</guid>
-      <description><![CDATA[A Claude skill that turns vibecoded, AI-looking UI into a designed interface]]></description>
-      
-      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[ai-job-search-dev/ai-job-search (+1,006 stars today)]]></title>
-      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
-      <guid isPermaLink="false">https://github.com/ai-job-search-dev/ai-job-search#2026-10-31</guid>
-      <description><![CDATA[The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.]]></description>
-      <category>ai</category>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,341 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-10-31</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
       <category>ai-agents</category>
-      <category>career</category>
-      <category>claude-code</category>
-      <category>cover-letter</category>
-      <pubDate>Sat, 31 Oct 2026 11:28:01 GMT</pubDate>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Sat, 31 Oct 2026 16:34:40 GMT</pubDate>
     </item>
   </channel>
 </rss>
