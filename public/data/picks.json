@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-10-31T20:49:53.627Z",
+  "generatedAt": "2026-11-01T03:23:51.153Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "deepseek-ai",
+      "name": "dsh-superagent-prototype",
+      "fullName": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 3173,
+      "starsGainedToday": 1230
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,19 +28,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 415173,
-      "starsGainedToday": 3152
-    },
-    {
-      "owner": "pengchujin",
-      "name": "aerial-tv",
-      "fullName": "pengchujin/aerial-tv",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "topics": [],
-      "language": "Kotlin",
-      "totalStars": 8314,
-      "starsGainedToday": 2297
+      "totalStars": 415837,
+      "starsGainedToday": 664
     },
     {
       "owner": "heydamir",
@@ -39,8 +39,22 @@
       "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
       "topics": [],
       "language": "JavaScript",
-      "totalStars": 3249,
-      "starsGainedToday": 2231
+      "totalStars": 3643,
+      "starsGainedToday": 394
+    },
+    {
+      "owner": "romanvht",
+      "name": "ByeByeDPI",
+      "fullName": "romanvht/ByeByeDPI",
+      "url": "https://github.com/romanvht/ByeByeDPI",
+      "description": "Приложение локально запускает ByeDPI и перенаправляет весь трафик через него",
+      "topics": [
+        "android",
+        "byedpi"
+      ],
+      "language": "Kotlin",
+      "totalStars": 7075,
+      "starsGainedToday": 345
     },
     {
       "owner": "thedotmack",
@@ -56,25 +70,8 @@
         "artificial-intelligence"
       ],
       "language": "TypeScript",
-      "totalStars": 107662,
-      "starsGainedToday": 1575
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 54272,
-      "starsGainedToday": 1520
+      "totalStars": 107985,
+      "starsGainedToday": 323
     }
   ]
 }
