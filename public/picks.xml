@@ -5,17 +5,29 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 03:23:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:22:52 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+1,230 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+3,328 stars today)]]></title>
       <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/dsh-superagent-prototype#2026-11-01</guid>
       <description><![CDATA[Towards a More Autonomous Agent System]]></description>
       
-      <pubDate>Sun, 01 Nov 2026 03:23:51 GMT</pubDate>
+      <pubDate>Sun, 01 Nov 2026 12:22:52 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+664 stars today)]]></title>
+      <title><![CDATA[Panniantong/Agent-Reach (+2,562 stars today)]]></title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-11-01</guid>
+      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
+      <category>agent-infrastructure</category>
+      <category>ai-agent</category>
+      <category>ai-search</category>
+      <category>automation</category>
+      <category>bilibili</category>
+      <pubDate>Sun, 01 Nov 2026 12:22:52 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+1,899 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-01</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -24,36 +36,27 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sun, 01 Nov 2026 03:23:51 GMT</pubDate>
+      <pubDate>Sun, 01 Nov 2026 12:22:52 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[heydamir/unslop (+394 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+982 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-01</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Sun, 01 Nov 2026 12:22:52 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[heydamir/unslop (+909 stars today)]]></title>
       <link>https://github.com/heydamir/unslop</link>
       <guid isPermaLink="false">https://github.com/heydamir/unslop#2026-11-01</guid>
       <description><![CDATA[A Claude skill that turns vibecoded, AI-looking UI into a designed interface]]></description>
       
-      <pubDate>Sun, 01 Nov 2026 03:23:51 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[romanvht/ByeByeDPI (+345 stars today)]]></title>
-      <link>https://github.com/romanvht/ByeByeDPI</link>
-      <guid isPermaLink="false">https://github.com/romanvht/ByeByeDPI#2026-11-01</guid>
-      <description><![CDATA[Приложение локально запускает ByeDPI и перенаправляет весь трафик через него]]></description>
-      <category>android</category>
-      <category>byedpi</category>
-      <pubDate>Sun, 01 Nov 2026 03:23:51 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[thedotmack/claude-mem (+323 stars today)]]></title>
-      <link>https://github.com/thedotmack/claude-mem</link>
-      <guid isPermaLink="false">https://github.com/thedotmack/claude-mem#2026-11-01</guid>
-      <description><![CDATA[Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with…]]></description>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>ai-memory</category>
-      <category>anthropic</category>
-      <category>artificial-intelligence</category>
-      <pubDate>Sun, 01 Nov 2026 03:23:51 GMT</pubDate>
+      <pubDate>Sun, 01 Nov 2026 12:22:52 GMT</pubDate>
     </item>
   </channel>
 </rss>
