@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T12:22:52.769Z",
+  "generatedAt": "2026-11-01T21:31:37.206Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,25 +11,8 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 5271,
-      "starsGainedToday": 3328
-    },
-    {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
-      ],
-      "language": "Python",
-      "totalStars": 107414,
-      "starsGainedToday": 2562
+      "totalStars": 6950,
+      "starsGainedToday": 5007
     },
     {
       "owner": "morluto",
@@ -45,8 +28,36 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 417072,
-      "starsGainedToday": 1899
+      "totalStars": 418402,
+      "starsGainedToday": 3229
+    },
+    {
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili"
+      ],
+      "language": "Python",
+      "totalStars": 107574,
+      "starsGainedToday": 2722
+    },
+    {
+      "owner": "heydamir",
+      "name": "unslop",
+      "fullName": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 4746,
+      "starsGainedToday": 1497
     },
     {
       "owner": "Ebony-Vinyl",
@@ -62,19 +73,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 55254,
-      "starsGainedToday": 982
-    },
-    {
-      "owner": "heydamir",
-      "name": "unslop",
-      "fullName": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 4158,
-      "starsGainedToday": 909
+      "totalStars": 55704,
+      "starsGainedToday": 1432
     }
   ]
 }
