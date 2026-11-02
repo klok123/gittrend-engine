@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:31:37.206Z",
+  "generatedAt": "2026-11-02T03:32:22.723Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,8 +11,41 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 6950,
-      "starsGainedToday": 5007
+      "totalStars": 8776,
+      "starsGainedToday": 1826
+    },
+    {
+      "owner": "cjpais",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "topics": [
+        "speech-to-text",
+        "tauri-v2",
+        "accessibility",
+        "cross-platform"
+      ],
+      "language": "Rust",
+      "totalStars": 36680,
+      "starsGainedToday": 1663
+    },
+    {
+      "owner": "RVC-Boss",
+      "name": "GPT-SoVITS",
+      "fullName": "RVC-Boss/GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "topics": [
+        "text-to-speech",
+        "tts",
+        "vits",
+        "voice-clone",
+        "voice-cloneai"
+      ],
+      "language": "Python",
+      "totalStars": 64527,
+      "starsGainedToday": 1308
     },
     {
       "owner": "morluto",
@@ -28,53 +61,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 418402,
-      "starsGainedToday": 3229
+      "totalStars": 419311,
+      "starsGainedToday": 909
     },
     {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner": "maboloshi",
+      "name": "github-chinese",
+      "fullName": "maboloshi/github-chinese",
+      "url": "https://github.com/maboloshi/github-chinese",
+      "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
       "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
-      ],
-      "language": "Python",
-      "totalStars": 107574,
-      "starsGainedToday": 2722
-    },
-    {
-      "owner": "heydamir",
-      "name": "unslop",
-      "fullName": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 4746,
-      "starsGainedToday": 1497
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "github",
+        "userscript",
+        "tampermonkey",
+        "violentmonkey",
+        "greasyfork"
       ],
       "language": "JavaScript",
-      "totalStars": 55704,
-      "starsGainedToday": 1432
+      "totalStars": 37424,
+      "starsGainedToday": 893
     }
   ]
 }
