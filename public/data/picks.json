@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T03:32:22.723Z",
+  "generatedAt": "2026-11-02T14:18:02.199Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,41 +11,8 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 8776,
-      "starsGainedToday": 1826
-    },
-    {
-      "owner": "cjpais",
-      "name": "Handy",
-      "fullName": "cjpais/Handy",
-      "url": "https://github.com/cjpais/Handy",
-      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "topics": [
-        "speech-to-text",
-        "tauri-v2",
-        "accessibility",
-        "cross-platform"
-      ],
-      "language": "Rust",
-      "totalStars": 36680,
-      "starsGainedToday": 1663
-    },
-    {
-      "owner": "RVC-Boss",
-      "name": "GPT-SoVITS",
-      "fullName": "RVC-Boss/GPT-SoVITS",
-      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
-      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-      "topics": [
-        "text-to-speech",
-        "tts",
-        "vits",
-        "voice-clone",
-        "voice-cloneai"
-      ],
-      "language": "Python",
-      "totalStars": 64527,
-      "starsGainedToday": 1308
+      "totalStars": 11741,
+      "starsGainedToday": 4791
     },
     {
       "owner": "morluto",
@@ -61,25 +28,52 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 419311,
-      "starsGainedToday": 909
+      "totalStars": 421335,
+      "starsGainedToday": 2933
     },
     {
-      "owner": "maboloshi",
-      "name": "github-chinese",
-      "fullName": "maboloshi/github-chinese",
-      "url": "https://github.com/maboloshi/github-chinese",
-      "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
+      "owner": "cjpais",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "topics": [
-        "github",
-        "userscript",
-        "tampermonkey",
-        "violentmonkey",
-        "greasyfork"
+        "speech-to-text",
+        "tauri-v2",
+        "accessibility",
+        "cross-platform"
       ],
-      "language": "JavaScript",
-      "totalStars": 37424,
-      "starsGainedToday": 893
+      "language": "Rust",
+      "totalStars": 37041,
+      "starsGainedToday": 2024
+    },
+    {
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 2652,
+      "starsGainedToday": 1866
+    },
+    {
+      "owner": "RVC-Boss",
+      "name": "GPT-SoVITS",
+      "fullName": "RVC-Boss/GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "topics": [
+        "text-to-speech",
+        "tts",
+        "vits",
+        "voice-clone",
+        "voice-cloneai"
+      ],
+      "language": "Python",
+      "totalStars": 64595,
+      "starsGainedToday": 1376
     }
   ]
 }

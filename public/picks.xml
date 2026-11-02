@@ -5,40 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 03:32:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 14:18:02 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+1,826 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+4,791 stars today)]]></title>
       <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/dsh-superagent-prototype#2026-11-02</guid>
       <description><![CDATA[Towards a More Autonomous Agent System]]></description>
       
-      <pubDate>Mon, 02 Nov 2026 03:32:22 GMT</pubDate>
+      <pubDate>Mon, 02 Nov 2026 14:18:02 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[cjpais/Handy (+1,663 stars today)]]></title>
-      <link>https://github.com/cjpais/Handy</link>
-      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-11-02</guid>
-      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
-      <category>speech-to-text</category>
-      <category>tauri-v2</category>
-      <category>accessibility</category>
-      <category>cross-platform</category>
-      <pubDate>Mon, 02 Nov 2026 03:32:22 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[RVC-Boss/GPT-SoVITS (+1,308 stars today)]]></title>
-      <link>https://github.com/RVC-Boss/GPT-SoVITS</link>
-      <guid isPermaLink="false">https://github.com/RVC-Boss/GPT-SoVITS#2026-11-02</guid>
-      <description><![CDATA[1 min voice data can also be used to train a good TTS model! (few shot voice cloning)]]></description>
-      <category>text-to-speech</category>
-      <category>tts</category>
-      <category>vits</category>
-      <category>voice-clone</category>
-      <category>voice-cloneai</category>
-      <pubDate>Mon, 02 Nov 2026 03:32:22 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+909 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,933 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-02</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -47,19 +24,38 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Mon, 02 Nov 2026 03:32:22 GMT</pubDate>
+      <pubDate>Mon, 02 Nov 2026 14:18:02 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[maboloshi/github-chinese (+893 stars today)]]></title>
-      <link>https://github.com/maboloshi/github-chinese</link>
-      <guid isPermaLink="false">https://github.com/maboloshi/github-chinese#2026-11-02</guid>
-      <description><![CDATA[GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)]]></description>
-      <category>github</category>
-      <category>userscript</category>
-      <category>tampermonkey</category>
-      <category>violentmonkey</category>
-      <category>greasyfork</category>
-      <pubDate>Mon, 02 Nov 2026 03:32:22 GMT</pubDate>
+      <title><![CDATA[cjpais/Handy (+2,024 stars today)]]></title>
+      <link>https://github.com/cjpais/Handy</link>
+      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-11-02</guid>
+      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
+      <category>speech-to-text</category>
+      <category>tauri-v2</category>
+      <category>accessibility</category>
+      <category>cross-platform</category>
+      <pubDate>Mon, 02 Nov 2026 14:18:02 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/craft-anything (+1,866 stars today)]]></title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-02</guid>
+      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
+      
+      <pubDate>Mon, 02 Nov 2026 14:18:02 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[RVC-Boss/GPT-SoVITS (+1,376 stars today)]]></title>
+      <link>https://github.com/RVC-Boss/GPT-SoVITS</link>
+      <guid isPermaLink="false">https://github.com/RVC-Boss/GPT-SoVITS#2026-11-02</guid>
+      <description><![CDATA[1 min voice data can also be used to train a good TTS model! (few shot voice cloning)]]></description>
+      <category>text-to-speech</category>
+      <category>tts</category>
+      <category>vits</category>
+      <category>voice-clone</category>
+      <category>voice-cloneai</category>
+      <pubDate>Mon, 02 Nov 2026 14:18:02 GMT</pubDate>
     </item>
   </channel>
 </rss>
