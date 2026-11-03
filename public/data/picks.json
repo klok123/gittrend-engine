@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:14:46.862Z",
+  "generatedAt": "2026-11-03T13:18:53.740Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 422846,
-      "starsGainedToday": 1511
-    },
-    {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 4096,
-      "starsGainedToday": 1444
+      "totalStars": 425349,
+      "starsGainedToday": 4014
     },
     {
       "owner": "deepseek-ai",
@@ -39,36 +28,52 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 13088,
-      "starsGainedToday": 1347
+      "totalStars": 15685,
+      "starsGainedToday": 3944
     },
     {
-      "owner": "heydamir",
-      "name": "unslop",
-      "fullName": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
-      "language": "JavaScript",
-      "totalStars": 6245,
-      "starsGainedToday": 617
+      "language": "Rust",
+      "totalStars": 6367,
+      "starsGainedToday": 3715
     },
     {
-      "owner": "github",
-      "name": "spec-kit",
-      "fullName": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
       "topics": [
-        "ai",
-        "copilot",
-        "development",
-        "engineering",
-        "prd"
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
       ],
-      "language": "Python",
-      "totalStars": 145506,
-      "starsGainedToday": 557
+      "language": "TypeScript",
+      "totalStars": 270614,
+      "starsGainedToday": 2326
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 58517,
+      "starsGainedToday": 1607
     }
   ]
 }
