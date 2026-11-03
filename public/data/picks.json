@@ -1,19 +1,8 @@
 {
-  "generatedAt": "2026-11-02T14:18:02.199Z",
+  "generatedAt": "2026-11-03T00:14:46.862Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "deepseek-ai",
-      "name": "dsh-superagent-prototype",
-      "fullName": "deepseek-ai/dsh-superagent-prototype",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "description": "Towards a More Autonomous Agent System",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 11741,
-      "starsGainedToday": 4791
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -28,24 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 421335,
-      "starsGainedToday": 2933
-    },
-    {
-      "owner": "cjpais",
-      "name": "Handy",
-      "fullName": "cjpais/Handy",
-      "url": "https://github.com/cjpais/Handy",
-      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "topics": [
-        "speech-to-text",
-        "tauri-v2",
-        "accessibility",
-        "cross-platform"
-      ],
-      "language": "Rust",
-      "totalStars": 37041,
-      "starsGainedToday": 2024
+      "totalStars": 422846,
+      "starsGainedToday": 1511
     },
     {
       "owner": "storytold",
@@ -55,25 +28,47 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 2652,
-      "starsGainedToday": 1866
+      "totalStars": 4096,
+      "starsGainedToday": 1444
     },
     {
-      "owner": "RVC-Boss",
-      "name": "GPT-SoVITS",
-      "fullName": "RVC-Boss/GPT-SoVITS",
-      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
-      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "owner": "deepseek-ai",
+      "name": "dsh-superagent-prototype",
+      "fullName": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "topics": [],
+      "language": "TypeScript",
+      "totalStars": 13088,
+      "starsGainedToday": 1347
+    },
+    {
+      "owner": "heydamir",
+      "name": "unslop",
+      "fullName": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 6245,
+      "starsGainedToday": 617
+    },
+    {
+      "owner": "github",
+      "name": "spec-kit",
+      "fullName": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "topics": [
-        "text-to-speech",
-        "tts",
-        "vits",
-        "voice-clone",
-        "voice-cloneai"
+        "ai",
+        "copilot",
+        "development",
+        "engineering",
+        "prd"
       ],
       "language": "Python",
-      "totalStars": 64595,
-      "starsGainedToday": 1376
+      "totalStars": 145506,
+      "starsGainedToday": 557
     }
   ]
 }
