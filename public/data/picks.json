@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-03T22:44:17.080Z",
+  "generatedAt": "2026-11-04T04:00:24.262Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "topics": [
+        "youtube-dl",
+        "python",
+        "sponsorblock",
+        "yt-dlp",
+        "youtube-downloader"
+      ],
+      "language": "Python",
+      "totalStars": 205039,
+      "starsGainedToday": 843
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 426853,
-      "starsGainedToday": 5518
+      "totalStars": 427632,
+      "starsGainedToday": 779
     },
     {
       "owner": "storytold",
@@ -28,8 +45,8 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 8151,
-      "starsGainedToday": 5499
+      "totalStars": 8869,
+      "starsGainedToday": 718
     },
     {
       "owner": "deepseek-ai",
@@ -39,41 +56,25 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 16605,
-      "starsGainedToday": 4864
+      "totalStars": 17245,
+      "starsGainedToday": 640
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "D4Vinci",
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…",
       "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 271042,
-      "starsGainedToday": 2754
-    },
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "playwright",
+        "python"
       ],
       "language": "Python",
-      "totalStars": 75950,
-      "starsGainedToday": 2596
+      "totalStars": 95115,
+      "starsGainedToday": 429
     }
   ]
 }
