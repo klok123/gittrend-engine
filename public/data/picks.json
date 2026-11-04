@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:31:38.245Z",
+  "generatedAt": "2026-11-04T23:01:46.319Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,19 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 429332,
-      "starsGainedToday": 2479
+      "totalStars": 430704,
+      "starsGainedToday": 3851
+    },
+    {
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 11503,
+      "starsGainedToday": 3352
     },
     {
       "owner": "TauricResearch",
@@ -34,19 +45,8 @@
         "trading"
       ],
       "language": "Python",
-      "totalStars": 120546,
-      "starsGainedToday": 2310
-    },
-    {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 10119,
-      "starsGainedToday": 1968
+      "totalStars": 120630,
+      "starsGainedToday": 2394
     },
     {
       "owner": "deepseek-ai",
@@ -56,25 +56,25 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 18221,
-      "starsGainedToday": 1616
+      "totalStars": 18522,
+      "starsGainedToday": 1917
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "D4Vinci",
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "playwright",
+        "python"
       ],
-      "language": "JavaScript",
-      "totalStars": 60233,
-      "starsGainedToday": 1282
+      "language": "Python",
+      "totalStars": 96449,
+      "starsGainedToday": 1763
     }
   ]
 }
