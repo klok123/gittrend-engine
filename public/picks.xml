@@ -5,21 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 04:00:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 13:31:38 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[yt-dlp/yt-dlp (+843 stars today)]]></title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-11-04</guid>
-      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
-      <category>youtube-dl</category>
-      <category>python</category>
-      <category>sponsorblock</category>
-      <category>yt-dlp</category>
-      <category>youtube-downloader</category>
-      <pubDate>Wed, 04 Nov 2026 04:00:24 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+779 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,479 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-04</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -28,35 +16,47 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 04 Nov 2026 04:00:24 GMT</pubDate>
+      <pubDate>Wed, 04 Nov 2026 13:31:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/craft-anything (+718 stars today)]]></title>
+      <title><![CDATA[TauricResearch/TradingAgents (+2,310 stars today)]]></title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-11-04</guid>
+      <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
+      <category>agent</category>
+      <category>finance</category>
+      <category>llm</category>
+      <category>multiagent</category>
+      <category>trading</category>
+      <pubDate>Wed, 04 Nov 2026 13:31:38 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/craft-anything (+1,968 stars today)]]></title>
       <link>https://github.com/storytold/craft-anything</link>
       <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-04</guid>
       <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
       
-      <pubDate>Wed, 04 Nov 2026 04:00:24 GMT</pubDate>
+      <pubDate>Wed, 04 Nov 2026 13:31:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+640 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/dsh-superagent-prototype (+1,616 stars today)]]></title>
       <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/dsh-superagent-prototype#2026-11-04</guid>
       <description><![CDATA[Towards a More Autonomous Agent System]]></description>
       
-      <pubDate>Wed, 04 Nov 2026 04:00:24 GMT</pubDate>
+      <pubDate>Wed, 04 Nov 2026 13:31:38 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[D4Vinci/Scrapling (+429 stars today)]]></title>
-      <link>https://github.com/D4Vinci/Scrapling</link>
-      <guid isPermaLink="false">https://github.com/D4Vinci/Scrapling#2026-11-04</guid>
-      <description><![CDATA[🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…]]></description>
-      <category>crawler</category>
-      <category>crawling</category>
-      <category>crawling-python</category>
-      <category>playwright</category>
-      <category>python</category>
-      <pubDate>Wed, 04 Nov 2026 04:00:24 GMT</pubDate>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,282 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-04</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Wed, 04 Nov 2026 13:31:38 GMT</pubDate>
     </item>
   </channel>
 </rss>

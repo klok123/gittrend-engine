@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-11-04T04:00:24.262Z",
+  "generatedAt": "2026-11-04T13:31:38.245Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "yt-dlp",
-      "name": "yt-dlp",
-      "fullName": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
-      "topics": [
-        "youtube-dl",
-        "python",
-        "sponsorblock",
-        "yt-dlp",
-        "youtube-downloader"
-      ],
-      "language": "Python",
-      "totalStars": 205039,
-      "starsGainedToday": 843
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -34,8 +17,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 427632,
-      "starsGainedToday": 779
+      "totalStars": 429332,
+      "starsGainedToday": 2479
+    },
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "language": "Python",
+      "totalStars": 120546,
+      "starsGainedToday": 2310
     },
     {
       "owner": "storytold",
@@ -45,8 +45,8 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 8869,
-      "starsGainedToday": 718
+      "totalStars": 10119,
+      "starsGainedToday": 1968
     },
     {
       "owner": "deepseek-ai",
@@ -56,25 +56,25 @@
       "description": "Towards a More Autonomous Agent System",
       "topics": [],
       "language": "TypeScript",
-      "totalStars": 17245,
-      "starsGainedToday": 640
+      "totalStars": 18221,
+      "starsGainedToday": 1616
     },
     {
-      "owner": "D4Vinci",
-      "name": "Scrapling",
-      "fullName": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "crawler",
-        "crawling",
-        "crawling-python",
-        "playwright",
-        "python"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Python",
-      "totalStars": 95115,
-      "starsGainedToday": 429
+      "language": "JavaScript",
+      "totalStars": 60233,
+      "starsGainedToday": 1282
     }
   ]
 }
