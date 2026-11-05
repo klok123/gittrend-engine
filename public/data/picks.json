@@ -1,36 +1,8 @@
 {
-  "generatedAt": "2026-11-05T13:45:58.630Z",
+  "generatedAt": "2026-11-05T23:04:05.031Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "termux",
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "topics": [
-        "android",
-        "terminal",
-        "termux",
-        "linux",
-        "hacktoberfest"
-      ],
-      "language": "Java",
-      "totalStars": 64142,
-      "starsGainedToday": 2528
-    },
-    {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 13993,
-      "starsGainedToday": 2490
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -45,8 +17,36 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 433019,
-      "starsGainedToday": 2315
+      "totalStars": 434185,
+      "starsGainedToday": 3481
+    },
+    {
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 14859,
+      "starsGainedToday": 3356
+    },
+    {
+      "owner": "termux",
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "topics": [
+        "android",
+        "terminal",
+        "termux",
+        "linux",
+        "hacktoberfest"
+      ],
+      "language": "Java",
+      "totalStars": 64173,
+      "starsGainedToday": 2559
     },
     {
       "owner": "Ebony-Vinyl",
@@ -62,8 +62,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 61902,
-      "starsGainedToday": 1237
+      "totalStars": 62263,
+      "starsGainedToday": 1598
     },
     {
       "owner": "D4Vinci",
@@ -79,8 +79,8 @@
         "python"
       ],
       "language": "Python",
-      "totalStars": 97446,
-      "starsGainedToday": 997
+      "totalStars": 97907,
+      "starsGainedToday": 1458
     }
   ]
 }
