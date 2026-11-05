@@ -5,17 +5,29 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 04:21:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 13:45:58 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/craft-anything (+1,009 stars today)]]></title>
+      <title><![CDATA[termux/termux-app (+2,528 stars today)]]></title>
+      <link>https://github.com/termux/termux-app</link>
+      <guid isPermaLink="false">https://github.com/termux/termux-app#2026-11-05</guid>
+      <description><![CDATA[Termux - a terminal emulator application for Android OS extendible by variety of packages.]]></description>
+      <category>android</category>
+      <category>terminal</category>
+      <category>termux</category>
+      <category>linux</category>
+      <category>hacktoberfest</category>
+      <pubDate>Thu, 05 Nov 2026 13:45:58 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/craft-anything (+2,490 stars today)]]></title>
       <link>https://github.com/storytold/craft-anything</link>
       <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-05</guid>
       <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
       
-      <pubDate>Thu, 05 Nov 2026 04:21:52 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 13:45:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+823 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,315 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-05</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -24,18 +36,10 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Thu, 05 Nov 2026 04:21:52 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 13:45:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Alishahryar1/free-claude-code (+646 stars today)]]></title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">https://github.com/Alishahryar1/free-claude-code#2026-11-05</guid>
-      <description><![CDATA[Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…]]></description>
-      
-      <pubDate>Thu, 05 Nov 2026 04:21:52 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+376 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,237 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-05</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -44,10 +48,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Thu, 05 Nov 2026 04:21:52 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 13:45:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[D4Vinci/Scrapling (+367 stars today)]]></title>
+      <title><![CDATA[D4Vinci/Scrapling (+997 stars today)]]></title>
       <link>https://github.com/D4Vinci/Scrapling</link>
       <guid isPermaLink="false">https://github.com/D4Vinci/Scrapling#2026-11-05</guid>
       <description><![CDATA[🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…]]></description>
@@ -56,7 +60,7 @@
       <category>crawling-python</category>
       <category>playwright</category>
       <category>python</category>
-      <pubDate>Thu, 05 Nov 2026 04:21:52 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 13:45:58 GMT</pubDate>
     </item>
   </channel>
 </rss>

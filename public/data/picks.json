@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-05T04:21:52.607Z",
+  "generatedAt": "2026-11-05T13:45:58.630Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "termux",
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "topics": [
+        "android",
+        "terminal",
+        "termux",
+        "linux",
+        "hacktoberfest"
+      ],
+      "language": "Java",
+      "totalStars": 64142,
+      "starsGainedToday": 2528
+    },
     {
       "owner": "storytold",
       "name": "craft-anything",
@@ -11,8 +28,8 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 12512,
-      "starsGainedToday": 1009
+      "totalStars": 13993,
+      "starsGainedToday": 2490
     },
     {
       "owner": "morluto",
@@ -28,19 +45,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 431527,
-      "starsGainedToday": 823
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 66500,
-      "starsGainedToday": 646
+      "totalStars": 433019,
+      "starsGainedToday": 2315
     },
     {
       "owner": "Ebony-Vinyl",
@@ -56,8 +62,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 61041,
-      "starsGainedToday": 376
+      "totalStars": 61902,
+      "starsGainedToday": 1237
     },
     {
       "owner": "D4Vinci",
@@ -73,8 +79,8 @@
         "python"
       ],
       "language": "Python",
-      "totalStars": 96816,
-      "starsGainedToday": 367
+      "totalStars": 97446,
+      "starsGainedToday": 997
     }
   ]
 }
