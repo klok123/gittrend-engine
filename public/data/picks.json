@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-11-04T23:01:46.319Z",
+  "generatedAt": "2026-11-05T04:21:52.607Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 12512,
+      "starsGainedToday": 1009
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,47 +28,36 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 430704,
-      "starsGainedToday": 3851
+      "totalStars": 431527,
+      "starsGainedToday": 823
     },
     {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser…",
       "topics": [],
-      "language": "Rust",
-      "totalStars": 11503,
-      "starsGainedToday": 3352
-    },
-    {
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "fullName": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "topics": [
-        "agent",
-        "finance",
-        "llm",
-        "multiagent",
-        "trading"
-      ],
       "language": "Python",
-      "totalStars": 120630,
-      "starsGainedToday": 2394
+      "totalStars": 66500,
+      "starsGainedToday": 646
     },
     {
-      "owner": "deepseek-ai",
-      "name": "dsh-superagent-prototype",
-      "fullName": "deepseek-ai/dsh-superagent-prototype",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "description": "Towards a More Autonomous Agent System",
-      "topics": [],
-      "language": "TypeScript",
-      "totalStars": 18522,
-      "starsGainedToday": 1917
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 61041,
+      "starsGainedToday": 376
     },
     {
       "owner": "D4Vinci",
@@ -73,8 +73,8 @@
         "python"
       ],
       "language": "Python",
-      "totalStars": 96449,
-      "starsGainedToday": 1763
+      "totalStars": 96816,
+      "starsGainedToday": 367
     }
   ]
 }
