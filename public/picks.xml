@@ -5,20 +5,21 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 04:20:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:30:39 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Shubhamsaboo/awesome-llm-apps (+1,045 stars today)]]></title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <guid isPermaLink="false">https://github.com/Shubhamsaboo/awesome-llm-apps#2026-11-06</guid>
-      <description><![CDATA[100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.]]></description>
-      <category>llms</category>
-      <category>rag</category>
-      <category>python</category>
-      <category>agents</category>
-      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+      <title><![CDATA[Egonex-AI/Understand-Anything (+2,300 stars today)]]></title>
+      <link>https://github.com/Egonex-AI/Understand-Anything</link>
+      <guid isPermaLink="false">https://github.com/Egonex-AI/Understand-Anything#2026-11-06</guid>
+      <description><![CDATA[Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI,…]]></description>
+      <category>claude-code</category>
+      <category>claude-skills</category>
+      <category>understandcode</category>
+      <category>codex</category>
+      <category>codex-skills</category>
+      <pubDate>Fri, 06 Nov 2026 13:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+783 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,275 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-06</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -27,35 +28,39 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 13:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/craft-anything (+722 stars today)]]></title>
+      <title><![CDATA[storytold/craft-anything (+1,939 stars today)]]></title>
       <link>https://github.com/storytold/craft-anything</link>
       <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-06</guid>
       <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
       
-      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 13:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[wangzan101/Mika (+577 stars today)]]></title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <guid isPermaLink="false">https://github.com/wangzan101/Mika#2026-11-06</guid>
-      <description><![CDATA[An on-device AI agent for Android that operates apps and the web to get things done for you.]]></description>
-      <category>accessibility</category>
-      <category>ai-agent</category>
-      <category>android</category>
-      <category>automation</category>
-      <category>jetpack-compose</category>
-      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+      <title><![CDATA[sherlock-project/sherlock (+1,225 stars today)]]></title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-06</guid>
+      <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
+      <category>osint</category>
+      <category>reconnaissance</category>
+      <category>linux</category>
+      <category>cli</category>
+      <category>sherlock</category>
+      <pubDate>Fri, 06 Nov 2026 13:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[zortos293/Lichii (+362 stars today)]]></title>
-      <link>https://github.com/zortos293/Lichii</link>
-      <guid isPermaLink="false">https://github.com/zortos293/Lichii#2026-11-06</guid>
-      <description><![CDATA[VERY experimental Nintendo Switch 2 emulator]]></description>
-      
-      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,201 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-06</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Fri, 06 Nov 2026 13:30:39 GMT</pubDate>
     </item>
   </channel>
 </rss>

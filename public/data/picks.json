@@ -1,23 +1,24 @@
 {
-  "generatedAt": "2026-11-06T04:20:07.535Z",
+  "generatedAt": "2026-11-06T13:30:39.713Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "Shubhamsaboo",
-      "name": "awesome-llm-apps",
-      "fullName": "Shubhamsaboo/awesome-llm-apps",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "owner": "Egonex-AI",
+      "name": "Understand-Anything",
+      "fullName": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI,…",
       "topics": [
-        "llms",
-        "rag",
-        "python",
-        "agents"
+        "claude-code",
+        "claude-skills",
+        "understandcode",
+        "codex",
+        "codex-skills"
       ],
-      "language": "Python",
-      "totalStars": 143983,
-      "starsGainedToday": 1045
+      "language": "TypeScript",
+      "totalStars": 91049,
+      "starsGainedToday": 2300
     },
     {
       "owner": "morluto",
@@ -33,8 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 434968,
-      "starsGainedToday": 783
+      "totalStars": 436460,
+      "starsGainedToday": 2275
     },
     {
       "owner": "storytold",
@@ -44,36 +45,42 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 15581,
-      "starsGainedToday": 722
+      "totalStars": 16798,
+      "starsGainedToday": 1939
     },
     {
-      "owner": "wangzan101",
-      "name": "Mika",
-      "fullName": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "fullName": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
       "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose"
+        "osint",
+        "reconnaissance",
+        "linux",
+        "cli",
+        "sherlock"
       ],
-      "language": "Kotlin",
-      "totalStars": 7181,
-      "starsGainedToday": 577
+      "language": "Python",
+      "totalStars": 97759,
+      "starsGainedToday": 1225
     },
     {
-      "owner": "zortos293",
-      "name": "Lichii",
-      "fullName": "zortos293/Lichii",
-      "url": "https://github.com/zortos293/Lichii",
-      "description": "VERY experimental Nintendo Switch 2 emulator",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 2528,
-      "starsGainedToday": 362
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 63464,
+      "starsGainedToday": 1201
     }
   ]
 }
