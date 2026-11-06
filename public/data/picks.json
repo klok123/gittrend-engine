@@ -1,8 +1,24 @@
 {
-  "generatedAt": "2026-11-05T23:04:05.031Z",
+  "generatedAt": "2026-11-06T04:20:07.535Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "Shubhamsaboo",
+      "name": "awesome-llm-apps",
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "topics": [
+        "llms",
+        "rag",
+        "python",
+        "agents"
+      ],
+      "language": "Python",
+      "totalStars": 143983,
+      "starsGainedToday": 1045
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +33,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 434185,
-      "starsGainedToday": 3481
+      "totalStars": 434968,
+      "starsGainedToday": 783
     },
     {
       "owner": "storytold",
@@ -28,59 +44,36 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 14859,
-      "starsGainedToday": 3356
+      "totalStars": 15581,
+      "starsGainedToday": 722
     },
     {
-      "owner": "termux",
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "owner": "wangzan101",
+      "name": "Mika",
+      "fullName": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "topics": [
+        "accessibility",
+        "ai-agent",
         "android",
-        "terminal",
-        "termux",
-        "linux",
-        "hacktoberfest"
+        "automation",
+        "jetpack-compose"
       ],
-      "language": "Java",
-      "totalStars": 64173,
-      "starsGainedToday": 2559
+      "language": "Kotlin",
+      "totalStars": 7181,
+      "starsGainedToday": 577
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 62263,
-      "starsGainedToday": 1598
-    },
-    {
-      "owner": "D4Vinci",
-      "name": "Scrapling",
-      "fullName": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…",
-      "topics": [
-        "crawler",
-        "crawling",
-        "crawling-python",
-        "playwright",
-        "python"
-      ],
-      "language": "Python",
-      "totalStars": 97907,
-      "starsGainedToday": 1458
+      "owner": "zortos293",
+      "name": "Lichii",
+      "fullName": "zortos293/Lichii",
+      "url": "https://github.com/zortos293/Lichii",
+      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 2528,
+      "starsGainedToday": 362
     }
   ]
 }

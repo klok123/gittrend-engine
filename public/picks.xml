@@ -5,62 +5,57 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 23:04:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 04:20:07 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+3,481 stars today)]]></title>
+      <title><![CDATA[Shubhamsaboo/awesome-llm-apps (+1,045 stars today)]]></title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <guid isPermaLink="false">https://github.com/Shubhamsaboo/awesome-llm-apps#2026-11-06</guid>
+      <description><![CDATA[100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.]]></description>
+      <category>llms</category>
+      <category>rag</category>
+      <category>python</category>
+      <category>agents</category>
+      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+783 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-05</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-06</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Thu, 05 Nov 2026 23:04:05 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/craft-anything (+3,356 stars today)]]></title>
+      <title><![CDATA[storytold/craft-anything (+722 stars today)]]></title>
       <link>https://github.com/storytold/craft-anything</link>
-      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-05</guid>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-06</guid>
       <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
       
-      <pubDate>Thu, 05 Nov 2026 23:04:05 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[termux/termux-app (+2,559 stars today)]]></title>
-      <link>https://github.com/termux/termux-app</link>
-      <guid isPermaLink="false">https://github.com/termux/termux-app#2026-11-05</guid>
-      <description><![CDATA[Termux - a terminal emulator application for Android OS extendible by variety of packages.]]></description>
+      <title><![CDATA[wangzan101/Mika (+577 stars today)]]></title>
+      <link>https://github.com/wangzan101/Mika</link>
+      <guid isPermaLink="false">https://github.com/wangzan101/Mika#2026-11-06</guid>
+      <description><![CDATA[An on-device AI agent for Android that operates apps and the web to get things done for you.]]></description>
+      <category>accessibility</category>
+      <category>ai-agent</category>
       <category>android</category>
-      <category>terminal</category>
-      <category>termux</category>
-      <category>linux</category>
-      <category>hacktoberfest</category>
-      <pubDate>Thu, 05 Nov 2026 23:04:05 GMT</pubDate>
+      <category>automation</category>
+      <category>jetpack-compose</category>
+      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,598 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-05</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
-      <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Thu, 05 Nov 2026 23:04:05 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[D4Vinci/Scrapling (+1,458 stars today)]]></title>
-      <link>https://github.com/D4Vinci/Scrapling</link>
-      <guid isPermaLink="false">https://github.com/D4Vinci/Scrapling#2026-11-05</guid>
-      <description><![CDATA[🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and…]]></description>
-      <category>crawler</category>
-      <category>crawling</category>
-      <category>crawling-python</category>
-      <category>playwright</category>
-      <category>python</category>
-      <pubDate>Thu, 05 Nov 2026 23:04:05 GMT</pubDate>
+      <title><![CDATA[zortos293/Lichii (+362 stars today)]]></title>
+      <link>https://github.com/zortos293/Lichii</link>
+      <guid isPermaLink="false">https://github.com/zortos293/Lichii#2026-11-06</guid>
+      <description><![CDATA[VERY experimental Nintendo Switch 2 emulator]]></description>
+      
+      <pubDate>Fri, 06 Nov 2026 04:20:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
