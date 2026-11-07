@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T12:09:22.930Z",
+  "generatedAt": "2026-11-07T21:15:56.850Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 439453,
-      "starsGainedToday": 1640
-    },
-    {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
-      ],
-      "language": "Python",
-      "totalStars": 194255,
-      "starsGainedToday": 1194
+      "totalStars": 440726,
+      "starsGainedToday": 2913
     },
     {
       "owner": "sherlock-project",
@@ -51,8 +34,8 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 99364,
-      "starsGainedToday": 1005
+      "totalStars": 100273,
+      "starsGainedToday": 1914
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,25 +51,42 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 64861,
-      "starsGainedToday": 952
+      "totalStars": 65366,
+      "starsGainedToday": 1457
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
       ],
       "language": "Python",
-      "totalStars": 103337,
-      "starsGainedToday": 511
+      "totalStars": 194316,
+      "starsGainedToday": 1255
+    },
+    {
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot"
+      ],
+      "language": "Python",
+      "totalStars": 78222,
+      "starsGainedToday": 1099
     }
   ]
 }
