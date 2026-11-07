@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-06T22:33:52.868Z",
+  "generatedAt": "2026-11-07T03:49:30.540Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "microsoft",
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "topics": [
+        "langchain",
+        "openai",
+        "autogen-extension",
+        "autogen",
+        "markdown"
+      ],
+      "language": "Python",
+      "totalStars": 194215,
+      "starsGainedToday": 1154
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,49 +34,41 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 437813,
-      "starsGainedToday": 3628
+      "totalStars": 438381,
+      "starsGainedToday": 568
     },
     {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
+      "owner": "cjpais",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "topics": [
+        "speech-to-text",
+        "tauri-v2",
+        "accessibility",
+        "cross-platform"
+      ],
       "language": "Rust",
-      "totalStars": 17858,
-      "starsGainedToday": 2999
+      "totalStars": 37833,
+      "starsGainedToday": 303
     },
     {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "agent-skills"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Python",
-      "totalStars": 188153,
-      "starsGainedToday": 2917
-    },
-    {
-      "owner": "Egonex-AI",
-      "name": "Understand-Anything",
-      "fullName": "Egonex-AI/Understand-Anything",
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI,…",
-      "topics": [
-        "claude-code",
-        "claude-skills",
-        "understandcode",
-        "codex",
-        "codex-skills"
-      ],
-      "language": "TypeScript",
-      "totalStars": 91108,
-      "starsGainedToday": 2359
+      "language": "JavaScript",
+      "totalStars": 64182,
+      "starsGainedToday": 273
     },
     {
       "owner": "sherlock-project",
@@ -75,8 +84,8 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 98359,
-      "starsGainedToday": 1825
+      "totalStars": 98629,
+      "starsGainedToday": 270
     }
   ]
 }

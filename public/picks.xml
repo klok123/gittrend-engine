@@ -5,58 +5,65 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 22:33:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:49:30 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+3,628 stars today)]]></title>
+      <title><![CDATA[microsoft/markitdown (+1,154 stars today)]]></title>
+      <link>https://github.com/microsoft/markitdown</link>
+      <guid isPermaLink="false">https://github.com/microsoft/markitdown#2026-11-07</guid>
+      <description><![CDATA[Python tool for converting files and office documents to Markdown.]]></description>
+      <category>langchain</category>
+      <category>openai</category>
+      <category>autogen-extension</category>
+      <category>autogen</category>
+      <category>markdown</category>
+      <pubDate>Sat, 07 Nov 2026 03:49:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+568 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-06</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-07</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Fri, 06 Nov 2026 22:33:52 GMT</pubDate>
+      <pubDate>Sat, 07 Nov 2026 03:49:30 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/craft-anything (+2,999 stars today)]]></title>
-      <link>https://github.com/storytold/craft-anything</link>
-      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-06</guid>
-      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
-      
-      <pubDate>Fri, 06 Nov 2026 22:33:52 GMT</pubDate>
+      <title><![CDATA[cjpais/Handy (+303 stars today)]]></title>
+      <link>https://github.com/cjpais/Handy</link>
+      <guid isPermaLink="false">https://github.com/cjpais/Handy#2026-11-07</guid>
+      <description><![CDATA[A free, open source, and extensible speech-to-text application that works completely offline.]]></description>
+      <category>speech-to-text</category>
+      <category>tauri-v2</category>
+      <category>accessibility</category>
+      <category>cross-platform</category>
+      <pubDate>Sat, 07 Nov 2026 03:49:30 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[anthropics/skills (+2,917 stars today)]]></title>
-      <link>https://github.com/anthropics/skills</link>
-      <guid isPermaLink="false">https://github.com/anthropics/skills#2026-11-06</guid>
-      <description><![CDATA[Public repository for Agent Skills]]></description>
-      <category>agent-skills</category>
-      <pubDate>Fri, 06 Nov 2026 22:33:52 GMT</pubDate>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+273 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-07</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Sat, 07 Nov 2026 03:49:30 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Egonex-AI/Understand-Anything (+2,359 stars today)]]></title>
-      <link>https://github.com/Egonex-AI/Understand-Anything</link>
-      <guid isPermaLink="false">https://github.com/Egonex-AI/Understand-Anything#2026-11-06</guid>
-      <description><![CDATA[Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI,…]]></description>
-      <category>claude-code</category>
-      <category>claude-skills</category>
-      <category>understandcode</category>
-      <category>codex</category>
-      <category>codex-skills</category>
-      <pubDate>Fri, 06 Nov 2026 22:33:52 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[sherlock-project/sherlock (+1,825 stars today)]]></title>
+      <title><![CDATA[sherlock-project/sherlock (+270 stars today)]]></title>
       <link>https://github.com/sherlock-project/sherlock</link>
-      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-06</guid>
+      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-07</guid>
       <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
       <category>osint</category>
       <category>reconnaissance</category>
       <category>linux</category>
       <category>cli</category>
       <category>sherlock</category>
-      <pubDate>Fri, 06 Nov 2026 22:33:52 GMT</pubDate>
+      <pubDate>Sat, 07 Nov 2026 03:49:30 GMT</pubDate>
     </item>
   </channel>
 </rss>
