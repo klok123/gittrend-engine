@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T03:30:29.205Z",
+  "generatedAt": "2026-11-08T12:30:04.535Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,25 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 441319,
-      "starsGainedToday": 593
-    },
-    {
-      "owner": "4ian",
-      "name": "GDevelop",
-      "fullName": "4ian/GDevelop",
-      "url": "https://github.com/4ian/GDevelop",
-      "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
-      "topics": [
-        "game",
-        "javascript",
-        "gamedev",
-        "game-development",
-        "game-engine"
-      ],
-      "language": "JavaScript",
-      "totalStars": 28573,
-      "starsGainedToday": 512
+      "totalStars": 442342,
+      "starsGainedToday": 1616
     },
     {
       "owner": "sherlock-project",
@@ -51,25 +34,8 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 100747,
-      "starsGainedToday": 474
-    },
-    {
-      "owner": "wangzan101",
-      "name": "Mika",
-      "fullName": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose"
-      ],
-      "language": "Kotlin",
-      "totalStars": 7622,
-      "starsGainedToday": 441
+      "totalStars": 101785,
+      "starsGainedToday": 1512
     },
     {
       "owner": "NotRexed",
@@ -79,8 +45,36 @@
       "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
       "topics": [],
       "language": "C++",
-      "totalStars": 1969,
-      "starsGainedToday": 379
+      "totalStars": 2301,
+      "starsGainedToday": 711
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 104368,
+      "starsGainedToday": 617
+    },
+    {
+      "owner": "sarpstar",
+      "name": "cinecode",
+      "fullName": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 1272,
+      "starsGainedToday": 586
     }
   ]
 }
