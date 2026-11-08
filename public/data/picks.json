@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:15:56.850Z",
+  "generatedAt": "2026-11-08T03:30:29.205Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 440726,
-      "starsGainedToday": 2913
+      "totalStars": 441319,
+      "starsGainedToday": 593
+    },
+    {
+      "owner": "4ian",
+      "name": "GDevelop",
+      "fullName": "4ian/GDevelop",
+      "url": "https://github.com/4ian/GDevelop",
+      "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
+      "topics": [
+        "game",
+        "javascript",
+        "gamedev",
+        "game-development",
+        "game-engine"
+      ],
+      "language": "JavaScript",
+      "totalStars": 28573,
+      "starsGainedToday": 512
     },
     {
       "owner": "sherlock-project",
@@ -34,59 +51,36 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 100273,
-      "starsGainedToday": 1914
+      "totalStars": 100747,
+      "starsGainedToday": 474
     },
     {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "wangzan101",
+      "name": "Mika",
+      "fullName": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose"
       ],
-      "language": "JavaScript",
-      "totalStars": 65366,
-      "starsGainedToday": 1457
+      "language": "Kotlin",
+      "totalStars": 7622,
+      "starsGainedToday": 441
     },
     {
-      "owner": "microsoft",
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "topics": [
-        "langchain",
-        "openai",
-        "autogen-extension",
-        "autogen",
-        "markdown"
-      ],
-      "language": "Python",
-      "totalStars": 194316,
-      "starsGainedToday": 1255
-    },
-    {
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "fullName": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "language": "Python",
-      "totalStars": 78222,
-      "starsGainedToday": 1099
+      "owner": "NotRexed",
+      "name": "Hookshot",
+      "fullName": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 1969,
+      "starsGainedToday": 379
     }
   ]
 }
