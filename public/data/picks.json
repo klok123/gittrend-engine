@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-11-08T12:30:04.535Z",
+  "generatedAt": "2026-11-08T21:30:39.713Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
-      ],
-      "language": "TypeScript",
-      "totalStars": 442342,
-      "starsGainedToday": 1616
-    },
     {
       "owner": "sherlock-project",
       "name": "sherlock",
@@ -34,8 +17,25 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 101785,
-      "starsGainedToday": 1512
+      "totalStars": 103173,
+      "starsGainedToday": 2900
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
+      ],
+      "language": "TypeScript",
+      "totalStars": 443470,
+      "starsGainedToday": 2744
     },
     {
       "owner": "NotRexed",
@@ -45,8 +45,8 @@
       "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
       "topics": [],
       "language": "C++",
-      "totalStars": 2301,
-      "starsGainedToday": 711
+      "totalStars": 2867,
+      "starsGainedToday": 1277
     },
     {
       "owner": "debpalash",
@@ -62,19 +62,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 104368,
-      "starsGainedToday": 617
+      "totalStars": 104842,
+      "starsGainedToday": 1091
     },
     {
-      "owner": "sarpstar",
-      "name": "cinecode",
-      "fullName": "sarpstar/cinecode",
-      "url": "https://github.com/sarpstar/cinecode",
-      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 1272,
-      "starsGainedToday": 586
+      "owner": "Minireel",
+      "name": "HGhub",
+      "fullName": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "description": "YellowFruit third-party client",
+      "topics": [
+        "android",
+        "drama",
+        "free",
+        "movie-web-app",
+        "reels"
+      ],
+      "language": "TypeScript",
+      "totalStars": 3184,
+      "starsGainedToday": 957
     }
   ]
 }

@@ -5,21 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 12:30:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 21:30:39 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+1,616 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-08</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Sun, 08 Nov 2026 12:30:04 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[sherlock-project/sherlock (+1,512 stars today)]]></title>
+      <title><![CDATA[sherlock-project/sherlock (+2,900 stars today)]]></title>
       <link>https://github.com/sherlock-project/sherlock</link>
       <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-08</guid>
       <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
@@ -28,18 +16,30 @@
       <category>linux</category>
       <category>cli</category>
       <category>sherlock</category>
-      <pubDate>Sun, 08 Nov 2026 12:30:04 GMT</pubDate>
+      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[NotRexed/Hookshot (+711 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,744 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-08</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>cli</category>
+      <category>mcp</category>
+      <category>agent-skills</category>
+      <category>dsh-plugin</category>
+      <category>claude-code</category>
+      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[NotRexed/Hookshot (+1,277 stars today)]]></title>
       <link>https://github.com/NotRexed/Hookshot</link>
       <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-08</guid>
       <description><![CDATA[A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake]]></description>
       
-      <pubDate>Sun, 08 Nov 2026 12:30:04 GMT</pubDate>
+      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+617 stars today)]]></title>
+      <title><![CDATA[debpalash/VoiceStudio (+1,091 stars today)]]></title>
       <link>https://github.com/debpalash/VoiceStudio</link>
       <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-08</guid>
       <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
@@ -48,15 +48,19 @@
       <category>voice-generation</category>
       <category>voice-ai</category>
       <category>ai</category>
-      <pubDate>Sun, 08 Nov 2026 12:30:04 GMT</pubDate>
+      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[sarpstar/cinecode (+586 stars today)]]></title>
-      <link>https://github.com/sarpstar/cinecode</link>
-      <guid isPermaLink="false">https://github.com/sarpstar/cinecode#2026-11-08</guid>
-      <description><![CDATA[Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.]]></description>
-      
-      <pubDate>Sun, 08 Nov 2026 12:30:04 GMT</pubDate>
+      <title><![CDATA[Minireel/HGhub (+957 stars today)]]></title>
+      <link>https://github.com/Minireel/HGhub</link>
+      <guid isPermaLink="false">https://github.com/Minireel/HGhub#2026-11-08</guid>
+      <description><![CDATA[YellowFruit third-party client]]></description>
+      <category>android</category>
+      <category>drama</category>
+      <category>free</category>
+      <category>movie-web-app</category>
+      <category>reels</category>
+      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
