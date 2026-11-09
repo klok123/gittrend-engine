@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-11-09T03:45:57.538Z",
+  "generatedAt": "2026-11-09T14:45:17.422Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "yetone",
-      "name": "magpie",
-      "fullName": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm"
-      ],
-      "language": "Go",
-      "totalStars": 32481,
-      "starsGainedToday": 29898
-    },
     {
       "owner": "LNPANDY",
       "name": "NX2Apple",
@@ -34,25 +17,8 @@
         "iphone"
       ],
       "language": "Swift",
-      "totalStars": 5379,
-      "starsGainedToday": 4794
-    },
-    {
-      "owner": "makeplane",
-      "name": "plane",
-      "fullName": "makeplane/plane",
-      "url": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "topics": [
-        "django",
-        "docker",
-        "kanban",
-        "project-management",
-        "python"
-      ],
-      "language": "TypeScript",
-      "totalStars": 62165,
-      "starsGainedToday": 1084
+      "totalStars": 5584,
+      "starsGainedToday": 4999
     },
     {
       "owner": "sherlock-project",
@@ -68,25 +34,53 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 104221,
-      "starsGainedToday": 1048
+      "totalStars": 106228,
+      "starsGainedToday": 3055
     },
     {
-      "owner": "twentyhq",
-      "name": "twenty",
-      "fullName": "twentyhq/twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "topics": [
-        "crm",
-        "customer",
-        "graphql",
-        "marketing",
-        "react"
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 60665,
-      "starsGainedToday": 918
+      "totalStars": 445820,
+      "starsGainedToday": 2350
+    },
+    {
+      "owner": "Minireel",
+      "name": "HGhub",
+      "fullName": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "description": "YellowFruit third-party client",
+      "topics": [
+        "android",
+        "drama",
+        "free",
+        "movie-web-app",
+        "reels"
+      ],
+      "language": "TypeScript",
+      "totalStars": 5172,
+      "starsGainedToday": 1988
+    },
+    {
+      "owner": "NotRexed",
+      "name": "Hookshot",
+      "fullName": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 4063,
+      "starsGainedToday": 1196
     }
   ]
 }

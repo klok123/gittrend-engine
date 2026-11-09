@@ -5,21 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 03:45:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 14:45:17 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[yetone/magpie (+29,898 stars today)]]></title>
-      <link>https://github.com/yetone/magpie</link>
-      <guid isPermaLink="false">https://github.com/yetone/magpie#2026-11-09</guid>
-      <description><![CDATA[Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>deepseek</category>
-      <category>gemini-cli</category>
-      <category>llm</category>
-      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[LNPANDY/NX2Apple (+4,794 stars today)]]></title>
+      <title><![CDATA[LNPANDY/NX2Apple (+4,999 stars today)]]></title>
       <link>https://github.com/LNPANDY/NX2Apple</link>
       <guid isPermaLink="false">https://github.com/LNPANDY/NX2Apple#2026-11-09</guid>
       <description><![CDATA[Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.]]></description>
@@ -28,22 +16,10 @@
       <category>ios</category>
       <category>ipad</category>
       <category>iphone</category>
-      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[makeplane/plane (+1,084 stars today)]]></title>
-      <link>https://github.com/makeplane/plane</link>
-      <guid isPermaLink="false">https://github.com/makeplane/plane#2026-11-09</guid>
-      <description><![CDATA[🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.]]></description>
-      <category>django</category>
-      <category>docker</category>
-      <category>kanban</category>
-      <category>project-management</category>
-      <category>python</category>
-      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[sherlock-project/sherlock (+1,048 stars today)]]></title>
+      <title><![CDATA[sherlock-project/sherlock (+3,055 stars today)]]></title>
       <link>https://github.com/sherlock-project/sherlock</link>
       <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-09</guid>
       <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
@@ -52,19 +28,39 @@
       <category>linux</category>
       <category>cli</category>
       <category>sherlock</category>
-      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[twentyhq/twenty (+918 stars today)]]></title>
-      <link>https://github.com/twentyhq/twenty</link>
-      <guid isPermaLink="false">https://github.com/twentyhq/twenty#2026-11-09</guid>
-      <description><![CDATA[The open alternative to Salesforce, designed for AI.]]></description>
-      <category>crm</category>
-      <category>customer</category>
-      <category>graphql</category>
-      <category>marketing</category>
-      <category>react</category>
-      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+      <title><![CDATA[morluto/rea (+2,350 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-09</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>cli</category>
+      <category>mcp</category>
+      <category>agent-skills</category>
+      <category>dsh-plugin</category>
+      <category>claude-code</category>
+      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Minireel/HGhub (+1,988 stars today)]]></title>
+      <link>https://github.com/Minireel/HGhub</link>
+      <guid isPermaLink="false">https://github.com/Minireel/HGhub#2026-11-09</guid>
+      <description><![CDATA[YellowFruit third-party client]]></description>
+      <category>android</category>
+      <category>drama</category>
+      <category>free</category>
+      <category>movie-web-app</category>
+      <category>reels</category>
+      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[NotRexed/Hookshot (+1,196 stars today)]]></title>
+      <link>https://github.com/NotRexed/Hookshot</link>
+      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-09</guid>
+      <description><![CDATA[A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake]]></description>
+      
+      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
