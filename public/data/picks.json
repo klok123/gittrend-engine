@@ -1,8 +1,59 @@
 {
-  "generatedAt": "2026-11-08T21:30:39.713Z",
+  "generatedAt": "2026-11-09T03:45:57.538Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "yetone",
+      "name": "magpie",
+      "fullName": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm"
+      ],
+      "language": "Go",
+      "totalStars": 32481,
+      "starsGainedToday": 29898
+    },
+    {
+      "owner": "LNPANDY",
+      "name": "NX2Apple",
+      "fullName": "LNPANDY/NX2Apple",
+      "url": "https://github.com/LNPANDY/NX2Apple",
+      "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
+      "topics": [
+        "custom-format",
+        "homebrew",
+        "ios",
+        "ipad",
+        "iphone"
+      ],
+      "language": "Swift",
+      "totalStars": 5379,
+      "starsGainedToday": 4794
+    },
+    {
+      "owner": "makeplane",
+      "name": "plane",
+      "fullName": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "topics": [
+        "django",
+        "docker",
+        "kanban",
+        "project-management",
+        "python"
+      ],
+      "language": "TypeScript",
+      "totalStars": 62165,
+      "starsGainedToday": 1084
+    },
     {
       "owner": "sherlock-project",
       "name": "sherlock",
@@ -17,70 +68,25 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 103173,
-      "starsGainedToday": 2900
+      "totalStars": 104221,
+      "starsGainedToday": 1048
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "twentyhq",
+      "name": "twenty",
+      "fullName": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
       "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
+        "crm",
+        "customer",
+        "graphql",
+        "marketing",
+        "react"
       ],
       "language": "TypeScript",
-      "totalStars": 443470,
-      "starsGainedToday": 2744
-    },
-    {
-      "owner": "NotRexed",
-      "name": "Hookshot",
-      "fullName": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 2867,
-      "starsGainedToday": 1277
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 104842,
-      "starsGainedToday": 1091
-    },
-    {
-      "owner": "Minireel",
-      "name": "HGhub",
-      "fullName": "Minireel/HGhub",
-      "url": "https://github.com/Minireel/HGhub",
-      "description": "YellowFruit third-party client",
-      "topics": [
-        "android",
-        "drama",
-        "free",
-        "movie-web-app",
-        "reels"
-      ],
-      "language": "TypeScript",
-      "totalStars": 3184,
-      "starsGainedToday": 957
+      "totalStars": 60665,
+      "starsGainedToday": 918
     }
   ]
 }

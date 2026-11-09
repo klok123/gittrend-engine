@@ -5,62 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 21:30:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 03:45:57 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[sherlock-project/sherlock (+2,900 stars today)]]></title>
+      <title><![CDATA[yetone/magpie (+29,898 stars today)]]></title>
+      <link>https://github.com/yetone/magpie</link>
+      <guid isPermaLink="false">https://github.com/yetone/magpie#2026-11-09</guid>
+      <description><![CDATA[Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>deepseek</category>
+      <category>gemini-cli</category>
+      <category>llm</category>
+      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[LNPANDY/NX2Apple (+4,794 stars today)]]></title>
+      <link>https://github.com/LNPANDY/NX2Apple</link>
+      <guid isPermaLink="false">https://github.com/LNPANDY/NX2Apple#2026-11-09</guid>
+      <description><![CDATA[Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.]]></description>
+      <category>custom-format</category>
+      <category>homebrew</category>
+      <category>ios</category>
+      <category>ipad</category>
+      <category>iphone</category>
+      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[makeplane/plane (+1,084 stars today)]]></title>
+      <link>https://github.com/makeplane/plane</link>
+      <guid isPermaLink="false">https://github.com/makeplane/plane#2026-11-09</guid>
+      <description><![CDATA[🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.]]></description>
+      <category>django</category>
+      <category>docker</category>
+      <category>kanban</category>
+      <category>project-management</category>
+      <category>python</category>
+      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[sherlock-project/sherlock (+1,048 stars today)]]></title>
       <link>https://github.com/sherlock-project/sherlock</link>
-      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-08</guid>
+      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-09</guid>
       <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
       <category>osint</category>
       <category>reconnaissance</category>
       <category>linux</category>
       <category>cli</category>
       <category>sherlock</category>
-      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
+      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+2,744 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-08</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[NotRexed/Hookshot (+1,277 stars today)]]></title>
-      <link>https://github.com/NotRexed/Hookshot</link>
-      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-08</guid>
-      <description><![CDATA[A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake]]></description>
-      
-      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+1,091 stars today)]]></title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-08</guid>
-      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
-      <category>tts</category>
-      <category>voice-cloning</category>
-      <category>voice-generation</category>
-      <category>voice-ai</category>
-      <category>ai</category>
-      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Minireel/HGhub (+957 stars today)]]></title>
-      <link>https://github.com/Minireel/HGhub</link>
-      <guid isPermaLink="false">https://github.com/Minireel/HGhub#2026-11-08</guid>
-      <description><![CDATA[YellowFruit third-party client]]></description>
-      <category>android</category>
-      <category>drama</category>
-      <category>free</category>
-      <category>movie-web-app</category>
-      <category>reels</category>
-      <pubDate>Sun, 08 Nov 2026 21:30:39 GMT</pubDate>
+      <title><![CDATA[twentyhq/twenty (+918 stars today)]]></title>
+      <link>https://github.com/twentyhq/twenty</link>
+      <guid isPermaLink="false">https://github.com/twentyhq/twenty#2026-11-09</guid>
+      <description><![CDATA[The open alternative to Salesforce, designed for AI.]]></description>
+      <category>crm</category>
+      <category>customer</category>
+      <category>graphql</category>
+      <category>marketing</category>
+      <category>react</category>
+      <pubDate>Mon, 09 Nov 2026 03:45:57 GMT</pubDate>
     </item>
   </channel>
 </rss>
