@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-11-10T01:00:51.827Z",
+  "generatedAt": "2026-11-10T14:00:16.312Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "huamidev",
+      "name": "GestaltX",
+      "fullName": "huamidev/GestaltX",
+      "url": "https://github.com/huamidev/GestaltX",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "topics": [],
+      "language": "Swift",
+      "totalStars": 4098,
+      "starsGainedToday": 3317
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,30 +28,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 446988,
-      "starsGainedToday": 1168
-    },
-    {
-      "owner": "NotRexed",
-      "name": "Hookshot",
-      "fullName": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 5040,
-      "starsGainedToday": 977
-    },
-    {
-      "owner": "huamidev",
-      "name": "GestaltX",
-      "fullName": "huamidev/GestaltX",
-      "url": "https://github.com/huamidev/GestaltX",
-      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 1644,
-      "starsGainedToday": 863
+      "totalStars": 448852,
+      "starsGainedToday": 3032
     },
     {
       "owner": "sherlock-project",
@@ -56,25 +45,36 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 107040,
-      "starsGainedToday": 812
+      "totalStars": 108353,
+      "starsGainedToday": 2125
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "NotRexed",
+      "name": "Hookshot",
+      "fullName": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 5994,
+      "starsGainedToday": 1931
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Python",
-      "totalStars": 106179,
-      "starsGainedToday": 472
+      "language": "JavaScript",
+      "totalStars": 68379,
+      "starsGainedToday": 1248
     }
   ]
 }
