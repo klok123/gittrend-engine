@@ -1,24 +1,46 @@
 {
-  "generatedAt": "2026-11-09T14:45:17.422Z",
+  "generatedAt": "2026-11-10T01:00:51.827Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "LNPANDY",
-      "name": "NX2Apple",
-      "fullName": "LNPANDY/NX2Apple",
-      "url": "https://github.com/LNPANDY/NX2Apple",
-      "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "topics": [
-        "custom-format",
-        "homebrew",
-        "ios",
-        "ipad",
-        "iphone"
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
       ],
+      "language": "TypeScript",
+      "totalStars": 446988,
+      "starsGainedToday": 1168
+    },
+    {
+      "owner": "NotRexed",
+      "name": "Hookshot",
+      "fullName": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 5040,
+      "starsGainedToday": 977
+    },
+    {
+      "owner": "huamidev",
+      "name": "GestaltX",
+      "fullName": "huamidev/GestaltX",
+      "url": "https://github.com/huamidev/GestaltX",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "topics": [],
       "language": "Swift",
-      "totalStars": 5584,
-      "starsGainedToday": 4999
+      "totalStars": 1644,
+      "starsGainedToday": 863
     },
     {
       "owner": "sherlock-project",
@@ -34,53 +56,25 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 106228,
-      "starsGainedToday": 3055
+      "totalStars": 107040,
+      "starsGainedToday": 812
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
       ],
-      "language": "TypeScript",
-      "totalStars": 445820,
-      "starsGainedToday": 2350
-    },
-    {
-      "owner": "Minireel",
-      "name": "HGhub",
-      "fullName": "Minireel/HGhub",
-      "url": "https://github.com/Minireel/HGhub",
-      "description": "YellowFruit third-party client",
-      "topics": [
-        "android",
-        "drama",
-        "free",
-        "movie-web-app",
-        "reels"
-      ],
-      "language": "TypeScript",
-      "totalStars": 5172,
-      "starsGainedToday": 1988
-    },
-    {
-      "owner": "NotRexed",
-      "name": "Hookshot",
-      "fullName": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 4063,
-      "starsGainedToday": 1196
+      "language": "Python",
+      "totalStars": 106179,
+      "starsGainedToday": 472
     }
   ]
 }

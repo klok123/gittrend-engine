@@ -5,62 +5,58 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 14:45:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 01:00:51 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[LNPANDY/NX2Apple (+4,999 stars today)]]></title>
-      <link>https://github.com/LNPANDY/NX2Apple</link>
-      <guid isPermaLink="false">https://github.com/LNPANDY/NX2Apple#2026-11-09</guid>
-      <description><![CDATA[Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.]]></description>
-      <category>custom-format</category>
-      <category>homebrew</category>
-      <category>ios</category>
-      <category>ipad</category>
-      <category>iphone</category>
-      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[sherlock-project/sherlock (+3,055 stars today)]]></title>
-      <link>https://github.com/sherlock-project/sherlock</link>
-      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-09</guid>
-      <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
-      <category>osint</category>
-      <category>reconnaissance</category>
-      <category>linux</category>
-      <category>cli</category>
-      <category>sherlock</category>
-      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+2,350 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,168 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-09</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-10</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 01:00:51 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Minireel/HGhub (+1,988 stars today)]]></title>
-      <link>https://github.com/Minireel/HGhub</link>
-      <guid isPermaLink="false">https://github.com/Minireel/HGhub#2026-11-09</guid>
-      <description><![CDATA[YellowFruit third-party client]]></description>
-      <category>android</category>
-      <category>drama</category>
-      <category>free</category>
-      <category>movie-web-app</category>
-      <category>reels</category>
-      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[NotRexed/Hookshot (+1,196 stars today)]]></title>
+      <title><![CDATA[NotRexed/Hookshot (+977 stars today)]]></title>
       <link>https://github.com/NotRexed/Hookshot</link>
-      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-09</guid>
+      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-10</guid>
       <description><![CDATA[A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake]]></description>
       
-      <pubDate>Mon, 09 Nov 2026 14:45:17 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 01:00:51 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[huamidev/GestaltX (+863 stars today)]]></title>
+      <link>https://github.com/huamidev/GestaltX</link>
+      <guid isPermaLink="false">https://github.com/huamidev/GestaltX#2026-11-10</guid>
+      <description><![CDATA[An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.]]></description>
+      
+      <pubDate>Tue, 10 Nov 2026 01:00:51 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[sherlock-project/sherlock (+812 stars today)]]></title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-10</guid>
+      <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
+      <category>osint</category>
+      <category>reconnaissance</category>
+      <category>linux</category>
+      <category>cli</category>
+      <category>sherlock</category>
+      <pubDate>Tue, 10 Nov 2026 01:00:51 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+472 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-10</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Tue, 10 Nov 2026 01:00:51 GMT</pubDate>
     </item>
   </channel>
 </rss>
