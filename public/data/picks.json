@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:41:24.680Z",
+  "generatedAt": "2026-11-11T03:51:57.354Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 449802,
-      "starsGainedToday": 3982
+      "totalStars": 450401,
+      "starsGainedToday": 599
     },
     {
       "owner": "huamidev",
@@ -28,8 +28,25 @@
       "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
       "topics": [],
       "language": "Swift",
-      "totalStars": 4640,
-      "starsGainedToday": 3859
+      "totalStars": 5167,
+      "starsGainedToday": 527
+    },
+    {
+      "owner": "avelino",
+      "name": "awesome-go",
+      "fullName": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "topics": [
+        "golang",
+        "golang-library",
+        "go",
+        "awesome",
+        "awesome-list"
+      ],
+      "language": "Go",
+      "totalStars": 193187,
+      "starsGainedToday": 374
     },
     {
       "owner": "sherlock-project",
@@ -45,36 +62,25 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 108867,
-      "starsGainedToday": 2639
+      "totalStars": 109200,
+      "starsGainedToday": 333
     },
     {
-      "owner": "NotRexed",
-      "name": "Hookshot",
-      "fullName": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 6447,
-      "starsGainedToday": 2384
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "owner": "LNPANDY",
+      "name": "NX2Apple",
+      "fullName": "LNPANDY/NX2Apple",
+      "url": "https://github.com/LNPANDY/NX2Apple",
+      "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
       "topics": [
-        "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "custom-format",
+        "homebrew",
+        "ios",
+        "ipad",
+        "iphone"
       ],
-      "language": "JavaScript",
-      "totalStars": 68676,
-      "starsGainedToday": 1545
+      "language": "Swift",
+      "totalStars": 5988,
+      "starsGainedToday": 299
     }
   ]
 }
