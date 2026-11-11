@@ -1,8 +1,24 @@
 {
-  "generatedAt": "2026-11-11T03:51:57.354Z",
+  "generatedAt": "2026-11-11T13:16:01.756Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 278723,
+      "starsGainedToday": 3854
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +33,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 450401,
-      "starsGainedToday": 599
+      "totalStars": 451585,
+      "starsGainedToday": 1783
     },
     {
       "owner": "huamidev",
@@ -28,25 +44,25 @@
       "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
       "topics": [],
       "language": "Swift",
-      "totalStars": 5167,
-      "starsGainedToday": 527
+      "totalStars": 5853,
+      "starsGainedToday": 1213
     },
     {
-      "owner": "avelino",
-      "name": "awesome-go",
-      "fullName": "avelino/awesome-go",
-      "url": "https://github.com/avelino/awesome-go",
-      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
       "topics": [
-        "golang",
-        "golang-library",
-        "go",
-        "awesome",
-        "awesome-list"
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
       ],
-      "language": "Go",
-      "totalStars": 193187,
-      "starsGainedToday": 374
+      "language": "JavaScript",
+      "totalStars": 69618,
+      "starsGainedToday": 942
     },
     {
       "owner": "sherlock-project",
@@ -62,25 +78,8 @@
         "sherlock"
       ],
       "language": "Python",
-      "totalStars": 109200,
-      "starsGainedToday": 333
-    },
-    {
-      "owner": "LNPANDY",
-      "name": "NX2Apple",
-      "fullName": "LNPANDY/NX2Apple",
-      "url": "https://github.com/LNPANDY/NX2Apple",
-      "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
-      "topics": [
-        "custom-format",
-        "homebrew",
-        "ios",
-        "ipad",
-        "iphone"
-      ],
-      "language": "Swift",
-      "totalStars": 5988,
-      "starsGainedToday": 299
+      "totalStars": 109784,
+      "starsGainedToday": 917
     }
   ]
 }

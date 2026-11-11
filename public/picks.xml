@@ -5,9 +5,20 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:51:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 13:16:01 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+599 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+3,854 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-11</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+1,783 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-11</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,30 +27,30 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 11 Nov 2026 03:51:57 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[huamidev/GestaltX (+527 stars today)]]></title>
+      <title><![CDATA[huamidev/GestaltX (+1,213 stars today)]]></title>
       <link>https://github.com/huamidev/GestaltX</link>
       <guid isPermaLink="false">https://github.com/huamidev/GestaltX#2026-11-11</guid>
       <description><![CDATA[An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.]]></description>
       
-      <pubDate>Wed, 11 Nov 2026 03:51:57 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[avelino/awesome-go (+374 stars today)]]></title>
-      <link>https://github.com/avelino/awesome-go</link>
-      <guid isPermaLink="false">https://github.com/avelino/awesome-go#2026-11-11</guid>
-      <description><![CDATA[A curated list of awesome Go frameworks, libraries and software]]></description>
-      <category>golang</category>
-      <category>golang-library</category>
-      <category>go</category>
-      <category>awesome</category>
-      <category>awesome-list</category>
-      <pubDate>Wed, 11 Nov 2026 03:51:57 GMT</pubDate>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+942 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-11</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[sherlock-project/sherlock (+333 stars today)]]></title>
+      <title><![CDATA[sherlock-project/sherlock (+917 stars today)]]></title>
       <link>https://github.com/sherlock-project/sherlock</link>
       <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-11</guid>
       <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
@@ -48,19 +59,7 @@
       <category>linux</category>
       <category>cli</category>
       <category>sherlock</category>
-      <pubDate>Wed, 11 Nov 2026 03:51:57 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[LNPANDY/NX2Apple (+299 stars today)]]></title>
-      <link>https://github.com/LNPANDY/NX2Apple</link>
-      <guid isPermaLink="false">https://github.com/LNPANDY/NX2Apple#2026-11-11</guid>
-      <description><![CDATA[Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.]]></description>
-      <category>custom-format</category>
-      <category>homebrew</category>
-      <category>ios</category>
-      <category>ipad</category>
-      <category>iphone</category>
-      <pubDate>Wed, 11 Nov 2026 03:51:57 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
     </item>
   </channel>
 </rss>
