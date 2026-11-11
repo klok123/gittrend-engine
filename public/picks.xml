@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 13:16:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:53:37 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+3,854 stars today)]]></title>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+4,112 stars today)]]></title>
       <link>https://github.com/deepseek-ai/deepseek-harness</link>
       <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-11</guid>
       <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
@@ -15,10 +15,10 @@
       <category>dsh</category>
       <category>dsh-plugin</category>
       <category>ai-agents</category>
-      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 23:53:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+1,783 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,869 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-11</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -27,18 +27,18 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 23:53:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[huamidev/GestaltX (+1,213 stars today)]]></title>
+      <title><![CDATA[huamidev/GestaltX (+1,552 stars today)]]></title>
       <link>https://github.com/huamidev/GestaltX</link>
       <guid isPermaLink="false">https://github.com/huamidev/GestaltX#2026-11-11</guid>
       <description><![CDATA[An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.]]></description>
       
-      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 23:53:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+942 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,322 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-11</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -47,19 +47,15 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+      <pubDate>Wed, 11 Nov 2026 23:53:37 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[sherlock-project/sherlock (+917 stars today)]]></title>
-      <link>https://github.com/sherlock-project/sherlock</link>
-      <guid isPermaLink="false">https://github.com/sherlock-project/sherlock#2026-11-11</guid>
-      <description><![CDATA[Hunt down social media accounts by username across social networks]]></description>
-      <category>osint</category>
-      <category>reconnaissance</category>
-      <category>linux</category>
-      <category>cli</category>
-      <category>sherlock</category>
-      <pubDate>Wed, 11 Nov 2026 13:16:01 GMT</pubDate>
+      <title><![CDATA[NotRexed/Hookshot (+1,303 stars today)]]></title>
+      <link>https://github.com/NotRexed/Hookshot</link>
+      <guid isPermaLink="false">https://github.com/NotRexed/Hookshot#2026-11-11</guid>
+      <description><![CDATA[A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake]]></description>
+      
+      <pubDate>Wed, 11 Nov 2026 23:53:37 GMT</pubDate>
     </item>
   </channel>
 </rss>

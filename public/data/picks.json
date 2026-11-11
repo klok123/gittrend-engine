@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:16:01.756Z",
+  "generatedAt": "2026-11-11T23:53:37.056Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,8 +16,8 @@
         "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 278723,
-      "starsGainedToday": 3854
+      "totalStars": 278981,
+      "starsGainedToday": 4112
     },
     {
       "owner": "morluto",
@@ -33,8 +33,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 451585,
-      "starsGainedToday": 1783
+      "totalStars": 452671,
+      "starsGainedToday": 2869
     },
     {
       "owner": "huamidev",
@@ -44,8 +44,8 @@
       "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
       "topics": [],
       "language": "Swift",
-      "totalStars": 5853,
-      "starsGainedToday": 1213
+      "totalStars": 6192,
+      "starsGainedToday": 1552
     },
     {
       "owner": "Ebony-Vinyl",
@@ -61,25 +61,19 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 69618,
-      "starsGainedToday": 942
+      "totalStars": 69998,
+      "starsGainedToday": 1322
     },
     {
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "fullName": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "topics": [
-        "osint",
-        "reconnaissance",
-        "linux",
-        "cli",
-        "sherlock"
-      ],
-      "language": "Python",
-      "totalStars": 109784,
-      "starsGainedToday": 917
+      "owner": "NotRexed",
+      "name": "Hookshot",
+      "fullName": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 7750,
+      "starsGainedToday": 1303
     }
   ]
 }
