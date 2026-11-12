@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-11T23:53:37.056Z",
+  "generatedAt": "2026-11-12T04:59:29.825Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 278981,
-      "starsGainedToday": 4112
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -33,19 +17,59 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 452671,
-      "starsGainedToday": 2869
+      "totalStars": 453213,
+      "starsGainedToday": 542
     },
     {
-      "owner": "huamidev",
-      "name": "GestaltX",
-      "fullName": "huamidev/GestaltX",
-      "url": "https://github.com/huamidev/GestaltX",
-      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "topics": [],
-      "language": "Swift",
-      "totalStars": 6192,
-      "starsGainedToday": 1552
+      "owner": "Eriazeri",
+      "name": "on1-photo-raw-max-config",
+      "fullName": "Eriazeri/on1-photo-raw-max-config",
+      "url": "https://github.com/Eriazeri/on1-photo-raw-max-config",
+      "description": "on1-photo-raw-max: complete standalone setup with advanced image tools",
+      "topics": [
+        "automation",
+        "desktop",
+        "developer-tools",
+        "on1-photo",
+        "on1-photo-raw"
+      ],
+      "language": "HTML",
+      "totalStars": 1200,
+      "starsGainedToday": 433
+    },
+    {
+      "owner": "manjushree-iyer",
+      "name": "soundpad-audio-suite",
+      "fullName": "manjushree-iyer/soundpad-audio-suite",
+      "url": "https://github.com/manjushree-iyer/soundpad-audio-suite",
+      "description": "Soundpad: Advanced Audio Processing for Professional DAW Workflows",
+      "topics": [
+        "automation",
+        "desktop",
+        "developer-tools",
+        "open-source",
+        "python"
+      ],
+      "language": "Go",
+      "totalStars": 1200,
+      "starsGainedToday": 433
+    },
+    {
+      "owner": "Malik-825",
+      "name": "sketchup-pro-desktop",
+      "fullName": "Malik-825/sketchup-pro-desktop",
+      "url": "https://github.com/Malik-825/sketchup-pro-desktop",
+      "description": "Sketchup Pro 2026 Complete Standalone Desktop Setup with All Features Pre-Activated",
+      "topics": [
+        "3d-modeling-software",
+        "architectural-visualization",
+        "automation",
+        "design-pipeline",
+        "developer-tools"
+      ],
+      "language": "HTML",
+      "totalStars": 1200,
+      "starsGainedToday": 433
     },
     {
       "owner": "Ebony-Vinyl",
@@ -61,19 +85,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 69998,
-      "starsGainedToday": 1322
-    },
-    {
-      "owner": "NotRexed",
-      "name": "Hookshot",
-      "fullName": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 7750,
-      "starsGainedToday": 1303
+      "totalStars": 70340,
+      "starsGainedToday": 342
     }
   ]
 }
