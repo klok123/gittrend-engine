@@ -1,218 +1,194 @@
 {
-  "deepseek-ai/deepseek-harness|ebony-vinyl/dsh-our-free-model": {
+  "eriazeri/on1-photo-raw-max-config|muddinenilakshmilalithaksh-create/sp-flash-tool": {
     "pick": "A",
-    "confidence": 0.4688,
-    "note": "Deciding factors: stars today (+4,112 vs +1,322), velocity (1348483.3 vs 156653.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.6123,
+    "note": "Deciding factors: stars today (+433 vs +0), velocity (26412.9 vs 0.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "datawhalechina/hello-agents|openhands/openhands": {
-    "pick": "B",
-    "confidence": 0.5141,
-    "note": "Deciding factors: stars today (+3,460 vs +105), velocity (1052830.9 vs 963.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+  "eriazeri/on1-photo-raw-max-config|shahnawaz0786/payday-3-enhancement-toolkit": {
+    "pick": "A",
+    "confidence": 0.591,
+    "note": "Deciding factors: stars today (+433 vs +0), velocity (26412.9 vs 0.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "datawhalechina/hello-agents|mintplex-labs/anything-llm": {
-    "pick": "B",
-    "confidence": 0.4994,
-    "note": "Deciding factors: stars today (+3,460 vs +36), velocity (1052830.9 vs 116.4).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+  "manjushree-iyer/soundpad-audio-suite|sk-dev666/rust-external-trainer-tool": {
+    "pick": "A",
+    "confidence": 0.6651,
+    "note": "Deciding factors: stars today (+433 vs +0), velocity (26412.9 vs 0.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "manjushree-iyer/soundpad-audio-suite|shayannazar84-hero/honkai-star-rail-companion-suite": {
+    "pick": "A",
+    "confidence": 0.751,
+    "note": "Deciding factors: stars today (+433 vs +0), velocity (26412.9 vs 0.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "eriazeri/on1-photo-raw-max-config|malik-825/sketchup-pro-desktop": {
+    "pick": "A",
+    "confidence": 0.45,
+    "note": "The numbers are nearly identical.",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "malik-825/sketchup-pro-desktop|muddinenilakshmilalithaksh-create/sp-flash-tool": {
+    "pick": "A",
+    "confidence": 0.8215,
+    "note": "Deciding factors: stars today (+433 vs +0), velocity (26412.9 vs 0.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "morluto/rea|rtk-ai/rtk": {
     "pick": "A",
-    "confidence": 0.6456,
-    "note": "Deciding factors: stars today (+2,869 vs +144), velocity (632050.8 vs 1824.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.6947,
+    "note": "Deciding factors: stars today (+542 vs +17), velocity (22555.3 vs 25.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "blader/humanizer|morluto/rea": {
-    "pick": "A",
-    "confidence": 0.5665,
-    "note": "Deciding factors: stars today (+2,869 vs +582), velocity (632050.8 vs 30441.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "pick": "B",
+    "confidence": 0.4998,
+    "note": "Deciding factors: stars today (+542 vs +108), velocity (22555.3 vs 1048.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "affaan-m/ecc|ebony-vinyl/dsh-our-free-model": {
-    "pick": "A",
-    "confidence": 0.832,
-    "note": "Deciding factors: stars today (+1,322 vs +589), velocity (156653.5 vs 27498.3).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "jasoncharb/directory-opus|kcgeekedup-hash/delta-force-trainer-tool": {
-    "pick": "A",
-    "confidence": 0.4433,
-    "note": "Deciding factors: stars today (+815 vs +0), velocity (92598.2 vs 0.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "abdulmannanmalik13-wq/adobe-substance-3d-studio|jasoncharb/directory-opus": {
-    "pick": "A",
-    "confidence": 0.6688,
-    "note": "Deciding factors: stars today (+815 vs +531), velocity (92598.2 vs 39265.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+  "deepseek-ai/deepseek-harness|ebony-vinyl/dsh-our-free-model": {
+    "pick": "B",
+    "confidence": 0.4912,
+    "note": "Deciding factors: stars today (+342 vs +200), velocity (10479.5 vs 3189.9).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "egonex-ai/understand-anything|stablyai/orca": {
     "pick": "A",
-    "confidence": 0.7939,
-    "note": "Deciding factors: stars today (+992 vs +300), velocity (84001.2 vs 7872.9).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.7118,
+    "note": "Deciding factors: stars today (+210 vs +34), velocity (3763.9 vs 101.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "manaflow-ai/cmux|stablyai/orca": {
     "pick": "A",
-    "confidence": 0.6142,
-    "note": "Deciding factors: stars today (+992 vs +7), velocity (84001.2 vs 4.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "flgomes/dxo-photolab-10-desktop|ryotheone/dxo-photolab-10-config": {
-    "pick": "A",
-    "confidence": 0.784,
-    "note": "Deciding factors: stars today (+749 vs +0), velocity (78769.5 vs 0.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "flgomes/dxo-photolab-10-desktop|groschen81-web/secure-desktop-installer": {
-    "pick": "A",
-    "confidence": 0.6147,
-    "note": "Deciding factors: stars today (+749 vs +0), velocity (78769.5 vs 0.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "21041979/rufus-usb-formatter|shahnawaz0786/payday-3-enhancement-toolkit": {
-    "pick": "A",
-    "confidence": 0.4662,
-    "note": "Deciding factors: stars today (+721 vs +720), velocity (73233.8 vs 73030.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "21041979/rufus-usb-formatter|shayannazar84-hero/honkai-star-rail-companion-suite": {
-    "pick": "B",
-    "confidence": 0.4144,
-    "note": "Deciding factors: stars today (+721 vs +427), velocity (73233.8 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "janitoff0/ninjatrader-bot|leanislizarzado/ibm-spss-desktop-suite": {
-    "pick": "A",
-    "confidence": 0.554,
-    "note": "Deciding factors: stars today (+721 vs +428), velocity (73225.3 vs 25803.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "janitoff0/ninjatrader-bot|muddinenilakshmilalithaksh-create/sp-flash-tool": {
-    "pick": "A",
-    "confidence": 0.4117,
-    "note": "Deciding factors: stars today (+721 vs +720), velocity (73225.3 vs 73030.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "muddinenilakshmilalithaksh-create/sp-flash-tool|shahnawaz0786/payday-3-enhancement-toolkit": {
-    "pick": "A",
-    "confidence": 0.4064,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "dikshantghimire321-droid/kontakt-8-config|muddinenilakshmilalithaksh-create/sp-flash-tool": {
-    "pick": "A",
-    "confidence": 0.4736,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "ethangangasingh-crypto/musicmakerunlimited|sk-dev666/rust-external-trainer-tool": {
-    "pick": "A",
-    "confidence": 0.4427,
-    "note": "Deciding factors: stars today (+720 vs +427), velocity (73030.8 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "ethangangasingh-crypto/musicmakerunlimited|muddinenilakshmilalithaksh-create/sp-flash-tool": {
-    "pick": "A",
-    "confidence": 0.6714,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "shahnawaz0786/payday-3-enhancement-toolkit|shayannazar84-hero/honkai-star-rail-companion-suite": {
-    "pick": "A",
-    "confidence": 0.5308,
-    "note": "Deciding factors: stars today (+720 vs +427), velocity (73030.8 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "groschen81-web/secure-desktop-installer|shahnawaz0786/payday-3-enhancement-toolkit": {
-    "pick": "A",
-    "confidence": 0.5856,
-    "note": "Deciding factors: stars today (+720 vs +0), velocity (73030.8 vs 0.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "dikshantghimire321-droid/kontakt-8-config|shahnawaz0786/payday-3-enhancement-toolkit": {
-    "pick": "A",
-    "confidence": 0.512,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.6469,
+    "note": "Deciding factors: stars today (+210 vs +5), velocity (3763.9 vs 2.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "github/awesome-copilot|pbakaus/impeccable": {
     "pick": "A",
-    "confidence": 0.5385,
-    "note": "Deciding factors: stars today (+735 vs +35), velocity (46600.7 vs 115.3).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.6713,
+    "note": "Deciding factors: stars today (+151 vs +6), velocity (1966.6 vs 3.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "abdulmannanmalik13-wq/adobe-substance-3d-studio|shayannazar84-hero/honkai-star-rail-companion-suite": {
+  "d4vinci/scrapling|scrapy/scrapy": {
     "pick": "A",
-    "confidence": 0.6386,
-    "note": "Deciding factors: stars today (+531 vs +427), velocity (39265.8 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
-  },
-  "abdulmannanmalik13-wq/adobe-substance-3d-studio|sk-dev666/rust-external-trainer-tool": {
-    "pick": "A",
-    "confidence": 0.5438,
-    "note": "Deciding factors: stars today (+531 vs +427), velocity (39265.8 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.7013,
+    "note": "Deciding factors: stars today (+111 vs +18), velocity (1068.6 vs 29.2).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "blader/humanizer|graphify-labs/graphify": {
     "pick": "A",
-    "confidence": 0.4963,
-    "note": "Deciding factors: stars today (+582 vs +543), velocity (30441.8 vs 24792.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.4839,
+    "note": "Deciding factors: stars today (+108 vs +88), velocity (1048.1 vs 651.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
   "blader/humanizer|coreyhaines31/marketingskills": {
     "pick": "B",
-    "confidence": 0.4797,
-    "note": "Deciding factors: stars today (+582 vs +199), velocity (30441.8 vs 3600.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.4866,
+    "note": "Deciding factors: stars today (+108 vs +30), velocity (1048.1 vs 81.8).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "affaan-m/ecc|juliusbrussee/caveman": {
+  "rikkahub/rikkahub|wangzan101/mika": {
     "pick": "A",
-    "confidence": 0.7733,
-    "note": "Deciding factors: stars today (+589 vs +258), velocity (27498.3 vs 5695.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.6883,
+    "note": "Deciding factors: stars today (+82 vs +2), velocity (745.2 vs 0.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "affaan-m/ecc|cheaper-inference/omniroute": {
+  "t8rin/imagetoolbox|wangzan101/mika": {
     "pick": "A",
-    "confidence": 0.8651,
-    "note": "Deciding factors: stars today (+589 vs +320), velocity (27498.3 vs 9006.8).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.7841,
+    "note": "Deciding factors: stars today (+82 vs +1), velocity (745.2 vs 0.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "ethangangasingh-crypto/musicmakerunlimited|rolandov3/metatrader-5-bot": {
+  "jarrodwatts/claude-hud|louis-cfm/coucou": {
+    "pick": "A",
+    "confidence": 0.8949,
+    "note": "Deciding factors: stars today (+78 vs +30), velocity (685.6 vs 87.5).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "decolua/9router|louis-cfm/coucou": {
+    "pick": "A",
+    "confidence": 0.8429,
+    "note": "Deciding factors: stars today (+78 vs +26), velocity (685.6 vs 65.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "graphify-labs/graphify|stablyai/orca": {
+    "pick": "A",
+    "confidence": 0.5267,
+    "note": "Deciding factors: stars today (+210 vs +88), velocity (3763.9 vs 651.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "farion1231/cc-switch|tauri-apps/tauri": {
     "pick": "B",
-    "confidence": 0.4265,
-    "note": "Deciding factors: stars today (+720 vs +431), velocity (73030.8 vs 26157.3).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.5028,
+    "note": "Deciding factors: stars today (+80 vs +10), velocity (535.9 vs 8.6).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "rdeepak-wq121/quicken-deluxe-installer|rolandov3/metatrader-5-bot": {
+  "bevyengine/bevy|farion1231/cc-switch": {
+    "pick": "A",
+    "confidence": 0.7643,
+    "note": "Deciding factors: stars today (+80 vs +4), velocity (535.9 vs 1.5).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "nousresearch/hermes-agent|thedotmack/claude-mem": {
+    "pick": "A",
+    "confidence": 0.8901,
+    "note": "Deciding factors: stars today (+79 vs +42), velocity (535.1 vs 141.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "google-gemini/gemini-cli|thedotmack/claude-mem": {
+    "pick": "A",
+    "confidence": 0.755,
+    "note": "Deciding factors: stars today (+79 vs +2), velocity (535.1 vs 0.3).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "mvanhorn/last30days-skill|nextlevelbuilder/ui-ux-pro-max-skill": {
+    "pick": "A",
+    "confidence": 0.8296,
+    "note": "Deciding factors: stars today (+67 vs +66), velocity (391.8 vs 377.0).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "mvanhorn/last30days-skill|wei-shaw/sub2api": {
+    "pick": "A",
+    "confidence": 0.6954,
+    "note": "Deciding factors: stars today (+66 vs +22), velocity (391.8 vs 45.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "react/react|remotion-dev/remotion": {
     "pick": "B",
-    "confidence": 0.3843,
-    "note": "Deciding factors: stars today (+431 vs +427), velocity (26157.3 vs 25686.0).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.4629,
+    "note": "Deciding factors: stars today (+66 vs +7), velocity (389.2 vs 3.9).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "leanislizarzado/ibm-spss-desktop-suite|muddinenilakshmilalithaksh-create/sp-flash-tool": {
+  "juliusbrussee/caveman|nextlevelbuilder/ui-ux-pro-max-skill": {
     "pick": "A",
-    "confidence": 0.6743,
-    "note": "Deciding factors: stars today (+720 vs +428), velocity (73030.8 vs 25803.5).",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.9308,
+    "note": "Deciding factors: stars today (+67 vs +49), velocity (377.0 vs 205.4).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "rdeepak-wq121/quicken-deluxe-installer|sk-dev666/rust-external-trainer-tool": {
+  "coreyhaines31/marketingskills|tt-a1i/archify": {
     "pick": "A",
-    "confidence": 0.5154,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.5758,
+    "note": "Deciding factors: stars today (+62 vs +30), velocity (335.2 vs 81.8).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "rdeepak-wq121/quicken-deluxe-installer|shayannazar84-hero/honkai-star-rail-companion-suite": {
-    "pick": "A",
-    "confidence": 0.4785,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+  "blader/humanizer|tt-a1i/archify": {
+    "pick": "B",
+    "confidence": 0.4928,
+    "note": "Deciding factors: stars today (+108 vs +62), velocity (1048.1 vs 335.2).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   },
-  "shayannazar84-hero/honkai-star-rail-companion-suite|sk-dev666/rust-external-trainer-tool": {
+  "cheaper-inference/omniroute|decolua/9router": {
+    "pick": "B",
+    "confidence": 0.476,
+    "note": "Deciding factors: stars today (+55 vs +26), velocity (266.1 vs 65.1).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
+  },
+  "cheaper-inference/omniroute|code-yeongyu/oh-my-openagent": {
     "pick": "A",
-    "confidence": 0.4662,
-    "note": "The numbers are nearly identical.",
-    "computedAt": "2026-11-11T23:53:37.056Z"
+    "confidence": 0.7961,
+    "note": "Deciding factors: stars today (+55 vs +9), velocity (266.1 vs 7.3).",
+    "computedAt": "2026-11-12T04:59:29.825Z"
   }
 }
