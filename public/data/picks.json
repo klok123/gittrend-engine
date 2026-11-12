@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:19:34.661Z",
+  "generatedAt": "2026-11-12T23:00:39.075Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 454384,
-      "starsGainedToday": 1713
+      "totalStars": 455168,
+      "starsGainedToday": 2497
     },
     {
       "owner": "Ebony-Vinyl",
@@ -34,25 +34,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 71035,
-      "starsGainedToday": 1037
-    },
-    {
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…",
-      "topics": [
-        "aigc",
-        "llm",
-        "quant",
-        "quantitative-trading",
-        "a-stock"
-      ],
-      "language": "Python",
-      "totalStars": 71005,
-      "starsGainedToday": 816
+      "totalStars": 71288,
+      "starsGainedToday": 1290
     },
     {
       "owner": "stablyai",
@@ -68,19 +51,42 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 123087,
-      "starsGainedToday": 717
+      "totalStars": 123438,
+      "starsGainedToday": 1068
     },
     {
-      "owner": "vercel-labs",
-      "name": "agent-skills",
-      "fullName": "vercel-labs/agent-skills",
-      "url": "https://github.com/vercel-labs/agent-skills",
-      "description": "Vercel's official collection of agent skills",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 33939,
-      "starsGainedToday": 679
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…",
+      "topics": [
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-trading",
+        "a-stock"
+      ],
+      "language": "Python",
+      "totalStars": 71070,
+      "starsGainedToday": 881
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 109139,
+      "starsGainedToday": 827
     }
   ]
 }

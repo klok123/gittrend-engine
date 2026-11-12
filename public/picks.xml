@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 14:19:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:00:39 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+1,713 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,497 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-12</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -16,10 +16,10 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Thu, 12 Nov 2026 14:19:34 GMT</pubDate>
+      <pubDate>Thu, 12 Nov 2026 23:00:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,037 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,290 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-12</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -28,22 +28,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Thu, 12 Nov 2026 14:19:34 GMT</pubDate>
+      <pubDate>Thu, 12 Nov 2026 23:00:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[ZhuLinsen/daily_stock_analysis (+816 stars today)]]></title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <guid isPermaLink="false">https://github.com/ZhuLinsen/daily_stock_analysis#2026-11-12</guid>
-      <description><![CDATA[LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…]]></description>
-      <category>aigc</category>
-      <category>llm</category>
-      <category>quant</category>
-      <category>quantitative-trading</category>
-      <category>a-stock</category>
-      <pubDate>Thu, 12 Nov 2026 14:19:34 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+717 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+1,068 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-12</guid>
       <description><![CDATA[Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -52,15 +40,31 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Thu, 12 Nov 2026 14:19:34 GMT</pubDate>
+      <pubDate>Thu, 12 Nov 2026 23:00:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[vercel-labs/agent-skills (+679 stars today)]]></title>
-      <link>https://github.com/vercel-labs/agent-skills</link>
-      <guid isPermaLink="false">https://github.com/vercel-labs/agent-skills#2026-11-12</guid>
-      <description><![CDATA[Vercel's official collection of agent skills]]></description>
-      
-      <pubDate>Thu, 12 Nov 2026 14:19:34 GMT</pubDate>
+      <title><![CDATA[ZhuLinsen/daily_stock_analysis (+881 stars today)]]></title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid isPermaLink="false">https://github.com/ZhuLinsen/daily_stock_analysis#2026-11-12</guid>
+      <description><![CDATA[LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…]]></description>
+      <category>aigc</category>
+      <category>llm</category>
+      <category>quant</category>
+      <category>quantitative-trading</category>
+      <category>a-stock</category>
+      <pubDate>Thu, 12 Nov 2026 23:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[debpalash/VoiceStudio (+827 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-12</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Thu, 12 Nov 2026 23:00:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
