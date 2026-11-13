@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-12T23:00:39.075Z",
+  "generatedAt": "2026-11-13T04:13:58.365Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "yetone",
+      "name": "magpie",
+      "fullName": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm"
+      ],
+      "language": "Go",
+      "totalStars": 35561,
+      "starsGainedToday": 3080
+    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -17,8 +34,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 455168,
-      "starsGainedToday": 2497
+      "totalStars": 455661,
+      "starsGainedToday": 493
+    },
+    {
+      "owner": "dabingfy-dot",
+      "name": "solo-to-team-skills",
+      "fullName": "dabingfy-dot/solo-to-team-skills",
+      "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+      "description": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "collaboration",
+        "human-in-the-loop",
+        "workflow"
+      ],
+      "language": "Unknown",
+      "totalStars": 802,
+      "starsGainedToday": 295
     },
     {
       "owner": "Ebony-Vinyl",
@@ -34,8 +68,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 71288,
-      "starsGainedToday": 1290
+      "totalStars": 71555,
+      "starsGainedToday": 267
     },
     {
       "owner": "stablyai",
@@ -51,42 +85,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 123438,
-      "starsGainedToday": 1068
-    },
-    {
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…",
-      "topics": [
-        "aigc",
-        "llm",
-        "quant",
-        "quantitative-trading",
-        "a-stock"
-      ],
-      "language": "Python",
-      "totalStars": 71070,
-      "starsGainedToday": 881
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 109139,
-      "starsGainedToday": 827
+      "totalStars": 123657,
+      "starsGainedToday": 219
     }
   ]
 }
