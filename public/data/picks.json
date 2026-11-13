@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T04:13:58.365Z",
+  "generatedAt": "2026-11-13T13:41:21.416Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "llm"
       ],
       "language": "Go",
-      "totalStars": 35561,
-      "starsGainedToday": 3080
+      "totalStars": 35953,
+      "starsGainedToday": 3472
     },
     {
       "owner": "morluto",
@@ -34,25 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 455661,
-      "starsGainedToday": 493
-    },
-    {
-      "owner": "dabingfy-dot",
-      "name": "solo-to-team-skills",
-      "fullName": "dabingfy-dot/solo-to-team-skills",
-      "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
-      "description": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "collaboration",
-        "human-in-the-loop",
-        "workflow"
-      ],
-      "language": "Unknown",
-      "totalStars": 802,
-      "starsGainedToday": 295
+      "totalStars": 456648,
+      "starsGainedToday": 1480
     },
     {
       "owner": "Ebony-Vinyl",
@@ -68,8 +51,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 71555,
-      "starsGainedToday": 267
+      "totalStars": 72349,
+      "starsGainedToday": 1061
     },
     {
       "owner": "stablyai",
@@ -85,8 +68,25 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 123657,
-      "starsGainedToday": 219
+      "totalStars": 124052,
+      "starsGainedToday": 614
+    },
+    {
+      "owner": "vinta",
+      "name": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "topics": [
+        "awesome",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
+      ],
+      "language": "Python",
+      "totalStars": 334455,
+      "starsGainedToday": 613
     }
   ]
 }
