@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 13:41:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 23:03:36 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[yetone/magpie (+3,472 stars today)]]></title>
+      <title><![CDATA[yetone/magpie (+3,610 stars today)]]></title>
       <link>https://github.com/yetone/magpie</link>
       <guid isPermaLink="false">https://github.com/yetone/magpie#2026-11-13</guid>
       <description><![CDATA[Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.]]></description>
@@ -16,10 +16,10 @@
       <category>deepseek</category>
       <category>gemini-cli</category>
       <category>llm</category>
-      <pubDate>Fri, 13 Nov 2026 13:41:21 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+1,480 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,373 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-13</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -28,10 +28,10 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Fri, 13 Nov 2026 13:41:21 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,061 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,484 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-13</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -40,10 +40,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Fri, 13 Nov 2026 13:41:21 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+614 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+942 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-13</guid>
       <description><![CDATA[Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
@@ -52,19 +52,19 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Fri, 13 Nov 2026 13:41:21 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[vinta/awesome-python (+613 stars today)]]></title>
-      <link>https://github.com/vinta/awesome-python</link>
-      <guid isPermaLink="false">https://github.com/vinta/awesome-python#2026-11-13</guid>
-      <description><![CDATA[The definitive list that answers "I want to do X in Python, which tool should I use?"]]></description>
-      <category>awesome</category>
-      <category>python</category>
-      <category>python-frameworks</category>
-      <category>python-libraries</category>
-      <category>python-tools</category>
-      <pubDate>Fri, 13 Nov 2026 13:41:21 GMT</pubDate>
+      <title><![CDATA[debpalash/VoiceStudio (+804 stars today)]]></title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-13</guid>
+      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
+      <category>tts</category>
+      <category>voice-cloning</category>
+      <category>voice-generation</category>
+      <category>voice-ai</category>
+      <category>ai</category>
+      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
     </item>
   </channel>
 </rss>

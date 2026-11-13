@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:41:21.416Z",
+  "generatedAt": "2026-11-13T23:03:36.523Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "llm"
       ],
       "language": "Go",
-      "totalStars": 35953,
-      "starsGainedToday": 3472
+      "totalStars": 36091,
+      "starsGainedToday": 3610
     },
     {
       "owner": "morluto",
@@ -34,8 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 456648,
-      "starsGainedToday": 1480
+      "totalStars": 457541,
+      "starsGainedToday": 2373
     },
     {
       "owner": "Ebony-Vinyl",
@@ -51,8 +51,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 72349,
-      "starsGainedToday": 1061
+      "totalStars": 72772,
+      "starsGainedToday": 1484
     },
     {
       "owner": "stablyai",
@@ -68,25 +68,25 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 124052,
-      "starsGainedToday": 614
+      "totalStars": 124380,
+      "starsGainedToday": 942
     },
     {
-      "owner": "vinta",
-      "name": "awesome-python",
-      "fullName": "vinta/awesome-python",
-      "url": "https://github.com/vinta/awesome-python",
-      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "topics": [
-        "awesome",
-        "python",
-        "python-frameworks",
-        "python-libraries",
-        "python-tools"
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
       ],
       "language": "Python",
-      "totalStars": 334455,
-      "starsGainedToday": 613
+      "totalStars": 109943,
+      "starsGainedToday": 804
     }
   ]
 }
