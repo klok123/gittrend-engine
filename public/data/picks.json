@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-13T23:03:36.523Z",
+  "generatedAt": "2026-11-14T04:09:44.117Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "yetone",
-      "name": "magpie",
-      "fullName": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "owner": "BerriAI",
+      "name": "litellm",
+      "fullName": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
       "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm"
+        "anthropic",
+        "langchain",
+        "llm",
+        "llmops",
+        "openai"
       ],
-      "language": "Go",
-      "totalStars": 36091,
-      "starsGainedToday": 3610
+      "language": "Python",
+      "totalStars": 63226,
+      "starsGainedToday": 1167
     },
     {
       "owner": "morluto",
@@ -34,8 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 457541,
-      "starsGainedToday": 2373
+      "totalStars": 457930,
+      "starsGainedToday": 389
     },
     {
       "owner": "Ebony-Vinyl",
@@ -51,42 +51,42 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 72772,
-      "starsGainedToday": 1484
+      "totalStars": 73056,
+      "starsGainedToday": 284
     },
     {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…",
       "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
-      ],
-      "language": "TypeScript",
-      "totalStars": 124380,
-      "starsGainedToday": 942
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-trading",
+        "a-stock"
       ],
       "language": "Python",
-      "totalStars": 109943,
-      "starsGainedToday": 804
+      "totalStars": 71758,
+      "starsGainedToday": 207
+    },
+    {
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…",
+      "topics": [
+        "agent",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "language": "Go",
+      "totalStars": 50758,
+      "starsGainedToday": 196
     }
   ]
 }

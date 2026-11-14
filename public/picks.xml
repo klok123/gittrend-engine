@@ -5,66 +5,66 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 23:03:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 04:09:44 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[yetone/magpie (+3,610 stars today)]]></title>
-      <link>https://github.com/yetone/magpie</link>
-      <guid isPermaLink="false">https://github.com/yetone/magpie#2026-11-13</guid>
-      <description><![CDATA[Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>deepseek</category>
-      <category>gemini-cli</category>
+      <title><![CDATA[BerriAI/litellm (+1,167 stars today)]]></title>
+      <link>https://github.com/BerriAI/litellm</link>
+      <guid isPermaLink="false">https://github.com/BerriAI/litellm#2026-11-14</guid>
+      <description><![CDATA[The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…]]></description>
+      <category>anthropic</category>
+      <category>langchain</category>
       <category>llm</category>
-      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
+      <category>llmops</category>
+      <category>openai</category>
+      <pubDate>Sat, 14 Nov 2026 04:09:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+2,373 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+389 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-13</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-14</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 04:09:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,484 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+284 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-13</guid>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-14</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
       <category>ai-agents</category>
       <category>deepseek</category>
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 04:09:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+942 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-13</guid>
-      <description><![CDATA[Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>opencode</category>
-      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
+      <title><![CDATA[ZhuLinsen/daily_stock_analysis (+207 stars today)]]></title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid isPermaLink="false">https://github.com/ZhuLinsen/daily_stock_analysis#2026-11-14</guid>
+      <description><![CDATA[LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and…]]></description>
+      <category>aigc</category>
+      <category>llm</category>
+      <category>quant</category>
+      <category>quantitative-trading</category>
+      <category>a-stock</category>
+      <pubDate>Sat, 14 Nov 2026 04:09:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[debpalash/VoiceStudio (+804 stars today)]]></title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-13</guid>
-      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
-      <category>tts</category>
-      <category>voice-cloning</category>
-      <category>voice-generation</category>
-      <category>voice-ai</category>
-      <category>ai</category>
-      <pubDate>Fri, 13 Nov 2026 23:03:36 GMT</pubDate>
+      <title><![CDATA[alibaba/open-code-review (+196 stars today)]]></title>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <guid isPermaLink="false">https://github.com/alibaba/open-code-review#2026-11-14</guid>
+      <description><![CDATA[Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,…]]></description>
+      <category>agent</category>
+      <category>code-review</category>
+      <category>code-review-assistant</category>
+      <category>harness</category>
+      <category>repository-level-context</category>
+      <pubDate>Sat, 14 Nov 2026 04:09:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
