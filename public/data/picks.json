@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:45:20.339Z",
+  "generatedAt": "2026-11-14T21:51:33.115Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -13,8 +13,8 @@
         "agent-skills"
       ],
       "language": "Python",
-      "totalStars": 194362,
-      "starsGainedToday": 4850
+      "totalStars": 194578,
+      "starsGainedToday": 5066
     },
     {
       "owner": "addyosmani",
@@ -30,8 +30,8 @@
         "skills"
       ],
       "language": "JavaScript",
-      "totalStars": 117363,
-      "starsGainedToday": 4322
+      "totalStars": 117546,
+      "starsGainedToday": 4505
     },
     {
       "owner": "morluto",
@@ -47,25 +47,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 458771,
-      "starsGainedToday": 1230
+      "totalStars": 459677,
+      "starsGainedToday": 2136
     },
     {
-      "owner": "BerriAI",
-      "name": "litellm",
-      "fullName": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
       "topics": [
-        "anthropic",
-        "langchain",
-        "llm",
-        "llmops",
-        "openai"
+        "youtube-dl",
+        "python",
+        "sponsorblock",
+        "yt-dlp",
+        "youtube-downloader"
       ],
       "language": "Python",
-      "totalStars": 63245,
-      "starsGainedToday": 1186
+      "totalStars": 207826,
+      "starsGainedToday": 2052
     },
     {
       "owner": "Ebony-Vinyl",
@@ -81,8 +81,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 73741,
-      "starsGainedToday": 969
+      "totalStars": 74301,
+      "starsGainedToday": 1529
     }
   ]
 }

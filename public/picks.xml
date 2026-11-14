@@ -5,17 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 12:45:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 21:51:33 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[anthropics/skills (+4,850 stars today)]]></title>
+      <title><![CDATA[anthropics/skills (+5,066 stars today)]]></title>
       <link>https://github.com/anthropics/skills</link>
       <guid isPermaLink="false">https://github.com/anthropics/skills#2026-11-14</guid>
       <description><![CDATA[Public repository for Agent Skills]]></description>
       <category>agent-skills</category>
-      <pubDate>Sat, 14 Nov 2026 12:45:20 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 21:51:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[addyosmani/agent-skills (+4,322 stars today)]]></title>
+      <title><![CDATA[addyosmani/agent-skills (+4,505 stars today)]]></title>
       <link>https://github.com/addyosmani/agent-skills</link>
       <guid isPermaLink="false">https://github.com/addyosmani/agent-skills#2026-11-14</guid>
       <description><![CDATA[Production-grade engineering skills for AI coding agents.]]></description>
@@ -24,10 +24,10 @@
       <category>claude-code</category>
       <category>cursor</category>
       <category>skills</category>
-      <pubDate>Sat, 14 Nov 2026 12:45:20 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 21:51:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+1,230 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,136 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-14</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -36,22 +36,22 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sat, 14 Nov 2026 12:45:20 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 21:51:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[BerriAI/litellm (+1,186 stars today)]]></title>
-      <link>https://github.com/BerriAI/litellm</link>
-      <guid isPermaLink="false">https://github.com/BerriAI/litellm#2026-11-14</guid>
-      <description><![CDATA[The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…]]></description>
-      <category>anthropic</category>
-      <category>langchain</category>
-      <category>llm</category>
-      <category>llmops</category>
-      <category>openai</category>
-      <pubDate>Sat, 14 Nov 2026 12:45:20 GMT</pubDate>
+      <title><![CDATA[yt-dlp/yt-dlp (+2,052 stars today)]]></title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <guid isPermaLink="false">https://github.com/yt-dlp/yt-dlp#2026-11-14</guid>
+      <description><![CDATA[A feature-rich command-line audio/video downloader]]></description>
+      <category>youtube-dl</category>
+      <category>python</category>
+      <category>sponsorblock</category>
+      <category>yt-dlp</category>
+      <category>youtube-downloader</category>
+      <pubDate>Sat, 14 Nov 2026 21:51:33 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+969 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,529 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-14</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -60,7 +60,7 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Sat, 14 Nov 2026 12:45:20 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 21:51:33 GMT</pubDate>
     </item>
   </channel>
 </rss>
