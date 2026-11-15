@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-11-14T21:51:33.115Z",
+  "generatedAt": "2026-11-15T03:55:25.588Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "topics": [
-        "agent-skills"
-      ],
-      "language": "Python",
-      "totalStars": 194578,
-      "starsGainedToday": 5066
-    },
-    {
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "fullName": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "cursor",
-        "skills"
-      ],
-      "language": "JavaScript",
-      "totalStars": 117546,
-      "starsGainedToday": 4505
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -47,25 +17,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 459677,
-      "starsGainedToday": 2136
+      "totalStars": 460142,
+      "starsGainedToday": 465
     },
     {
-      "owner": "yt-dlp",
-      "name": "yt-dlp",
-      "fullName": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
+      "owner": "samolego",
+      "name": "Canta",
+      "fullName": "samolego/Canta",
+      "url": "https://github.com/samolego/Canta",
+      "description": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
       "topics": [
-        "youtube-dl",
-        "python",
-        "sponsorblock",
-        "yt-dlp",
-        "youtube-downloader"
+        "android",
+        "shizuku",
+        "app-manager",
+        "debloater",
+        "no-root"
       ],
-      "language": "Python",
-      "totalStars": 207826,
-      "starsGainedToday": 2052
+      "language": "Kotlin",
+      "totalStars": 7307,
+      "starsGainedToday": 458
     },
     {
       "owner": "Ebony-Vinyl",
@@ -81,8 +51,41 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 74301,
-      "starsGainedToday": 1529
+      "totalStars": 74561,
+      "starsGainedToday": 260
+    },
+    {
+      "owner": "h4ckf0r0day",
+      "name": "obscura",
+      "fullName": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "topics": [
+        "antidetect",
+        "antidetect-browser",
+        "browser",
+        "browser-automation",
+        "cdp"
+      ],
+      "language": "Rust",
+      "totalStars": 35444,
+      "starsGainedToday": 193
+    },
+    {
+      "owner": "upstash",
+      "name": "context7",
+      "fullName": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "description": "Context7 Platform -- Up-to-date docs for AI agents",
+      "topics": [
+        "llm",
+        "mcp",
+        "mcp-server",
+        "vibe-coding"
+      ],
+      "language": "TypeScript",
+      "totalStars": 64817,
+      "starsGainedToday": 181
     }
   ]
 }
