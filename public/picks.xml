@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 13:12:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 22:18:50 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[affaan-m/ECC (+2,159 stars today)]]></title>
+      <title><![CDATA[affaan-m/ECC (+2,437 stars today)]]></title>
       <link>https://github.com/affaan-m/ECC</link>
       <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-11-15</guid>
       <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
@@ -16,20 +16,10 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>developer-tools</category>
-      <pubDate>Sun, 15 Nov 2026 13:12:37 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[SillyTavern/SillyTavern (+1,549 stars today)]]></title>
-      <link>https://github.com/SillyTavern/SillyTavern</link>
-      <guid isPermaLink="false">https://github.com/SillyTavern/SillyTavern#2026-11-15</guid>
-      <description><![CDATA[LLM Frontend for Power Users.]]></description>
-      <category>ai</category>
-      <category>chat</category>
-      <category>llm</category>
-      <pubDate>Sun, 15 Nov 2026 13:12:37 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,315 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,141 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-15</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -38,10 +28,20 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sun, 15 Nov 2026 13:12:37 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,016 stars today)]]></title>
+      <title><![CDATA[SillyTavern/SillyTavern (+1,564 stars today)]]></title>
+      <link>https://github.com/SillyTavern/SillyTavern</link>
+      <guid isPermaLink="false">https://github.com/SillyTavern/SillyTavern#2026-11-15</guid>
+      <description><![CDATA[LLM Frontend for Power Users.]]></description>
+      <category>ai</category>
+      <category>chat</category>
+      <category>llm</category>
+      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,419 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-15</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -50,10 +50,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Sun, 15 Nov 2026 13:12:37 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[shareAI-lab/learn-claude-code (+923 stars today)]]></title>
+      <title><![CDATA[shareAI-lab/learn-claude-code (+936 stars today)]]></title>
       <link>https://github.com/shareAI-lab/learn-claude-code</link>
       <guid isPermaLink="false">https://github.com/shareAI-lab/learn-claude-code#2026-11-15</guid>
       <description><![CDATA[Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1]]></description>
@@ -62,7 +62,7 @@
       <category>teaching</category>
       <category>agent-development</category>
       <category>ai-agent</category>
-      <pubDate>Sun, 15 Nov 2026 13:12:37 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
     </item>
   </channel>
 </rss>

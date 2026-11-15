@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T13:12:37.406Z",
+  "generatedAt": "2026-11-15T22:18:50.615Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,23 +17,8 @@
         "developer-tools"
       ],
       "language": "JavaScript",
-      "totalStars": 303515,
-      "starsGainedToday": 2159
-    },
-    {
-      "owner": "SillyTavern",
-      "name": "SillyTavern",
-      "fullName": "SillyTavern/SillyTavern",
-      "url": "https://github.com/SillyTavern/SillyTavern",
-      "description": "LLM Frontend for Power Users.",
-      "topics": [
-        "ai",
-        "chat",
-        "llm"
-      ],
-      "language": "JavaScript",
-      "totalStars": 35638,
-      "starsGainedToday": 1549
+      "totalStars": 303793,
+      "starsGainedToday": 2437
     },
     {
       "owner": "morluto",
@@ -49,8 +34,23 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 460992,
-      "starsGainedToday": 1315
+      "totalStars": 461818,
+      "starsGainedToday": 2141
+    },
+    {
+      "owner": "SillyTavern",
+      "name": "SillyTavern",
+      "fullName": "SillyTavern/SillyTavern",
+      "url": "https://github.com/SillyTavern/SillyTavern",
+      "description": "LLM Frontend for Power Users.",
+      "topics": [
+        "ai",
+        "chat",
+        "llm"
+      ],
+      "language": "JavaScript",
+      "totalStars": 35653,
+      "starsGainedToday": 1564
     },
     {
       "owner": "Ebony-Vinyl",
@@ -66,8 +66,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 75317,
-      "starsGainedToday": 1016
+      "totalStars": 75720,
+      "starsGainedToday": 1419
     },
     {
       "owner": "shareAI-lab",
@@ -83,8 +83,8 @@
         "ai-agent"
       ],
       "language": "Python",
-      "totalStars": 80433,
-      "starsGainedToday": 923
+      "totalStars": 80446,
+      "starsGainedToday": 936
     }
   ]
 }
