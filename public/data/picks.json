@@ -1,90 +1,78 @@
 {
-  "generatedAt": "2026-11-15T22:18:50.615Z",
+  "generatedAt": "2026-11-16T03:55:18.158Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
-      ],
-      "language": "JavaScript",
-      "totalStars": 303793,
-      "starsGainedToday": 2437
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 33960,
+      "starsGainedToday": 16102
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
-      ],
+      "owner": "colbymchenry",
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100%…",
+      "topics": [],
       "language": "TypeScript",
-      "totalStars": 461818,
-      "starsGainedToday": 2141
+      "totalStars": 77677,
+      "starsGainedToday": 1274
     },
     {
-      "owner": "SillyTavern",
-      "name": "SillyTavern",
-      "fullName": "SillyTavern/SillyTavern",
-      "url": "https://github.com/SillyTavern/SillyTavern",
-      "description": "LLM Frontend for Power Users.",
+      "owner": "crewAIInc",
+      "name": "crewAI",
+      "fullName": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
       "topics": [
+        "agents",
         "ai",
-        "chat",
-        "llm"
-      ],
-      "language": "JavaScript",
-      "totalStars": 35653,
-      "starsGainedToday": 1564
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
         "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
-      ],
-      "language": "JavaScript",
-      "totalStars": 75720,
-      "starsGainedToday": 1419
-    },
-    {
-      "owner": "shareAI-lab",
-      "name": "learn-claude-code",
-      "fullName": "shareAI-lab/learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
-      "topics": [
-        "agent",
-        "claude-code",
-        "teaching",
-        "agent-development",
-        "ai-agent"
+        "llms",
+        "aiagentframework"
       ],
       "language": "Python",
-      "totalStars": 80446,
-      "starsGainedToday": 936
+      "totalStars": 60968,
+      "starsGainedToday": 868
+    },
+    {
+      "owner": "hitkeeen",
+      "name": "blender-ai-mcp-addon",
+      "fullName": "hitkeeen/blender-ai-mcp-addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python…",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai"
+      ],
+      "language": "Unknown",
+      "totalStars": 1487,
+      "starsGainedToday": 640
+    },
+    {
+      "owner": "github",
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "topics": [
+        "github",
+        "mcp",
+        "mcp-server"
+      ],
+      "language": "Go",
+      "totalStars": 34503,
+      "starsGainedToday": 563
     }
   ]
 }

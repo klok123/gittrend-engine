@@ -5,64 +5,56 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 22:18:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:55:18 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[affaan-m/ECC (+2,437 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-11-15</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
+      <title><![CDATA[storytold/craft-anything (+16,102 stars today)]]></title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-16</guid>
+      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
+      
+      <pubDate>Mon, 16 Nov 2026 03:55:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+2,141 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-15</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
+      <title><![CDATA[colbymchenry/codegraph (+1,274 stars today)]]></title>
+      <link>https://github.com/colbymchenry/codegraph</link>
+      <guid isPermaLink="false">https://github.com/colbymchenry/codegraph#2026-11-16</guid>
+      <description><![CDATA[Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100%…]]></description>
+      
+      <pubDate>Mon, 16 Nov 2026 03:55:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[SillyTavern/SillyTavern (+1,564 stars today)]]></title>
-      <link>https://github.com/SillyTavern/SillyTavern</link>
-      <guid isPermaLink="false">https://github.com/SillyTavern/SillyTavern#2026-11-15</guid>
-      <description><![CDATA[LLM Frontend for Power Users.]]></description>
+      <title><![CDATA[crewAIInc/crewAI (+868 stars today)]]></title>
+      <link>https://github.com/crewAIInc/crewAI</link>
+      <guid isPermaLink="false">https://github.com/crewAIInc/crewAI#2026-11-16</guid>
+      <description><![CDATA[Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.]]></description>
+      <category>agents</category>
       <category>ai</category>
-      <category>chat</category>
-      <category>llm</category>
-      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,419 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-15</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
       <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
+      <category>llms</category>
+      <category>aiagentframework</category>
+      <pubDate>Mon, 16 Nov 2026 03:55:18 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[shareAI-lab/learn-claude-code (+936 stars today)]]></title>
-      <link>https://github.com/shareAI-lab/learn-claude-code</link>
-      <guid isPermaLink="false">https://github.com/shareAI-lab/learn-claude-code#2026-11-15</guid>
-      <description><![CDATA[Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1]]></description>
-      <category>agent</category>
-      <category>claude-code</category>
-      <category>teaching</category>
-      <category>agent-development</category>
-      <category>ai-agent</category>
-      <pubDate>Sun, 15 Nov 2026 22:18:50 GMT</pubDate>
+      <title><![CDATA[hitkeeen/blender-ai-mcp-addon (+640 stars today)]]></title>
+      <link>https://github.com/hitkeeen/blender-ai-mcp-addon</link>
+      <guid isPermaLink="false">https://github.com/hitkeeen/blender-ai-mcp-addon#2026-11-16</guid>
+      <description><![CDATA[AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python…]]></description>
+      <category>ai-agents</category>
+      <category>ai-assistant</category>
+      <category>blender</category>
+      <category>blender-addon</category>
+      <category>blender-ai</category>
+      <pubDate>Mon, 16 Nov 2026 03:55:18 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[github/github-mcp-server (+563 stars today)]]></title>
+      <link>https://github.com/github/github-mcp-server</link>
+      <guid isPermaLink="false">https://github.com/github/github-mcp-server#2026-11-16</guid>
+      <description><![CDATA[GitHub's official MCP Server]]></description>
+      <category>github</category>
+      <category>mcp</category>
+      <category>mcp-server</category>
+      <pubDate>Mon, 16 Nov 2026 03:55:18 GMT</pubDate>
     </item>
   </channel>
 </rss>
