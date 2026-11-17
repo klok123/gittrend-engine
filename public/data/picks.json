@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T14:21:35.483Z",
+  "generatedAt": "2026-11-17T01:19:45.993Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,19 +17,55 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 463320,
-      "starsGainedToday": 1502
+      "totalStars": 464186,
+      "starsGainedToday": 866
     },
     {
-      "owner": "colbymchenry",
-      "name": "codegraph",
-      "fullName": "colbymchenry/codegraph",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100%…",
-      "topics": [],
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 304662,
+      "starsGainedToday": 415
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
+      ],
       "language": "TypeScript",
-      "totalStars": 77730,
-      "starsGainedToday": 1327
+      "totalStars": 126797,
+      "starsGainedToday": 372
+    },
+    {
+      "owner": "anthropics",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "topics": [
+        "agent-skills"
+      ],
+      "language": "Python",
+      "totalStars": 196063,
+      "starsGainedToday": 346
     },
     {
       "owner": "Ebony-Vinyl",
@@ -45,42 +81,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 76994,
-      "starsGainedToday": 1274
-    },
-    {
-      "owner": "OpenMontageInc",
-      "name": "OpenMontage",
-      "fullName": "OpenMontageInc/OpenMontage",
-      "url": "https://github.com/OpenMontageInc/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "language": "Python",
-      "totalStars": 80886,
-      "starsGainedToday": 1190
-    },
-    {
-      "owner": "hitkeeen",
-      "name": "blender-ai-mcp-addon",
-      "fullName": "hitkeeen/blender-ai-mcp-addon",
-      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python…",
-      "topics": [
-        "ai-agents",
-        "ai-assistant",
-        "blender",
-        "blender-addon",
-        "blender-ai"
-      ],
-      "language": "Unknown",
-      "totalStars": 1944,
-      "starsGainedToday": 1097
+      "totalStars": 77330,
+      "starsGainedToday": 336
     }
   ]
 }

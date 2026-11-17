@@ -5,62 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:21:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 01:19:45 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+1,502 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+866 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-16</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-17</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Mon, 16 Nov 2026 14:21:35 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2026 01:19:45 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[colbymchenry/codegraph (+1,327 stars today)]]></title>
-      <link>https://github.com/colbymchenry/codegraph</link>
-      <guid isPermaLink="false">https://github.com/colbymchenry/codegraph#2026-11-16</guid>
-      <description><![CDATA[Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100%…]]></description>
-      
-      <pubDate>Mon, 16 Nov 2026 14:21:35 GMT</pubDate>
+      <title><![CDATA[affaan-m/ECC (+415 stars today)]]></title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-11-17</guid>
+      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
+      <category>ai-agents</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>developer-tools</category>
+      <pubDate>Tue, 17 Nov 2026 01:19:45 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,274 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+372 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-17</guid>
+      <description><![CDATA[Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>opencode</category>
+      <pubDate>Tue, 17 Nov 2026 01:19:45 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[anthropics/skills (+346 stars today)]]></title>
+      <link>https://github.com/anthropics/skills</link>
+      <guid isPermaLink="false">https://github.com/anthropics/skills#2026-11-17</guid>
+      <description><![CDATA[Public repository for Agent Skills]]></description>
+      <category>agent-skills</category>
+      <pubDate>Tue, 17 Nov 2026 01:19:45 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+336 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-16</guid>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-17</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
       <category>ai-agents</category>
       <category>deepseek</category>
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Mon, 16 Nov 2026 14:21:35 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[OpenMontageInc/OpenMontage (+1,190 stars today)]]></title>
-      <link>https://github.com/OpenMontageInc/OpenMontage</link>
-      <guid isPermaLink="false">https://github.com/OpenMontageInc/OpenMontage#2026-11-16</guid>
-      <description><![CDATA[World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video…]]></description>
-      <category>agent</category>
-      <category>agentic-ai</category>
-      <category>ai</category>
-      <category>claude</category>
-      <category>copilot</category>
-      <pubDate>Mon, 16 Nov 2026 14:21:35 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[hitkeeen/blender-ai-mcp-addon (+1,097 stars today)]]></title>
-      <link>https://github.com/hitkeeen/blender-ai-mcp-addon</link>
-      <guid isPermaLink="false">https://github.com/hitkeeen/blender-ai-mcp-addon#2026-11-16</guid>
-      <description><![CDATA[AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python…]]></description>
-      <category>ai-agents</category>
-      <category>ai-assistant</category>
-      <category>blender</category>
-      <category>blender-addon</category>
-      <category>blender-ai</category>
-      <pubDate>Mon, 16 Nov 2026 14:21:35 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2026 01:19:45 GMT</pubDate>
     </item>
   </channel>
 </rss>
