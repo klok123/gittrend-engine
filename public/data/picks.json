@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:19:45.993Z",
+  "generatedAt": "2026-11-17T15:14:01.462Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,55 +17,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 464186,
-      "starsGainedToday": 866
+      "totalStars": 465571,
+      "starsGainedToday": 2251
     },
     {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools"
-      ],
-      "language": "JavaScript",
-      "totalStars": 304662,
-      "starsGainedToday": 415
-    },
-    {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
-      "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
-      ],
-      "language": "TypeScript",
-      "totalStars": 126797,
-      "starsGainedToday": 372
-    },
-    {
-      "owner": "anthropics",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "topics": [
-        "agent-skills"
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
       ],
       "language": "Python",
-      "totalStars": 196063,
-      "starsGainedToday": 346
+      "totalStars": 122929,
+      "starsGainedToday": 1928
     },
     {
       "owner": "Ebony-Vinyl",
@@ -81,8 +51,42 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 77330,
-      "starsGainedToday": 336
+      "totalStars": 78338,
+      "starsGainedToday": 1344
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
+      ],
+      "language": "TypeScript",
+      "totalStars": 127497,
+      "starsGainedToday": 1072
+    },
+    {
+      "owner": "affaan-m",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "language": "JavaScript",
+      "totalStars": 305129,
+      "starsGainedToday": 882
     }
   ]
 }
