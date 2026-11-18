@@ -5,66 +5,57 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 15:14:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:16:29 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[morluto/rea (+2,251 stars today)]]></title>
+      <title><![CDATA[storytold/craft-anything (+1,748 stars today)]]></title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-18</guid>
+      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
+      
+      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,398 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-18</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[krisgfx9/Wireless-Device-Battery-Monitor (+1,007 stars today)]]></title>
+      <link>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</link>
+      <guid isPermaLink="false">https://github.com/krisgfx9/Wireless-Device-Battery-Monitor#2026-11-18</guid>
+      <description><![CDATA[Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…]]></description>
+      
+      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[mvanhorn/last30days-skill (+898 stars today)]]></title>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid isPermaLink="false">https://github.com/mvanhorn/last30days-skill#2026-11-18</guid>
+      <description><![CDATA[AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary]]></description>
+      <category>ai-prompts</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>reddit</category>
+      <category>twitter</category>
+      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+719 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-17</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-18</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Tue, 17 Nov 2026 15:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[TauricResearch/TradingAgents (+1,928 stars today)]]></title>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <guid isPermaLink="false">https://github.com/TauricResearch/TradingAgents#2026-11-17</guid>
-      <description><![CDATA[TradingAgents: Multi-Agents LLM Financial Trading Framework]]></description>
-      <category>agent</category>
-      <category>finance</category>
-      <category>llm</category>
-      <category>multiagent</category>
-      <category>trading</category>
-      <pubDate>Tue, 17 Nov 2026 15:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,344 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-17</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
-      <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Tue, 17 Nov 2026 15:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+1,072 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-17</guid>
-      <description><![CDATA[Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>opencode</category>
-      <pubDate>Tue, 17 Nov 2026 15:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[affaan-m/ECC (+882 stars today)]]></title>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid isPermaLink="false">https://github.com/affaan-m/ECC#2026-11-17</guid>
-      <description><![CDATA[The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.]]></description>
-      <category>ai-agents</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>developer-tools</category>
-      <pubDate>Tue, 17 Nov 2026 15:14:01 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
     </item>
   </channel>
 </rss>
