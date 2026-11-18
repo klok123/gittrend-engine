@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T00:16:29.029Z",
+  "generatedAt": "2026-11-18T14:52:07.226Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,52 +11,8 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 35708,
-      "starsGainedToday": 1748
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin",
-        "ai-agents"
-      ],
-      "language": "TypeScript",
-      "totalStars": 282992,
-      "starsGainedToday": 1398
-    },
-    {
-      "owner": "krisgfx9",
-      "name": "Wireless-Device-Battery-Monitor",
-      "fullName": "krisgfx9/Wireless-Device-Battery-Monitor",
-      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-      "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…",
-      "topics": [],
-      "language": "C++",
-      "totalStars": 2640,
-      "starsGainedToday": 1007
-    },
-    {
-      "owner": "mvanhorn",
-      "name": "last30days-skill",
-      "fullName": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "topics": [
-        "ai-prompts",
-        "claude",
-        "claude-code",
-        "reddit",
-        "twitter"
-      ],
-      "language": "Python",
-      "totalStars": 69037,
-      "starsGainedToday": 898
+      "totalStars": 36561,
+      "starsGainedToday": 2601
     },
     {
       "owner": "morluto",
@@ -72,8 +28,52 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 466290,
-      "starsGainedToday": 719
+      "totalStars": 467654,
+      "starsGainedToday": 2083
+    },
+    {
+      "owner": "krisgfx9",
+      "name": "Wireless-Device-Battery-Monitor",
+      "fullName": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…",
+      "topics": [],
+      "language": "C++",
+      "totalStars": 3607,
+      "starsGainedToday": 1974
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
+      ],
+      "language": "TypeScript",
+      "totalStars": 283491,
+      "starsGainedToday": 1897
+    },
+    {
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "topics": [
+        "ai-prompts",
+        "claude",
+        "claude-code",
+        "reddit",
+        "twitter"
+      ],
+      "language": "Python",
+      "totalStars": 69686,
+      "starsGainedToday": 1547
     }
   ]
 }

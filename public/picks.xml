@@ -5,48 +5,17 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:16:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 14:52:07 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/craft-anything (+1,748 stars today)]]></title>
+      <title><![CDATA[storytold/craft-anything (+2,601 stars today)]]></title>
       <link>https://github.com/storytold/craft-anything</link>
       <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-18</guid>
       <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
       
-      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 14:52:07 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+1,398 stars today)]]></title>
-      <link>https://github.com/deepseek-ai/deepseek-harness</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-18</guid>
-      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
-      <category>cordis</category>
-      <category>dsh</category>
-      <category>dsh-plugin</category>
-      <category>ai-agents</category>
-      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[krisgfx9/Wireless-Device-Battery-Monitor (+1,007 stars today)]]></title>
-      <link>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</link>
-      <guid isPermaLink="false">https://github.com/krisgfx9/Wireless-Device-Battery-Monitor#2026-11-18</guid>
-      <description><![CDATA[Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…]]></description>
-      
-      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[mvanhorn/last30days-skill (+898 stars today)]]></title>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <guid isPermaLink="false">https://github.com/mvanhorn/last30days-skill#2026-11-18</guid>
-      <description><![CDATA[AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary]]></description>
-      <category>ai-prompts</category>
-      <category>claude</category>
-      <category>claude-code</category>
-      <category>reddit</category>
-      <category>twitter</category>
-      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+719 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+2,083 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-18</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -55,7 +24,38 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 18 Nov 2026 00:16:29 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 14:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[krisgfx9/Wireless-Device-Battery-Monitor (+1,974 stars today)]]></title>
+      <link>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</link>
+      <guid isPermaLink="false">https://github.com/krisgfx9/Wireless-Device-Battery-Monitor#2026-11-18</guid>
+      <description><![CDATA[Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…]]></description>
+      
+      <pubDate>Wed, 18 Nov 2026 14:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[deepseek-ai/deepseek-harness (+1,897 stars today)]]></title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-18</guid>
+      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
+      <category>cordis</category>
+      <category>dsh</category>
+      <category>dsh-plugin</category>
+      <category>ai-agents</category>
+      <pubDate>Wed, 18 Nov 2026 14:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[mvanhorn/last30days-skill (+1,547 stars today)]]></title>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid isPermaLink="false">https://github.com/mvanhorn/last30days-skill#2026-11-18</guid>
+      <description><![CDATA[AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary]]></description>
+      <category>ai-prompts</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>reddit</category>
+      <category>twitter</category>
+      <pubDate>Wed, 18 Nov 2026 14:52:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
