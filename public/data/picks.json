@@ -1,49 +1,58 @@
 {
-  "generatedAt": "2026-11-19T05:08:57.277Z",
+  "generatedAt": "2026-11-19T14:57:58.201Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "jingyaogong",
-      "name": "minimind",
-      "fullName": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "owner": "blader",
+      "name": "humanizer",
+      "fullName": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
       "topics": [
-        "artificial-intelligence",
-        "large-language-model"
-      ],
-      "language": "Python",
-      "totalStars": 66537,
-      "starsGainedToday": 4064
-    },
-    {
-      "owner": "mvanhorn",
-      "name": "last30days-skill",
-      "fullName": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "topics": [
-        "ai-prompts",
-        "claude",
+        "agent-skills",
+        "ai-writing",
         "claude-code",
-        "reddit",
-        "twitter"
+        "codex",
+        "cursor"
       ],
       "language": "Python",
-      "totalStars": 70193,
-      "starsGainedToday": 507
+      "totalStars": 71126,
+      "starsGainedToday": 2736
     },
     {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
+      "owner": "herdrdev",
+      "name": "herdr",
+      "fullName": "herdrdev/herdr",
+      "url": "https://github.com/herdrdev/herdr",
+      "description": "the runtime your coding agents live on",
+      "topics": [
+        "agent",
+        "agent-orchestration",
+        "ai",
+        "ai-agents",
+        "claude-code"
+      ],
       "language": "Rust",
-      "totalStars": 37344,
-      "starsGainedToday": 358
+      "totalStars": 51852,
+      "starsGainedToday": 2188
+    },
+    {
+      "owner": "erkamyaman",
+      "name": "rust-anything",
+      "fullName": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "ffi",
+        "mcp"
+      ],
+      "language": "Rust",
+      "totalStars": 4539,
+      "starsGainedToday": 1228
     },
     {
       "owner": "morluto",
@@ -59,8 +68,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 468584,
-      "starsGainedToday": 353
+      "totalStars": 469426,
+      "starsGainedToday": 1195
     },
     {
       "owner": "boykopovar",
@@ -76,8 +85,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 56292,
-      "starsGainedToday": 333
+      "totalStars": 57111,
+      "starsGainedToday": 1152
     }
   ]
 }

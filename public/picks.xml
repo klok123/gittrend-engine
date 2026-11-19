@@ -5,38 +5,45 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 05:08:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 14:57:58 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[jingyaogong/minimind (+4,064 stars today)]]></title>
-      <link>https://github.com/jingyaogong/minimind</link>
-      <guid isPermaLink="false">https://github.com/jingyaogong/minimind#2026-11-19</guid>
-      <description><![CDATA[🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.]]></description>
-      <category>artificial-intelligence</category>
-      <category>large-language-model</category>
-      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[mvanhorn/last30days-skill (+507 stars today)]]></title>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <guid isPermaLink="false">https://github.com/mvanhorn/last30days-skill#2026-11-19</guid>
-      <description><![CDATA[AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary]]></description>
-      <category>ai-prompts</category>
-      <category>claude</category>
+      <title><![CDATA[blader/humanizer (+2,736 stars today)]]></title>
+      <link>https://github.com/blader/humanizer</link>
+      <guid isPermaLink="false">https://github.com/blader/humanizer#2026-11-19</guid>
+      <description><![CDATA[Agent skill that removes signs of AI-generated writing from text]]></description>
+      <category>agent-skills</category>
+      <category>ai-writing</category>
       <category>claude-code</category>
-      <category>reddit</category>
-      <category>twitter</category>
-      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+      <category>codex</category>
+      <category>cursor</category>
+      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[storytold/craft-anything (+358 stars today)]]></title>
-      <link>https://github.com/storytold/craft-anything</link>
-      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-19</guid>
-      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
-      
-      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+      <title><![CDATA[herdrdev/herdr (+2,188 stars today)]]></title>
+      <link>https://github.com/herdrdev/herdr</link>
+      <guid isPermaLink="false">https://github.com/herdrdev/herdr#2026-11-19</guid>
+      <description><![CDATA[the runtime your coding agents live on]]></description>
+      <category>agent</category>
+      <category>agent-orchestration</category>
+      <category>ai</category>
+      <category>ai-agents</category>
+      <category>claude-code</category>
+      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+353 stars today)]]></title>
+      <title><![CDATA[erkamyaman/rust-anything (+1,228 stars today)]]></title>
+      <link>https://github.com/erkamyaman/rust-anything</link>
+      <guid isPermaLink="false">https://github.com/erkamyaman/rust-anything#2026-11-19</guid>
+      <description><![CDATA[Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.]]></description>
+      <category>agent-skills</category>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ffi</category>
+      <category>mcp</category>
+      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+1,195 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-19</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -45,10 +52,10 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+333 stars today)]]></title>
+      <title><![CDATA[boykopovar/AnyPS5 (+1,152 stars today)]]></title>
       <link>https://github.com/boykopovar/AnyPS5</link>
       <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-11-19</guid>
       <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
@@ -57,7 +64,7 @@
       <category>ps5-tools</category>
       <category>vulkan</category>
       <category>spir-v</category>
-      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
