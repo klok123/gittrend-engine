@@ -5,57 +5,59 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 23:44:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:08:57 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[storytold/craft-anything (+3,026 stars today)]]></title>
-      <link>https://github.com/storytold/craft-anything</link>
-      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-18</guid>
-      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
-      
-      <pubDate>Wed, 18 Nov 2026 23:44:11 GMT</pubDate>
+      <title><![CDATA[jingyaogong/minimind (+4,064 stars today)]]></title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <guid isPermaLink="false">https://github.com/jingyaogong/minimind#2026-11-19</guid>
+      <description><![CDATA[🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.]]></description>
+      <category>artificial-intelligence</category>
+      <category>large-language-model</category>
+      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+2,660 stars today)]]></title>
+      <title><![CDATA[mvanhorn/last30days-skill (+507 stars today)]]></title>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid isPermaLink="false">https://github.com/mvanhorn/last30days-skill#2026-11-19</guid>
+      <description><![CDATA[AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary]]></description>
+      <category>ai-prompts</category>
+      <category>claude</category>
+      <category>claude-code</category>
+      <category>reddit</category>
+      <category>twitter</category>
+      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/craft-anything (+358 stars today)]]></title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-19</guid>
+      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
+      
+      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+353 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-18</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-19</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 18 Nov 2026 23:44:11 GMT</pubDate>
+      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[krisgfx9/Wireless-Device-Battery-Monitor (+2,297 stars today)]]></title>
-      <link>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</link>
-      <guid isPermaLink="false">https://github.com/krisgfx9/Wireless-Device-Battery-Monitor#2026-11-18</guid>
-      <description><![CDATA[Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries,…]]></description>
-      
-      <pubDate>Wed, 18 Nov 2026 23:44:11 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[deepseek-ai/deepseek-harness (+2,010 stars today)]]></title>
-      <link>https://github.com/deepseek-ai/deepseek-harness</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/deepseek-harness#2026-11-18</guid>
-      <description><![CDATA[DeepSeek Harness: Everything is a Plugin.]]></description>
-      <category>cordis</category>
-      <category>dsh</category>
-      <category>dsh-plugin</category>
-      <category>ai-agents</category>
-      <pubDate>Wed, 18 Nov 2026 23:44:11 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+1,440 stars today)]]></title>
-      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
-      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-18</guid>
-      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
-      <category>ai-agents</category>
-      <category>deepseek</category>
-      <category>deepseek-harness</category>
-      <category>developer-tools</category>
-      <category>dsh</category>
-      <pubDate>Wed, 18 Nov 2026 23:44:11 GMT</pubDate>
+      <title><![CDATA[boykopovar/AnyPS5 (+333 stars today)]]></title>
+      <link>https://github.com/boykopovar/AnyPS5</link>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-11-19</guid>
+      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
+      <category>dynamic-library</category>
+      <category>game-porting</category>
+      <category>ps5-tools</category>
+      <category>vulkan</category>
+      <category>spir-v</category>
+      <pubDate>Thu, 19 Nov 2026 05:08:57 GMT</pubDate>
     </item>
   </channel>
 </rss>
