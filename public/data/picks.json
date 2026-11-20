@@ -1,41 +1,24 @@
 {
-  "generatedAt": "2026-11-19T14:57:58.201Z",
+  "generatedAt": "2026-11-20T00:03:27.904Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "blader",
-      "name": "humanizer",
-      "fullName": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "topics": [
-        "agent-skills",
-        "ai-writing",
-        "claude-code",
-        "codex",
-        "cursor"
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
       ],
-      "language": "Python",
-      "totalStars": 71126,
-      "starsGainedToday": 2736
-    },
-    {
-      "owner": "herdrdev",
-      "name": "herdr",
-      "fullName": "herdrdev/herdr",
-      "url": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "topics": [
-        "agent",
-        "agent-orchestration",
-        "ai",
-        "ai-agents",
-        "claude-code"
-      ],
-      "language": "Rust",
-      "totalStars": 51852,
-      "starsGainedToday": 2188
+      "language": "C++",
+      "totalStars": 57827,
+      "starsGainedToday": 716
     },
     {
       "owner": "erkamyaman",
@@ -51,8 +34,8 @@
         "mcp"
       ],
       "language": "Rust",
-      "totalStars": 4539,
-      "starsGainedToday": 1228
+      "totalStars": 5150,
+      "starsGainedToday": 611
     },
     {
       "owner": "morluto",
@@ -68,25 +51,36 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 469426,
-      "starsGainedToday": 1195
+      "totalStars": 469972,
+      "starsGainedToday": 546
     },
     {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "fullName": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
+        "ai",
+        "crawler",
+        "markdown",
+        "scraper",
+        "html-to-markdown"
       ],
-      "language": "C++",
-      "totalStars": 57111,
-      "starsGainedToday": 1152
+      "language": "TypeScript",
+      "totalStars": 204181,
+      "starsGainedToday": 453
+    },
+    {
+      "owner": "storytold",
+      "name": "craft-anything",
+      "fullName": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 38461,
+      "starsGainedToday": 428
     }
   ]
 }

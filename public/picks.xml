@@ -5,66 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:57:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:03:27 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[blader/humanizer (+2,736 stars today)]]></title>
-      <link>https://github.com/blader/humanizer</link>
-      <guid isPermaLink="false">https://github.com/blader/humanizer#2026-11-19</guid>
-      <description><![CDATA[Agent skill that removes signs of AI-generated writing from text]]></description>
-      <category>agent-skills</category>
-      <category>ai-writing</category>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>cursor</category>
-      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[herdrdev/herdr (+2,188 stars today)]]></title>
-      <link>https://github.com/herdrdev/herdr</link>
-      <guid isPermaLink="false">https://github.com/herdrdev/herdr#2026-11-19</guid>
-      <description><![CDATA[the runtime your coding agents live on]]></description>
-      <category>agent</category>
-      <category>agent-orchestration</category>
-      <category>ai</category>
-      <category>ai-agents</category>
-      <category>claude-code</category>
-      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[erkamyaman/rust-anything (+1,228 stars today)]]></title>
-      <link>https://github.com/erkamyaman/rust-anything</link>
-      <guid isPermaLink="false">https://github.com/erkamyaman/rust-anything#2026-11-19</guid>
-      <description><![CDATA[Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.]]></description>
-      <category>agent-skills</category>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ffi</category>
-      <category>mcp</category>
-      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,195 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-19</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+1,152 stars today)]]></title>
+      <title><![CDATA[boykopovar/AnyPS5 (+716 stars today)]]></title>
       <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-11-19</guid>
+      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-11-20</guid>
       <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
       <category>dynamic-library</category>
       <category>game-porting</category>
       <category>ps5-tools</category>
       <category>vulkan</category>
       <category>spir-v</category>
-      <pubDate>Thu, 19 Nov 2026 14:57:58 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:03:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[erkamyaman/rust-anything (+611 stars today)]]></title>
+      <link>https://github.com/erkamyaman/rust-anything</link>
+      <guid isPermaLink="false">https://github.com/erkamyaman/rust-anything#2026-11-20</guid>
+      <description><![CDATA[Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.]]></description>
+      <category>agent-skills</category>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ffi</category>
+      <category>mcp</category>
+      <pubDate>Fri, 20 Nov 2026 00:03:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+546 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-20</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>cli</category>
+      <category>mcp</category>
+      <category>agent-skills</category>
+      <category>dsh-plugin</category>
+      <category>claude-code</category>
+      <pubDate>Fri, 20 Nov 2026 00:03:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[firecrawl/firecrawl (+453 stars today)]]></title>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <guid isPermaLink="false">https://github.com/firecrawl/firecrawl#2026-11-20</guid>
+      <description><![CDATA[Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.]]></description>
+      <category>ai</category>
+      <category>crawler</category>
+      <category>markdown</category>
+      <category>scraper</category>
+      <category>html-to-markdown</category>
+      <pubDate>Fri, 20 Nov 2026 00:03:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[storytold/craft-anything (+428 stars today)]]></title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <guid isPermaLink="false">https://github.com/storytold/craft-anything#2026-11-20</guid>
+      <description><![CDATA[Craft Anything: understand how any software works, and craft your own.]]></description>
+      
+      <pubDate>Fri, 20 Nov 2026 00:03:27 GMT</pubDate>
     </item>
   </channel>
 </rss>
