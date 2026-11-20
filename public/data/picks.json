@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-11-20T00:03:27.904Z",
+  "generatedAt": "2026-11-20T14:39:37.101Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
-      ],
-      "language": "C++",
-      "totalStars": 57827,
-      "starsGainedToday": 716
-    },
     {
       "owner": "erkamyaman",
       "name": "rust-anything",
@@ -34,8 +17,8 @@
         "mcp"
       ],
       "language": "Rust",
-      "totalStars": 5150,
-      "starsGainedToday": 611
+      "totalStars": 6147,
+      "starsGainedToday": 1608
     },
     {
       "owner": "morluto",
@@ -51,25 +34,42 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 469972,
-      "starsGainedToday": 546
+      "totalStars": 470993,
+      "starsGainedToday": 1567
     },
     {
-      "owner": "firecrawl",
-      "name": "firecrawl",
-      "fullName": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "fullName": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "topics": [
-        "ai",
-        "crawler",
-        "markdown",
-        "scraper",
-        "html-to-markdown"
+        "dynamic-library",
+        "game-porting",
+        "ps5-tools",
+        "vulkan",
+        "spir-v"
       ],
-      "language": "TypeScript",
-      "totalStars": 204181,
-      "starsGainedToday": 453
+      "language": "C++",
+      "totalStars": 58425,
+      "starsGainedToday": 1314
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation",
+        "voice-ai",
+        "ai"
+      ],
+      "language": "Python",
+      "totalStars": 115177,
+      "starsGainedToday": 1273
     },
     {
       "owner": "storytold",
@@ -79,8 +79,8 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "topics": [],
       "language": "Rust",
-      "totalStars": 38461,
-      "starsGainedToday": 428
+      "totalStars": 39209,
+      "starsGainedToday": 1176
     }
   ]
 }
