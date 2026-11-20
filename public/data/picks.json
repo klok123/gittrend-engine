@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:39:37.101Z",
+  "generatedAt": "2026-11-20T23:31:36.826Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "mcp"
       ],
       "language": "Rust",
-      "totalStars": 6147,
-      "starsGainedToday": 1608
+      "totalStars": 6609,
+      "starsGainedToday": 2070
     },
     {
       "owner": "morluto",
@@ -34,8 +34,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 470993,
-      "starsGainedToday": 1567
+      "totalStars": 471448,
+      "starsGainedToday": 2022
     },
     {
       "owner": "boykopovar",
@@ -51,8 +51,8 @@
         "spir-v"
       ],
       "language": "C++",
-      "totalStars": 58425,
-      "starsGainedToday": 1314
+      "totalStars": 58789,
+      "starsGainedToday": 1678
     },
     {
       "owner": "debpalash",
@@ -68,19 +68,25 @@
         "ai"
       ],
       "language": "Python",
-      "totalStars": 115177,
-      "starsGainedToday": 1273
+      "totalStars": 115406,
+      "starsGainedToday": 1502
     },
     {
-      "owner": "storytold",
-      "name": "craft-anything",
-      "fullName": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 39209,
-      "starsGainedToday": 1176
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "fullName": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "topics": [
+        "ai",
+        "crawler",
+        "markdown",
+        "scraper",
+        "html-to-markdown"
+      ],
+      "language": "TypeScript",
+      "totalStars": 205226,
+      "starsGainedToday": 1498
     }
   ]
 }
