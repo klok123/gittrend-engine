@@ -5,66 +5,65 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 23:31:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:53:30 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[erkamyaman/rust-anything (+2,070 stars today)]]></title>
-      <link>https://github.com/erkamyaman/rust-anything</link>
-      <guid isPermaLink="false">https://github.com/erkamyaman/rust-anything#2026-11-20</guid>
-      <description><![CDATA[Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.]]></description>
-      <category>agent-skills</category>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ffi</category>
-      <category>mcp</category>
-      <pubDate>Fri, 20 Nov 2026 23:31:36 GMT</pubDate>
+      <title><![CDATA[vectorize-io/hindsight (+1,044 stars today)]]></title>
+      <link>https://github.com/vectorize-io/hindsight</link>
+      <guid isPermaLink="false">https://github.com/vectorize-io/hindsight#2026-11-21</guid>
+      <description><![CDATA[Hindsight: Agent Memory That Learns]]></description>
+      <category>agentic-ai</category>
+      <category>memory</category>
+      <category>agents</category>
+      <category>ai-memory</category>
+      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+2,022 stars today)]]></title>
+      <title><![CDATA[h4ckf0r0day/obscura (+336 stars today)]]></title>
+      <link>https://github.com/h4ckf0r0day/obscura</link>
+      <guid isPermaLink="false">https://github.com/h4ckf0r0day/obscura#2026-11-21</guid>
+      <description><![CDATA[The headless browser for AI agents and web scraping]]></description>
+      <category>antidetect</category>
+      <category>antidetect-browser</category>
+      <category>browser</category>
+      <category>browser-automation</category>
+      <category>cdp</category>
+      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[BerriAI/litellm (+313 stars today)]]></title>
+      <link>https://github.com/BerriAI/litellm</link>
+      <guid isPermaLink="false">https://github.com/BerriAI/litellm#2026-11-21</guid>
+      <description><![CDATA[The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…]]></description>
+      <category>anthropic</category>
+      <category>langchain</category>
+      <category>llm</category>
+      <category>llmops</category>
+      <category>openai</category>
+      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+243 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-20</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-21</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Fri, 20 Nov 2026 23:31:36 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[boykopovar/AnyPS5 (+1,678 stars today)]]></title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <guid isPermaLink="false">https://github.com/boykopovar/AnyPS5#2026-11-20</guid>
-      <description><![CDATA[Tool for automatic PS5 executables porting to Linux and Windows]]></description>
-      <category>dynamic-library</category>
-      <category>game-porting</category>
-      <category>ps5-tools</category>
-      <category>vulkan</category>
-      <category>spir-v</category>
-      <pubDate>Fri, 20 Nov 2026 23:31:36 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[debpalash/VoiceStudio (+1,502 stars today)]]></title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <guid isPermaLink="false">https://github.com/debpalash/VoiceStudio#2026-11-20</guid>
-      <description><![CDATA[VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.]]></description>
-      <category>tts</category>
-      <category>voice-cloning</category>
-      <category>voice-generation</category>
-      <category>voice-ai</category>
-      <category>ai</category>
-      <pubDate>Fri, 20 Nov 2026 23:31:36 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[firecrawl/firecrawl (+1,498 stars today)]]></title>
+      <title><![CDATA[firecrawl/firecrawl (+216 stars today)]]></title>
       <link>https://github.com/firecrawl/firecrawl</link>
-      <guid isPermaLink="false">https://github.com/firecrawl/firecrawl#2026-11-20</guid>
+      <guid isPermaLink="false">https://github.com/firecrawl/firecrawl#2026-11-21</guid>
       <description><![CDATA[Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.]]></description>
       <category>ai</category>
       <category>crawler</category>
       <category>markdown</category>
       <category>scraper</category>
       <category>html-to-markdown</category>
-      <pubDate>Fri, 20 Nov 2026 23:31:36 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
     </item>
   </channel>
 </rss>

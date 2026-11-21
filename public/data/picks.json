@@ -1,24 +1,57 @@
 {
-  "generatedAt": "2026-11-20T23:31:36.826Z",
+  "generatedAt": "2026-11-21T04:53:30.436Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "erkamyaman",
-      "name": "rust-anything",
-      "fullName": "erkamyaman/rust-anything",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
       "topics": [
-        "agent-skills",
-        "claude-code",
-        "codex",
-        "ffi",
-        "mcp"
+        "agentic-ai",
+        "memory",
+        "agents",
+        "ai-memory"
+      ],
+      "language": "Python",
+      "totalStars": 62284,
+      "starsGainedToday": 1044
+    },
+    {
+      "owner": "h4ckf0r0day",
+      "name": "obscura",
+      "fullName": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "topics": [
+        "antidetect",
+        "antidetect-browser",
+        "browser",
+        "browser-automation",
+        "cdp"
       ],
       "language": "Rust",
-      "totalStars": 6609,
-      "starsGainedToday": 2070
+      "totalStars": 36769,
+      "starsGainedToday": 336
+    },
+    {
+      "owner": "BerriAI",
+      "name": "litellm",
+      "fullName": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
+      "topics": [
+        "anthropic",
+        "langchain",
+        "llm",
+        "llmops",
+        "openai"
+      ],
+      "language": "Python",
+      "totalStars": 63632,
+      "starsGainedToday": 313
     },
     {
       "owner": "morluto",
@@ -34,42 +67,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 471448,
-      "starsGainedToday": 2022
-    },
-    {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "fullName": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "topics": [
-        "dynamic-library",
-        "game-porting",
-        "ps5-tools",
-        "vulkan",
-        "spir-v"
-      ],
-      "language": "C++",
-      "totalStars": 58789,
-      "starsGainedToday": 1678
-    },
-    {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "topics": [
-        "tts",
-        "voice-cloning",
-        "voice-generation",
-        "voice-ai",
-        "ai"
-      ],
-      "language": "Python",
-      "totalStars": 115406,
-      "starsGainedToday": 1502
+      "totalStars": 471691,
+      "starsGainedToday": 243
     },
     {
       "owner": "firecrawl",
@@ -85,8 +84,8 @@
         "html-to-markdown"
       ],
       "language": "TypeScript",
-      "totalStars": 205226,
-      "starsGainedToday": 1498
+      "totalStars": 205442,
+      "starsGainedToday": 216
     }
   ]
 }
