@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:53:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 13:56:25 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[vectorize-io/hindsight (+1,044 stars today)]]></title>
+      <title><![CDATA[vectorize-io/hindsight (+1,121 stars today)]]></title>
       <link>https://github.com/vectorize-io/hindsight</link>
       <guid isPermaLink="false">https://github.com/vectorize-io/hindsight#2026-11-21</guid>
       <description><![CDATA[Hindsight: Agent Memory That Learns]]></description>
@@ -15,34 +15,10 @@
       <category>memory</category>
       <category>agents</category>
       <category>ai-memory</category>
-      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[h4ckf0r0day/obscura (+336 stars today)]]></title>
-      <link>https://github.com/h4ckf0r0day/obscura</link>
-      <guid isPermaLink="false">https://github.com/h4ckf0r0day/obscura#2026-11-21</guid>
-      <description><![CDATA[The headless browser for AI agents and web scraping]]></description>
-      <category>antidetect</category>
-      <category>antidetect-browser</category>
-      <category>browser</category>
-      <category>browser-automation</category>
-      <category>cdp</category>
-      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[BerriAI/litellm (+313 stars today)]]></title>
-      <link>https://github.com/BerriAI/litellm</link>
-      <guid isPermaLink="false">https://github.com/BerriAI/litellm#2026-11-21</guid>
-      <description><![CDATA[The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…]]></description>
-      <category>anthropic</category>
-      <category>langchain</category>
-      <category>llm</category>
-      <category>llmops</category>
-      <category>openai</category>
-      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+243 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+776 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-21</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -51,10 +27,34 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[firecrawl/firecrawl (+216 stars today)]]></title>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+732 stars today)]]></title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-21</guid>
+      <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
+      <category>ai-agents</category>
+      <category>deepseek</category>
+      <category>deepseek-harness</category>
+      <category>developer-tools</category>
+      <category>dsh</category>
+      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+569 stars today)]]></title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-21</guid>
+      <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
+      <category>claude-code</category>
+      <category>codex</category>
+      <category>ghostty</category>
+      <category>terminal</category>
+      <category>opencode</category>
+      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[firecrawl/firecrawl (+555 stars today)]]></title>
       <link>https://github.com/firecrawl/firecrawl</link>
       <guid isPermaLink="false">https://github.com/firecrawl/firecrawl#2026-11-21</guid>
       <description><![CDATA[Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.]]></description>
@@ -63,7 +63,7 @@
       <category>markdown</category>
       <category>scraper</category>
       <category>html-to-markdown</category>
-      <pubDate>Sat, 21 Nov 2026 04:53:30 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
     </item>
   </channel>
 </rss>

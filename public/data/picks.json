@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T04:53:30.436Z",
+  "generatedAt": "2026-11-21T13:56:25.468Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,42 +16,8 @@
         "ai-memory"
       ],
       "language": "Python",
-      "totalStars": 62284,
-      "starsGainedToday": 1044
-    },
-    {
-      "owner": "h4ckf0r0day",
-      "name": "obscura",
-      "fullName": "h4ckf0r0day/obscura",
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "topics": [
-        "antidetect",
-        "antidetect-browser",
-        "browser",
-        "browser-automation",
-        "cdp"
-      ],
-      "language": "Rust",
-      "totalStars": 36769,
-      "starsGainedToday": 336
-    },
-    {
-      "owner": "BerriAI",
-      "name": "litellm",
-      "fullName": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI,…",
-      "topics": [
-        "anthropic",
-        "langchain",
-        "llm",
-        "llmops",
-        "openai"
-      ],
-      "language": "Python",
-      "totalStars": 63632,
-      "starsGainedToday": 313
+      "totalStars": 62361,
+      "starsGainedToday": 1121
     },
     {
       "owner": "morluto",
@@ -67,8 +33,42 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 471691,
-      "starsGainedToday": 243
+      "totalStars": 472224,
+      "starsGainedToday": 776
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh"
+      ],
+      "language": "JavaScript",
+      "totalStars": 82808,
+      "starsGainedToday": 732
+    },
+    {
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "topics": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
+      ],
+      "language": "TypeScript",
+      "totalStars": 131577,
+      "starsGainedToday": 569
     },
     {
       "owner": "firecrawl",
@@ -84,8 +84,8 @@
         "html-to-markdown"
       ],
       "language": "TypeScript",
-      "totalStars": 205442,
-      "starsGainedToday": 216
+      "totalStars": 205781,
+      "starsGainedToday": 555
     }
   ]
 }
