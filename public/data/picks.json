@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-21T13:56:25.468Z",
+  "generatedAt": "2026-11-21T22:38:40.246Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "vectorize-io",
-      "name": "hindsight",
-      "fullName": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "topics": [
-        "agentic-ai",
-        "memory",
-        "agents",
-        "ai-memory"
-      ],
-      "language": "Python",
-      "totalStars": 62361,
-      "starsGainedToday": 1121
-    },
     {
       "owner": "morluto",
       "name": "rea",
@@ -33,8 +17,24 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 472224,
-      "starsGainedToday": 776
+      "totalStars": 472717,
+      "starsGainedToday": 1269
+    },
+    {
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "topics": [
+        "agentic-ai",
+        "memory",
+        "agents",
+        "ai-memory"
+      ],
+      "language": "Python",
+      "totalStars": 62453,
+      "starsGainedToday": 1213
     },
     {
       "owner": "Ebony-Vinyl",
@@ -50,8 +50,8 @@
         "dsh"
       ],
       "language": "JavaScript",
-      "totalStars": 82808,
-      "starsGainedToday": 732
+      "totalStars": 83070,
+      "starsGainedToday": 994
     },
     {
       "owner": "stablyai",
@@ -67,8 +67,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 131577,
-      "starsGainedToday": 569
+      "totalStars": 131929,
+      "starsGainedToday": 921
     },
     {
       "owner": "firecrawl",
@@ -84,8 +84,8 @@
         "html-to-markdown"
       ],
       "language": "TypeScript",
-      "totalStars": 205781,
-      "starsGainedToday": 555
+      "totalStars": 206121,
+      "starsGainedToday": 895
     }
   ]
 }

@@ -5,20 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 13:56:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 22:38:40 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[vectorize-io/hindsight (+1,121 stars today)]]></title>
-      <link>https://github.com/vectorize-io/hindsight</link>
-      <guid isPermaLink="false">https://github.com/vectorize-io/hindsight#2026-11-21</guid>
-      <description><![CDATA[Hindsight: Agent Memory That Learns]]></description>
-      <category>agentic-ai</category>
-      <category>memory</category>
-      <category>agents</category>
-      <category>ai-memory</category>
-      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+776 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,269 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-21</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -27,10 +16,21 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 22:38:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+732 stars today)]]></title>
+      <title><![CDATA[vectorize-io/hindsight (+1,213 stars today)]]></title>
+      <link>https://github.com/vectorize-io/hindsight</link>
+      <guid isPermaLink="false">https://github.com/vectorize-io/hindsight#2026-11-21</guid>
+      <description><![CDATA[Hindsight: Agent Memory That Learns]]></description>
+      <category>agentic-ai</category>
+      <category>memory</category>
+      <category>agents</category>
+      <category>ai-memory</category>
+      <pubDate>Sat, 21 Nov 2026 22:38:40 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ebony-Vinyl/dsh-our-free-model (+994 stars today)]]></title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
       <guid isPermaLink="false">https://github.com/Ebony-Vinyl/dsh-our-free-model#2026-11-21</guid>
       <description><![CDATA[在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…]]></description>
@@ -39,10 +39,10 @@
       <category>deepseek-harness</category>
       <category>developer-tools</category>
       <category>dsh</category>
-      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 22:38:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+569 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+921 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-21</guid>
       <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
@@ -51,10 +51,10 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 22:38:40 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[firecrawl/firecrawl (+555 stars today)]]></title>
+      <title><![CDATA[firecrawl/firecrawl (+895 stars today)]]></title>
       <link>https://github.com/firecrawl/firecrawl</link>
       <guid isPermaLink="false">https://github.com/firecrawl/firecrawl#2026-11-21</guid>
       <description><![CDATA[Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.]]></description>
@@ -63,7 +63,7 @@
       <category>markdown</category>
       <category>scraper</category>
       <category>html-to-markdown</category>
-      <pubDate>Sat, 21 Nov 2026 13:56:25 GMT</pubDate>
+      <pubDate>Sat, 21 Nov 2026 22:38:40 GMT</pubDate>
     </item>
   </channel>
 </rss>
