@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 13:50:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 23:00:28 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[DietrichGebert/ponytail (+15,201 stars today)]]></title>
+      <title><![CDATA[DietrichGebert/ponytail (+15,388 stars today)]]></title>
       <link>https://github.com/DietrichGebert/ponytail</link>
       <guid isPermaLink="false">https://github.com/DietrichGebert/ponytail#2026-11-22</guid>
       <description><![CDATA[Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.]]></description>
@@ -16,10 +16,18 @@
       <category>claude</category>
       <category>claude-code</category>
       <category>claude-code-plugin</category>
-      <pubDate>Sun, 22 Nov 2026 13:50:10 GMT</pubDate>
+      <pubDate>Sun, 22 Nov 2026 23:00:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Leonxlnx/taste-skill (+6,960 stars today)]]></title>
+      <title><![CDATA[ItsNotRexed/Leonida (+10,257 stars today)]]></title>
+      <link>https://github.com/ItsNotRexed/Leonida</link>
+      <guid isPermaLink="false">https://github.com/ItsNotRexed/Leonida#2026-11-22</guid>
+      <description><![CDATA[Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6]]></description>
+      
+      <pubDate>Sun, 22 Nov 2026 23:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Leonxlnx/taste-skill (+7,111 stars today)]]></title>
       <link>https://github.com/Leonxlnx/taste-skill</link>
       <guid isPermaLink="false">https://github.com/Leonxlnx/taste-skill#2026-11-22</guid>
       <description><![CDATA[Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages]]></description>
@@ -28,26 +36,22 @@
       <category>frontend</category>
       <category>agent-skills</category>
       <category>ai-agents</category>
-      <pubDate>Sun, 22 Nov 2026 13:50:10 GMT</pubDate>
+      <pubDate>Sun, 22 Nov 2026 23:00:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[ItsNotRexed/Leonida (+6,157 stars today)]]></title>
-      <link>https://github.com/ItsNotRexed/Leonida</link>
-      <guid isPermaLink="false">https://github.com/ItsNotRexed/Leonida#2026-11-22</guid>
-      <description><![CDATA[Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6]]></description>
-      
-      <pubDate>Sun, 22 Nov 2026 13:50:10 GMT</pubDate>
+      <title><![CDATA[Panniantong/Agent-Reach (+3,108 stars today)]]></title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid isPermaLink="false">https://github.com/Panniantong/Agent-Reach#2026-11-22</guid>
+      <description><![CDATA[Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.]]></description>
+      <category>agent-infrastructure</category>
+      <category>ai-agent</category>
+      <category>ai-search</category>
+      <category>automation</category>
+      <category>bilibili</category>
+      <pubDate>Sun, 22 Nov 2026 23:00:28 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[HKUDS/CLI-Anything (+970 stars today)]]></title>
-      <link>https://github.com/HKUDS/CLI-Anything</link>
-      <guid isPermaLink="false">https://github.com/HKUDS/CLI-Anything#2026-11-22</guid>
-      <description><![CDATA["CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/]]></description>
-      
-      <pubDate>Sun, 22 Nov 2026 13:50:10 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+810 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+1,311 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
       <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-22</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
@@ -56,7 +60,7 @@
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Sun, 22 Nov 2026 13:50:10 GMT</pubDate>
+      <pubDate>Sun, 22 Nov 2026 23:00:28 GMT</pubDate>
     </item>
   </channel>
 </rss>

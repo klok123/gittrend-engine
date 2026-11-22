@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:50:10.992Z",
+  "generatedAt": "2026-11-22T23:00:28.987Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,19 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 196667,
-      "starsGainedToday": 15201
+      "totalStars": 196854,
+      "starsGainedToday": 15388
+    },
+    {
+      "owner": "ItsNotRexed",
+      "name": "Leonida",
+      "fullName": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 14521,
+      "starsGainedToday": 10257
     },
     {
       "owner": "Leonxlnx",
@@ -34,30 +45,25 @@
         "ai-agents"
       ],
       "language": "JavaScript",
-      "totalStars": 119938,
-      "starsGainedToday": 6960
+      "totalStars": 120089,
+      "starsGainedToday": 7111
     },
     {
-      "owner": "ItsNotRexed",
-      "name": "Leonida",
-      "fullName": "ItsNotRexed/Leonida",
-      "url": "https://github.com/ItsNotRexed/Leonida",
-      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "topics": [],
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili"
+      ],
       "language": "Python",
-      "totalStars": 10421,
-      "starsGainedToday": 6157
-    },
-    {
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "fullName": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 62470,
-      "starsGainedToday": 970
+      "totalStars": 114008,
+      "starsGainedToday": 3108
     },
     {
       "owner": "morluto",
@@ -73,8 +79,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 473527,
-      "starsGainedToday": 810
+      "totalStars": 474028,
+      "starsGainedToday": 1311
     }
   ]
 }
