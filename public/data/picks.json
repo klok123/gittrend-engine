@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T04:10:16.867Z",
+  "generatedAt": "2026-11-22T13:50:10.992Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -17,8 +17,8 @@
         "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 196443,
-      "starsGainedToday": 14977
+      "totalStars": 196667,
+      "starsGainedToday": 15201
     },
     {
       "owner": "Leonxlnx",
@@ -34,8 +34,8 @@
         "ai-agents"
       ],
       "language": "JavaScript",
-      "totalStars": 119787,
-      "starsGainedToday": 6809
+      "totalStars": 119938,
+      "starsGainedToday": 6960
     },
     {
       "owner": "ItsNotRexed",
@@ -45,8 +45,8 @@
       "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
       "topics": [],
       "language": "Python",
-      "totalStars": 6804,
-      "starsGainedToday": 2540
+      "totalStars": 10421,
+      "starsGainedToday": 6157
     },
     {
       "owner": "HKUDS",
@@ -56,24 +56,25 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "topics": [],
       "language": "Python",
-      "totalStars": 62154,
-      "starsGainedToday": 654
+      "totalStars": 62470,
+      "starsGainedToday": 970
     },
     {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "topics": [
-        "cordis",
-        "dsh",
+        "cli",
+        "mcp",
+        "agent-skills",
         "dsh-plugin",
-        "ai-agents"
+        "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 285152,
-      "starsGainedToday": 455
+      "totalStars": 473527,
+      "starsGainedToday": 810
     }
   ]
 }
