@@ -1,91 +1,79 @@
 {
-  "generatedAt": "2026-11-21T22:38:40.246Z",
+  "generatedAt": "2026-11-22T04:10:16.867Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "topics": [
-        "cli",
-        "mcp",
         "agent-skills",
-        "dsh-plugin",
-        "claude-code"
-      ],
-      "language": "TypeScript",
-      "totalStars": 472717,
-      "starsGainedToday": 1269
-    },
-    {
-      "owner": "vectorize-io",
-      "name": "hindsight",
-      "fullName": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "topics": [
-        "agentic-ai",
-        "memory",
-        "agents",
-        "ai-memory"
-      ],
-      "language": "Python",
-      "totalStars": 62453,
-      "starsGainedToday": 1213
-    },
-    {
-      "owner": "Ebony-Vinyl",
-      "name": "dsh-our-free-model",
-      "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,…",
-      "topics": [
         "ai-agents",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh"
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
       ],
       "language": "JavaScript",
-      "totalStars": 83070,
-      "starsGainedToday": 994
+      "totalStars": 196443,
+      "starsGainedToday": 14977
     },
     {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "topics": [
         "claude-code",
         "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
+        "frontend",
+        "agent-skills",
+        "ai-agents"
       ],
-      "language": "TypeScript",
-      "totalStars": 131929,
-      "starsGainedToday": 921
+      "language": "JavaScript",
+      "totalStars": 119787,
+      "starsGainedToday": 6809
     },
     {
-      "owner": "firecrawl",
-      "name": "firecrawl",
-      "fullName": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "owner": "ItsNotRexed",
+      "name": "Leonida",
+      "fullName": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 6804,
+      "starsGainedToday": 2540
+    },
+    {
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 62154,
+      "starsGainedToday": 654
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
       "topics": [
-        "ai",
-        "crawler",
-        "markdown",
-        "scraper",
-        "html-to-markdown"
+        "cordis",
+        "dsh",
+        "dsh-plugin",
+        "ai-agents"
       ],
       "language": "TypeScript",
-      "totalStars": 206121,
-      "starsGainedToday": 895
+      "totalStars": 285152,
+      "starsGainedToday": 455
     }
   ]
 }
