@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-11-23T04:51:48.482Z",
+  "generatedAt": "2026-11-23T16:54:35.923Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
+    {
+      "owner": "ItsNotRexed",
+      "name": "Leonida",
+      "fullName": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "topics": [],
+      "language": "Python",
+      "totalStars": 24067,
+      "starsGainedToday": 9546
+    },
     {
       "owner": "pingdotgg",
       "name": "t3code",
@@ -17,70 +28,59 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 72287,
-      "starsGainedToday": 6844
+      "totalStars": 74190,
+      "starsGainedToday": 8747
     },
     {
-      "owner": "ItsNotRexed",
-      "name": "Leonida",
-      "fullName": "ItsNotRexed/Leonida",
-      "url": "https://github.com/ItsNotRexed/Leonida",
-      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 16383,
-      "starsGainedToday": 1862
-    },
-    {
-      "owner": "blender",
-      "name": "blender",
-      "fullName": "blender/blender",
-      "url": "https://github.com/blender/blender",
-      "description": "Official mirror of Blender",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "topics": [
-        "b3d",
-        "animation",
-        "3d",
-        "modeling",
-        "computer-graphics"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
       ],
-      "language": "C++",
-      "totalStars": 22343,
-      "starsGainedToday": 1658
+      "language": "TypeScript",
+      "totalStars": 134183,
+      "starsGainedToday": 1253
     },
     {
-      "owner": "projectdiscovery",
-      "name": "nuclei",
-      "fullName": "projectdiscovery/nuclei",
-      "url": "https://github.com/projectdiscovery/nuclei",
-      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the…",
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "topics": [
-        "cve-scanner",
-        "subdomain-takeover",
-        "nuclei-engine",
-        "vulnerability-detection",
-        "vulnerability-assessment"
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
       ],
-      "language": "Go",
-      "totalStars": 33209,
-      "starsGainedToday": 510
+      "language": "TypeScript",
+      "totalStars": 475235,
+      "starsGainedToday": 1207
     },
     {
-      "owner": "netbirdio",
-      "name": "netbird",
-      "fullName": "netbirdio/netbird",
-      "url": "https://github.com/netbirdio/netbird",
-      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
+      "owner": "EL4CTEO",
+      "name": "fast-anything",
+      "fullName": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
       "topics": [
-        "wireguard",
-        "wireguard-vpn",
-        "vpn",
-        "nat-traversal",
-        "mesh-networks"
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "codex"
       ],
-      "language": "Go",
-      "totalStars": 31221,
-      "starsGainedToday": 409
+      "language": "Rust",
+      "totalStars": 2944,
+      "starsGainedToday": 1123
     }
   ]
 }
