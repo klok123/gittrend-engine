@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-22T23:00:28.987Z",
+  "generatedAt": "2026-11-23T04:51:48.482Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "owner": "pingdotgg",
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin"
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude"
       ],
-      "language": "JavaScript",
-      "totalStars": 196854,
-      "starsGainedToday": 15388
+      "language": "TypeScript",
+      "totalStars": 72287,
+      "starsGainedToday": 6844
     },
     {
       "owner": "ItsNotRexed",
@@ -28,59 +28,59 @@
       "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
       "topics": [],
       "language": "Python",
-      "totalStars": 14521,
-      "starsGainedToday": 10257
+      "totalStars": 16383,
+      "starsGainedToday": 1862
     },
     {
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "fullName": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "owner": "blender",
+      "name": "blender",
+      "fullName": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "description": "Official mirror of Blender",
       "topics": [
-        "claude-code",
-        "codex",
-        "frontend",
-        "agent-skills",
-        "ai-agents"
+        "b3d",
+        "animation",
+        "3d",
+        "modeling",
+        "computer-graphics"
       ],
-      "language": "JavaScript",
-      "totalStars": 120089,
-      "starsGainedToday": 7111
+      "language": "C++",
+      "totalStars": 22343,
+      "starsGainedToday": 1658
     },
     {
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner": "projectdiscovery",
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the…",
       "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili"
+        "cve-scanner",
+        "subdomain-takeover",
+        "nuclei-engine",
+        "vulnerability-detection",
+        "vulnerability-assessment"
       ],
-      "language": "Python",
-      "totalStars": 114008,
-      "starsGainedToday": 3108
+      "language": "Go",
+      "totalStars": 33209,
+      "starsGainedToday": 510
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "netbirdio",
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
       "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
+        "wireguard",
+        "wireguard-vpn",
+        "vpn",
+        "nat-traversal",
+        "mesh-networks"
       ],
-      "language": "TypeScript",
-      "totalStars": 474028,
-      "starsGainedToday": 1311
+      "language": "Go",
+      "totalStars": 31221,
+      "starsGainedToday": 409
     }
   ]
 }
