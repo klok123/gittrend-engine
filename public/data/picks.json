@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:39:24.385Z",
+  "generatedAt": "2026-11-24T16:45:58.596Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,8 +16,8 @@
         "d3d12"
       ],
       "language": "Rust",
-      "totalStars": 3762,
-      "starsGainedToday": 3280
+      "totalStars": 7179,
+      "starsGainedToday": 6697
     },
     {
       "owner": "pingdotgg",
@@ -33,8 +33,8 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 75228,
-      "starsGainedToday": 1038
+      "totalStars": 76910,
+      "starsGainedToday": 2720
     },
     {
       "owner": "AFK-surf",
@@ -44,22 +44,25 @@
       "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
       "topics": [],
       "language": "Objective-C++",
-      "totalStars": 2288,
-      "starsGainedToday": 868
+      "totalStars": 3109,
+      "starsGainedToday": 1689
     },
     {
-      "owner": "LadybirdBrowser",
-      "name": "ladybird",
-      "fullName": "LadybirdBrowser/ladybird",
-      "url": "https://github.com/LadybirdBrowser/ladybird",
-      "description": "Truly independent web browser",
+      "owner": "stablyai",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "topics": [
-        "browser",
-        "browser-engine"
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode"
       ],
-      "language": "Rust",
-      "totalStars": 67904,
-      "starsGainedToday": 585
+      "language": "TypeScript",
+      "totalStars": 135699,
+      "starsGainedToday": 1516
     },
     {
       "owner": "morluto",
@@ -75,8 +78,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 475773,
-      "starsGainedToday": 538
+      "totalStars": 476714,
+      "starsGainedToday": 1479
     }
   ]
 }
