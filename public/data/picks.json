@@ -1,18 +1,23 @@
 {
-  "generatedAt": "2026-11-23T16:54:35.923Z",
+  "generatedAt": "2026-11-24T03:39:24.385Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "ItsNotRexed",
-      "name": "Leonida",
-      "fullName": "ItsNotRexed/Leonida",
-      "url": "https://github.com/ItsNotRexed/Leonida",
-      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "topics": [],
-      "language": "Python",
-      "totalStars": 24067,
-      "starsGainedToday": 9546
+      "owner": "ivall",
+      "name": "xcl",
+      "fullName": "ivall/xcl",
+      "url": "https://github.com/ivall/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "topics": [
+        "gdk",
+        "rdna2",
+        "xbox",
+        "d3d12"
+      ],
+      "language": "Rust",
+      "totalStars": 3762,
+      "starsGainedToday": 3280
     },
     {
       "owner": "pingdotgg",
@@ -28,25 +33,33 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 74190,
-      "starsGainedToday": 8747
+      "totalStars": 75228,
+      "starsGainedToday": 1038
     },
     {
-      "owner": "stablyai",
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "owner": "AFK-surf",
+      "name": "xnulinux",
+      "fullName": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "topics": [],
+      "language": "Objective-C++",
+      "totalStars": 2288,
+      "starsGainedToday": 868
+    },
+    {
+      "owner": "LadybirdBrowser",
+      "name": "ladybird",
+      "fullName": "LadybirdBrowser/ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
       "topics": [
-        "claude-code",
-        "codex",
-        "ghostty",
-        "terminal",
-        "opencode"
+        "browser",
+        "browser-engine"
       ],
-      "language": "TypeScript",
-      "totalStars": 134183,
-      "starsGainedToday": 1253
+      "language": "Rust",
+      "totalStars": 67904,
+      "starsGainedToday": 585
     },
     {
       "owner": "morluto",
@@ -62,25 +75,8 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 475235,
-      "starsGainedToday": 1207
-    },
-    {
-      "owner": "EL4CTEO",
-      "name": "fast-anything",
-      "fullName": "EL4CTEO/fast-anything",
-      "url": "https://github.com/EL4CTEO/fast-anything",
-      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "claude-code-plugin",
-        "codex"
-      ],
-      "language": "Rust",
-      "totalStars": 2944,
-      "starsGainedToday": 1123
+      "totalStars": 475773,
+      "starsGainedToday": 538
     }
   ]
 }

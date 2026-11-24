@@ -5,62 +5,58 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 16:54:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:39:24 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[ItsNotRexed/Leonida (+9,546 stars today)]]></title>
-      <link>https://github.com/ItsNotRexed/Leonida</link>
-      <guid isPermaLink="false">https://github.com/ItsNotRexed/Leonida#2026-11-23</guid>
-      <description><![CDATA[Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6]]></description>
-      
-      <pubDate>Mon, 23 Nov 2026 16:54:35 GMT</pubDate>
+      <title><![CDATA[ivall/xcl (+3,280 stars today)]]></title>
+      <link>https://github.com/ivall/xcl</link>
+      <guid isPermaLink="false">https://github.com/ivall/xcl#2026-11-24</guid>
+      <description><![CDATA[Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL]]></description>
+      <category>gdk</category>
+      <category>rdna2</category>
+      <category>xbox</category>
+      <category>d3d12</category>
+      <pubDate>Tue, 24 Nov 2026 03:39:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[pingdotgg/t3code (+8,747 stars today)]]></title>
+      <title><![CDATA[pingdotgg/t3code (+1,038 stars today)]]></title>
       <link>https://github.com/pingdotgg/t3code</link>
-      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-23</guid>
+      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-24</guid>
       <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
       <category>agent-orchestration</category>
       <category>agents</category>
       <category>ai</category>
       <category>chatgpt</category>
       <category>claude</category>
-      <pubDate>Mon, 23 Nov 2026 16:54:35 GMT</pubDate>
+      <pubDate>Tue, 24 Nov 2026 03:39:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+1,253 stars today)]]></title>
-      <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-23</guid>
-      <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>ghostty</category>
-      <category>terminal</category>
-      <category>opencode</category>
-      <pubDate>Mon, 23 Nov 2026 16:54:35 GMT</pubDate>
+      <title><![CDATA[AFK-surf/xnulinux (+868 stars today)]]></title>
+      <link>https://github.com/AFK-surf/xnulinux</link>
+      <guid isPermaLink="false">https://github.com/AFK-surf/xnulinux#2026-11-24</guid>
+      <description><![CDATA[XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)]]></description>
+      
+      <pubDate>Tue, 24 Nov 2026 03:39:24 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[morluto/rea (+1,207 stars today)]]></title>
+      <title><![CDATA[LadybirdBrowser/ladybird (+585 stars today)]]></title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <guid isPermaLink="false">https://github.com/LadybirdBrowser/ladybird#2026-11-24</guid>
+      <description><![CDATA[Truly independent web browser]]></description>
+      <category>browser</category>
+      <category>browser-engine</category>
+      <pubDate>Tue, 24 Nov 2026 03:39:24 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+538 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-23</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-24</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Mon, 23 Nov 2026 16:54:35 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[EL4CTEO/fast-anything (+1,123 stars today)]]></title>
-      <link>https://github.com/EL4CTEO/fast-anything</link>
-      <guid isPermaLink="false">https://github.com/EL4CTEO/fast-anything#2026-11-23</guid>
-      <description><![CDATA[Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.]]></description>
-      <category>agent-skills</category>
-      <category>ai-agents</category>
-      <category>claude-code</category>
-      <category>claude-code-plugin</category>
-      <category>codex</category>
-      <pubDate>Mon, 23 Nov 2026 16:54:35 GMT</pubDate>
+      <pubDate>Tue, 24 Nov 2026 03:39:24 GMT</pubDate>
     </item>
   </channel>
 </rss>
