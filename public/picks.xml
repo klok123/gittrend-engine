@@ -5,61 +5,57 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 16:45:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 01:46:44 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[ivall/xcl (+6,697 stars today)]]></title>
-      <link>https://github.com/ivall/xcl</link>
-      <guid isPermaLink="false">https://github.com/ivall/xcl#2026-11-24</guid>
+      <title><![CDATA[Marvisak/VIctory (+1,541 stars today)]]></title>
+      <link>https://github.com/Marvisak/VIctory</link>
+      <guid isPermaLink="false">https://github.com/Marvisak/VIctory#2026-11-25</guid>
+      <description><![CDATA[An attempt at running GTA VI on PC]]></description>
+      
+      <pubDate>Wed, 25 Nov 2026 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[4lwayz/portwatch-vi (+712 stars today)]]></title>
+      <link>https://github.com/4lwayz/portwatch-vi</link>
+      <guid isPermaLink="false">https://github.com/4lwayz/portwatch-vi#2026-11-25</guid>
+      <description><![CDATA[Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.]]></description>
+      
+      <pubDate>Wed, 25 Nov 2026 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[xcl-dev/xcl (+691 stars today)]]></title>
+      <link>https://github.com/xcl-dev/xcl</link>
+      <guid isPermaLink="false">https://github.com/xcl-dev/xcl#2026-11-25</guid>
       <description><![CDATA[Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL]]></description>
       <category>gdk</category>
       <category>rdna2</category>
       <category>xbox</category>
       <category>d3d12</category>
-      <pubDate>Tue, 24 Nov 2026 16:45:58 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[pingdotgg/t3code (+2,720 stars today)]]></title>
+      <title><![CDATA[pingdotgg/t3code (+663 stars today)]]></title>
       <link>https://github.com/pingdotgg/t3code</link>
-      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-24</guid>
+      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-25</guid>
       <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
       <category>agent-orchestration</category>
       <category>agents</category>
       <category>ai</category>
       <category>chatgpt</category>
       <category>claude</category>
-      <pubDate>Tue, 24 Nov 2026 16:45:58 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[AFK-surf/xnulinux (+1,689 stars today)]]></title>
-      <link>https://github.com/AFK-surf/xnulinux</link>
-      <guid isPermaLink="false">https://github.com/AFK-surf/xnulinux#2026-11-24</guid>
-      <description><![CDATA[XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)]]></description>
-      
-      <pubDate>Tue, 24 Nov 2026 16:45:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+1,516 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+509 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-24</guid>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-25</guid>
       <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
       <category>claude-code</category>
       <category>codex</category>
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Tue, 24 Nov 2026 16:45:58 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,479 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-24</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Tue, 24 Nov 2026 16:45:58 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 01:46:44 GMT</pubDate>
     </item>
   </channel>
 </rss>

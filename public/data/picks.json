@@ -1,13 +1,35 @@
 {
-  "generatedAt": "2026-11-24T16:45:58.596Z",
+  "generatedAt": "2026-11-25T01:46:44.185Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "ivall",
+      "owner": "Marvisak",
+      "name": "VIctory",
+      "fullName": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "description": "An attempt at running GTA VI on PC",
+      "topics": [],
+      "language": "Rust",
+      "totalStars": 11418,
+      "starsGainedToday": 1541
+    },
+    {
+      "owner": "4lwayz",
+      "name": "portwatch-vi",
+      "fullName": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 2926,
+      "starsGainedToday": 712
+    },
+    {
+      "owner": "xcl-dev",
       "name": "xcl",
-      "fullName": "ivall/xcl",
-      "url": "https://github.com/ivall/xcl",
+      "fullName": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
       "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
       "topics": [
         "gdk",
@@ -16,8 +38,8 @@
         "d3d12"
       ],
       "language": "Rust",
-      "totalStars": 7179,
-      "starsGainedToday": 6697
+      "totalStars": 7870,
+      "starsGainedToday": 691
     },
     {
       "owner": "pingdotgg",
@@ -33,19 +55,8 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 76910,
-      "starsGainedToday": 2720
-    },
-    {
-      "owner": "AFK-surf",
-      "name": "xnulinux",
-      "fullName": "AFK-surf/xnulinux",
-      "url": "https://github.com/AFK-surf/xnulinux",
-      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
-      "topics": [],
-      "language": "Objective-C++",
-      "totalStars": 3109,
-      "starsGainedToday": 1689
+      "totalStars": 77573,
+      "starsGainedToday": 663
     },
     {
       "owner": "stablyai",
@@ -61,25 +72,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 135699,
-      "starsGainedToday": 1516
-    },
-    {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
-      ],
-      "language": "TypeScript",
-      "totalStars": 476714,
-      "starsGainedToday": 1479
+      "totalStars": 136208,
+      "starsGainedToday": 509
     }
   ]
 }
