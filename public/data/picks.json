@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:46:44.185Z",
+  "generatedAt": "2026-11-25T16:31:39.665Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -11,35 +11,8 @@
       "description": "An attempt at running GTA VI on PC",
       "topics": [],
       "language": "Rust",
-      "totalStars": 11418,
-      "starsGainedToday": 1541
-    },
-    {
-      "owner": "4lwayz",
-      "name": "portwatch-vi",
-      "fullName": "4lwayz/portwatch-vi",
-      "url": "https://github.com/4lwayz/portwatch-vi",
-      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 2926,
-      "starsGainedToday": 712
-    },
-    {
-      "owner": "xcl-dev",
-      "name": "xcl",
-      "fullName": "xcl-dev/xcl",
-      "url": "https://github.com/xcl-dev/xcl",
-      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
-      "topics": [
-        "gdk",
-        "rdna2",
-        "xbox",
-        "d3d12"
-      ],
-      "language": "Rust",
-      "totalStars": 7870,
-      "starsGainedToday": 691
+      "totalStars": 12287,
+      "starsGainedToday": 2410
     },
     {
       "owner": "pingdotgg",
@@ -55,8 +28,8 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 77573,
-      "starsGainedToday": 663
+      "totalStars": 79059,
+      "starsGainedToday": 2149
     },
     {
       "owner": "stablyai",
@@ -72,8 +45,42 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 136208,
-      "starsGainedToday": 509
+      "totalStars": 137581,
+      "starsGainedToday": 1882
+    },
+    {
+      "owner": "JunkFood02",
+      "name": "Seal",
+      "fullName": "JunkFood02/Seal",
+      "url": "https://github.com/JunkFood02/Seal",
+      "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "youtube-dl",
+        "material-design",
+        "f-droid"
+      ],
+      "language": "Kotlin",
+      "totalStars": 31014,
+      "starsGainedToday": 1746
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
+      ],
+      "language": "TypeScript",
+      "totalStars": 478099,
+      "starsGainedToday": 1385
     }
   ]
 }
