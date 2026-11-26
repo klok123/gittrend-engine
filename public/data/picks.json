@@ -1,36 +1,8 @@
 {
-  "generatedAt": "2026-11-26T01:21:55.549Z",
+  "generatedAt": "2026-11-26T16:03:42.525Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
-    {
-      "owner": "komi-store",
-      "name": "komi-store",
-      "fullName": "komi-store/komi-store",
-      "url": "https://github.com/komi-store/komi-store",
-      "description": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
-      "topics": [
-        "android",
-        "kotlin",
-        "kotlin-multiplatform",
-        "linux",
-        "macos"
-      ],
-      "language": "Kotlin",
-      "totalStars": 22404,
-      "starsGainedToday": 2100
-    },
-    {
-      "owner": "4lwayz",
-      "name": "portwatch-vi",
-      "fullName": "4lwayz/portwatch-vi",
-      "url": "https://github.com/4lwayz/portwatch-vi",
-      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 4185,
-      "starsGainedToday": 609
-    },
     {
       "owner": "stablyai",
       "name": "orca",
@@ -45,25 +17,36 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 138058,
-      "starsGainedToday": 477
+      "totalStars": 139931,
+      "starsGainedToday": 2350
     },
     {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner": "komi-store",
+      "name": "komi-store",
+      "fullName": "komi-store/komi-store",
+      "url": "https://github.com/komi-store/komi-store",
+      "description": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
       "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
+        "android",
+        "kotlin",
+        "kotlin-multiplatform",
+        "linux",
+        "macos"
       ],
-      "language": "TypeScript",
-      "totalStars": 478519,
-      "starsGainedToday": 420
+      "language": "Kotlin",
+      "totalStars": 22493,
+      "starsGainedToday": 2189
+    },
+    {
+      "owner": "4lwayz",
+      "name": "portwatch-vi",
+      "fullName": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 5187,
+      "starsGainedToday": 1611
     },
     {
       "owner": "pingdotgg",
@@ -79,8 +62,25 @@
         "claude"
       ],
       "language": "TypeScript",
-      "totalStars": 79477,
-      "starsGainedToday": 418
+      "totalStars": 80544,
+      "starsGainedToday": 1485
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
+      ],
+      "language": "TypeScript",
+      "totalStars": 479417,
+      "starsGainedToday": 1318
     }
   ]
 }
