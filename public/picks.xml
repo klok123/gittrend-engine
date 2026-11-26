@@ -5,62 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 16:31:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 01:21:55 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Marvisak/VIctory (+2,410 stars today)]]></title>
-      <link>https://github.com/Marvisak/VIctory</link>
-      <guid isPermaLink="false">https://github.com/Marvisak/VIctory#2026-11-25</guid>
-      <description><![CDATA[An attempt at running GTA VI on PC]]></description>
+      <title><![CDATA[komi-store/komi-store (+2,100 stars today)]]></title>
+      <link>https://github.com/komi-store/komi-store</link>
+      <guid isPermaLink="false">https://github.com/komi-store/komi-store#2026-11-26</guid>
+      <description><![CDATA[🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.]]></description>
+      <category>android</category>
+      <category>kotlin</category>
+      <category>kotlin-multiplatform</category>
+      <category>linux</category>
+      <category>macos</category>
+      <pubDate>Thu, 26 Nov 2026 01:21:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[4lwayz/portwatch-vi (+609 stars today)]]></title>
+      <link>https://github.com/4lwayz/portwatch-vi</link>
+      <guid isPermaLink="false">https://github.com/4lwayz/portwatch-vi#2026-11-26</guid>
+      <description><![CDATA[Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.]]></description>
       
-      <pubDate>Wed, 25 Nov 2026 16:31:39 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 01:21:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[pingdotgg/t3code (+2,149 stars today)]]></title>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-25</guid>
-      <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
-      <category>agent-orchestration</category>
-      <category>agents</category>
-      <category>ai</category>
-      <category>chatgpt</category>
-      <category>claude</category>
-      <pubDate>Wed, 25 Nov 2026 16:31:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+1,882 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+477 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-25</guid>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-26</guid>
       <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
       <category>claude-code</category>
       <category>codex</category>
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Wed, 25 Nov 2026 16:31:39 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 01:21:55 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[JunkFood02/Seal (+1,746 stars today)]]></title>
-      <link>https://github.com/JunkFood02/Seal</link>
-      <guid isPermaLink="false">https://github.com/JunkFood02/Seal#2026-11-25</guid>
-      <description><![CDATA[🦭 Video/Audio Downloader for Android, based on yt-dlp]]></description>
-      <category>android</category>
-      <category>jetpack-compose</category>
-      <category>youtube-dl</category>
-      <category>material-design</category>
-      <category>f-droid</category>
-      <pubDate>Wed, 25 Nov 2026 16:31:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,385 stars today)]]></title>
+      <title><![CDATA[morluto/rea (+420 stars today)]]></title>
       <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-25</guid>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-26</guid>
       <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
       <category>cli</category>
       <category>mcp</category>
       <category>agent-skills</category>
       <category>dsh-plugin</category>
       <category>claude-code</category>
-      <pubDate>Wed, 25 Nov 2026 16:31:39 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 01:21:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[pingdotgg/t3code (+418 stars today)]]></title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-26</guid>
+      <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
+      <category>agent-orchestration</category>
+      <category>agents</category>
+      <category>ai</category>
+      <category>chatgpt</category>
+      <category>claude</category>
+      <pubDate>Thu, 26 Nov 2026 01:21:55 GMT</pubDate>
     </item>
   </channel>
 </rss>

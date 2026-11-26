@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-25T16:31:39.665Z",
+  "generatedAt": "2026-11-26T01:21:55.549Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "Marvisak",
-      "name": "VIctory",
-      "fullName": "Marvisak/VIctory",
-      "url": "https://github.com/Marvisak/VIctory",
-      "description": "An attempt at running GTA VI on PC",
-      "topics": [],
-      "language": "Rust",
-      "totalStars": 12287,
-      "starsGainedToday": 2410
+      "owner": "komi-store",
+      "name": "komi-store",
+      "fullName": "komi-store/komi-store",
+      "url": "https://github.com/komi-store/komi-store",
+      "description": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+      "topics": [
+        "android",
+        "kotlin",
+        "kotlin-multiplatform",
+        "linux",
+        "macos"
+      ],
+      "language": "Kotlin",
+      "totalStars": 22404,
+      "starsGainedToday": 2100
     },
     {
-      "owner": "pingdotgg",
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
-      "topics": [
-        "agent-orchestration",
-        "agents",
-        "ai",
-        "chatgpt",
-        "claude"
-      ],
-      "language": "TypeScript",
-      "totalStars": 79059,
-      "starsGainedToday": 2149
+      "owner": "4lwayz",
+      "name": "portwatch-vi",
+      "fullName": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "topics": [],
+      "language": "JavaScript",
+      "totalStars": 4185,
+      "starsGainedToday": 609
     },
     {
       "owner": "stablyai",
@@ -45,25 +45,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 137581,
-      "starsGainedToday": 1882
-    },
-    {
-      "owner": "JunkFood02",
-      "name": "Seal",
-      "fullName": "JunkFood02/Seal",
-      "url": "https://github.com/JunkFood02/Seal",
-      "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
-      "topics": [
-        "android",
-        "jetpack-compose",
-        "youtube-dl",
-        "material-design",
-        "f-droid"
-      ],
-      "language": "Kotlin",
-      "totalStars": 31014,
-      "starsGainedToday": 1746
+      "totalStars": 138058,
+      "starsGainedToday": 477
     },
     {
       "owner": "morluto",
@@ -79,8 +62,25 @@
         "claude-code"
       ],
       "language": "TypeScript",
-      "totalStars": 478099,
-      "starsGainedToday": 1385
+      "totalStars": 478519,
+      "starsGainedToday": 420
+    },
+    {
+      "owner": "pingdotgg",
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "topics": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude"
+      ],
+      "language": "TypeScript",
+      "totalStars": 79477,
+      "starsGainedToday": 418
     }
   ]
 }
