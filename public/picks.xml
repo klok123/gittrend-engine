@@ -5,9 +5,9 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 01:20:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 15:53:39 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[521xueweihan/HelloGitHub (+5,095 stars today)]]></title>
+      <title><![CDATA[521xueweihan/HelloGitHub (+5,257 stars today)]]></title>
       <link>https://github.com/521xueweihan/HelloGitHub</link>
       <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-11-27</guid>
       <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
@@ -15,30 +15,10 @@
       <category>hellogithub</category>
       <category>python</category>
       <category>awesome</category>
-      <pubDate>Fri, 27 Nov 2026 01:20:07 GMT</pubDate>
+      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[onehumanbeing/esp32-iphone-agent (+2,380 stars today)]]></title>
-      <link>https://github.com/onehumanbeing/esp32-iphone-agent</link>
-      <guid isPermaLink="false">https://github.com/onehumanbeing/esp32-iphone-agent#2026-11-27</guid>
-      <description><![CDATA[Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.]]></description>
-      <category>ai-agent</category>
-      <category>airplay</category>
-      <category>computer-use</category>
-      <category>esp32</category>
-      <category>esp32-s3</category>
-      <pubDate>Fri, 27 Nov 2026 01:20:07 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[4lwayz/portwatch-vi (+643 stars today)]]></title>
-      <link>https://github.com/4lwayz/portwatch-vi</link>
-      <guid isPermaLink="false">https://github.com/4lwayz/portwatch-vi#2026-11-27</guid>
-      <description><![CDATA[Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.]]></description>
-      
-      <pubDate>Fri, 27 Nov 2026 01:20:07 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[stablyai/orca (+531 stars today)]]></title>
+      <title><![CDATA[stablyai/orca (+2,129 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
       <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-27</guid>
       <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
@@ -47,10 +27,10 @@
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Fri, 27 Nov 2026 01:20:07 GMT</pubDate>
+      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[nexu-io/opengame (+449 stars today)]]></title>
+      <title><![CDATA[nexu-io/opengame (+1,471 stars today)]]></title>
       <link>https://github.com/nexu-io/opengame</link>
       <guid isPermaLink="false">https://github.com/nexu-io/opengame#2026-11-27</guid>
       <description><![CDATA[The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish…]]></description>
@@ -59,7 +39,31 @@
       <category>deepseek</category>
       <category>game-development</category>
       <category>game-engine</category>
-      <pubDate>Fri, 27 Nov 2026 01:20:07 GMT</pubDate>
+      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[morluto/rea (+1,310 stars today)]]></title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-27</guid>
+      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
+      <category>cli</category>
+      <category>mcp</category>
+      <category>agent-skills</category>
+      <category>dsh-plugin</category>
+      <category>claude-code</category>
+      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[pingdotgg/t3code (+1,305 stars today)]]></title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-27</guid>
+      <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
+      <category>agent-orchestration</category>
+      <category>agents</category>
+      <category>ai</category>
+      <category>chatgpt</category>
+      <category>claude</category>
+      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
     </item>
   </channel>
 </rss>

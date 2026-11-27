@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:20:07.717Z",
+  "generatedAt": "2026-11-27T15:53:39.422Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
@@ -16,36 +16,8 @@
         "awesome"
       ],
       "language": "Python",
-      "totalStars": 191444,
-      "starsGainedToday": 5095
-    },
-    {
-      "owner": "onehumanbeing",
-      "name": "esp32-iphone-agent",
-      "fullName": "onehumanbeing/esp32-iphone-agent",
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "topics": [
-        "ai-agent",
-        "airplay",
-        "computer-use",
-        "esp32",
-        "esp32-s3"
-      ],
-      "language": "Swift",
-      "totalStars": 5365,
-      "starsGainedToday": 2380
-    },
-    {
-      "owner": "4lwayz",
-      "name": "portwatch-vi",
-      "fullName": "4lwayz/portwatch-vi",
-      "url": "https://github.com/4lwayz/portwatch-vi",
-      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
-      "topics": [],
-      "language": "JavaScript",
-      "totalStars": 5830,
-      "starsGainedToday": 643
+      "totalStars": 191606,
+      "starsGainedToday": 5257
     },
     {
       "owner": "stablyai",
@@ -61,8 +33,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 140462,
-      "starsGainedToday": 531
+      "totalStars": 142060,
+      "starsGainedToday": 2129
     },
     {
       "owner": "nexu-io",
@@ -78,8 +50,42 @@
         "game-engine"
       ],
       "language": "TypeScript",
-      "totalStars": 932,
-      "starsGainedToday": 449
+      "totalStars": 1954,
+      "starsGainedToday": 1471
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "cli",
+        "mcp",
+        "agent-skills",
+        "dsh-plugin",
+        "claude-code"
+      ],
+      "language": "TypeScript",
+      "totalStars": 480727,
+      "starsGainedToday": 1310
+    },
+    {
+      "owner": "pingdotgg",
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "topics": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude"
+      ],
+      "language": "TypeScript",
+      "totalStars": 81849,
+      "starsGainedToday": 1305
     }
   ]
 }
