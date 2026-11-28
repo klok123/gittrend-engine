@@ -5,65 +5,62 @@
     <link>https://clever-volta-lac.vercel.app</link>
     <description>Handpicked trending open-source repositories, refreshed automatically every day. Powered by star velocity.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 15:53:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:53:36 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[521xueweihan/HelloGitHub (+5,257 stars today)]]></title>
-      <link>https://github.com/521xueweihan/HelloGitHub</link>
-      <guid isPermaLink="false">https://github.com/521xueweihan/HelloGitHub#2026-11-27</guid>
-      <description><![CDATA[:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.]]></description>
-      <category>github</category>
-      <category>hellogithub</category>
-      <category>python</category>
-      <category>awesome</category>
-      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
+      <title><![CDATA[trustno1-coder/VIctory-NVIDIA (+2,382 stars today)]]></title>
+      <link>https://github.com/trustno1-coder/VIctory-NVIDIA</link>
+      <guid isPermaLink="false">https://github.com/trustno1-coder/VIctory-NVIDIA#2026-11-28</guid>
+      <description><![CDATA[VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats…]]></description>
+      <category>compatibility-layer</category>
+      <category>directx-12</category>
+      <category>dlss</category>
+      <category>frame-generation</category>
+      <category>nvidia</category>
+      <pubDate>Sat, 28 Nov 2026 00:53:36 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[stablyai/orca (+2,129 stars today)]]></title>
+      <title><![CDATA[lbjlaq/Antigravity-Manager (+1,798 stars today)]]></title>
+      <link>https://github.com/lbjlaq/Antigravity-Manager</link>
+      <guid isPermaLink="false">https://github.com/lbjlaq/Antigravity-Manager#2026-11-28</guid>
+      <description><![CDATA[Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity…]]></description>
+      <category>account-manager</category>
+      <category>antigravity</category>
+      <pubDate>Sat, 28 Nov 2026 00:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[vectorize-io/hindsight (+1,135 stars today)]]></title>
+      <link>https://github.com/vectorize-io/hindsight</link>
+      <guid isPermaLink="false">https://github.com/vectorize-io/hindsight#2026-11-28</guid>
+      <description><![CDATA[Hindsight: Agent Memory That Learns]]></description>
+      <category>agentic-ai</category>
+      <category>memory</category>
+      <category>agents</category>
+      <category>ai-memory</category>
+      <pubDate>Sat, 28 Nov 2026 00:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[public-apis/public-apis (+662 stars today)]]></title>
+      <link>https://github.com/public-apis/public-apis</link>
+      <guid isPermaLink="false">https://github.com/public-apis/public-apis#2026-11-28</guid>
+      <description><![CDATA[A collective list of free APIs]]></description>
+      <category>api</category>
+      <category>public-apis</category>
+      <category>free</category>
+      <category>apis</category>
+      <category>list</category>
+      <pubDate>Sat, 28 Nov 2026 00:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[stablyai/orca (+414 stars today)]]></title>
       <link>https://github.com/stablyai/orca</link>
-      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-27</guid>
+      <guid isPermaLink="false">https://github.com/stablyai/orca#2026-11-28</guid>
       <description><![CDATA[Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.]]></description>
       <category>claude-code</category>
       <category>codex</category>
       <category>ghostty</category>
       <category>terminal</category>
       <category>opencode</category>
-      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[nexu-io/opengame (+1,471 stars today)]]></title>
-      <link>https://github.com/nexu-io/opengame</link>
-      <guid isPermaLink="false">https://github.com/nexu-io/opengame#2026-11-27</guid>
-      <description><![CDATA[The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish…]]></description>
-      <category>claude-code</category>
-      <category>codex</category>
-      <category>deepseek</category>
-      <category>game-development</category>
-      <category>game-engine</category>
-      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[morluto/rea (+1,310 stars today)]]></title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">https://github.com/morluto/rea#2026-11-27</guid>
-      <description><![CDATA[Reverse engineer anything with agents, from app behavior down to native binaries.]]></description>
-      <category>cli</category>
-      <category>mcp</category>
-      <category>agent-skills</category>
-      <category>dsh-plugin</category>
-      <category>claude-code</category>
-      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[pingdotgg/t3code (+1,305 stars today)]]></title>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <guid isPermaLink="false">https://github.com/pingdotgg/t3code#2026-11-27</guid>
-      <description><![CDATA[The best way to control Claude Code, Codex and more from any computer or phone]]></description>
-      <category>agent-orchestration</category>
-      <category>agents</category>
-      <category>ai</category>
-      <category>chatgpt</category>
-      <category>claude</category>
-      <pubDate>Fri, 27 Nov 2026 15:53:39 GMT</pubDate>
+      <pubDate>Sat, 28 Nov 2026 00:53:36 GMT</pubDate>
     </item>
   </channel>
 </rss>

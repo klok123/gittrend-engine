@@ -1,23 +1,71 @@
 {
-  "generatedAt": "2026-11-27T15:53:39.422Z",
+  "generatedAt": "2026-11-28T00:53:36.948Z",
   "generatedBy": "trend-etl (automated — do not edit manually)",
   "siteUrl": "https://clever-volta-lac.vercel.app",
   "picks": [
     {
-      "owner": "521xueweihan",
-      "name": "HelloGitHub",
-      "fullName": "521xueweihan/HelloGitHub",
-      "url": "https://github.com/521xueweihan/HelloGitHub",
-      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "owner": "trustno1-coder",
+      "name": "VIctory-NVIDIA",
+      "fullName": "trustno1-coder/VIctory-NVIDIA",
+      "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats…",
       "topics": [
-        "github",
-        "hellogithub",
-        "python",
-        "awesome"
+        "compatibility-layer",
+        "directx-12",
+        "dlss",
+        "frame-generation",
+        "nvidia"
+      ],
+      "language": "Rust",
+      "totalStars": 3280,
+      "starsGainedToday": 2382
+    },
+    {
+      "owner": "lbjlaq",
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity…",
+      "topics": [
+        "account-manager",
+        "antigravity"
+      ],
+      "language": "Rust",
+      "totalStars": 34366,
+      "starsGainedToday": 1798
+    },
+    {
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "topics": [
+        "agentic-ai",
+        "memory",
+        "agents",
+        "ai-memory"
       ],
       "language": "Python",
-      "totalStars": 191606,
-      "starsGainedToday": 5257
+      "totalStars": 63842,
+      "starsGainedToday": 1135
+    },
+    {
+      "owner": "public-apis",
+      "name": "public-apis",
+      "fullName": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "topics": [
+        "api",
+        "public-apis",
+        "free",
+        "apis",
+        "list"
+      ],
+      "language": "Python",
+      "totalStars": 501828,
+      "starsGainedToday": 662
     },
     {
       "owner": "stablyai",
@@ -33,59 +81,8 @@
         "opencode"
       ],
       "language": "TypeScript",
-      "totalStars": 142060,
-      "starsGainedToday": 2129
-    },
-    {
-      "owner": "nexu-io",
-      "name": "opengame",
-      "fullName": "nexu-io/opengame",
-      "url": "https://github.com/nexu-io/opengame",
-      "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish…",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "game-development",
-        "game-engine"
-      ],
-      "language": "TypeScript",
-      "totalStars": 1954,
-      "starsGainedToday": 1471
-    },
-    {
-      "owner": "morluto",
-      "name": "rea",
-      "fullName": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "topics": [
-        "cli",
-        "mcp",
-        "agent-skills",
-        "dsh-plugin",
-        "claude-code"
-      ],
-      "language": "TypeScript",
-      "totalStars": 480727,
-      "starsGainedToday": 1310
-    },
-    {
-      "owner": "pingdotgg",
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
-      "topics": [
-        "agent-orchestration",
-        "agents",
-        "ai",
-        "chatgpt",
-        "claude"
-      ],
-      "language": "TypeScript",
-      "totalStars": 81849,
-      "starsGainedToday": 1305
+      "totalStars": 142474,
+      "starsGainedToday": 414
     }
   ]
 }
